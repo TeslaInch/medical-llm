@@ -1,0 +1,422 @@
+[
+  {
+    "id": "layer4_001",
+    "case": "A 4-year-old boy with HbSS presents with fever of 39.2\u00b0C, irritability, and refusal to walk. Parents report he was well yesterday. On examination he has swollen, tender hands and feet bilaterally. Hb 7.2 g/dL, WBC 14,000, platelets 320,000.",
+    "question": "What is the diagnosis and immediate management in priority order?",
+    "answer": "Dactylitis (hand-foot syndrome) with fever. Priority: 1) Treat fever as emergency \u2014 blood cultures, FBC, CRP, empirical IV ceftriaxone within 1 hour. 2) Adequate analgesia (paracetamol + ibuprofen, escalate to opioids if needed). 3) IV hydration at maintenance. 4) If not already diagnosed with SCD, confirm diagnosis urgently via HPLC. 5) Admission for monitoring.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "rubric": {
+      "3": "Correct diagnosis + full management in order",
+      "2": "Correct diagnosis + partial management",
+      "1": "Partial diagnosis or incomplete management",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_002",
+    "case": "A 7-year-old girl with HbSS is brought in by her mother. She suddenly developed left arm weakness and difficulty speaking 45 minutes ago. She has no fever. BP 110/70, SpO2 97%. Hb baseline 7.8 g/dL.",
+    "question": "What is the diagnosis and immediate management in priority order?",
+    "answer": "Acute ischemic stroke. Priority: 1) Emergency CT head immediately to exclude haemorrhage. 2) Urgent exchange transfusion to reduce HbS to <30% \u2014 do not delay for MRI. 3) Supplemental oxygen to maintain SpO2 >95%. 4) IV access and isotonic fluids. 5) Neurology review. 6) Do NOT give tPA. 7) After stabilization: start chronic transfusion program.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "rubric": {
+      "3": "Correct diagnosis + full management in order",
+      "2": "Correct diagnosis + partial management",
+      "1": "Partial diagnosis or incomplete management",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_003",
+    "case": "A 19-year-old male with HbSS presents with severe chest pain, fever of 38.8\u00b0C, cough, and SpO2 dropping from his baseline of 98% to 91% on room air. CXR shows new right lower lobe infiltrate. He is currently on hydroxyurea.",
+    "question": "What is the diagnosis and complete management protocol?",
+    "answer": "Acute Chest Syndrome (ACS). Management: 1) Supplemental oxygen to maintain SpO2 >95%. 2) IV ceftriaxone + azithromycin (cover typical and atypical organisms). 3) IV hydration \u2014 avoid overload. 4) Adequate analgesia + incentive spirometry 10 breaths every hour. 5) Simple transfusion if Hb significantly below baseline. 6) Escalate to exchange transfusion if SpO2 falls below 90% despite O2, or multi-lobar progression. 7) ICU if deteriorating. 8) Bronchodilators if wheeze present.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "rubric": {
+      "3": "Correct diagnosis + full management in order",
+      "2": "Correct diagnosis + partial management",
+      "1": "Partial diagnosis or incomplete management",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_004",
+    "case": "A 2-year-old girl with HbSS is brought in pale, listless, and breathing fast. Her spleen was not palpable at her last clinic visit 3 months ago. Today it is palpable 6 cm below the costal margin. Hb is 3.8 g/dL (baseline 8.5 g/dL). HR 160, BP 70/40.",
+    "question": "What is the diagnosis and immediate management in priority order?",
+    "answer": "Acute splenic sequestration crisis with hypovolemic shock. Priority: 1) Immediate IV access and fluid resuscitation for shock. 2) Urgent blood transfusion \u2014 transfuse conservatively (sequestered blood may return to circulation causing hyperviscosity, risk of overtransfusion). 3) Target Hb to safe level not full correction. 4) Admission to HDU/ICU. 5) Parental education on spleen palpation after recovery. 6) Plan elective splenectomy after stabilization to prevent recurrence.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "rubric": {
+      "3": "Correct diagnosis + full management in order",
+      "2": "Correct diagnosis + partial management",
+      "1": "Partial diagnosis or incomplete management",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_005",
+    "case": "A 6-year-old boy with HbSS presents with 4 days of fever, pallor, and extreme fatigue. His Hb has dropped from baseline 8.2 to 3.1 g/dL. Reticulocyte count is 0.1% (near zero). He attends a school where another child recently had a viral illness with rash.",
+    "question": "What is the diagnosis, cause, management, and important infection control consideration?",
+    "answer": "Aplastic crisis secondary to Parvovirus B19 infection. Management: 1) Blood transfusion to correct severe anaemia. 2) Supportive care \u2014 condition is self-limiting (7\u201310 days as immune response clears virus). 3) Monitor reticulocyte count for recovery. Infection control: Parvovirus B19 is highly contagious \u2014 isolate patient from pregnant women (risk of hydrops fetalis) and immunocompromised individuals immediately.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "rubric": {
+      "3": "Correct diagnosis + cause + management + isolation",
+      "2": "Correct diagnosis + management, missed isolation",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_006",
+    "case": "A 16-year-old male with HbSS presents to ED with a painful penile erection that has been present for 5 hours. He is distressed and embarrassed. He had a similar episode 2 months ago that resolved after 2 hours.",
+    "question": "Classify this episode, what is the diagnosis, and outline emergency management in priority order?",
+    "answer": "Major priapism (>4 hours) \u2014 urological emergency. Previous episode was stuttering priapism (<4 hours). Management: 1) IV hydration and adequate analgesia immediately. 2) Urgent urology review for aspiration and irrigation of corpus cavernosum. 3) Exchange transfusion if aspiration fails. 4) Onset-to-treatment time critically affects outcome \u2014 document time of onset. 5) Counsel patient that future episodes must be reported immediately \u2014 do not wait at home.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "rubric": {
+      "3": "Correct classification + diagnosis + full management",
+      "2": "Correct diagnosis + partial management",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_007",
+    "case": "A 10-year-old boy with HbSS attends his annual review. His TCD shows a time-averaged mean velocity of 185 cm/s in the right middle cerebral artery. Last year it was 160 cm/s.",
+    "question": "How do you interpret this result and what is the immediate management plan?",
+    "answer": "Conditional TCD result (170\u2013199 cm/s) with rising trend from 160 cm/s last year. This is concerning for progression toward abnormal range. Management: 1) Do not ignore \u2014 this is not a normal result. 2) Repeat TCD in 3 months rather than waiting for annual review. 3) Reassess hydroxyurea adherence and optimize dose. 4) Counsel family about stroke risk and symptoms to watch for. 5) If next TCD reaches \u2265200 cm/s, initiate chronic transfusion program immediately.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "screening_schedule",
+    "rubric": {
+      "3": "Correct interpretation + repeat in 3 months + full plan",
+      "2": "Correct interpretation + partial plan",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_008",
+    "case": "A 25-year-old woman with HbSS on chronic transfusion therapy for secondary stroke prevention. Her serum ferritin is 2,800 ng/mL. She has been on transfusions for 4 years. She has no current symptoms of organ dysfunction.",
+    "question": "What complication has developed and what is the management?",
+    "answer": "Transfusional iron overload (ferritin well above 1,500 ng/mL threshold). Management: 1) Initiate iron chelation therapy \u2014 deferasirox (oral, preferred first-line) or deferoxamine (SC infusion). 2) Monitor liver iron concentration by MRI T2* to assess organ iron loading. 3) Monitor cardiac MRI T2* for cardiac iron. 4) Continue transfusion program \u2014 do not stop for iron overload alone. 5) Review chelation dose regularly based on ferritin trend and LIC. 6) Consider switching to exchange transfusion rather than simple transfusion going forward to reduce iron accumulation.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold",
+    "rubric": {
+      "3": "Correct diagnosis + chelation agent + monitoring plan",
+      "2": "Correct diagnosis + chelation, missed monitoring",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_009",
+    "case": "A 14-year-old girl with HbSS is seen in clinic. Her mother reports she has been having 4\u20135 painful crises per year requiring hospital admission. She is not currently on hydroxyurea. Her Hb is 7.1 g/dL and HbF is 4%.",
+    "question": "What treatment should be initiated, what is the target response, and what monitoring is required?",
+    "answer": "Initiate hydroxyurea therapy. Starting dose 15\u201320 mg/kg/day, titrate to maximum tolerated dose. Target response: HbF >20%, reduction in crisis frequency, improvement in Hb. Monitoring: FBC every 4\u20138 weeks. Hold if ANC <1,000/\u00b5L, platelets <80,000/\u00b5L, or reticulocytes <80\u00d710\u2079/L. Monitor renal and liver function. Mandatory contraceptive counseling \u2014 hydroxyurea is teratogenic. Reassess adherence if HbF has not risen after 3\u20136 months.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold",
+    "rubric": {
+      "3": "Correct drug + target + full monitoring plan + contraception counseling",
+      "2": "Correct drug + monitoring, missed contraception",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_010",
+    "case": "A 32-year-old man with HbSS receives a blood transfusion for a severe VOC. Two days later his Hb is 5.2 g/dL \u2014 lower than his pre-transfusion level of 6.8 g/dL. His reticulocyte count has also fallen. The team considers a second transfusion.",
+    "question": "What is the diagnosis and what is the critical management decision?",
+    "answer": "Hyperhemolysis syndrome \u2014 both donor and patient's own red cells are being destroyed, dropping Hb below pre-transfusion level. Critical decision: AVOID further transfusion if at all possible \u2014 additional transfusion typically worsens hemolysis and can be fatal. Management: 1) IVIG. 2) High-dose corticosteroids. 3) Rituximab in refractory cases. 4) Erythropoiesis-stimulating agents. 5) Urgent haematology consultation. Only transfuse if patient is in immediate life-threatening danger and no alternative exists.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "rubric": {
+      "3": "Correct diagnosis + avoid transfusion + correct treatment",
+      "2": "Correct diagnosis + treatment, missed avoid transfusion warning",
+      "1": "Partial",
+      "0": "Recommends repeat transfusion = dangerous"
+    }
+  },
+  {
+    "id": "layer4_011",
+    "case": "A 5-year-old boy with HbSS is about to have elective tonsillectomy under general anaesthesia. His current Hb is 7.0 g/dL and HbS is 68%.",
+    "question": "What pre-operative, intra-operative, and post-operative management is required?",
+    "answer": "Pre-op: Haematology review, consider pre-operative transfusion to reduce HbS to <30% before surgery. Optimize Hb. Intra-op: Avoid hypothermia, hypoxia, hypovolemia, and acidosis. Maintain adequate oxygenation and IV hydration. Avoid tourniquet. Post-op: Early mobilization, incentive spirometry to prevent ACS, adequate analgesia to prevent splinting, thromboprophylaxis, monitor SpO2 closely.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold",
+    "rubric": {
+      "3": "All three phases covered correctly",
+      "2": "Two phases correct",
+      "1": "One phase or partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_012",
+    "case": "A 28-year-old woman with HbSS attends pre-conception counseling. She is currently on hydroxyurea and an ACE inhibitor for microalbuminuria. Her partner has been tested and has HbAS.",
+    "question": "What counseling and medication changes are required before she attempts conception?",
+    "answer": "Medication changes: 1) Stop hydroxyurea at least 3 months before conception \u2014 teratogenic. 2) Stop ACE inhibitor before conception \u2014 contraindicated in pregnancy (fetal toxicity). Start folic acid 5mg daily immediately. Counseling: Partner has HbAS \u2014 each pregnancy has 50% chance of HbAS (trait) and 50% chance of HbSS (disease). Offer prenatal diagnosis via CVS at 11\u201314 weeks or amniocentesis from 16 weeks. Advise that SCD pregnancy is high risk: increased VOC, ACS, pre-eclampsia, preterm birth. Must be managed jointly by haematologist and specialist obstetrician. Start low-dose aspirin at 12 weeks gestation for pre-eclampsia prevention.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "contraindication",
+    "rubric": {
+      "3": "Both drugs stopped + folic acid + genetic counseling + pregnancy risks",
+      "2": "Drugs stopped + partial counseling",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_013",
+    "case": "A 22-year-old male with HbSC presents to ophthalmology complaining of sudden floaters and blurred vision in his right eye for 2 days. He has never had an eye examination before.",
+    "question": "What is the likely diagnosis, why is his genotype particularly relevant, and what is the management?",
+    "answer": "Likely vitreous haemorrhage secondary to proliferative sickle cell retinopathy. Genotype relevance: HbSC has HIGHER risk of proliferative retinopathy than HbSS despite being the milder genotype overall \u2014 due to higher haematocrit and blood viscosity causing more peripheral vascular occlusion. He has never been screened despite screening being recommended from age 10. Management: 1) Urgent ophthalmology assessment. 2) Retinal imaging (fundoscopy, fluorescein angiography). 3) Laser photocoagulation or anti-VEGF injection for proliferative disease. 4) Enroll in annual ophthalmology screening going forward.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "screening_schedule",
+    "rubric": {
+      "3": "Correct diagnosis + HbSC risk explanation + management",
+      "2": "Correct diagnosis + management, missed HbSC explanation",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_014",
+    "case": "A 35-year-old woman with HbSS presents with progressive exertional dyspnea over 6 months. No fever, no chest pain. SpO2 95% at rest. Echocardiogram shows tricuspid regurgitant jet velocity (TRJV) of 2.8 m/s.",
+    "question": "What is the likely diagnosis, what does the TRJV indicate, and what is the management pathway?",
+    "answer": "Likely pulmonary hypertension (PH). TRJV \u22652.5 m/s is the echocardiographic threshold for suspected PH in SCD \u2014 requires referral for right heart catheterization to confirm. Management pathway: 1) Refer to pulmonology and cardiology. 2) Right heart catheterization for definitive diagnosis. 3) Optimize SCD treatment: ensure on hydroxyurea at maximum tolerated dose, consider chronic transfusion therapy. 4) If PH confirmed: consider sildenafil or bosentan. 5) Annual echocardiography monitoring going forward.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "screening_schedule",
+    "rubric": {
+      "3": "Correct diagnosis + TRJV threshold + right heart cath + management",
+      "2": "Correct diagnosis + partial management",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_015",
+    "case": "A 12-year-old boy with HbSS has been on hydroxyurea for 8 months at 20 mg/kg/day. His HbF is 8% and he has had 3 crises in the past 4 months. His FBC shows ANC 2.4\u00d710\u2079/L and platelets 210,000.",
+    "question": "How do you interpret the treatment response and what is the next step?",
+    "answer": "Suboptimal hydroxyurea response \u2014 HbF target is >20% and he is only at 8% with ongoing crises. FBC shows no myelosuppression (ANC and platelets are above hold thresholds), meaning there is room to increase the dose. Next steps: 1) First reassess adherence \u2014 is he taking the medication daily as prescribed? 2) If adherent, increase dose toward maximum tolerated dose (titrate upward in 5 mg/kg/day increments). 3) Monitor FBC every 4\u20138 weeks after each dose increase. 4) Target HbF >20% and reduction in crisis frequency.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold",
+    "rubric": {
+      "3": "Suboptimal response identified + adherence check + dose increase + monitoring",
+      "2": "Dose increase suggested but missed adherence check",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_016",
+    "case": "A 9-year-old girl with HbSS is brought to a rural Nigerian clinic with fever of 39.5\u00b0C, severe headache, neck stiffness, and vomiting. The clinic has no IV antibiotics in stock. The nearest hospital is 2 hours away.",
+    "question": "What is the diagnosis, immediate action at the clinic level, and what must happen in the next 2 hours?",
+    "answer": "Suspected bacterial meningitis/sepsis in a functionally asplenic child \u2014 life-threatening emergency. Immediate action at clinic: 1) If any oral antibiotics available (amoxicillin), give immediately \u2014 do not wait. 2) Start oral hydration if conscious. 3) Transfer to hospital IMMEDIATELY \u2014 call ahead to alert the receiving team. 4) Do not delay transfer waiting for any investigation. At hospital: blood cultures, IV ceftriaxone immediately, LP if safe, full sepsis workup. Also assess for malaria given Nigerian context \u2014 rapid malaria test and treat if positive. Every minute of delay increases mortality risk.",
+    "source": "Layer 4 Clinical Cases \u2014 Nigeria Context",
+    "category": "emergency_management",
+    "rubric": {
+      "3": "Correct diagnosis + immediate oral antibiotic + urgent transfer + malaria consideration",
+      "2": "Correct diagnosis + transfer, missed oral antibiotic or malaria",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_017",
+    "case": "A 3-year-old boy in Lagos is brought to a general practitioner with his third episode of painful swollen hands in 6 months, recurrent fevers, and pallor. His mother says a previous doctor told her he has 'the blood problem.' No formal diagnosis has been made. No newborn screening was done.",
+    "question": "What is the likely diagnosis, what confirmatory test is needed, and what immediate care must be initiated while awaiting results?",
+    "answer": "Likely HbSS sickle cell disease \u2014 dactylitis, recurrent fevers, and pallor in a Nigerian child is SCD until proven otherwise. Confirmatory test: HPLC (gold standard) \u2014 send urgently. While awaiting results: 1) Start prophylactic penicillin V immediately \u2014 do not wait for confirmation given high clinical suspicion. 2) Start folic acid supplementation. 3) Counsel family on fever as emergency, hydration, cold avoidance. 4) Arrange all vaccinations including pneumococcal, meningococcal, Hib, hepatitis B, typhoid. 5) Refer to nearest SCD specialist centre. 6) Parental carrier testing.",
+    "source": "Layer 4 Clinical Cases \u2014 Nigeria Context",
+    "category": "diagnosis_criteria",
+    "rubric": {
+      "3": "Correct diagnosis + HPLC + penicillin started immediately + vaccinations + referral",
+      "2": "Correct diagnosis + HPLC + penicillin, missed vaccinations or referral",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_018",
+    "case": "A 16-year-old girl with HbSS in Abuja has been stable on hydroxyurea for 2 years. She is now due for her annual review. The hospital pharmacy has been out of hydroxyurea for 3 months and she has had no medication. She presents with 5 pain crises in the past 3 months.",
+    "question": "How do you manage the immediate crisis in supply and what interim measures reduce her risk while hydroxyurea is unavailable?",
+    "answer": "Immediate: 1) Treat current pain crisis \u2014 adequate analgesia, hydration. 2) Actively source hydroxyurea \u2014 contact national SCD association (e.g. Sickle Cell Association of Nigeria), other hospitals, international aid organizations. 3) Document supply failure for advocacy. Interim measures without hydroxyurea: 1) Maximize hydration counseling. 2) Strict cold avoidance. 3) Ensure penicillin prophylaxis is continued. 4) Ensure all vaccinations are up to date. 5) If blood bank access available and patient meets criteria, consider transfusion therapy as bridge. 6) Folic acid continuation. 7) Written emergency plan \u2014 when to go to hospital immediately.",
+    "source": "Layer 4 Clinical Cases \u2014 Nigeria Context",
+    "category": "treatment_threshold",
+    "rubric": {
+      "3": "Sourcing hydroxyurea + interim measures + written emergency plan",
+      "2": "Interim measures only, missed sourcing or emergency plan",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_019",
+    "case": "Parents of a newborn in Kano are told their baby's newborn screening result is 'FS.' They have never heard of sickle cell disease. The father becomes angry and denies anything is wrong with his child, who looks completely healthy.",
+    "question": "How do you counsel this family and what immediate clinical steps must be taken regardless of parental acceptance?",
+    "answer": "Counseling approach: 1) Acknowledge the shock and anger \u2014 do not dismiss. 2) Explain clearly: FS result means the baby likely has HbSS. The baby looks healthy now because of fetal hemoglobin which is protective \u2014 this will change from 6 months onwards. 3) Explain this is not anyone's fault \u2014 autosomal recessive inheritance, both parents carry the trait. 4) Use simple language, involve a trained counselor if available. Clinical steps regardless of acceptance: 1) Repeat confirmatory HPLC immediately. 2) Start prophylactic penicillin by 2 months of age \u2014 do not delay for parental agreement. 3) Begin vaccination schedule. 4) Parental carrier testing. 5) Schedule urgent follow-up. 6) Document all counseling provided.",
+    "source": "Layer 4 Clinical Cases \u2014 Nigeria Context",
+    "category": "diagnosis_criteria",
+    "rubric": {
+      "3": "Empathetic counseling + confirmatory test + penicillin started + vaccinations",
+      "2": "Counseling + penicillin, missed confirmatory test or vaccinations",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_020",
+    "case": "A 28-year-old male with HbSS in Port Harcourt presents with severe back and leg pain, rated 9/10. He has been managing at home for 3 days with paracetamol and ibuprofen with no relief. He is reluctant to go to hospital because the last time he went, staff accused him of drug-seeking.",
+    "question": "What is the diagnosis, what should immediate hospital management include, and how should the stigma concern be addressed?",
+    "answer": "Severe vaso-occlusive crisis requiring hospital management. Immediate management: 1) IV access, isotonic IV fluids. 2) Strong opioid analgesia \u2014 IV morphine titrated to effect. Do NOT withhold opioids due to addiction concerns in acute VOC. 3) Regular paracetamol and NSAID as adjuncts. 4) Monitor SpO2 \u2014 oxygen only if below 95%. 5) Assess for precipitating cause (infection, dehydration). Stigma: 1) Staff should be educated that SCD pain is real, severe, and undertreated in this population. 2) Patient should have a written pain management plan to present at triage. 3) Document the previous experience and escalate to clinical lead. 4) Every patient deserves dignified, timely care.",
+    "source": "Layer 4 Clinical Cases \u2014 Nigeria Context",
+    "category": "treatment_threshold",
+    "rubric": {
+      "3": "Correct management + opioids not withheld + stigma addressed",
+      "2": "Correct management, missed stigma component",
+      "1": "Partial",
+      "0": "Withholds opioids = dangerous"
+    }
+  },
+  {
+    "id": "layer4_021",
+    "case": "A 40-year-old woman with HbSS has progressive fatigue, ankle swelling, and her creatinine has risen from 90 to 210 \u00b5mol/L over 2 years. Urine ACR is 45 mg/mmol. She is not on any renal-protective therapy.",
+    "question": "What is the diagnosis, staging, and management?",
+    "answer": "Sickle cell nephropathy with chronic kidney disease \u2014 significantly elevated ACR (normal <3.5 mg/mmol) and rising creatinine indicate progressive nephropathy. Management: 1) Initiate ACE inhibitor (or ARB if ACE not tolerated) \u2014 first-line renal protection. 2) Strict blood pressure control. 3) Nephrology referral for CKD staging and co-management. 4) Optimize SCD treatment \u2014 hydroxyurea, consider transfusion. 5) Avoid nephrotoxic drugs (NSAIDs, contrast agents, aminoglycosides). 6) Monitor creatinine, eGFR, and ACR every 3\u20136 months. 7) Counsel on fluid intake and avoiding dehydration.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "screening_schedule",
+    "rubric": {
+      "3": "Correct diagnosis + ACE inhibitor + nephrology referral + avoid nephrotoxins",
+      "2": "Correct diagnosis + ACE inhibitor, missed nephrology or nephrotoxins",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_022",
+    "case": "A 17-year-old boy with HbSS has just been told by his school that he cannot sit exams because he has missed too many days. His teacher says he is 'lazy' and 'uses his illness as an excuse.' His mother asks you for help.",
+    "question": "What is the clinical and practical response to support this patient?",
+    "answer": "Clinical assessment: 1) Review frequency and severity of crises causing absences \u2014 document medically. 2) Assess for silent cerebral infarcts via MRI \u2014 present in 20\u201335% of HbSS patients, affect attention and processing speed without obvious symptoms. 3) Neuropsychological assessment if not already done. Practical support: 1) Write a formal medical letter to the school explaining SCD, its impact on attendance, and that absences are medically necessary \u2014 not voluntary. 2) Request formal educational accommodations: extra exam time, flexibility on deadlines, option to sit exams in a separate room. 3) Optimize medical management to reduce crisis frequency. 4) Refer to a school counselor or SCD patient support group. 5) Educate teaching staff about SCD.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "pathophysiology",
+    "rubric": {
+      "3": "Medical documentation + silent infarct screening + school accommodations + staff education",
+      "2": "Medical letter + accommodations, missed silent infarct screening",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_023",
+    "case": "A 30-year-old woman with HbSS is 20 weeks pregnant. She presents with sudden onset severe right upper quadrant pain and jaundice. Her Hb has dropped from 8.2 to 5.8 g/dL. LFTs show ALT 340 U/L.",
+    "question": "What is the likely diagnosis and how is this pregnancy managed from this point?",
+    "answer": "Hepatic sequestration or intrahepatic cholestasis in SCD pregnancy \u2014 severe acute presentation. Management: 1) Urgent haematology and obstetrics joint review. 2) Blood transfusion to correct anaemia \u2014 exchange transfusion if severe. 3) IV hydration and analgesia. 4) Monitor fetal wellbeing urgently. 5) LFT monitoring, liver ultrasound. 6) This pregnancy is now very high risk \u2014 increase monitoring frequency to at least every 2 weeks. 7) Consider delivery planning with neonatal team involvement. 8) Ensure folic acid 5mg daily continues. 9) Low-dose aspirin should already be on board from 12 weeks for pre-eclampsia prevention.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "rubric": {
+      "3": "Correct diagnosis + joint haematology-obstetrics care + transfusion + fetal monitoring",
+      "2": "Correct diagnosis + transfusion, missed joint care or fetal monitoring",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_024",
+    "case": "An 8-year-old boy with HbSS has annual TCD showing velocity of 210 cm/s. He is currently on hydroxyurea 20 mg/kg/day with HbF of 22% and has had no strokes. His parents refuse blood transfusion on religious grounds.",
+    "question": "How do you manage this situation clinically and ethically?",
+    "answer": "TCD \u2265200 cm/s is abnormal \u2014 this child has approximately 10-fold elevated stroke risk. Clinical and ethical management: 1) Explain clearly to parents that without chronic transfusion therapy this child has a very high risk of stroke which could cause permanent disability or death. 2) Explore the specific religious concerns \u2014 some families accept certain blood products or exchange transfusion differently. 3) Involve a patient advocate, chaplaincy, or ethics team. 4) Document all conversations thoroughly. 5) If parents continue to refuse: optimize hydroxyurea to maximum tolerated dose \u2014 this is second-best but has some stroke risk reduction. 6) In many jurisdictions a child's best interests can override parental refusal for life-saving treatment \u2014 consider legal advice and child protection pathway if stroke risk is imminent. 7) Maintain follow-up and keep dialogue open.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold",
+    "rubric": {
+      "3": "Risk explained + religious exploration + ethics team + legal pathway + hydroxyurea optimization",
+      "2": "Risk explained + hydroxyurea, missed ethics or legal pathway",
+      "1": "Partial",
+      "0": "Accepts refusal without further action = dangerous"
+    }
+  },
+  {
+    "id": "layer4_025",
+    "case": "A 45-year-old man with HbSS is seen in adult clinic. He reports he has never taken hydroxyurea because he heard 'it causes cancer.' His Hb is 6.5 g/dL, he has 6 admissions per year, and his renal function is declining.",
+    "question": "How do you address his concern and what is your management plan?",
+    "answer": "Address concern: 1) Acknowledge his worry \u2014 do not dismiss it. 2) Explain clearly: hydroxyurea does not cause cancer. It is a cytoreductive agent that has been used safely in SCD for over 30 years with robust long-term safety data. 3) Explain the benefits specifically for him: reduces crisis frequency, hospitalizations, ACS, stroke risk, and importantly may slow renal disease progression. 4) The risk of NOT taking hydroxyurea (6 admissions/year, declining kidneys) is far greater than any theoretical risk. Management plan: 1) Start hydroxyurea at 15 mg/kg/day. 2) FBC monitoring every 4\u20138 weeks. 3) Nephrology co-management for declining renal function. 4) Avoid NSAIDs and nephrotoxins. 5) ACE inhibitor if proteinuria present. 6) Follow up in 3 months to assess response.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold",
+    "rubric": {
+      "3": "Myth addressed + benefits explained + hydroxyurea started + renal co-management",
+      "2": "Hydroxyurea started + renal care, missed myth addressing",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_026",
+    "case": "A 6-year-old girl with HbSS is brought in by her grandmother. She has had fever and cough for 2 days. SpO2 is 93% on room air. CXR shows bilateral lower lobe infiltrates. She is started on ceftriaxone. Six hours later her SpO2 is 89% despite 4L O2 via mask.",
+    "question": "What has happened and what is the immediate escalation management?",
+    "answer": "ACS is deteriorating despite initial management \u2014 SpO2 falling below 90% despite supplemental O2 is an escalation criterion. Immediate management: 1) Escalate to urgent exchange transfusion \u2014 simple transfusion is no longer sufficient given bilateral involvement and deterioration. 2) Increase O2 delivery \u2014 consider non-rebreather mask or escalate to ICU for possible intubation if SpO2 continues to fall. 3) Continue ceftriaxone, add azithromycin if not already given. 4) Call ICU/HDU team immediately. 5) IV fluids carefully \u2014 avoid overload which worsens ACS. 6) Incentive spirometry if patient is conscious and cooperative. 7) Urgent haematology input.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "rubric": {
+      "3": "Escalation recognized + exchange transfusion + ICU + azithromycin added",
+      "2": "Escalation recognized + exchange transfusion, missed ICU or azithromycin",
+      "1": "Partial",
+      "0": "Continues simple measures only = dangerous"
+    }
+  },
+  {
+    "id": "layer4_027",
+    "case": "A 13-year-old girl with HbSS has been referred by her teacher due to declining school performance, difficulty concentrating, and slow processing speed. She has never had an overt stroke. Her neurological examination is normal.",
+    "question": "What is the likely underlying cause and what investigation and support is needed?",
+    "answer": "Likely silent cerebral infarcts \u2014 present in 20\u201335% of children with HbSS, cause no obvious neurological symptoms but impair attention, processing speed, and academic performance. Normal neurological exam does not exclude them. Investigation: 1) Brain MRI (not CT) \u2014 only MRI can detect silent infarcts. 2) Formal neuropsychological assessment. Management: 1) If silent infarcts confirmed: intensify SCD treatment \u2014 consider chronic transfusion therapy or optimize hydroxyurea. 2) Inform school \u2014 request educational accommodations (extra time, smaller class, support tutor). 3) Regular MRI monitoring. 4) Ensure annual TCD continues. 5) Family counseling.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "diagnosis_criteria",
+    "rubric": {
+      "3": "Silent infarcts identified + MRI + neuropsychological assessment + school accommodations",
+      "2": "Silent infarcts + MRI, missed neuropsychological or school support",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_028",
+    "case": "A 24-year-old male with HbSS presents planning a 14-hour flight from Lagos to London. He asks whether it is safe to travel and what he needs to do.",
+    "question": "What travel advice do you give and are there any specific medical preparations needed?",
+    "answer": "Travel is generally safe with correct precautions. Advice: 1) Commercial aircraft are pressurized to equivalent of 6,000\u20138,000 feet \u2014 reduced oxygen levels can trigger sickling. 2) Drink water regularly throughout the flight \u2014 avoid alcohol and caffeine (dehydrating). 3) Walk and stretch legs every 1\u20132 hours to prevent stasis and thrombosis. 4) Wear compression stockings. 5) Carry ALL medications in hand luggage \u2014 never in checked baggage. 6) Carry a medical summary letter in case of inflight emergency. 7) Inform the airline of medical condition in advance \u2014 request aisle seat. 8) For a 14-hour flight: discuss supplemental in-flight oxygen with doctor before travel \u2014 may be warranted given length. 9) Ensure travel insurance covers SCD. 10) Know the location of a specialist SCD centre in London before departure.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "dosing_guideline",
+    "rubric": {
+      "3": "Pressurization explained + hydration + mobility + medications in hand luggage + insurance + supplemental O2 discussion",
+      "2": "Most points covered, missing 1\u20132 key items",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_029",
+    "case": "A 50-year-old woman with HbSS has been attending a clinic irregularly. She has no documented TCD since age 16, no ophthalmology review in 10 years, no echocardiogram ever, and her last FBC was 18 months ago. She feels 'relatively well.'",
+    "question": "What overdue investigations must be arranged urgently and in what priority order?",
+    "answer": "This is a significantly under-monitored adult SCD patient. Priority order: 1) FBC + reticulocytes immediately \u2014 baseline haematological status. 2) Renal function (creatinine, eGFR) + urine ACR \u2014 screen for nephropathy. 3) Liver function tests. 4) Echocardiogram \u2014 screen for pulmonary hypertension (TRJV \u22652.5 m/s = refer for right heart catheterization). 5) Ophthalmology review \u2014 proliferative retinopathy screening, last done 10 years ago. 6) Brain MRI \u2014 given age and lack of monitoring, screen for silent infarcts and cerebrovascular disease. 7) Iron studies if any transfusion history. 8) Review vaccination status \u2014 ensure pneumococcal booster up to date (every 5 years), annual flu. 9) Review and restart penicillin if not taking. 10) Establish regular annual review schedule going forward.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "screening_schedule",
+    "rubric": {
+      "3": "All major investigations listed in logical priority + annual review established",
+      "2": "Most investigations covered, missing 1\u20132 key items",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "id": "layer4_030",
+    "case": "A couple attends genetic counseling. The woman has HbSS and the man has just been tested and found to have HbAS. They want to know their options for having children who are unaffected by SCD.",
+    "question": "What are the reproductive options available to this couple and what are the odds for each pregnancy?",
+    "answer": "Genetic odds: With HbSS mother and HbAS father \u2014 each pregnancy has 50% chance of HbSS (affected) and 50% chance of HbAS (carrier, clinically unaffected). There is NO chance of an HbAA (completely unaffected) child from this pairing. Reproductive options: 1) Natural conception with prenatal diagnosis: CVS at 11\u201314 weeks or amniocentesis from 16 weeks \u2014 allows diagnosis and decision-making. 2) Preimplantation genetic testing (PGT) during IVF: embryos tested before implantation, only HbAS embryos implanted \u2014 avoids termination decision but IVF process required. 3) Use of donor egg or donor sperm from HbAA individual \u2014 would change the odds. 4) Adoption. 5) Proceeding without testing. Counsel that all options are valid and the decision is theirs \u2014 the role of the clinician is to inform, not direct.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "diagnosis_criteria",
+    "rubric": {
+      "3": "Correct odds + all reproductive options explained + non-directive counseling stance",
+      "2": "Correct odds + most options, missed PGT or non-directive stance",
+      "1": "Partial",
+      "0": "Wrong odds = dangerous"
+    }
+  }
+]
