@@ -5,7 +5,10 @@
     "answer": "A single point mutation in codon 6 of the HBB gene on chromosome 11, replacing glutamic acid with valine (Glu6Val). This causes production of HbS instead of normal HbA, and HbS polymerizes when deoxygenated, distorting red blood cells into the sickle shape.",
     "source": "Custom SCD Notes",
     "page": 1,
-    "category": "pathophysiology"
+    "category": "pathophysiology",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "1-4",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_002",
@@ -13,15 +16,21 @@
     "answer": "Sickle cell disease (HbSS) means inheriting two HbS genes causing clinical disease. Sickle cell trait (HbAS) means inheriting one HbS and one normal HbA gene. Carriers are generally asymptomatic but can pass the gene to children. Under extreme conditions trait carriers may rarely experience complications.",
     "source": "Custom SCD Notes",
     "page": 1,
-    "category": "diagnosis_criteria"
+    "category": "diagnosis_criteria",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "9-12",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_003",
     "question": "Name the four common genotypes of sickle cell disease and rank them by severity.",
-    "answer": "HbSS (most severe), HbS-\u03b20 thalassemia (similar to HbSS), HbSC (moderate), HbS-\u03b2+ thalassemia (mildest). HbSS and HbS-\u03b20 cause the most frequent and severe crises. HbSC carries higher risk of retinopathy and avascular necrosis.",
+    "answer": "HbSS (most severe), HbS-β0 thalassemia (similar to HbSS), HbSC (moderate), HbS-β+ thalassemia (mildest). HbSS and HbS-β0 cause the most frequent and severe crises. HbSC carries higher risk of retinopathy and avascular necrosis.",
     "source": "Custom SCD Notes",
     "page": 1,
-    "category": "diagnosis_criteria"
+    "category": "diagnosis_criteria",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": 82,
+    "citation_method": "layer3_match"
   },
   {
     "id": "layer1_004",
@@ -29,7 +38,10 @@
     "answer": "HPLC is the gold standard. Alternatives include hemoglobin electrophoresis and isoelectric focusing. Solubility tests (Sickledex) are NOT sufficient as they cannot distinguish HbSS from HbAS.",
     "source": "Custom SCD Notes",
     "page": 1,
-    "category": "diagnosis_criteria"
+    "category": "diagnosis_criteria",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "9-12",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_005",
@@ -37,47 +49,65 @@
     "answer": "Autosomal recessive. If both parents carry HbAS: 25% chance HbSS, 50% chance HbAS (trait), 25% chance HbAA (unaffected).",
     "source": "Custom SCD Notes",
     "page": 1,
-    "category": "pathophysiology"
+    "category": "pathophysiology",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "1-4",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_006",
     "question": "Why does sickle cell disease not typically present at birth, and when does it become symptomatic?",
-    "answer": "Newborns are protected by fetal hemoglobin (HbF) which does not polymerize. As HbF falls and HbS rises over the first 6 months of life, symptoms emerge \u2014 typically between 6\u201312 months of age.",
+    "answer": "Newborns are protected by fetal hemoglobin (HbF) which does not polymerize. As HbF falls and HbS rises over the first 6 months of life, symptoms emerge — typically between 6–12 months of age.",
     "source": "Custom SCD Notes",
     "page": 1,
-    "category": "pathophysiology"
+    "category": "pathophysiology",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "1-4",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_007",
     "question": "What does a newborn screening result of 'FS' indicate and what are the next steps?",
-    "answer": "FS pattern indicates HbSS disease or HbS-\u03b20 thalassemia. Next steps: repeat confirmatory testing, parental hemoglobin testing, urgent haematology referral, start penicillin prophylaxis and vaccinations immediately.",
+    "answer": "FS pattern indicates HbSS disease or HbS-β0 thalassemia. Next steps: repeat confirmatory testing, parental hemoglobin testing, urgent haematology referral, start penicillin prophylaxis and vaccinations immediately.",
     "source": "Custom SCD Notes",
     "page": 1,
-    "category": "screening_schedule"
+    "category": "screening_schedule",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "13-16",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_008",
     "question": "What is dactylitis and what is its clinical significance?",
-    "answer": "Dactylitis (hand-foot syndrome) is painful swelling of the fingers and toes due to vaso-occlusion. It is typically the first clinical manifestation of SCD, occurring in infants aged 6\u201324 months. It should prompt immediate sickle cell screening.",
+    "answer": "Dactylitis (hand-foot syndrome) is painful swelling of the fingers and toes due to vaso-occlusion. It is typically the first clinical manifestation of SCD, occurring in infants aged 6–24 months. It should prompt immediate sickle cell screening.",
     "source": "Custom SCD Notes",
     "page": 1,
-    "category": "diagnosis_criteria"
+    "category": "diagnosis_criteria",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "9-12",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_009",
     "question": "What distinguishes HbSC disease from HbSS clinically, and what complications is HbSC particularly associated with?",
-    "answer": "HbSC is generally milder with higher hemoglobin levels (10\u201312 g/dL vs 6\u20139 g/dL). However HbSC carries disproportionately high risk of proliferative sickle cell retinopathy and avascular necrosis of the femoral head due to higher blood viscosity.",
+    "answer": "HbSC is generally milder with higher hemoglobin levels (10–12 g/dL vs 6–9 g/dL). However HbSC carries disproportionately high risk of proliferative sickle cell retinopathy and avascular necrosis of the femoral head due to higher blood viscosity.",
     "source": "Custom SCD Notes",
     "page": 1,
-    "category": "diagnosis_criteria"
+    "category": "diagnosis_criteria",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": 82,
+    "citation_method": "layer3_match"
   },
   {
     "id": "layer1_010",
     "question": "At what point should prenatal diagnosis for SCD be offered and what methods are used?",
-    "answer": "Offered to couples where both partners are carriers. CVS at 11\u201314 weeks (preferred), amniocentesis from 16 weeks, or preimplantation genetic testing (PGT) during IVF.",
+    "answer": "Offered to couples where both partners are carriers. CVS at 11–14 weeks (preferred), amniocentesis from 16 weeks, or preimplantation genetic testing (PGT) during IVF.",
     "source": "Custom SCD Notes",
     "page": 1,
-    "category": "screening_schedule"
+    "category": "screening_schedule",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "13-16",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_011",
@@ -85,23 +115,32 @@
     "answer": "Inhibits ribonucleotide reductase, reactivating gamma-globin gene expression and increasing HbF production. Higher HbF dilutes HbS and inhibits polymerization. Also reduces neutrophil and platelet counts, decreasing vascular inflammation.",
     "source": "Custom SCD Notes",
     "page": 2,
-    "category": "treatment_threshold"
+    "category": "treatment_threshold",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "35-44",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_012",
     "question": "What are the indications for starting hydroxyurea in a child with HbSS disease?",
-    "answer": "Recommended for ALL children with HbSS from 9 months of age regardless of clinical severity (NHLBI 2014). Additional indications: \u22653 moderate-severe VOC per year, any ACS episode, severe anemia, priapism, high TCD velocities, silent cerebral infarcts.",
+    "answer": "Recommended for ALL children with HbSS from 9 months of age regardless of clinical severity (NHLBI 2014). Additional indications: ≥3 moderate-severe VOC per year, any ACS episode, severe anemia, priapism, high TCD velocities, silent cerebral infarcts.",
     "source": "Custom SCD Notes",
     "page": 2,
-    "category": "treatment_threshold"
+    "category": "treatment_threshold",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "35-44",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_013",
     "question": "What monitoring parameters are required for a patient on hydroxyurea therapy?",
-    "answer": "FBC every 4\u20138 weeks. Hold if neutrophils <2.0\u00d710\u2079/L, platelets <80\u00d710\u2079/L, or reticulocytes <80\u00d710\u2079/L. Monitor renal function, liver function, HbF percentage. Mandatory contraceptive counseling (teratogenic).",
+    "answer": "FBC every 4–8 weeks. Hold if neutrophils <2.0×10⁹/L, platelets <80×10⁹/L, or reticulocytes <80×10⁹/L. Monitor renal function, liver function, HbF percentage. Mandatory contraceptive counseling (teratogenic).",
     "source": "Custom SCD Notes",
     "page": 2,
-    "category": "dosing_guideline"
+    "category": "dosing_guideline",
+    "official_source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "official_page": 35,
+    "citation_method": "layer3_match"
   },
   {
     "id": "layer1_014",
@@ -109,7 +148,10 @@
     "answer": "Pneumococcal (PCV13 + PPSV23 at ages 2 and 5), Meningococcal (MenACWY + MenB), Hib, Hepatitis B, annual influenza. These address encapsulated organisms causing overwhelming infection due to functional asplenia. In Nigeria, Typhoid vaccination is also important.",
     "source": "Custom SCD Notes",
     "page": 2,
-    "category": "dosing_guideline"
+    "category": "dosing_guideline",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "25-34",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_015",
@@ -117,23 +159,32 @@
     "answer": "Children develop functional asplenia making them susceptible to overwhelming infection by encapsulated bacteria especially S. pneumoniae. Penicillin V started from diagnosis, continued until at least age 5. Lifelong prophylaxis recommended for severe disease or post-splenectomy.",
     "source": "Custom SCD Notes",
     "page": 2,
-    "category": "dosing_guideline"
+    "category": "dosing_guideline",
+    "official_source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "official_page": 31,
+    "citation_method": "layer3_match"
   },
   {
     "id": "layer1_016",
     "question": "What are the indications for chronic blood transfusion therapy in SCD?",
-    "answer": "Primary stroke prevention (TCD \u2265200 cm/s), secondary stroke prevention, severe anemia unresponsive to hydroxyurea, recurrent ACS, pulmonary hypertension, pre-operatively for major surgery. Target: HbS <30% of total hemoglobin.",
+    "answer": "Primary stroke prevention (TCD ≥200 cm/s), secondary stroke prevention, severe anemia unresponsive to hydroxyurea, recurrent ACS, pulmonary hypertension, pre-operatively for major surgery. Target: HbS <30% of total hemoglobin.",
     "source": "Custom SCD Notes",
     "page": 2,
-    "category": "treatment_threshold"
+    "category": "treatment_threshold",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": 95,
+    "citation_method": "layer3_match"
   },
   {
     "id": "layer1_017",
     "question": "Name the newer FDA-approved treatments for SCD beyond hydroxyurea.",
-    "answer": "L-glutamine/Endari (2017) \u2014 reduces oxidative stress. Crizanlizumab/Adakveo (2019) \u2014 anti-P-selectin antibody. Voxelotor/Oxbryta (2019) \u2014 prevents HbS polymerization. Casgevy (CRISPR, Dec 2023) and Lyfgenia (gene therapy, Dec 2023) \u2014 both potentially curative.",
+    "answer": "L-glutamine/Endari (2017) — reduces oxidative stress. Crizanlizumab/Adakveo (2019) — anti-P-selectin antibody. Voxelotor/Oxbryta (2019) — prevents HbS polymerization. Casgevy (CRISPR, Dec 2023) and Lyfgenia (gene therapy, Dec 2023) — both potentially curative.",
     "source": "Custom SCD Notes",
     "page": 2,
-    "category": "treatment_threshold"
+    "category": "treatment_threshold",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "35-44",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_018",
@@ -141,7 +192,10 @@
     "answer": "Pre-operative haematology assessment, optimize hemoglobin, consider transfusion to reduce HbS to <30%. Avoid hypothermia, hypoxia, hypovolemia, acidosis intraoperatively. Post-op: early mobilization, incentive spirometry, adequate analgesia, thromboprophylaxis. Avoid tourniquet.",
     "source": "Custom SCD Notes",
     "page": 2,
-    "category": "treatment_threshold"
+    "category": "treatment_threshold",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "35-44",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_019",
@@ -149,23 +203,32 @@
     "answer": "SCD causes chronic hemolysis increasing folate demand for accelerated erythropoiesis. Standard supplementation: 5mg daily in adults, weight-adjusted in children. Dietary folate alone is insufficient.",
     "source": "Custom SCD Notes",
     "page": 2,
-    "category": "dosing_guideline"
+    "category": "dosing_guideline",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "25-34",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_020",
-    "question": "What is the approach to fever (\u226538.5\u00b0C) in a child with SCD?",
+    "question": "What is the approach to fever (≥38.5°C) in a child with SCD?",
     "answer": "Medical emergency. Attend ED immediately, full sepsis assessment, empirical IV antibiotics within ONE HOUR (e.g. ceftriaxone). Do not give paracetamol and wait. Functional asplenia means fatal sepsis can develop in hours. Assess for malaria in endemic areas including Nigeria.",
     "source": "Custom SCD Notes",
     "page": 2,
-    "category": "treatment_threshold"
+    "category": "treatment_threshold",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "35-44",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_021",
     "question": "What analgesics form the mainstay of acute VOC management and what should be avoided?",
-    "answer": "Mainstay: strong opioids \u2014 morphine or oxycodone titrated to effect. NSAIDs as adjuncts if no renal contraindication. Regular paracetamol. AVOID pethidine (meperidine) \u2014 metabolite norpethidine accumulates and causes seizures in SCD.",
+    "answer": "Mainstay: strong opioids — morphine or oxycodone titrated to effect. NSAIDs as adjuncts if no renal contraindication. Regular paracetamol. AVOID pethidine (meperidine) — metabolite norpethidine accumulates and causes seizures in SCD.",
     "source": "Custom SCD Notes",
     "page": 2,
-    "category": "contraindication"
+    "category": "contraindication",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "25-34",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_022",
@@ -173,127 +236,175 @@
     "answer": "Exchange transfusion removes patient blood while replacing with donor blood, rapidly lowering HbS without increasing viscosity or causing iron overload. Preferred for acute ischemic stroke, severe ACS with rapid deterioration, multi-organ failure, and chronic transfusion programs.",
     "source": "Custom SCD Notes",
     "page": 2,
-    "category": "treatment_threshold"
+    "category": "treatment_threshold",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": 94,
+    "citation_method": "layer3_match"
   },
   {
     "id": "layer1_023",
     "question": "What is the annual review schedule and which specific investigations are required?",
-    "answer": "FBC + reticulocytes, liver and renal function, urinalysis, iron studies (if on transfusions), TCD (children 2\u201316 years), ophthalmology from age 10, blood pressure, pulse oximetry, echocardiography (adults), growth assessment in children, medication and vaccination review.",
+    "answer": "FBC + reticulocytes, liver and renal function, urinalysis, iron studies (if on transfusions), TCD (children 2–16 years), ophthalmology from age 10, blood pressure, pulse oximetry, echocardiography (adults), growth assessment in children, medication and vaccination review.",
     "source": "Custom SCD Notes",
     "page": 2,
-    "category": "screening_schedule"
+    "category": "screening_schedule",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "13-16",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_024",
     "question": "What is the recommended IV fluid type and rate for a patient with SCD in vaso-occlusive crisis?",
-    "answer": "Normal saline (0.9% NaCl) or isotonic crystalloid at maintenance rate plus estimated deficit. Target urine output 1\u20132 ml/kg/hr. Do NOT give large volumes of hypotonic fluids (hyponatremia risk). Oral hydration preferred when tolerated.",
+    "answer": "Normal saline (0.9% NaCl) or isotonic crystalloid at maintenance rate plus estimated deficit. Target urine output 1–2 ml/kg/hr. Do NOT give large volumes of hypotonic fluids (hyponatremia risk). Oral hydration preferred when tolerated.",
     "source": "Custom SCD Notes",
     "page": 2,
-    "category": "dosing_guideline"
+    "category": "dosing_guideline",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "25-34",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_025",
     "question": "What oxygen saturation should be maintained during acute illness and what is the role of routine supplemental oxygen?",
-    "answer": "Target SpO2 \u226595%. Give supplemental oxygen if below 95%. Routine supplemental oxygen in the absence of hypoxia is NOT recommended \u2014 has not been shown to reduce crisis duration and can suppress reticulocytosis.",
+    "answer": "Target SpO2 ≥95%. Give supplemental oxygen if below 95%. Routine supplemental oxygen in the absence of hypoxia is NOT recommended — has not been shown to reduce crisis duration and can suppress reticulocytosis.",
     "source": "Custom SCD Notes",
     "page": 2,
-    "category": "contraindication"
+    "category": "contraindication",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "25-34",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_026",
     "question": "What is the target HbF percentage indicating adequate hydroxyurea response?",
-    "answer": "HbF >20% is generally a good response. Maximum tolerated dose approach aims for HbF 15\u201330%. If HbF has not risen after 3\u20136 months at stable dose, reassess adherence first then consider dose increase.",
+    "answer": "HbF >20% is generally a good response. Maximum tolerated dose approach aims for HbF 15–30%. If HbF has not risen after 3–6 months at stable dose, reassess adherence first then consider dose increase.",
     "source": "Custom SCD Notes",
     "page": 3,
-    "category": "treatment_threshold"
+    "category": "treatment_threshold",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "35-44",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_027",
     "question": "What is the role of transcranial Doppler (TCD) in SCD management?",
-    "answer": "Measures cerebral artery blood flow velocities to identify stroke risk. Annual screening for HbSS children aged 2\u201316. Normal <170 cm/s, Conditional 170\u2013199 cm/s (repeat in 3 months), Abnormal \u2265200 cm/s (initiate chronic transfusion immediately). Reduces first stroke incidence by 90%.",
+    "answer": "Measures cerebral artery blood flow velocities to identify stroke risk. Annual screening for HbSS children aged 2–16. Normal <170 cm/s, Conditional 170–199 cm/s (repeat in 3 months), Abnormal ≥200 cm/s (initiate chronic transfusion immediately). Reduces first stroke incidence by 90%.",
     "source": "Custom SCD Notes",
     "page": 3,
-    "category": "screening_schedule"
+    "category": "screening_schedule",
+    "official_source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "official_page": 56,
+    "citation_method": "layer3_match"
   },
   {
     "id": "layer1_028",
     "question": "What complications arise from chronic transfusion therapy and how are they managed?",
-    "answer": "Iron overload (each unit ~200\u2013250mg iron) \u2014 requires chelation with deferasirox (oral, preferred) or deferoxamine (SC). Monitor liver iron by MRI T2*. Alloimmunization in 20\u201330% \u2014 use antigen-matched blood. Also transfusion reactions and hyperviscosity if over-transfused.",
+    "answer": "Iron overload (each unit ~200–250mg iron) — requires chelation with deferasirox (oral, preferred) or deferoxamine (SC). Monitor liver iron by MRI T2*. Alloimmunization in 20–30% — use antigen-matched blood. Also transfusion reactions and hyperviscosity if over-transfused.",
     "source": "Custom SCD Notes",
     "page": 3,
-    "category": "treatment_threshold"
+    "category": "treatment_threshold",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": 104,
+    "citation_method": "layer3_match"
   },
   {
     "id": "layer1_029",
     "question": "What is the outpatient pain management ladder for a patient with a mild-to-moderate VOC at home?",
-    "answer": "Step 1: Regular paracetamol + NSAID. Step 2: Add weak opioid (codeine or tramadol). Use heat (warm compress or bath \u2014 NEVER ice). Increased oral fluids. If not controlled within 30\u201360 minutes of Step 2 or if severe from onset, attend ED.",
+    "answer": "Step 1: Regular paracetamol + NSAID. Step 2: Add weak opioid (codeine or tramadol). Use heat (warm compress or bath — NEVER ice). Increased oral fluids. If not controlled within 30–60 minutes of Step 2 or if severe from onset, attend ED.",
     "source": "Custom SCD Notes",
     "page": 3,
-    "category": "treatment_threshold"
+    "category": "treatment_threshold",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "35-44",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_030",
     "question": "What curative options currently exist for SCD and what are the eligibility criteria?",
-    "answer": "HSCT: cure rate ~90% with matched sibling, now offered to adults with reduced-intensity conditioning. Gene therapies Casgevy (CRISPR) and Lyfgenia both FDA approved December 2023 \u2014 no matched donor needed. Access in Nigeria very limited due to cost (~$2 million per treatment).",
+    "answer": "HSCT: cure rate ~90% with matched sibling, now offered to adults with reduced-intensity conditioning. Gene therapies Casgevy (CRISPR) and Lyfgenia both FDA approved December 2023 — no matched donor needed. Access in Nigeria very limited due to cost (~$2 million per treatment).",
     "source": "Custom SCD Notes",
     "page": 3,
-    "category": "treatment_threshold"
+    "category": "treatment_threshold",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "35-44",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_031",
     "question": "A 7-year-old with HbSS develops sudden left-sided weakness and slurred speech. What is the diagnosis and immediate management?",
-    "answer": "Acute ischemic stroke \u2014 haematological emergency. Emergency CT head, URGENT exchange transfusion to reduce HbS to <30%, supplemental oxygen, IV access and fluids, neurological monitoring, neurology review. Do NOT use thrombolysis (tPA). Follow with chronic transfusion therapy.",
+    "answer": "Acute ischemic stroke — haematological emergency. Emergency CT head, URGENT exchange transfusion to reduce HbS to <30%, supplemental oxygen, IV access and fluids, neurological monitoring, neurology review. Do NOT use thrombolysis (tPA). Follow with chronic transfusion therapy.",
     "source": "Custom SCD Notes",
     "page": 3,
-    "category": "emergency_management"
+    "category": "emergency_management",
+    "official_source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "official_page": 56,
+    "citation_method": "layer3_match"
   },
   {
     "id": "layer1_032",
     "question": "Define acute chest syndrome, its diagnostic criteria, and complete management protocol.",
-    "answer": "New pulmonary infiltrate on CXR involving at least one complete lung segment with fever >38.5\u00b0C and/or respiratory symptoms. Leading cause of death in SCD. Management: O2, IV hydration, analgesia + incentive spirometry, ceftriaxone + azithromycin, transfusion, bronchodilators if wheeze, ICU if deteriorating.",
+    "answer": "New pulmonary infiltrate on CXR involving at least one complete lung segment with fever >38.5°C and/or respiratory symptoms. Leading cause of death in SCD. Management: O2, IV hydration, analgesia + incentive spirometry, ceftriaxone + azithromycin, transfusion, bronchodilators if wheeze, ICU if deteriorating.",
     "source": "Custom SCD Notes",
     "page": 3,
-    "category": "emergency_management"
+    "category": "emergency_management",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "45-84",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_033",
     "question": "What is splenic sequestration crisis? How do you recognize and treat it?",
-    "answer": "Rapid pooling of blood in the spleen causing acute severe anemia (Hb drop >2 g/dL below baseline), sudden splenomegaly, pallor, and potentially hypovolemic shock. Most common in children aged 3 months\u20135 years. Treatment: urgent conservative blood transfusion, treat shock, parental education, splenectomy after first episode.",
+    "answer": "Rapid pooling of blood in the spleen causing acute severe anemia (Hb drop >2 g/dL below baseline), sudden splenomegaly, pallor, and potentially hypovolemic shock. Most common in children aged 3 months–5 years. Treatment: urgent conservative blood transfusion, treat shock, parental education, splenectomy after first episode.",
     "source": "Custom SCD Notes",
     "page": 3,
-    "category": "emergency_management"
+    "category": "emergency_management",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "45-84",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_034",
     "question": "What is aplastic crisis? Cause, presentation, management, and infection control considerations.",
-    "answer": "Temporary cessation of red cell production caused by Parvovirus B19. Presents with sudden Hb drop, reticulocytopenia, fever, mild viral symptoms. Management: blood transfusion as needed, supportive care (self-limiting 7\u201310 days). Isolate from pregnant women and immunocompromised individuals.",
+    "answer": "Temporary cessation of red cell production caused by Parvovirus B19. Presents with sudden Hb drop, reticulocytopenia, fever, mild viral symptoms. Management: blood transfusion as needed, supportive care (self-limiting 7–10 days). Isolate from pregnant women and immunocompromised individuals.",
     "source": "Custom SCD Notes",
     "page": 3,
-    "category": "emergency_management"
+    "category": "emergency_management",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "45-84",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_035",
     "question": "Define priapism in SCD, classify it, and outline emergency management for major priapism.",
-    "answer": "Prolonged painful penile erection due to vaso-occlusion. Stuttering: <4 hours, resolves spontaneously. Major: >4 hours \u2014 urological emergency. Management: IV hydration and analgesia, urgent urology for aspiration and irrigation, exchange transfusion if aspiration fails. Present immediately.",
+    "answer": "Prolonged painful penile erection due to vaso-occlusion. Stuttering: <4 hours, resolves spontaneously. Major: >4 hours — urological emergency. Management: IV hydration and analgesia, urgent urology for aspiration and irrigation, exchange transfusion if aspiration fails. Present immediately.",
     "source": "Custom SCD Notes",
     "page": 3,
-    "category": "emergency_management"
+    "category": "emergency_management",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "45-84",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_036",
-    "question": "What is the significance of TCD velocity \u2265200 cm/s and what immediate action follows?",
+    "question": "What is the significance of TCD velocity ≥200 cm/s and what immediate action follows?",
     "answer": "Indicates ~10-fold elevated stroke risk. Initiate chronic transfusion therapy within days targeting HbS <30%. Do not wait or repeat TCD first. Reduces first stroke incidence from ~10% to <1% per year. If transfusion unavailable, start hydroxyurea as a bridge.",
     "source": "Custom SCD Notes",
     "page": 3,
-    "category": "treatment_threshold"
+    "category": "treatment_threshold",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "35-44",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_037",
     "question": "A patient's hemoglobin falls below pre-transfusion levels 2 days after a blood transfusion. What is the diagnosis and management?",
-    "answer": "Hyperhemolysis syndrome \u2014 both donor AND patient's own red cells are destroyed. AVOID further transfusion if possible, IVIG, high-dose corticosteroids, rituximab in refractory cases, erythropoiesis-stimulating agents. Consult haematology immediately.",
+    "answer": "Hyperhemolysis syndrome — both donor AND patient's own red cells are destroyed. AVOID further transfusion if possible, IVIG, high-dose corticosteroids, rituximab in refractory cases, erythropoiesis-stimulating agents. Consult haematology immediately.",
     "source": "Custom SCD Notes",
     "page": 3,
-    "category": "emergency_management"
+    "category": "emergency_management",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "45-84",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_038",
@@ -301,39 +412,54 @@
     "answer": "Hyposthenuria (earliest, virtually all HbSS), microscopic haematuria, nephrotic syndrome, progressive CKD (leading cause of adult death), renal medullary carcinoma. Annual urinalysis for proteinuria/microalbuminuria, serum creatinine and eGFR from childhood. Treat proteinuria with ACE inhibitors.",
     "source": "Custom SCD Notes",
     "page": 3,
-    "category": "screening_schedule"
+    "category": "screening_schedule",
+    "official_source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "official_page": 61,
+    "citation_method": "layer3_match"
   },
   {
     "id": "layer1_039",
     "question": "Describe sickle cell retinopathy, who is most at risk, and when to screen.",
-    "answer": "Non-proliferative: salmon patch haemorrhages, black sunbursts, sea fans. Proliferative: neovascularization \u2192 vitreous haemorrhage \u2192 retinal detachment \u2192 blindness. HbSC has HIGHER risk than HbSS. Screen annually from age 10. Treatment: laser photocoagulation or anti-VEGF.",
+    "answer": "Non-proliferative: salmon patch haemorrhages, black sunbursts, sea fans. Proliferative: neovascularization → vitreous haemorrhage → retinal detachment → blindness. HbSC has HIGHER risk than HbSS. Screen annually from age 10. Treatment: laser photocoagulation or anti-VEGF.",
     "source": "Custom SCD Notes",
     "page": 3,
-    "category": "screening_schedule"
+    "category": "screening_schedule",
+    "official_source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "official_page": 65,
+    "citation_method": "layer3_match"
   },
   {
     "id": "layer1_040",
     "question": "What pulmonary complications beyond ACS can occur in SCD and how are they monitored?",
-    "answer": "Pulmonary hypertension (~10% of adults) \u2014 screen with annual echocardiography (TRJV \u22652.5 m/s \u2192 right heart catheterization). Obstructive/restrictive lung disease. Nocturnal hypoxia. Asthma worsens ACS risk. Consider sildenafil or bosentan for confirmed PH.",
+    "answer": "Pulmonary hypertension (~10% of adults) — screen with annual echocardiography (TRJV ≥2.5 m/s → right heart catheterization). Obstructive/restrictive lung disease. Nocturnal hypoxia. Asthma worsens ACS risk. Consider sildenafil or bosentan for confirmed PH.",
     "source": "Custom SCD Notes",
     "page": 3,
-    "category": "screening_schedule"
+    "category": "screening_schedule",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "13-16",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_041",
     "question": "What symptoms should a patient or parent always treat as an emergency?",
-    "answer": "Temperature \u226538.5\u00b0C, severe pain uncontrolled within 30\u201360 minutes, chest pain or difficulty breathing, any neurological change, sudden severe abdominal pain or enlarging spleen, sudden severe pallor, priapism >2 hours, unusually drowsy or floppy child.",
+    "answer": "Temperature ≥38.5°C, severe pain uncontrolled within 30–60 minutes, chest pain or difficulty breathing, any neurological change, sudden severe abdominal pain or enlarging spleen, sudden severe pallor, priapism >2 hours, unusually drowsy or floppy child.",
     "source": "Custom SCD Notes",
     "page": 4,
-    "category": "emergency_management"
+    "category": "emergency_management",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "45-84",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_042",
     "question": "What lifestyle modifications help reduce the frequency of sickle cell crises?",
-    "answer": "Stay well hydrated (8\u201310 glasses daily), avoid cold (never apply ice), moderate regular exercise, avoid high altitude without advice, avoid alcohol and smoking, good hand hygiene, up-to-date vaccinations, take prescribed penicillin, manage stress, attend all appointments.",
+    "answer": "Stay well hydrated (8–10 glasses daily), avoid cold (never apply ice), moderate regular exercise, avoid high altitude without advice, avoid alcohol and smoking, good hand hygiene, up-to-date vaccinations, take prescribed penicillin, manage stress, attend all appointments.",
     "source": "Custom SCD Notes",
     "page": 4,
-    "category": "dosing_guideline"
+    "category": "dosing_guideline",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "25-34",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_043",
@@ -341,15 +467,21 @@
     "answer": "Stop hydroxyurea before conception (teratogenic), start folic acid 5mg daily, partner testing for HbAS. SCD pregnancy is HIGH RISK: increased VOC, ACS, pre-eclampsia, preterm birth, fetal growth restriction, higher maternal mortality. Must be managed jointly by haematologist and specialist obstetrician.",
     "source": "Custom SCD Notes",
     "page": 4,
-    "category": "contraindication"
+    "category": "contraindication",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": 114,
+    "citation_method": "layer3_match"
   },
   {
     "id": "layer1_044",
     "question": "Can patients with SCD travel by air? What precautions should they take?",
-    "answer": "Yes, generally safe with precautions. Aircraft pressurized to 6,000\u20138,000 feet. Precautions: regular water intake, walk every 1\u20132 hours, compression stockings, carry medications in hand luggage, inform airline, discuss supplemental oxygen for long flights, ensure travel insurance.",
+    "answer": "Yes, generally safe with precautions. Aircraft pressurized to 6,000–8,000 feet. Precautions: regular water intake, walk every 1–2 hours, compression stockings, carry medications in hand luggage, inform airline, discuss supplemental oxygen for long flights, ensure travel insurance.",
     "source": "Custom SCD Notes",
     "page": 4,
-    "category": "dosing_guideline"
+    "category": "dosing_guideline",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "25-34",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_045",
@@ -357,7 +489,10 @@
     "answer": "Balanced high-calorie diet. Folic acid 5mg daily. Good hydration. Zinc supplementation may benefit. Avoid alcohol and excess caffeine. No specific foods proven to trigger crises directly.",
     "source": "Custom SCD Notes",
     "page": 4,
-    "category": "dosing_guideline"
+    "category": "dosing_guideline",
+    "official_source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "official_page": 75,
+    "citation_method": "layer3_match"
   },
   {
     "id": "layer1_046",
@@ -365,7 +500,10 @@
     "answer": "Unpredictable absences are not voluntary. Needs: unrestricted water and toilet access, ability to wear extra layers, flexibility to rest, understanding of prescribed opioids, awareness of stroke symptoms. Fatigue is chronic not laziness. Not contagious. Formal health care plan should be shared with consent.",
     "source": "Custom SCD Notes",
     "page": 4,
-    "category": "pathophysiology"
+    "category": "pathophysiology",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "1-4",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_047",
@@ -373,15 +511,21 @@
     "answer": "Chronic pain causes depression and anxiety in the majority. Social isolation, absenteeism, opioid stigma, fear of complications, body image issues, caregiver burnout. Routine psychological screening should be standard. Counseling and peer support should be actively offered.",
     "source": "Custom SCD Notes",
     "page": 4,
-    "category": "pathophysiology"
+    "category": "pathophysiology",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "1-4",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_048",
     "question": "What are the specific implications of SCD in Nigeria?",
-    "answer": "Nigeria has the highest SCD burden globally \u2014 ~150,000 children born with SCD annually (~45% of global total). Challenges: limited newborn screening, irregular hydroxyurea supply, blood bank shortages, few specialist centres, poor community awareness, stigma, inadequate health insurance. Under-5 mortality far exceeds high-income countries.",
+    "answer": "Nigeria has the highest SCD burden globally — ~150,000 children born with SCD annually (~45% of global total). Challenges: limited newborn screening, irregular hydroxyurea supply, blood bank shortages, few specialist centres, poor community awareness, stigma, inadequate health insurance. Under-5 mortality far exceeds high-income countries.",
     "source": "Custom SCD Notes",
     "page": 4,
-    "category": "pathophysiology"
+    "category": "pathophysiology",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "1-4",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_049",
@@ -389,14 +533,20 @@
     "answer": "Written personalised pain plan: specific medications and maximum doses, clear criteria for when to attend hospital, medications to avoid (e.g. pethidine), haematology contact number. Use heat not ice. Keep pain diary. Adequate home analgesia reduces unnecessary admissions.",
     "source": "Custom SCD Notes",
     "page": 4,
-    "category": "dosing_guideline"
+    "category": "dosing_guideline",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "25-34",
+    "citation_method": "category_map"
   },
   {
     "id": "layer1_050",
     "question": "How does SCD affect cognitive development and educational attainment?",
-    "answer": "Affects cognition via overt stroke, silent cerebral infarcts (20\u201335% of HbSS children affecting attention and processing speed), chronic anaemia, frequent absences, and pain. All HbSS children should have neuropsychological assessment. Silent infarcts detected by MRI warrant intensified treatment and educational accommodations.",
+    "answer": "Affects cognition via overt stroke, silent cerebral infarcts (20–35% of HbSS children affecting attention and processing speed), chronic anaemia, frequent absences, and pain. All HbSS children should have neuropsychological assessment. Silent infarcts detected by MRI warrant intensified treatment and educational accommodations.",
     "source": "Custom SCD Notes",
     "page": 4,
-    "category": "pathophysiology"
+    "category": "pathophysiology",
+    "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "official_page": "1-4",
+    "citation_method": "category_map"
   }
 ]
