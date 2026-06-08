@@ -1,0 +1,5336 @@
+[
+  {
+    "index": 1,
+    "id": "layer1_001",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "pathophysiology",
+    "answer": "A single point mutation in codon 6 of the HBB gene on chromosome 11, replacing glutamic acid with valine (Glu6Val). This causes production of HbS instead of normal HbA, and HbS polymerizes when deoxygenated, distorting red blood cells into the sickle shape.",
+    "rubric": null
+  },
+  {
+    "index": 2,
+    "id": "layer1_002",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "diagnosis_criteria",
+    "answer": "Sickle cell disease (HbSS) means inheriting two HbS genes causing clinical disease. Sickle cell trait (HbAS) means inheriting one HbS and one normal HbA gene. Carriers are generally asymptomatic but can pass the gene to children. Under extreme conditions trait carriers may rarely experience complications.",
+    "rubric": null
+  },
+  {
+    "index": 3,
+    "id": "layer1_003",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "diagnosis_criteria",
+    "answer": "HbSS (most severe), HbS-β0 thalassemia (similar to HbSS), HbSC (moderate), HbS-β+ thalassemia (mildest). HbSS and HbS-β0 cause the most frequent and severe crises. HbSC carries higher risk of retinopathy and avascular necrosis.",
+    "rubric": null
+  },
+  {
+    "index": 4,
+    "id": "layer1_004",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "diagnosis_criteria",
+    "answer": "HPLC is the gold standard. Alternatives include hemoglobin electrophoresis and isoelectric focusing. Solubility tests (Sickledex) are NOT sufficient as they cannot distinguish HbSS from HbAS.",
+    "rubric": null
+  },
+  {
+    "index": 5,
+    "id": "layer1_005",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "pathophysiology",
+    "answer": "Autosomal recessive. If both parents carry HbAS: 25% chance HbSS, 50% chance HbAS (trait), 25% chance HbAA (unaffected).",
+    "rubric": null
+  },
+  {
+    "index": 6,
+    "id": "layer1_006",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "pathophysiology",
+    "answer": "Newborns are protected by fetal hemoglobin (HbF) which does not polymerize. As HbF falls and HbS rises over the first 6 months of life, symptoms emerge — typically between 6–12 months of age.",
+    "rubric": null
+  },
+  {
+    "index": 7,
+    "id": "layer1_007",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "screening_schedule",
+    "answer": "FS pattern indicates HbSS disease or HbS-β0 thalassemia. Next steps: repeat confirmatory testing, parental hemoglobin testing, urgent haematology referral, start penicillin prophylaxis and vaccinations immediately.",
+    "rubric": null
+  },
+  {
+    "index": 8,
+    "id": "layer1_008",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "diagnosis_criteria",
+    "answer": "Dactylitis (hand-foot syndrome) is painful swelling of the fingers and toes due to vaso-occlusion. It is typically the first clinical manifestation of SCD, occurring in infants aged 6–24 months. It should prompt immediate sickle cell screening.",
+    "rubric": null
+  },
+  {
+    "index": 9,
+    "id": "layer1_009",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "diagnosis_criteria",
+    "answer": "HbSC is generally milder with higher hemoglobin levels (10–12 g/dL vs 6–9 g/dL). However HbSC carries disproportionately high risk of proliferative sickle cell retinopathy and avascular necrosis of the femoral head due to higher blood viscosity.",
+    "rubric": null
+  },
+  {
+    "index": 10,
+    "id": "layer1_010",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "screening_schedule",
+    "answer": "Offered to couples where both partners are carriers. CVS at 11–14 weeks (preferred), amniocentesis from 16 weeks, or preimplantation genetic testing (PGT) during IVF.",
+    "rubric": null
+  },
+  {
+    "index": 11,
+    "id": "layer1_011",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold",
+    "answer": "Inhibits ribonucleotide reductase, reactivating gamma-globin gene expression and increasing HbF production. Higher HbF dilutes HbS and inhibits polymerization. Also reduces neutrophil and platelet counts, decreasing vascular inflammation.",
+    "rubric": null
+  },
+  {
+    "index": 12,
+    "id": "layer1_012",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold",
+    "answer": "Recommended for ALL children with HbSS from 9 months of age regardless of clinical severity (NHLBI 2014). Additional indications: ≥3 moderate-severe VOC per year, any ACS episode, severe anemia, priapism, high TCD velocities, silent cerebral infarcts.",
+    "rubric": null
+  },
+  {
+    "index": 13,
+    "id": "layer1_013",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline",
+    "answer": "FBC every 4–8 weeks. Hold if neutrophils <2.0×10⁹/L, platelets <80×10⁹/L, or reticulocytes <80×10⁹/L. Monitor renal function, liver function, HbF percentage. Mandatory contraceptive counseling (teratogenic).",
+    "rubric": null
+  },
+  {
+    "index": 14,
+    "id": "layer1_014",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline",
+    "answer": "Pneumococcal (PCV13 + PPSV23 at ages 2 and 5), Meningococcal (MenACWY + MenB), Hib, Hepatitis B, annual influenza. These address encapsulated organisms causing overwhelming infection due to functional asplenia. In Nigeria, Typhoid vaccination is also important.",
+    "rubric": null
+  },
+  {
+    "index": 15,
+    "id": "layer1_015",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline",
+    "answer": "Children develop functional asplenia making them susceptible to overwhelming infection by encapsulated bacteria especially S. pneumoniae. Penicillin V started from diagnosis, continued until at least age 5. Lifelong prophylaxis recommended for severe disease or post-splenectomy.",
+    "rubric": null
+  },
+  {
+    "index": 16,
+    "id": "layer1_016",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold",
+    "answer": "Primary stroke prevention (TCD ≥200 cm/s), secondary stroke prevention, severe anemia unresponsive to hydroxyurea, recurrent ACS, pulmonary hypertension, pre-operatively for major surgery. Target: HbS <30% of total hemoglobin.",
+    "rubric": null
+  },
+  {
+    "index": 17,
+    "id": "layer1_017",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold",
+    "answer": "L-glutamine/Endari (2017) — reduces oxidative stress. Crizanlizumab/Adakveo (2019) — anti-P-selectin antibody. Voxelotor/Oxbryta (2019) — prevents HbS polymerization. Casgevy (CRISPR, Dec 2023) and Lyfgenia (gene therapy, Dec 2023) — both potentially curative.",
+    "rubric": null
+  },
+  {
+    "index": 18,
+    "id": "layer1_018",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold",
+    "answer": "Pre-operative haematology assessment, optimize hemoglobin, consider transfusion to reduce HbS to <30%. Avoid hypothermia, hypoxia, hypovolemia, acidosis intraoperatively. Post-op: early mobilization, incentive spirometry, adequate analgesia, thromboprophylaxis. Avoid tourniquet.",
+    "rubric": null
+  },
+  {
+    "index": 19,
+    "id": "layer1_019",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline",
+    "answer": "SCD causes chronic hemolysis increasing folate demand for accelerated erythropoiesis. Standard supplementation: 5mg daily in adults, weight-adjusted in children. Dietary folate alone is insufficient.",
+    "rubric": null
+  },
+  {
+    "index": 20,
+    "id": "layer1_020",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold",
+    "answer": "Medical emergency. Attend ED immediately, full sepsis assessment, empirical IV antibiotics within ONE HOUR (e.g. ceftriaxone). Do not give paracetamol and wait. Functional asplenia means fatal sepsis can develop in hours. Assess for malaria in endemic areas including Nigeria.",
+    "rubric": null
+  },
+  {
+    "index": 21,
+    "id": "layer1_021",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "contraindication",
+    "answer": "Mainstay: strong opioids — morphine or oxycodone titrated to effect. NSAIDs as adjuncts if no renal contraindication. Regular paracetamol. AVOID pethidine (meperidine) — metabolite norpethidine accumulates and causes seizures in SCD.",
+    "rubric": null
+  },
+  {
+    "index": 22,
+    "id": "layer1_022",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold",
+    "answer": "Exchange transfusion removes patient blood while replacing with donor blood, rapidly lowering HbS without increasing viscosity or causing iron overload. Preferred for acute ischemic stroke, severe ACS with rapid deterioration, multi-organ failure, and chronic transfusion programs.",
+    "rubric": null
+  },
+  {
+    "index": 23,
+    "id": "layer1_023",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "screening_schedule",
+    "answer": "FBC + reticulocytes, liver and renal function, urinalysis, iron studies (if on transfusions), TCD (children 2–16 years), ophthalmology from age 10, blood pressure, pulse oximetry, echocardiography (adults), growth assessment in children, medication and vaccination review.",
+    "rubric": null
+  },
+  {
+    "index": 24,
+    "id": "layer1_024",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline",
+    "answer": "Normal saline (0.9% NaCl) or isotonic crystalloid at maintenance rate plus estimated deficit. Target urine output 1–2 ml/kg/hr. Do NOT give large volumes of hypotonic fluids (hyponatremia risk). Oral hydration preferred when tolerated.",
+    "rubric": null
+  },
+  {
+    "index": 25,
+    "id": "layer1_025",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "contraindication",
+    "answer": "Target SpO2 ≥95%. Give supplemental oxygen if below 95%. Routine supplemental oxygen in the absence of hypoxia is NOT recommended — has not been shown to reduce crisis duration and can suppress reticulocytosis.",
+    "rubric": null
+  },
+  {
+    "index": 26,
+    "id": "layer1_026",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold",
+    "answer": "HbF >20% is generally a good response. Maximum tolerated dose approach aims for HbF 15–30%. If HbF has not risen after 3–6 months at stable dose, reassess adherence first then consider dose increase.",
+    "rubric": null
+  },
+  {
+    "index": 27,
+    "id": "layer1_027",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "screening_schedule",
+    "answer": "Measures cerebral artery blood flow velocities to identify stroke risk. Annual screening for HbSS children aged 2–16. Normal <170 cm/s, Conditional 170–199 cm/s (repeat in 3 months), Abnormal ≥200 cm/s (initiate chronic transfusion immediately). Reduces first stroke incidence by 90%.",
+    "rubric": null
+  },
+  {
+    "index": 28,
+    "id": "layer1_028",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold",
+    "answer": "Iron overload (each unit ~200–250mg iron) — requires chelation with deferasirox (oral, preferred) or deferoxamine (SC). Monitor liver iron by MRI T2*. Alloimmunization in 20–30% — use antigen-matched blood. Also transfusion reactions and hyperviscosity if over-transfused.",
+    "rubric": null
+  },
+  {
+    "index": 29,
+    "id": "layer1_029",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold",
+    "answer": "Step 1: Regular paracetamol + NSAID. Step 2: Add weak opioid (codeine or tramadol). Use heat (warm compress or bath — NEVER ice). Increased oral fluids. If not controlled within 30–60 minutes of Step 2 or if severe from onset, attend ED.",
+    "rubric": null
+  },
+  {
+    "index": 30,
+    "id": "layer1_030",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold",
+    "answer": "HSCT: cure rate ~90% with matched sibling, now offered to adults with reduced-intensity conditioning. Gene therapies Casgevy (CRISPR) and Lyfgenia both FDA approved December 2023 — no matched donor needed. Access in Nigeria very limited due to cost (~$2 million per treatment).",
+    "rubric": null
+  },
+  {
+    "index": 31,
+    "id": "layer1_031",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "emergency_management",
+    "answer": "Acute ischemic stroke — haematological emergency. Emergency CT head, URGENT exchange transfusion to reduce HbS to <30%, supplemental oxygen, IV access and fluids, neurological monitoring, neurology review. Do NOT use thrombolysis (tPA). Follow with chronic transfusion therapy.",
+    "rubric": null
+  },
+  {
+    "index": 32,
+    "id": "layer1_032",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "emergency_management",
+    "answer": "New pulmonary infiltrate on CXR involving at least one complete lung segment with fever >38.5°C and/or respiratory symptoms. Leading cause of death in SCD. Management: O2, IV hydration, analgesia + incentive spirometry, ceftriaxone + azithromycin, transfusion, bronchodilators if wheeze, ICU if deteriorating.",
+    "rubric": null
+  },
+  {
+    "index": 33,
+    "id": "layer1_033",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "emergency_management",
+    "answer": "Rapid pooling of blood in the spleen causing acute severe anemia (Hb drop >2 g/dL below baseline), sudden splenomegaly, pallor, and potentially hypovolemic shock. Most common in children aged 3 months–5 years. Treatment: urgent conservative blood transfusion, treat shock, parental education, splenectomy after first episode.",
+    "rubric": null
+  },
+  {
+    "index": 34,
+    "id": "layer1_034",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "emergency_management",
+    "answer": "Temporary cessation of red cell production caused by Parvovirus B19. Presents with sudden Hb drop, reticulocytopenia, fever, mild viral symptoms. Management: blood transfusion as needed, supportive care (self-limiting 7–10 days). Isolate from pregnant women and immunocompromised individuals.",
+    "rubric": null
+  },
+  {
+    "index": 35,
+    "id": "layer1_035",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "emergency_management",
+    "answer": "Prolonged painful penile erection due to vaso-occlusion. Stuttering: <4 hours, resolves spontaneously. Major: >4 hours — urological emergency. Management: IV hydration and analgesia, urgent urology for aspiration and irrigation, exchange transfusion if aspiration fails. Present immediately.",
+    "rubric": null
+  },
+  {
+    "index": 36,
+    "id": "layer1_036",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold",
+    "answer": "Indicates ~10-fold elevated stroke risk. Initiate chronic transfusion therapy within days targeting HbS <30%. Do not wait or repeat TCD first. Reduces first stroke incidence from ~10% to <1% per year. If transfusion unavailable, start hydroxyurea as a bridge.",
+    "rubric": null
+  },
+  {
+    "index": 37,
+    "id": "layer1_037",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "emergency_management",
+    "answer": "Hyperhemolysis syndrome — both donor AND patient's own red cells are destroyed. AVOID further transfusion if possible, IVIG, high-dose corticosteroids, rituximab in refractory cases, erythropoiesis-stimulating agents. Consult haematology immediately.",
+    "rubric": null
+  },
+  {
+    "index": 38,
+    "id": "layer1_038",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "screening_schedule",
+    "answer": "Hyposthenuria (earliest, virtually all HbSS), microscopic haematuria, nephrotic syndrome, progressive CKD (leading cause of adult death), renal medullary carcinoma. Annual urinalysis for proteinuria/microalbuminuria, serum creatinine and eGFR from childhood. Treat proteinuria with ACE inhibitors.",
+    "rubric": null
+  },
+  {
+    "index": 39,
+    "id": "layer1_039",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "screening_schedule",
+    "answer": "Non-proliferative: salmon patch haemorrhages, black sunbursts, sea fans. Proliferative: neovascularization → vitreous haemorrhage → retinal detachment → blindness. HbSC has HIGHER risk than HbSS. Screen annually from age 10. Treatment: laser photocoagulation or anti-VEGF.",
+    "rubric": null
+  },
+  {
+    "index": 40,
+    "id": "layer1_040",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "screening_schedule",
+    "answer": "Pulmonary hypertension (~10% of adults) — screen with annual echocardiography (TRJV ≥2.5 m/s → right heart catheterization). Obstructive/restrictive lung disease. Nocturnal hypoxia. Asthma worsens ACS risk. Consider sildenafil or bosentan for confirmed PH.",
+    "rubric": null
+  },
+  {
+    "index": 41,
+    "id": "layer1_041",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "emergency_management",
+    "answer": "Temperature ≥38.5°C, severe pain uncontrolled within 30–60 minutes, chest pain or difficulty breathing, any neurological change, sudden severe abdominal pain or enlarging spleen, sudden severe pallor, priapism >2 hours, unusually drowsy or floppy child.",
+    "rubric": null
+  },
+  {
+    "index": 42,
+    "id": "layer1_042",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline",
+    "answer": "Stay well hydrated (8–10 glasses daily), avoid cold (never apply ice), moderate regular exercise, avoid high altitude without advice, avoid alcohol and smoking, good hand hygiene, up-to-date vaccinations, take prescribed penicillin, manage stress, attend all appointments.",
+    "rubric": null
+  },
+  {
+    "index": 43,
+    "id": "layer1_043",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "contraindication",
+    "answer": "Stop hydroxyurea before conception (teratogenic), start folic acid 5mg daily, partner testing for HbAS. SCD pregnancy is HIGH RISK: increased VOC, ACS, pre-eclampsia, preterm birth, fetal growth restriction, higher maternal mortality. Must be managed jointly by haematologist and specialist obstetrician.",
+    "rubric": null
+  },
+  {
+    "index": 44,
+    "id": "layer1_044",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline",
+    "answer": "Yes, generally safe with precautions. Aircraft pressurized to 6,000–8,000 feet. Precautions: regular water intake, walk every 1–2 hours, compression stockings, carry medications in hand luggage, inform airline, discuss supplemental oxygen for long flights, ensure travel insurance.",
+    "rubric": null
+  },
+  {
+    "index": 45,
+    "id": "layer1_045",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline",
+    "answer": "Balanced high-calorie diet. Folic acid 5mg daily. Good hydration. Zinc supplementation may benefit. Avoid alcohol and excess caffeine. No specific foods proven to trigger crises directly.",
+    "rubric": null
+  },
+  {
+    "index": 46,
+    "id": "layer1_046",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "pathophysiology",
+    "answer": "Unpredictable absences are not voluntary. Needs: unrestricted water and toilet access, ability to wear extra layers, flexibility to rest, understanding of prescribed opioids, awareness of stroke symptoms. Fatigue is chronic not laziness. Not contagious. Formal health care plan should be shared with consent.",
+    "rubric": null
+  },
+  {
+    "index": 47,
+    "id": "layer1_047",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "pathophysiology",
+    "answer": "Chronic pain causes depression and anxiety in the majority. Social isolation, absenteeism, opioid stigma, fear of complications, body image issues, caregiver burnout. Routine psychological screening should be standard. Counseling and peer support should be actively offered.",
+    "rubric": null
+  },
+  {
+    "index": 48,
+    "id": "layer1_048",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "pathophysiology",
+    "answer": "Nigeria has the highest SCD burden globally — ~150,000 children born with SCD annually (~45% of global total). Challenges: limited newborn screening, irregular hydroxyurea supply, blood bank shortages, few specialist centres, poor community awareness, stigma, inadequate health insurance. Under-5 mortality far exceeds high-income countries.",
+    "rubric": null
+  },
+  {
+    "index": 49,
+    "id": "layer1_049",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline",
+    "answer": "Written personalised pain plan: specific medications and maximum doses, clear criteria for when to attend hospital, medications to avoid (e.g. pethidine), haematology contact number. Use heat not ice. Keep pain diary. Adequate home analgesia reduces unnecessary admissions.",
+    "rubric": null
+  },
+  {
+    "index": 50,
+    "id": "layer1_050",
+    "layer": 1,
+    "source": "Custom SCD Notes",
+    "category": "pathophysiology",
+    "answer": "Affects cognition via overt stroke, silent cerebral infarcts (20–35% of HbSS children affecting attention and processing speed), chronic anaemia, frequent absences, and pain. All HbSS children should have neuropsychological assessment. Silent infarcts detected by MRI warrant intensified treatment and educational accommodations.",
+    "rubric": null
+  },
+  {
+    "index": 51,
+    "id": "medqa_0",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Positive direct Coombs test",
+    "rubric": null
+  },
+  {
+    "index": 52,
+    "id": "medqa_1",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "The patient should receive serogroup B meningococcal vaccination at the age of 10 years.",
+    "rubric": null
+  },
+  {
+    "index": 53,
+    "id": "medqa_2",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Essential thrombocythemia",
+    "rubric": null
+  },
+  {
+    "index": 54,
+    "id": "medqa_3",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Renal papillary necrosis",
+    "rubric": null
+  },
+  {
+    "index": 55,
+    "id": "medqa_5",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 56,
+    "id": "medqa_6",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell trait",
+    "rubric": null
+  },
+  {
+    "index": 57,
+    "id": "medqa_7",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Chronic hemolysis",
+    "rubric": null
+  },
+  {
+    "index": 58,
+    "id": "medqa_9",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "I, IV",
+    "rubric": null
+  },
+  {
+    "index": 59,
+    "id": "medqa_11",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Salmonella enterica",
+    "rubric": null
+  },
+  {
+    "index": 60,
+    "id": "medqa_12",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Intravenous morphine",
+    "rubric": null
+  },
+  {
+    "index": 61,
+    "id": "medqa_13",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 62,
+    "id": "medqa_14",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Amino acid substitution",
+    "rubric": null
+  },
+  {
+    "index": 63,
+    "id": "medqa_15",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "C3 complement deficiency",
+    "rubric": null
+  },
+  {
+    "index": 64,
+    "id": "medqa_16",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Initial sequence of the 3' end of a DNA strand",
+    "rubric": null
+  },
+  {
+    "index": 65,
+    "id": "medqa_18",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Aplastic crisis",
+    "rubric": null
+  },
+  {
+    "index": 66,
+    "id": "medqa_20",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Segmental sclerosis and negative immunofluorescence and foot process effacement",
+    "rubric": null
+  },
+  {
+    "index": 67,
+    "id": "medqa_24",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Prevents RBC dehydration by inhibiting K+ efflux",
+    "rubric": null
+  },
+  {
+    "index": 68,
+    "id": "medqa_26",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Howell-Jolly bodies",
+    "rubric": null
+  },
+  {
+    "index": 69,
+    "id": "medqa_27",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Streptococcus pneumoniae",
+    "rubric": null
+  },
+  {
+    "index": 70,
+    "id": "medqa_29",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Flow cytometry",
+    "rubric": null
+  },
+  {
+    "index": 71,
+    "id": "medqa_31",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Hearing loss",
+    "rubric": null
+  },
+  {
+    "index": 72,
+    "id": "medqa_34",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Legg-Calve-Perthes disease",
+    "rubric": null
+  },
+  {
+    "index": 73,
+    "id": "medqa_35",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Renal papillary ischemia",
+    "rubric": null
+  },
+  {
+    "index": 74,
+    "id": "medqa_36",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 75,
+    "id": "medqa_38",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Trazodone",
+    "rubric": null
+  },
+  {
+    "index": 76,
+    "id": "medqa_42",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Polysaccharide vaccination",
+    "rubric": null
+  },
+  {
+    "index": 77,
+    "id": "medqa_43",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "ABO incompatibility",
+    "rubric": null
+  },
+  {
+    "index": 78,
+    "id": "medqa_44",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "S. aureus",
+    "rubric": null
+  },
+  {
+    "index": 79,
+    "id": "medqa_45",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Trazodone",
+    "rubric": null
+  },
+  {
+    "index": 80,
+    "id": "medqa_46",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 81,
+    "id": "medqa_47",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Increase in hemoglobin with higher oxygen affinity",
+    "rubric": null
+  },
+  {
+    "index": 82,
+    "id": "medqa_48",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Beta-thalassemia major",
+    "rubric": null
+  },
+  {
+    "index": 83,
+    "id": "medqa_49",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Clostridium perfringens",
+    "rubric": null
+  },
+  {
+    "index": 84,
+    "id": "medqa_52",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Antibiotics and supportive care",
+    "rubric": null
+  },
+  {
+    "index": 85,
+    "id": "medqa_56",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Depression treatment with trazodone",
+    "rubric": null
+  },
+  {
+    "index": 86,
+    "id": "medqa_57",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "An individual needs 2 defective β-globin genes to have the sickle cell trait",
+    "rubric": null
+  },
+  {
+    "index": 87,
+    "id": "medqa_58",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 88,
+    "id": "medqa_60",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Salmonella enterica",
+    "rubric": null
+  },
+  {
+    "index": 89,
+    "id": "medqa_61",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease (SCD)",
+    "rubric": null
+  },
+  {
+    "index": 90,
+    "id": "medqa_63",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Ceftriaxone",
+    "rubric": null
+  },
+  {
+    "index": 91,
+    "id": "medqa_64",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Positive direct Coombs test",
+    "rubric": null
+  },
+  {
+    "index": 92,
+    "id": "medqa_65",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Viral infection",
+    "rubric": null
+  },
+  {
+    "index": 93,
+    "id": "medqa_67",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Parvovirus infection",
+    "rubric": null
+  },
+  {
+    "index": 94,
+    "id": "medqa_68",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Pneumococcal vaccine",
+    "rubric": null
+  },
+  {
+    "index": 95,
+    "id": "medqa_69",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Pneumovax",
+    "rubric": null
+  },
+  {
+    "index": 96,
+    "id": "medqa_70",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 97,
+    "id": "medqa_71",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Penicillin until age 5",
+    "rubric": null
+  },
+  {
+    "index": 98,
+    "id": "medqa_72",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "A recessive beta-globin mutation causing morphological changes to the RBC",
+    "rubric": null
+  },
+  {
+    "index": 99,
+    "id": "medqa_73",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 100,
+    "id": "medqa_74",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Lane 4",
+    "rubric": null
+  },
+  {
+    "index": 101,
+    "id": "medqa_76",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Segmental scarring",
+    "rubric": null
+  },
+  {
+    "index": 102,
+    "id": "medqa_77",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Have the baby sleep in supine position",
+    "rubric": null
+  },
+  {
+    "index": 103,
+    "id": "medqa_78",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Anti-B antibodies",
+    "rubric": null
+  },
+  {
+    "index": 104,
+    "id": "medqa_79",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "1 and 2",
+    "rubric": null
+  },
+  {
+    "index": 105,
+    "id": "medqa_80",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Exchange transfusion",
+    "rubric": null
+  },
+  {
+    "index": 106,
+    "id": "medqa_81",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 107,
+    "id": "medqa_82",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Exchange transfusion",
+    "rubric": null
+  },
+  {
+    "index": 108,
+    "id": "medqa_83",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Increases levels of fetal hemoglobin (HgbF)",
+    "rubric": null
+  },
+  {
+    "index": 109,
+    "id": "medqa_85",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Dog bite",
+    "rubric": null
+  },
+  {
+    "index": 110,
+    "id": "medqa_86",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Alanine",
+    "rubric": null
+  },
+  {
+    "index": 111,
+    "id": "medqa_87",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Impaired urine concentration ability",
+    "rubric": null
+  },
+  {
+    "index": 112,
+    "id": "medqa_88",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "X",
+    "rubric": null
+  },
+  {
+    "index": 113,
+    "id": "medqa_89",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Increase in circulating fetal hemoglobin",
+    "rubric": null
+  },
+  {
+    "index": 114,
+    "id": "medqa_90",
+    "layer": 2,
+    "source": "MedQA",
+    "category": "multiple_choice",
+    "answer": "Hemolytic transfusion reaction; discontinue transfusion",
+    "rubric": null
+  },
+  {
+    "index": 115,
+    "id": "medmcqa_0",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 116,
+    "id": "medmcqa_2",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Missense",
+    "rubric": null
+  },
+  {
+    "index": 117,
+    "id": "medmcqa_9",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Metabisulfite test",
+    "rubric": null
+  },
+  {
+    "index": 118,
+    "id": "medmcqa_10",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Protective against adult malaria",
+    "rubric": null
+  },
+  {
+    "index": 119,
+    "id": "medmcqa_12",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "IV. Regional Anaesthesia",
+    "rubric": null
+  },
+  {
+    "index": 120,
+    "id": "medmcqa_15",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 121,
+    "id": "medmcqa_17",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "A base substitution in DNA",
+    "rubric": null
+  },
+  {
+    "index": 122,
+    "id": "medmcqa_18",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "P. falciparum",
+    "rubric": null
+  },
+  {
+    "index": 123,
+    "id": "medmcqa_19",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "100%",
+    "rubric": null
+  },
+  {
+    "index": 124,
+    "id": "medmcqa_22",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "G6PD deficiency",
+    "rubric": null
+  },
+  {
+    "index": 125,
+    "id": "medmcqa_27",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Missense mutation of beta chain",
+    "rubric": null
+  },
+  {
+    "index": 126,
+    "id": "medmcqa_30",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Barrier method",
+    "rubric": null
+  },
+  {
+    "index": 127,
+    "id": "medmcqa_31",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Renal medullary carcinoma",
+    "rubric": null
+  },
+  {
+    "index": 128,
+    "id": "medmcqa_33",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 129,
+    "id": "medmcqa_35",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 130,
+    "id": "medmcqa_36",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Splenomegaly usually seen",
+    "rubric": null
+  },
+  {
+    "index": 131,
+    "id": "medmcqa_40",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 132,
+    "id": "medmcqa_44",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "B-chain",
+    "rubric": null
+  },
+  {
+    "index": 133,
+    "id": "medmcqa_48",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 134,
+    "id": "medmcqa_50",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anaemia",
+    "rubric": null
+  },
+  {
+    "index": 135,
+    "id": "medmcqa_51",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Heterozygous individuals are at increased risk of Plasmodium falciparum infection",
+    "rubric": null
+  },
+  {
+    "index": 136,
+    "id": "medmcqa_54",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 137,
+    "id": "medmcqa_56",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anaemia",
+    "rubric": null
+  },
+  {
+    "index": 138,
+    "id": "medmcqa_57",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Ringed sideroblast",
+    "rubric": null
+  },
+  {
+    "index": 139,
+    "id": "medmcqa_58",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anaemia",
+    "rubric": null
+  },
+  {
+    "index": 140,
+    "id": "medmcqa_61",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 141,
+    "id": "medmcqa_63",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "bc",
+    "rubric": null
+  },
+  {
+    "index": 142,
+    "id": "medmcqa_64",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Ringedsideroblast",
+    "rubric": null
+  },
+  {
+    "index": 143,
+    "id": "medmcqa_65",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "All of the above",
+    "rubric": null
+  },
+  {
+    "index": 144,
+    "id": "medmcqa_70",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 145,
+    "id": "medmcqa_74",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anaemia",
+    "rubric": null
+  },
+  {
+    "index": 146,
+    "id": "medmcqa_76",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "β-chain",
+    "rubric": null
+  },
+  {
+    "index": 147,
+    "id": "medmcqa_78",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Beta-chain",
+    "rubric": null
+  },
+  {
+    "index": 148,
+    "id": "medmcqa_79",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Intravenous Regional Anesthesia",
+    "rubric": null
+  },
+  {
+    "index": 149,
+    "id": "medmcqa_80",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "2",
+    "rubric": null
+  },
+  {
+    "index": 150,
+    "id": "medmcqa_82",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 151,
+    "id": "medmcqa_83",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "50% HbS is required for occurrence of sickling",
+    "rubric": null
+  },
+  {
+    "index": 152,
+    "id": "medmcqa_84",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 153,
+    "id": "medmcqa_85",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Autosplenectomy",
+    "rubric": null
+  },
+  {
+    "index": 154,
+    "id": "medmcqa_86",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "G6PD deficiency",
+    "rubric": null
+  },
+  {
+    "index": 155,
+    "id": "medmcqa_88",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 156,
+    "id": "medmcqa_91",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Base pair substitution",
+    "rubric": null
+  },
+  {
+    "index": 157,
+    "id": "medmcqa_94",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Myco tuberculosis",
+    "rubric": null
+  },
+  {
+    "index": 158,
+    "id": "medmcqa_99",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Salmonella",
+    "rubric": null
+  },
+  {
+    "index": 159,
+    "id": "medmcqa_102",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "HbA",
+    "rubric": null
+  },
+  {
+    "index": 160,
+    "id": "medmcqa_103",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Parvovirus B19 infection",
+    "rubric": null
+  },
+  {
+    "index": 161,
+    "id": "medmcqa_104",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Autosplenectomy",
+    "rubric": null
+  },
+  {
+    "index": 162,
+    "id": "medmcqa_105",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Splenic dysfunction",
+    "rubric": null
+  },
+  {
+    "index": 163,
+    "id": "medmcqa_106",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Salmonella",
+    "rubric": null
+  },
+  {
+    "index": 164,
+    "id": "medmcqa_107",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 165,
+    "id": "medmcqa_108",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "b- Thalassemia trait",
+    "rubric": null
+  },
+  {
+    "index": 166,
+    "id": "medmcqa_109",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia and Iron deficiency anemia",
+    "rubric": null
+  },
+  {
+    "index": 167,
+    "id": "medmcqa_110",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Inherited as AR",
+    "rubric": null
+  },
+  {
+    "index": 168,
+    "id": "medmcqa_111",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Parvovirus B19",
+    "rubric": null
+  },
+  {
+    "index": 169,
+    "id": "medmcqa_112",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia major",
+    "rubric": null
+  },
+  {
+    "index": 170,
+    "id": "medmcqa_115",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sticky patch is generated as a result of replacement of a non polar residue with a polar residue",
+    "rubric": null
+  },
+  {
+    "index": 171,
+    "id": "medmcqa_116",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Chondrocalcinosis.",
+    "rubric": null
+  },
+  {
+    "index": 172,
+    "id": "medmcqa_118",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Bone infarction",
+    "rubric": null
+  },
+  {
+    "index": 173,
+    "id": "medmcqa_119",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 174,
+    "id": "medmcqa_122",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 175,
+    "id": "medmcqa_124",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "High hematocrit",
+    "rubric": null
+  },
+  {
+    "index": 176,
+    "id": "medmcqa_126",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 177,
+    "id": "medmcqa_127",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "0 and 100%",
+    "rubric": null
+  },
+  {
+    "index": 178,
+    "id": "medmcqa_128",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Beta thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 179,
+    "id": "medmcqa_132",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "High recticulocyte count",
+    "rubric": null
+  },
+  {
+    "index": 180,
+    "id": "medmcqa_134",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 181,
+    "id": "medmcqa_136",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Beta thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 182,
+    "id": "medmcqa_137",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "α–thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 183,
+    "id": "medmcqa_139",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Moderate to massive spleenomegaly",
+    "rubric": null
+  },
+  {
+    "index": 184,
+    "id": "medmcqa_140",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "G6PD deficiency",
+    "rubric": null
+  },
+  {
+    "index": 185,
+    "id": "medmcqa_141",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Fever",
+    "rubric": null
+  },
+  {
+    "index": 186,
+    "id": "medmcqa_143",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Salmonella",
+    "rubric": null
+  },
+  {
+    "index": 187,
+    "id": "medmcqa_144",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 188,
+    "id": "medmcqa_145",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Malaria",
+    "rubric": null
+  },
+  {
+    "index": 189,
+    "id": "medmcqa_146",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 190,
+    "id": "medmcqa_147",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Plasmodium falciparum",
+    "rubric": null
+  },
+  {
+    "index": 191,
+    "id": "medmcqa_148",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "G6PD deficiency",
+    "rubric": null
+  },
+  {
+    "index": 192,
+    "id": "medmcqa_149",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "CTC → CAC in DNA",
+    "rubric": null
+  },
+  {
+    "index": 193,
+    "id": "medmcqa_150",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Condom or diaphragm",
+    "rubric": null
+  },
+  {
+    "index": 194,
+    "id": "medmcqa_152",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 195,
+    "id": "medmcqa_153",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "High performance liquid chromatography",
+    "rubric": null
+  },
+  {
+    "index": 196,
+    "id": "medmcqa_155",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 197,
+    "id": "medmcqa_157",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "All of the above",
+    "rubric": null
+  },
+  {
+    "index": 198,
+    "id": "medmcqa_160",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 199,
+    "id": "medmcqa_161",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Glu by val in β6",
+    "rubric": null
+  },
+  {
+    "index": 200,
+    "id": "medmcqa_163",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 201,
+    "id": "medmcqa_164",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell retinopathy",
+    "rubric": null
+  },
+  {
+    "index": 202,
+    "id": "medmcqa_165",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Salmonella",
+    "rubric": null
+  },
+  {
+    "index": 203,
+    "id": "medmcqa_169",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 204,
+    "id": "medmcqa_172",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Beta thalassemia trait",
+    "rubric": null
+  },
+  {
+    "index": 205,
+    "id": "medmcqa_173",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "abc",
+    "rubric": null
+  },
+  {
+    "index": 206,
+    "id": "medmcqa_176",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 207,
+    "id": "medmcqa_178",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "50% HbS is required for occurrence of sickling",
+    "rubric": null
+  },
+  {
+    "index": 208,
+    "id": "medmcqa_181",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Intravenous regional anesthesia",
+    "rubric": null
+  },
+  {
+    "index": 209,
+    "id": "medmcqa_184",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 210,
+    "id": "medmcqa_186",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "50% HbS is required for occurrence of sickling",
+    "rubric": null
+  },
+  {
+    "index": 211,
+    "id": "medmcqa_188",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Hemolysis is predominantly intravascular",
+    "rubric": null
+  },
+  {
+    "index": 212,
+    "id": "medmcqa_189",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Valine instead of glutamic acid in the 6th position of b chain",
+    "rubric": null
+  },
+  {
+    "index": 213,
+    "id": "medmcqa_190",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Beta thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 214,
+    "id": "medmcqa_191",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Hay fever, sickle cell anemia and tuberculosis are contraindications for vaccination",
+    "rubric": null
+  },
+  {
+    "index": 215,
+    "id": "medmcqa_192",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 216,
+    "id": "medmcqa_196",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Malaria",
+    "rubric": null
+  },
+  {
+    "index": 217,
+    "id": "medmcqa_197",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 218,
+    "id": "medmcqa_198",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Deletion of gene",
+    "rubric": null
+  },
+  {
+    "index": 219,
+    "id": "medmcqa_200",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Missense",
+    "rubric": null
+  },
+  {
+    "index": 220,
+    "id": "medmcqa_201",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease (SS)",
+    "rubric": null
+  },
+  {
+    "index": 221,
+    "id": "medmcqa_203",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 222,
+    "id": "medmcqa_206",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sticky patch is generated as a result of replacement of a non polar residue with a polar residue",
+    "rubric": null
+  },
+  {
+    "index": 223,
+    "id": "medmcqa_208",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Beta thalassemia major",
+    "rubric": null
+  },
+  {
+    "index": 224,
+    "id": "medmcqa_210",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Bone pain",
+    "rubric": null
+  },
+  {
+    "index": 225,
+    "id": "medmcqa_211",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Priapism.",
+    "rubric": null
+  },
+  {
+    "index": 226,
+    "id": "medmcqa_212",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "All",
+    "rubric": null
+  },
+  {
+    "index": 227,
+    "id": "medmcqa_213",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Ringed sideroblast",
+    "rubric": null
+  },
+  {
+    "index": 228,
+    "id": "medmcqa_214",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "a-thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 229,
+    "id": "medmcqa_215",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Alpha thalassemia trait",
+    "rubric": null
+  },
+  {
+    "index": 230,
+    "id": "medmcqa_216",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Bone pain",
+    "rubric": null
+  },
+  {
+    "index": 231,
+    "id": "medmcqa_217",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "High hematocrit",
+    "rubric": null
+  },
+  {
+    "index": 232,
+    "id": "medmcqa_218",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 233,
+    "id": "medmcqa_219",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Ribonucleotide diphosphate reductase",
+    "rubric": null
+  },
+  {
+    "index": 234,
+    "id": "medmcqa_220",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 235,
+    "id": "medmcqa_222",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "G6PD deficiency",
+    "rubric": null
+  },
+  {
+    "index": 236,
+    "id": "medmcqa_223",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Medullary",
+    "rubric": null
+  },
+  {
+    "index": 237,
+    "id": "medmcqa_224",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "0 and 100%",
+    "rubric": null
+  },
+  {
+    "index": 238,
+    "id": "medmcqa_226",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 239,
+    "id": "medmcqa_227",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 240,
+    "id": "medmcqa_230",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anaemia",
+    "rubric": null
+  },
+  {
+    "index": 241,
+    "id": "medmcqa_231",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Myco tuberculosis",
+    "rubric": null
+  },
+  {
+    "index": 242,
+    "id": "medmcqa_232",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 243,
+    "id": "medmcqa_233",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 244,
+    "id": "medmcqa_234",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Falx Cerebri",
+    "rubric": null
+  },
+  {
+    "index": 245,
+    "id": "medmcqa_237",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "I.V. Regional Anaesthesia",
+    "rubric": null
+  },
+  {
+    "index": 246,
+    "id": "medmcqa_238",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "IVRA (intravenous regional anesthesia)",
+    "rubric": null
+  },
+  {
+    "index": 247,
+    "id": "medmcqa_242",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 248,
+    "id": "medmcqa_244",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Deoxyhemoglobin",
+    "rubric": null
+  },
+  {
+    "index": 249,
+    "id": "medmcqa_245",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 250,
+    "id": "medmcqa_247",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Nohern blot analysis",
+    "rubric": null
+  },
+  {
+    "index": 251,
+    "id": "medmcqa_249",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 252,
+    "id": "medmcqa_250",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "pregnant women and sickle-cell anemics",
+    "rubric": null
+  },
+  {
+    "index": 253,
+    "id": "medmcqa_251",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "100%",
+    "rubric": null
+  },
+  {
+    "index": 254,
+    "id": "medmcqa_252",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Glutamtic acid, at position No.6 of beta-globin chain of haemoglobin is replaced by valine",
+    "rubric": null
+  },
+  {
+    "index": 255,
+    "id": "medmcqa_254",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Replacement of glutamate by valine in b-chain of HbA",
+    "rubric": null
+  },
+  {
+    "index": 256,
+    "id": "medmcqa_256",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 257,
+    "id": "medmcqa_257",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Beta-thalassemia (major)",
+    "rubric": null
+  },
+  {
+    "index": 258,
+    "id": "medmcqa_260",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 259,
+    "id": "medmcqa_262",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Deletion of gene",
+    "rubric": null
+  },
+  {
+    "index": 260,
+    "id": "medmcqa_264",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Hepatogenic hypoglycemia",
+    "rubric": null
+  },
+  {
+    "index": 261,
+    "id": "medmcqa_265",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 262,
+    "id": "medmcqa_266",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Autosomal recessive",
+    "rubric": null
+  },
+  {
+    "index": 263,
+    "id": "medmcqa_267",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "HbA",
+    "rubric": null
+  },
+  {
+    "index": 264,
+    "id": "medmcqa_271",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "HbA",
+    "rubric": null
+  },
+  {
+    "index": 265,
+    "id": "medmcqa_272",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "100%",
+    "rubric": null
+  },
+  {
+    "index": 266,
+    "id": "medmcqa_273",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "50% HbS is required for occurrence of sickling",
+    "rubric": null
+  },
+  {
+    "index": 267,
+    "id": "medmcqa_274",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 268,
+    "id": "medmcqa_275",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "abd",
+    "rubric": null
+  },
+  {
+    "index": 269,
+    "id": "medmcqa_276",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 270,
+    "id": "medmcqa_277",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Decreased ESR",
+    "rubric": null
+  },
+  {
+    "index": 271,
+    "id": "medmcqa_278",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Replacement of glutamate by valine in b-chain of HbA",
+    "rubric": null
+  },
+  {
+    "index": 272,
+    "id": "medmcqa_279",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Solubility",
+    "rubric": null
+  },
+  {
+    "index": 273,
+    "id": "medmcqa_280",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Salmonella typhi",
+    "rubric": null
+  },
+  {
+    "index": 274,
+    "id": "medmcqa_281",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "cde",
+    "rubric": null
+  },
+  {
+    "index": 275,
+    "id": "medmcqa_282",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 276,
+    "id": "medmcqa_286",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell Anemia",
+    "rubric": null
+  },
+  {
+    "index": 277,
+    "id": "medmcqa_290",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 278,
+    "id": "medmcqa_291",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Aplastic crisis from parvovirus B19 infection",
+    "rubric": null
+  },
+  {
+    "index": 279,
+    "id": "medmcqa_293",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 280,
+    "id": "medmcqa_295",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Oral Pill",
+    "rubric": null
+  },
+  {
+    "index": 281,
+    "id": "medmcqa_297",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 282,
+    "id": "medmcqa_298",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 283,
+    "id": "medmcqa_299",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 284,
+    "id": "medmcqa_301",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 285,
+    "id": "medmcqa_304",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "P. Falciparum",
+    "rubric": null
+  },
+  {
+    "index": 286,
+    "id": "medmcqa_306",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "avascular necrosis (AVN) of the femoral head",
+    "rubric": null
+  },
+  {
+    "index": 287,
+    "id": "medmcqa_311",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sticky patch is generated as a result of replacement of a nonpolar residue with a polar residue",
+    "rubric": null
+  },
+  {
+    "index": 288,
+    "id": "medmcqa_319",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 289,
+    "id": "medmcqa_321",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Patient presents early in life before 6 months of age",
+    "rubric": null
+  },
+  {
+    "index": 290,
+    "id": "medmcqa_324",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anaemia",
+    "rubric": null
+  },
+  {
+    "index": 291,
+    "id": "medmcqa_327",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 292,
+    "id": "medmcqa_328",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "She should receive daily sildenafil.",
+    "rubric": null
+  },
+  {
+    "index": 293,
+    "id": "medmcqa_330",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle Cell Anemia",
+    "rubric": null
+  },
+  {
+    "index": 294,
+    "id": "medmcqa_332",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 295,
+    "id": "medmcqa_333",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "HbS concentration",
+    "rubric": null
+  },
+  {
+    "index": 296,
+    "id": "medmcqa_338",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anaemia",
+    "rubric": null
+  },
+  {
+    "index": 297,
+    "id": "medmcqa_339",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 298,
+    "id": "medmcqa_340",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 299,
+    "id": "medmcqa_341",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Decrease in reticulocytes",
+    "rubric": null
+  },
+  {
+    "index": 300,
+    "id": "medmcqa_342",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 301,
+    "id": "medmcqa_343",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 302,
+    "id": "medmcqa_345",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Adults but not children; with  sickle  cell  disease  are  functionally  asplenic,  making them  susceptible  to  infections  caused  by  encapsulated  bacteria,  such  as  pneumococci.",
+    "rubric": null
+  },
+  {
+    "index": 303,
+    "id": "medmcqa_346",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 304,
+    "id": "medmcqa_347",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Streptococcal infection",
+    "rubric": null
+  },
+  {
+    "index": 305,
+    "id": "medmcqa_348",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Oral bioavailability is very less",
+    "rubric": null
+  },
+  {
+    "index": 306,
+    "id": "medmcqa_351",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Pop",
+    "rubric": null
+  },
+  {
+    "index": 307,
+    "id": "medmcqa_353",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Medullary",
+    "rubric": null
+  },
+  {
+    "index": 308,
+    "id": "medmcqa_354",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Plasmodium falciparum",
+    "rubric": null
+  },
+  {
+    "index": 309,
+    "id": "medmcqa_356",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 310,
+    "id": "medmcqa_358",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 311,
+    "id": "medmcqa_359",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "cde",
+    "rubric": null
+  },
+  {
+    "index": 312,
+    "id": "medmcqa_360",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Alpha Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 313,
+    "id": "medmcqa_361",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 314,
+    "id": "medmcqa_362",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickling is reversible with oxygenation",
+    "rubric": null
+  },
+  {
+    "index": 315,
+    "id": "medmcqa_364",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": ">Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 316,
+    "id": "medmcqa_365",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "abd",
+    "rubric": null
+  },
+  {
+    "index": 317,
+    "id": "medmcqa_366",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Salmonella species",
+    "rubric": null
+  },
+  {
+    "index": 318,
+    "id": "medmcqa_367",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 319,
+    "id": "medmcqa_368",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Parvovirus B19",
+    "rubric": null
+  },
+  {
+    "index": 320,
+    "id": "medmcqa_373",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 321,
+    "id": "medmcqa_375",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 322,
+    "id": "medmcqa_376",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 323,
+    "id": "medmcqa_377",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "HbA",
+    "rubric": null
+  },
+  {
+    "index": 324,
+    "id": "medmcqa_385",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Nohern blot analysis",
+    "rubric": null
+  },
+  {
+    "index": 325,
+    "id": "medmcqa_389",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "HbA",
+    "rubric": null
+  },
+  {
+    "index": 326,
+    "id": "medmcqa_390",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Decreased Solubility",
+    "rubric": null
+  },
+  {
+    "index": 327,
+    "id": "medmcqa_393",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Spinal cord disease",
+    "rubric": null
+  },
+  {
+    "index": 328,
+    "id": "medmcqa_395",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 329,
+    "id": "medmcqa_396",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 330,
+    "id": "medmcqa_398",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Patients usually presents before the age of 6 months",
+    "rubric": null
+  },
+  {
+    "index": 331,
+    "id": "medmcqa_399",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 332,
+    "id": "medmcqa_400",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 333,
+    "id": "medmcqa_401",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 334,
+    "id": "medmcqa_402",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Replacement of glutamate by valine in β–chain of HbA",
+    "rubric": null
+  },
+  {
+    "index": 335,
+    "id": "medmcqa_403",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "P. falciparum",
+    "rubric": null
+  },
+  {
+    "index": 336,
+    "id": "medmcqa_404",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "A base substitution in DNA",
+    "rubric": null
+  },
+  {
+    "index": 337,
+    "id": "medmcqa_405",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "fl-Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 338,
+    "id": "medmcqa_408",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia major",
+    "rubric": null
+  },
+  {
+    "index": 339,
+    "id": "medmcqa_409",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Ribonucleoside diphosphate reductase",
+    "rubric": null
+  },
+  {
+    "index": 340,
+    "id": "medmcqa_412",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "'Sticky patch' is generated as a result of replacement of a non polar residue with a polar residue",
+    "rubric": null
+  },
+  {
+    "index": 341,
+    "id": "medmcqa_413",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Bone infarction",
+    "rubric": null
+  },
+  {
+    "index": 342,
+    "id": "medmcqa_415",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "β-Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 343,
+    "id": "medmcqa_416",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 344,
+    "id": "medmcqa_420",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Beta thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 345,
+    "id": "medmcqa_421",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 346,
+    "id": "medmcqa_422",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "ad",
+    "rubric": null
+  },
+  {
+    "index": 347,
+    "id": "medmcqa_423",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 348,
+    "id": "medmcqa_424",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Medullary",
+    "rubric": null
+  },
+  {
+    "index": 349,
+    "id": "medmcqa_425",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "High hematocrit",
+    "rubric": null
+  },
+  {
+    "index": 350,
+    "id": "medmcqa_427",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "GUG",
+    "rubric": null
+  },
+  {
+    "index": 351,
+    "id": "medmcqa_430",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Beta-thalassemia (major)",
+    "rubric": null
+  },
+  {
+    "index": 352,
+    "id": "medmcqa_431",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease (SS)",
+    "rubric": null
+  },
+  {
+    "index": 353,
+    "id": "medmcqa_433",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 354,
+    "id": "medmcqa_434",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "ac",
+    "rubric": null
+  },
+  {
+    "index": 355,
+    "id": "medmcqa_435",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Massive splenomegaly",
+    "rubric": null
+  },
+  {
+    "index": 356,
+    "id": "medmcqa_436",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Parvovirus",
+    "rubric": null
+  },
+  {
+    "index": 357,
+    "id": "medmcqa_437",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Replacement of glutamate by valine in B-chain of HbA",
+    "rubric": null
+  },
+  {
+    "index": 358,
+    "id": "medmcqa_439",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 359,
+    "id": "medmcqa_440",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle Cell Disease",
+    "rubric": null
+  },
+  {
+    "index": 360,
+    "id": "medmcqa_442",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 361,
+    "id": "medmcqa_443",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sticky patch' is generated as a result of replacement of a non polar residue with a polar residue",
+    "rubric": null
+  },
+  {
+    "index": 362,
+    "id": "medmcqa_444",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 363,
+    "id": "medmcqa_446",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Raised HbF",
+    "rubric": null
+  },
+  {
+    "index": 364,
+    "id": "medmcqa_447",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 365,
+    "id": "medmcqa_453",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 366,
+    "id": "medmcqa_457",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "cd",
+    "rubric": null
+  },
+  {
+    "index": 367,
+    "id": "medmcqa_460",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Leg ulcers",
+    "rubric": null
+  },
+  {
+    "index": 368,
+    "id": "medmcqa_461",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 369,
+    "id": "medmcqa_465",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 370,
+    "id": "medmcqa_466",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "thalassemia minor",
+    "rubric": null
+  },
+  {
+    "index": 371,
+    "id": "medmcqa_470",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Glu by val in b6",
+    "rubric": null
+  },
+  {
+    "index": 372,
+    "id": "medmcqa_471",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Solubility",
+    "rubric": null
+  },
+  {
+    "index": 373,
+    "id": "medmcqa_474",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 374,
+    "id": "medmcqa_475",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 375,
+    "id": "medmcqa_480",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Valine for glutamic acid at the sixth position of beta chain",
+    "rubric": null
+  },
+  {
+    "index": 376,
+    "id": "medmcqa_484",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 377,
+    "id": "medmcqa_486",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 378,
+    "id": "medmcqa_492",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 379,
+    "id": "medmcqa_493",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 380,
+    "id": "medmcqa_494",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Salmonella",
+    "rubric": null
+  },
+  {
+    "index": 381,
+    "id": "medmcqa_496",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 382,
+    "id": "medmcqa_497",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "bcd",
+    "rubric": null
+  },
+  {
+    "index": 383,
+    "id": "medmcqa_500",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell Anemia",
+    "rubric": null
+  },
+  {
+    "index": 384,
+    "id": "medmcqa_503",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Hay fever, sickle cell anemia and tuberculosis are contraindications for vaccination",
+    "rubric": null
+  },
+  {
+    "index": 385,
+    "id": "medmcqa_506",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 386,
+    "id": "medmcqa_508",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Intravenous Regional Anaesthesia",
+    "rubric": null
+  },
+  {
+    "index": 387,
+    "id": "medmcqa_509",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "abd",
+    "rubric": null
+  },
+  {
+    "index": 388,
+    "id": "medmcqa_511",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Valine replaces glutamate",
+    "rubric": null
+  },
+  {
+    "index": 389,
+    "id": "medmcqa_513",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Staphylococcus epidermidis",
+    "rubric": null
+  },
+  {
+    "index": 390,
+    "id": "medmcqa_514",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sticky patch is generated as a result of replacement of a non polar residue with a polar residue",
+    "rubric": null
+  },
+  {
+    "index": 391,
+    "id": "medmcqa_515",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Parvovirus",
+    "rubric": null
+  },
+  {
+    "index": 392,
+    "id": "medmcqa_517",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 393,
+    "id": "medmcqa_519",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 394,
+    "id": "medmcqa_527",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "100%",
+    "rubric": null
+  },
+  {
+    "index": 395,
+    "id": "medmcqa_528",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "50% HbS is required for occurrence of sickling",
+    "rubric": null
+  },
+  {
+    "index": 396,
+    "id": "medmcqa_529",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "0% and 100%",
+    "rubric": null
+  },
+  {
+    "index": 397,
+    "id": "medmcqa_531",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Malaria",
+    "rubric": null
+  },
+  {
+    "index": 398,
+    "id": "medmcqa_532",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "b-chain",
+    "rubric": null
+  },
+  {
+    "index": 399,
+    "id": "medmcqa_533",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Base substitution mutation",
+    "rubric": null
+  },
+  {
+    "index": 400,
+    "id": "medmcqa_536",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "0 and 100%",
+    "rubric": null
+  },
+  {
+    "index": 401,
+    "id": "medmcqa_538",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 402,
+    "id": "medmcqa_541",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 403,
+    "id": "medmcqa_542",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Patient presents early in life before 6 months of life",
+    "rubric": null
+  },
+  {
+    "index": 404,
+    "id": "medmcqa_543",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "2",
+    "rubric": null
+  },
+  {
+    "index": 405,
+    "id": "medmcqa_544",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Splenomegaly",
+    "rubric": null
+  },
+  {
+    "index": 406,
+    "id": "medmcqa_546",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 407,
+    "id": "medmcqa_547",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 408,
+    "id": "medmcqa_548",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Normal reticulocyte count",
+    "rubric": null
+  },
+  {
+    "index": 409,
+    "id": "medmcqa_549",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Bone pain",
+    "rubric": null
+  },
+  {
+    "index": 410,
+    "id": "medmcqa_550",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "P. falciparum",
+    "rubric": null
+  },
+  {
+    "index": 411,
+    "id": "medmcqa_551",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anaemia",
+    "rubric": null
+  },
+  {
+    "index": 412,
+    "id": "medmcqa_552",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "P. falciparum",
+    "rubric": null
+  },
+  {
+    "index": 413,
+    "id": "medmcqa_554",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 414,
+    "id": "medmcqa_557",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Leucopenia",
+    "rubric": null
+  },
+  {
+    "index": 415,
+    "id": "medmcqa_558",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Acidosis",
+    "rubric": null
+  },
+  {
+    "index": 416,
+    "id": "medmcqa_559",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Acidosis",
+    "rubric": null
+  },
+  {
+    "index": 417,
+    "id": "medmcqa_560",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Plasmodium falciparum",
+    "rubric": null
+  },
+  {
+    "index": 418,
+    "id": "medmcqa_562",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Infarctions",
+    "rubric": null
+  },
+  {
+    "index": 419,
+    "id": "medmcqa_565",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Bone pain",
+    "rubric": null
+  },
+  {
+    "index": 420,
+    "id": "medmcqa_567",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Isosthenuria",
+    "rubric": null
+  },
+  {
+    "index": 421,
+    "id": "medmcqa_569",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Autosplenectomy due to thrombosis &infarction",
+    "rubric": null
+  },
+  {
+    "index": 422,
+    "id": "medmcqa_570",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "G6PD deficiency",
+    "rubric": null
+  },
+  {
+    "index": 423,
+    "id": "medmcqa_571",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Beta-thalassemia (major)",
+    "rubric": null
+  },
+  {
+    "index": 424,
+    "id": "medmcqa_572",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Salmonella",
+    "rubric": null
+  },
+  {
+    "index": 425,
+    "id": "medmcqa_573",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Valine",
+    "rubric": null
+  },
+  {
+    "index": 426,
+    "id": "medmcqa_574",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Calcium bilirubinate",
+    "rubric": null
+  },
+  {
+    "index": 427,
+    "id": "medmcqa_576",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 428,
+    "id": "medmcqa_580",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "2",
+    "rubric": null
+  },
+  {
+    "index": 429,
+    "id": "medmcqa_582",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Beta thalassemia major",
+    "rubric": null
+  },
+  {
+    "index": 430,
+    "id": "medmcqa_583",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "It is motile and does not ferment lactose",
+    "rubric": null
+  },
+  {
+    "index": 431,
+    "id": "medmcqa_584",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Beta chain",
+    "rubric": null
+  },
+  {
+    "index": 432,
+    "id": "medmcqa_589",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Medullary",
+    "rubric": null
+  },
+  {
+    "index": 433,
+    "id": "medmcqa_590",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 434,
+    "id": "medmcqa_591",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "'Sticky patch' is generated as a result of replacement of a non polar residue with a polar residue",
+    "rubric": null
+  },
+  {
+    "index": 435,
+    "id": "medmcqa_592",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "None of the above",
+    "rubric": null
+  },
+  {
+    "index": 436,
+    "id": "medmcqa_594",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Valine",
+    "rubric": null
+  },
+  {
+    "index": 437,
+    "id": "medmcqa_595",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 438,
+    "id": "medmcqa_596",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sticky patch is generated as a result of replacement of a non polar residue with a polar residue",
+    "rubric": null
+  },
+  {
+    "index": 439,
+    "id": "medmcqa_599",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Acidemia, metabolic acidosis, respiratory alkalosis, and hypoxia",
+    "rubric": null
+  },
+  {
+    "index": 440,
+    "id": "medmcqa_600",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Alpha Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 441,
+    "id": "medmcqa_601",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Bilirubin",
+    "rubric": null
+  },
+  {
+    "index": 442,
+    "id": "medmcqa_602",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 443,
+    "id": "medmcqa_603",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cells on peripheral blood smear",
+    "rubric": null
+  },
+  {
+    "index": 444,
+    "id": "medmcqa_604",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 445,
+    "id": "medmcqa_605",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 446,
+    "id": "medmcqa_608",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Mutation in alpha chain",
+    "rubric": null
+  },
+  {
+    "index": 447,
+    "id": "medmcqa_610",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Deoxyhemoglobin",
+    "rubric": null
+  },
+  {
+    "index": 448,
+    "id": "medmcqa_611",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anaemia",
+    "rubric": null
+  },
+  {
+    "index": 449,
+    "id": "medmcqa_619",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle Cell Disease",
+    "rubric": null
+  },
+  {
+    "index": 450,
+    "id": "medmcqa_620",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Salmonella",
+    "rubric": null
+  },
+  {
+    "index": 451,
+    "id": "medmcqa_621",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "abce",
+    "rubric": null
+  },
+  {
+    "index": 452,
+    "id": "medmcqa_622",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 453,
+    "id": "medmcqa_623",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Missense mutation",
+    "rubric": null
+  },
+  {
+    "index": 454,
+    "id": "medmcqa_624",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Salmonella enteritidis",
+    "rubric": null
+  },
+  {
+    "index": 455,
+    "id": "medmcqa_625",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Splenomegaly",
+    "rubric": null
+  },
+  {
+    "index": 456,
+    "id": "medmcqa_626",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Seidel's sign",
+    "rubric": null
+  },
+  {
+    "index": 457,
+    "id": "medmcqa_633",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "2",
+    "rubric": null
+  },
+  {
+    "index": 458,
+    "id": "medmcqa_634",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 459,
+    "id": "medmcqa_636",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anaemia",
+    "rubric": null
+  },
+  {
+    "index": 460,
+    "id": "medmcqa_640",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "HbA first appears in fetal blood at 11 weeks when bone marrow stas hematopoiesis",
+    "rubric": null
+  },
+  {
+    "index": 461,
+    "id": "medmcqa_641",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 462,
+    "id": "medmcqa_643",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "All of the above",
+    "rubric": null
+  },
+  {
+    "index": 463,
+    "id": "medmcqa_646",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Both IgA nephropathy and sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 464,
+    "id": "medmcqa_650",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 465,
+    "id": "medmcqa_651",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Northern blot analysis",
+    "rubric": null
+  },
+  {
+    "index": 466,
+    "id": "medmcqa_655",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 467,
+    "id": "medmcqa_656",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anaemia",
+    "rubric": null
+  },
+  {
+    "index": 468,
+    "id": "medmcqa_660",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 469,
+    "id": "medmcqa_662",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 470,
+    "id": "medmcqa_664",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Leukopenia",
+    "rubric": null
+  },
+  {
+    "index": 471,
+    "id": "medmcqa_665",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Beta-thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 472,
+    "id": "medmcqa_666",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Intake of primaquine",
+    "rubric": null
+  },
+  {
+    "index": 473,
+    "id": "medmcqa_670",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "I.V. Regional Anaesthesia",
+    "rubric": null
+  },
+  {
+    "index": 474,
+    "id": "medmcqa_671",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Malaria",
+    "rubric": null
+  },
+  {
+    "index": 475,
+    "id": "medmcqa_673",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Replacement of glutamate by valine in b-chain of HbA",
+    "rubric": null
+  },
+  {
+    "index": 476,
+    "id": "medmcqa_674",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell disease",
+    "rubric": null
+  },
+  {
+    "index": 477,
+    "id": "medmcqa_676",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Hydroxyurea",
+    "rubric": null
+  },
+  {
+    "index": 478,
+    "id": "medmcqa_679",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "75 to 100% haemoglobin",
+    "rubric": null
+  },
+  {
+    "index": 479,
+    "id": "medmcqa_680",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 480,
+    "id": "medmcqa_681",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Splenomegaly usually seen",
+    "rubric": null
+  },
+  {
+    "index": 481,
+    "id": "medmcqa_682",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Splenomegaly usually seen",
+    "rubric": null
+  },
+  {
+    "index": 482,
+    "id": "medmcqa_683",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 483,
+    "id": "medmcqa_684",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Nohern blot analysis",
+    "rubric": null
+  },
+  {
+    "index": 484,
+    "id": "medmcqa_685",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "B - Thalassemia",
+    "rubric": null
+  },
+  {
+    "index": 485,
+    "id": "medmcqa_686",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Decreased ESR",
+    "rubric": null
+  },
+  {
+    "index": 486,
+    "id": "medmcqa_688",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "GUG",
+    "rubric": null
+  },
+  {
+    "index": 487,
+    "id": "medmcqa_690",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Reduction in TLC",
+    "rubric": null
+  },
+  {
+    "index": 488,
+    "id": "medmcqa_691",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickling occurs both in heterozygous and homozygous state",
+    "rubric": null
+  },
+  {
+    "index": 489,
+    "id": "medmcqa_692",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Substitution of valine by glutamic acid",
+    "rubric": null
+  },
+  {
+    "index": 490,
+    "id": "medmcqa_693",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Chymotrypsin",
+    "rubric": null
+  },
+  {
+    "index": 491,
+    "id": "medmcqa_694",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "IV Regional anaesthesia",
+    "rubric": null
+  },
+  {
+    "index": 492,
+    "id": "medmcqa_696",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Butyrates",
+    "rubric": null
+  },
+  {
+    "index": 493,
+    "id": "medmcqa_697",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "non-sensemutation",
+    "rubric": null
+  },
+  {
+    "index": 494,
+    "id": "medmcqa_702",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Hemophilia",
+    "rubric": null
+  },
+  {
+    "index": 495,
+    "id": "medmcqa_703",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 496,
+    "id": "medmcqa_705",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Valine for glutamate",
+    "rubric": null
+  },
+  {
+    "index": 497,
+    "id": "medmcqa_707",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia patient",
+    "rubric": null
+  },
+  {
+    "index": 498,
+    "id": "medmcqa_708",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anaemia",
+    "rubric": null
+  },
+  {
+    "index": 499,
+    "id": "medmcqa_709",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 500,
+    "id": "medmcqa_710",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point",
+    "rubric": null
+  },
+  {
+    "index": 501,
+    "id": "medmcqa_712",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Sickle cell anemia",
+    "rubric": null
+  },
+  {
+    "index": 502,
+    "id": "medmcqa_714",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Point mutation",
+    "rubric": null
+  },
+  {
+    "index": 503,
+    "id": "medmcqa_717",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Beta thalassemic trait",
+    "rubric": null
+  },
+  {
+    "index": 504,
+    "id": "medmcqa_718",
+    "layer": 2,
+    "source": "MedMCQA",
+    "category": "multiple_choice",
+    "answer": "Decreased",
+    "rubric": null
+  },
+  {
+    "index": 505,
+    "id": "pubmedqa_0",
+    "layer": 2,
+    "source": "PubMedQA",
+    "category": "yes_no_maybe",
+    "answer": "no",
+    "rubric": null
+  },
+  {
+    "index": 506,
+    "id": "pubmedqa_1",
+    "layer": 2,
+    "source": "PubMedQA",
+    "category": "yes_no_maybe",
+    "answer": "no",
+    "rubric": null
+  },
+  {
+    "index": 507,
+    "id": "layer3_001",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "dosing_guideline",
+    "answer": "Once a stable dose is achieved, monitoring should occur every 2 to 3 months. Essential parameters: Full Blood Count (Hb, MCV, neutrophils, platelets), renal function (biochemistry), and liver function tests.",
+    "rubric": null
+  },
+  {
+    "index": 508,
+    "id": "layer3_002",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "contraindication",
+    "answer": "Hydroxyurea is potentially teratogenic. It must be discontinued at least 3 months prior to planned conception, and effective contraception must be used during therapy.",
+    "rubric": null
+  },
+  {
+    "index": 509,
+    "id": "layer3_003",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "screening_schedule",
+    "answer": "Routine annual TCD screening is not standard practice in adults. TCD velocities are not validated for stroke prediction in adults as they are in children. Adult stroke risk management focuses on clinical history and direct neuroimaging (MRI/MRA) if symptomatic.",
+    "rubric": null
+  },
+  {
+    "index": 510,
+    "id": "layer3_004",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "treatment_threshold",
+    "answer": "All patients must receive red blood cells fully matched for extended phenotypes, specifically Rh (C, c, E, e) and Kell antigens, in addition to standard ABO matching.",
+    "rubric": null
+  },
+  {
+    "index": 511,
+    "id": "layer3_005",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "treatment_threshold",
+    "answer": "Adults should be assessed for iron overload after receiving more than 20 units of blood or when serum ferritin levels systematically rise above 1,000 µg/L.",
+    "rubric": null
+  },
+  {
+    "index": 512,
+    "id": "layer3_006",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "emergency_management",
+    "answer": "An immediate CT or MRI brain scan must be performed within 1 hour of presentation to differentiate between ischemic and hemorrhagic stroke.",
+    "rubric": null
+  },
+  {
+    "index": 513,
+    "id": "layer3_007",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "emergency_management",
+    "answer": "Emergency automated red cell exchange transfusion, aimed at reducing HbS percentage to less than 30% while avoiding hyperviscosity.",
+    "rubric": null
+  },
+  {
+    "index": 514,
+    "id": "layer3_008",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "diagnosis_criteria",
+    "answer": "New pulmonary infiltrate on chest radiograph involving at least one complete lung lobe, accompanied by acute chest symptoms (cough, chest pain, dyspnea) or hypoxia (reduction in baseline oxygen saturation).",
+    "rubric": null
+  },
+  {
+    "index": 515,
+    "id": "layer3_009",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "treatment_threshold",
+    "answer": "Incentive spirometry (10 breaths every hour while awake) alongside optimal analgesia to prevent atelectasis.",
+    "rubric": null
+  },
+  {
+    "index": 516,
+    "id": "layer3_010",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "dosing_guideline",
+    "answer": "A booster dose of PPV23 is required every 5 years due to functional asplenia.",
+    "rubric": null
+  },
+  {
+    "index": 517,
+    "id": "layer3_011",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "dosing_guideline",
+    "answer": "The annual influenza vaccine is strongly recommended for all adult patients.",
+    "rubric": null
+  },
+  {
+    "index": 518,
+    "id": "layer3_012",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "dosing_guideline",
+    "answer": "Prophylactic oral penicillin (or Erythromycin if allergic) should be continued lifelong for all adult patients with HbSS and HbSβ0 due to permanent functional asplenia.",
+    "rubric": null
+  },
+  {
+    "index": 519,
+    "id": "layer3_013",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "dosing_guideline",
+    "answer": "Daily Folic Acid 5mg to support high red blood cell turnover and protect against neural tube defects.",
+    "rubric": null
+  },
+  {
+    "index": 520,
+    "id": "layer3_014",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "dosing_guideline",
+    "answer": "Low-dose Aspirin (75–150 mg daily) should be initiated from 12 weeks of gestation onwards.",
+    "rubric": null
+  },
+  {
+    "index": 521,
+    "id": "layer3_015",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "screening_schedule",
+    "answer": "Annual screening using urine albumin-to-creatinine ratio (ACR). An ACR >3.5 mg/mmol (or significant proteinuria on dipstick) indicates microalbuminuria and requires further clinical review.",
+    "rubric": null
+  },
+  {
+    "index": 522,
+    "id": "layer3_016",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "treatment_threshold",
+    "answer": "ACE inhibitors (or Angiotensin II Receptor Blockers if ACE inhibitors are not tolerated) are the first-line treatment choice.",
+    "rubric": null
+  },
+  {
+    "index": 523,
+    "id": "layer3_017",
+    "layer": 3,
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "screening_schedule",
+    "answer": "Ophthalmic screening every 1 to 2 years. If proliferative retinopathy is diagnosed, the primary definitive treatment is retinal laser photocoagulation.",
+    "rubric": null
+  },
+  {
+    "index": 524,
+    "id": "layer3_018",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "dosing_guideline",
+    "answer": "Hydroxyurea should be offered starting at 9 months of age. Standard initial dose is 20 mg/kg/day (or 15 mg/kg/day in adults).",
+    "rubric": null
+  },
+  {
+    "index": 525,
+    "id": "layer3_019",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "treatment_threshold",
+    "answer": "Hold hydroxyurea if ANC drops below 1,000/µL (1.0×10⁹/L) or platelet count drops below 80,000/µL (80×10⁹/L).",
+    "rubric": null
+  },
+  {
+    "index": 526,
+    "id": "layer3_020",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "contraindication",
+    "answer": "1. Pregnancy and breastfeeding (teratogenic risk). 2. Severe unremitting bone marrow toxicity that does not recover after temporary holds.",
+    "rubric": null
+  },
+  {
+    "index": 527,
+    "id": "layer3_021",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "screening_schedule",
+    "answer": "Children should be screened annually beginning at 2 years of age and continuing through at least 16 years of age.",
+    "rubric": null
+  },
+  {
+    "index": 528,
+    "id": "layer3_022",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "treatment_threshold",
+    "answer": "A time-averaged maximum mean velocity ≥200 cm/s is abnormal. Immediate intervention: initiation of a long-term periodic blood transfusion program. Conditional range (170–199 cm/s) requires repeat TCD sooner to track progression.",
+    "rubric": null
+  },
+  {
+    "index": 529,
+    "id": "layer3_023",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "treatment_threshold",
+    "answer": "Acute stroke, Acute Chest Syndrome with severe hypoxemia/respiratory distress, and acute splenic sequestration with severe anemia.",
+    "rubric": null
+  },
+  {
+    "index": 530,
+    "id": "layer3_024",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "treatment_threshold",
+    "answer": "HbS must be maintained at less than 30% of total hemoglobin prior to each subsequent transfusion.",
+    "rubric": null
+  },
+  {
+    "index": 531,
+    "id": "layer3_025",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "treatment_threshold",
+    "answer": "Chelation should be initiated when serum ferritin consistently exceeds 1,500 ng/mL or when liver iron concentration (LIC) is ≥7 mg/g dry weight.",
+    "rubric": null
+  },
+  {
+    "index": 532,
+    "id": "layer3_026",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "emergency_management",
+    "answer": "Emergent exchange transfusion (or simple transfusion if exchange is unavailable) to rapidly lower HbS levels without increasing blood viscosity.",
+    "rubric": null
+  },
+  {
+    "index": 533,
+    "id": "layer3_027",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "treatment_threshold",
+    "answer": "Regular long-term periodic blood transfusion protocol to continuously suppress native sickled red blood cell production.",
+    "rubric": null
+  },
+  {
+    "index": 534,
+    "id": "layer3_028",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "diagnosis_criteria",
+    "answer": "New pulmonary infiltrate on chest X-ray combined with at least one clinical sign: fever, chest pain, tachypnea, wheezing, cough, or hypoxemia.",
+    "rubric": null
+  },
+  {
+    "index": 535,
+    "id": "layer3_029",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "treatment_threshold",
+    "answer": "IV broad-spectrum cephalosporin (e.g. ceftriaxone) combined with a macrolide (e.g. azithromycin) to cover atypical pathogens including Mycoplasma pneumoniae and Chlamydia pneumoniae.",
+    "rubric": null
+  },
+  {
+    "index": 536,
+    "id": "layer3_030",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "emergency_management",
+    "answer": "Escalation required if: rapidly progressive respiratory distress, severe hypoxemia (O2 saturation dropping below 90% despite supplemental oxygen), or multi-lobar progression on chest X-ray.",
+    "rubric": null
+  },
+  {
+    "index": 537,
+    "id": "layer3_031",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "dosing_guideline",
+    "answer": "PCV13 series at 2, 4, 6, and 12–15 months of age.",
+    "rubric": null
+  },
+  {
+    "index": 538,
+    "id": "layer3_032",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "dosing_guideline",
+    "answer": "First dose of PPSV23 at 2 years of age (at least 8 weeks after last PCV13 dose). Booster dose 5 years later at age 7.",
+    "rubric": null
+  },
+  {
+    "index": 539,
+    "id": "layer3_033",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "dosing_guideline",
+    "answer": "Daily oral prophylactic penicillin should be started by 2 months of age.",
+    "rubric": null
+  },
+  {
+    "index": 540,
+    "id": "layer3_034",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "dosing_guideline",
+    "answer": "Prophylactic penicillin can be discontinued at 5 years of age.",
+    "rubric": null
+  },
+  {
+    "index": 541,
+    "id": "layer3_035",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "contraindication",
+    "answer": "Increased rates of pre-eclampsia, preterm labor, low birth weight, and higher frequency of maternal vaso-occlusive pain crises.",
+    "rubric": null
+  },
+  {
+    "index": 542,
+    "id": "layer3_036",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "contraindication",
+    "answer": "Hydroxyurea and ACE inhibitors must be completely discontinued due to high risks of fetal toxicity and congenital malformations.",
+    "rubric": null
+  },
+  {
+    "index": 543,
+    "id": "layer3_037",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "screening_schedule",
+    "answer": "Screening should begin at 10 years of age using a random spot urine sample to test for the microalbumin-to-creatinine ratio.",
+    "rubric": null
+  },
+  {
+    "index": 544,
+    "id": "layer3_038",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "treatment_threshold",
+    "answer": "ACE inhibitor (e.g. Enalapril or Lisinopril) to slow progression of sickle nephropathy.",
+    "rubric": null
+  },
+  {
+    "index": 545,
+    "id": "layer3_039",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "screening_schedule",
+    "answer": "Comprehensive ophthalmology screening should begin at 10 years of age.",
+    "rubric": null
+  },
+  {
+    "index": 546,
+    "id": "layer3_040",
+    "layer": 3,
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "diagnosis_criteria",
+    "answer": "Proliferative sickle cell retinopathy is significantly higher and more aggressive in HbSC patients compared to HbSS, despite HbSC being the milder genotype overall.",
+    "rubric": null
+  },
+  {
+    "index": 547,
+    "id": "layer4_001",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "answer": "[CASE]\nA 4-year-old boy with HbSS presents with fever of 39.2°C, irritability, and refusal to walk. Parents report he was well yesterday. On examination he has swollen, tender hands and feet bilaterally. Hb 7.2 g/dL, WBC 14,000, platelets 320,000.\n\n[ANSWER]\nDactylitis (hand-foot syndrome) with fever. Priority: 1) Treat fever as emergency — blood cultures, FBC, CRP, empirical IV ceftriaxone within 1 hour. 2) Adequate analgesia (paracetamol + ibuprofen, escalate to opioids if needed). 3) IV hydration at maintenance. 4) If not already diagnosed with SCD, confirm diagnosis urgently via HPLC. 5) Admission for monitoring.",
+    "rubric": {
+      "3": "Correct diagnosis + full management in order",
+      "2": "Correct diagnosis + partial management",
+      "1": "Partial diagnosis or incomplete management",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 548,
+    "id": "layer4_002",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "answer": "[CASE]\nA 7-year-old girl with HbSS is brought in by her mother. She suddenly developed left arm weakness and difficulty speaking 45 minutes ago. She has no fever. BP 110/70, SpO2 97%. Hb baseline 7.8 g/dL.\n\n[ANSWER]\nAcute ischemic stroke. Priority: 1) Emergency CT head immediately to exclude haemorrhage. 2) Urgent exchange transfusion to reduce HbS to <30% — do not delay for MRI. 3) Supplemental oxygen to maintain SpO2 >95%. 4) IV access and isotonic fluids. 5) Neurology review. 6) Do NOT give tPA. 7) After stabilization: start chronic transfusion program.",
+    "rubric": {
+      "3": "Correct diagnosis + full management in order",
+      "2": "Correct diagnosis + partial management",
+      "1": "Partial diagnosis or incomplete management",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 549,
+    "id": "layer4_003",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "answer": "[CASE]\nA 19-year-old male with HbSS presents with severe chest pain, fever of 38.8°C, cough, and SpO2 dropping from his baseline of 98% to 91% on room air. CXR shows new right lower lobe infiltrate. He is currently on hydroxyurea.\n\n[ANSWER]\nAcute Chest Syndrome (ACS). Management: 1) Supplemental oxygen to maintain SpO2 >95%. 2) IV ceftriaxone + azithromycin (cover typical and atypical organisms). 3) IV hydration — avoid overload. 4) Adequate analgesia + incentive spirometry 10 breaths every hour. 5) Simple transfusion if Hb significantly below baseline. 6) Escalate to exchange transfusion if SpO2 falls below 90% despite O2, or multi-lobar progression. 7) ICU if deteriorating. 8) Bronchodilators if wheeze present.",
+    "rubric": {
+      "3": "Correct diagnosis + full management in order",
+      "2": "Correct diagnosis + partial management",
+      "1": "Partial diagnosis or incomplete management",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 550,
+    "id": "layer4_004",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "answer": "[CASE]\nA 2-year-old girl with HbSS is brought in pale, listless, and breathing fast. Her spleen was not palpable at her last clinic visit 3 months ago. Today it is palpable 6 cm below the costal margin. Hb is 3.8 g/dL (baseline 8.5 g/dL). HR 160, BP 70/40.\n\n[ANSWER]\nAcute splenic sequestration crisis with hypovolemic shock. Priority: 1) Immediate IV access and fluid resuscitation for shock. 2) Urgent blood transfusion — transfuse conservatively (sequestered blood may return to circulation causing hyperviscosity, risk of overtransfusion). 3) Target Hb to safe level not full correction. 4) Admission to HDU/ICU. 5) Parental education on spleen palpation after recovery. 6) Plan elective splenectomy after stabilization to prevent recurrence.",
+    "rubric": {
+      "3": "Correct diagnosis + full management in order",
+      "2": "Correct diagnosis + partial management",
+      "1": "Partial diagnosis or incomplete management",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 551,
+    "id": "layer4_005",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "answer": "[CASE]\nA 6-year-old boy with HbSS presents with 4 days of fever, pallor, and extreme fatigue. His Hb has dropped from baseline 8.2 to 3.1 g/dL. Reticulocyte count is 0.1% (near zero). He attends a school where another child recently had a viral illness with rash.\n\n[ANSWER]\nAplastic crisis secondary to Parvovirus B19 infection. Management: 1) Blood transfusion to correct severe anaemia. 2) Supportive care — condition is self-limiting (7–10 days as immune response clears virus). 3) Monitor reticulocyte count for recovery. Infection control: Parvovirus B19 is highly contagious — isolate patient from pregnant women (risk of hydrops fetalis) and immunocompromised individuals immediately.",
+    "rubric": {
+      "3": "Correct diagnosis + cause + management + isolation",
+      "2": "Correct diagnosis + management, missed isolation",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 552,
+    "id": "layer4_006",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "answer": "[CASE]\nA 16-year-old male with HbSS presents to ED with a painful penile erection that has been present for 5 hours. He is distressed and embarrassed. He had a similar episode 2 months ago that resolved after 2 hours.\n\n[ANSWER]\nMajor priapism (>4 hours) — urological emergency. Previous episode was stuttering priapism (<4 hours). Management: 1) IV hydration and adequate analgesia immediately. 2) Urgent urology review for aspiration and irrigation of corpus cavernosum. 3) Exchange transfusion if aspiration fails. 4) Onset-to-treatment time critically affects outcome — document time of onset. 5) Counsel patient that future episodes must be reported immediately — do not wait at home.",
+    "rubric": {
+      "3": "Correct classification + diagnosis + full management",
+      "2": "Correct diagnosis + partial management",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 553,
+    "id": "layer4_007",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "screening_schedule",
+    "answer": "[CASE]\nA 10-year-old boy with HbSS attends his annual review. His TCD shows a time-averaged mean velocity of 185 cm/s in the right middle cerebral artery. Last year it was 160 cm/s.\n\n[ANSWER]\nConditional TCD result (170–199 cm/s) with rising trend from 160 cm/s last year. This is concerning for progression toward abnormal range. Management: 1) Do not ignore — this is not a normal result. 2) Repeat TCD in 3 months rather than waiting for annual review. 3) Reassess hydroxyurea adherence and optimize dose. 4) Counsel family about stroke risk and symptoms to watch for. 5) If next TCD reaches ≥200 cm/s, initiate chronic transfusion program immediately.",
+    "rubric": {
+      "3": "Correct interpretation + repeat in 3 months + full plan",
+      "2": "Correct interpretation + partial plan",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 554,
+    "id": "layer4_008",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold",
+    "answer": "[CASE]\nA 25-year-old woman with HbSS on chronic transfusion therapy for secondary stroke prevention. Her serum ferritin is 2,800 ng/mL. She has been on transfusions for 4 years. She has no current symptoms of organ dysfunction.\n\n[ANSWER]\nTransfusional iron overload (ferritin well above 1,500 ng/mL threshold). Management: 1) Initiate iron chelation therapy — deferasirox (oral, preferred first-line) or deferoxamine (SC infusion). 2) Monitor liver iron concentration by MRI T2* to assess organ iron loading. 3) Monitor cardiac MRI T2* for cardiac iron. 4) Continue transfusion program — do not stop for iron overload alone. 5) Review chelation dose regularly based on ferritin trend and LIC. 6) Consider switching to exchange transfusion rather than simple transfusion going forward to reduce iron accumulation.",
+    "rubric": {
+      "3": "Correct diagnosis + chelation agent + monitoring plan",
+      "2": "Correct diagnosis + chelation, missed monitoring",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 555,
+    "id": "layer4_009",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold",
+    "answer": "[CASE]\nA 14-year-old girl with HbSS is seen in clinic. Her mother reports she has been having 4–5 painful crises per year requiring hospital admission. She is not currently on hydroxyurea. Her Hb is 7.1 g/dL and HbF is 4%.\n\n[ANSWER]\nInitiate hydroxyurea therapy. Starting dose 15–20 mg/kg/day, titrate to maximum tolerated dose. Target response: HbF >20%, reduction in crisis frequency, improvement in Hb. Monitoring: FBC every 4–8 weeks. Hold if ANC <1,000/µL, platelets <80,000/µL, or reticulocytes <80×10⁹/L. Monitor renal and liver function. Mandatory contraceptive counseling — hydroxyurea is teratogenic. Reassess adherence if HbF has not risen after 3–6 months.",
+    "rubric": {
+      "3": "Correct drug + target + full monitoring plan + contraception counseling",
+      "2": "Correct drug + monitoring, missed contraception",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 556,
+    "id": "layer4_010",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "answer": "[CASE]\nA 32-year-old man with HbSS receives a blood transfusion for a severe VOC. Two days later his Hb is 5.2 g/dL — lower than his pre-transfusion level of 6.8 g/dL. His reticulocyte count has also fallen. The team considers a second transfusion.\n\n[ANSWER]\nHyperhemolysis syndrome — both donor and patient's own red cells are being destroyed, dropping Hb below pre-transfusion level. Critical decision: AVOID further transfusion if at all possible — additional transfusion typically worsens hemolysis and can be fatal. Management: 1) IVIG. 2) High-dose corticosteroids. 3) Rituximab in refractory cases. 4) Erythropoiesis-stimulating agents. 5) Urgent haematology consultation. Only transfuse if patient is in immediate life-threatening danger and no alternative exists.",
+    "rubric": {
+      "3": "Correct diagnosis + avoid transfusion + correct treatment",
+      "2": "Correct diagnosis + treatment, missed avoid transfusion warning",
+      "1": "Partial",
+      "0": "Recommends repeat transfusion = dangerous"
+    }
+  },
+  {
+    "index": 557,
+    "id": "layer4_011",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold",
+    "answer": "[CASE]\nA 5-year-old boy with HbSS is about to have elective tonsillectomy under general anaesthesia. His current Hb is 7.0 g/dL and HbS is 68%.\n\n[ANSWER]\nPre-op: Haematology review, consider pre-operative transfusion to reduce HbS to <30% before surgery. Optimize Hb. Intra-op: Avoid hypothermia, hypoxia, hypovolemia, and acidosis. Maintain adequate oxygenation and IV hydration. Avoid tourniquet. Post-op: Early mobilization, incentive spirometry to prevent ACS, adequate analgesia to prevent splinting, thromboprophylaxis, monitor SpO2 closely.",
+    "rubric": {
+      "3": "All three phases covered correctly",
+      "2": "Two phases correct",
+      "1": "One phase or partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 558,
+    "id": "layer4_012",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "contraindication",
+    "answer": "[CASE]\nA 28-year-old woman with HbSS attends pre-conception counseling. She is currently on hydroxyurea and an ACE inhibitor for microalbuminuria. Her partner has been tested and has HbAS.\n\n[ANSWER]\nMedication changes: 1) Stop hydroxyurea at least 3 months before conception — teratogenic. 2) Stop ACE inhibitor before conception — contraindicated in pregnancy (fetal toxicity). Start folic acid 5mg daily immediately. Counseling: Partner has HbAS — each pregnancy has 50% chance of HbAS (trait) and 50% chance of HbSS (disease). Offer prenatal diagnosis via CVS at 11–14 weeks or amniocentesis from 16 weeks. Advise that SCD pregnancy is high risk: increased VOC, ACS, pre-eclampsia, preterm birth. Must be managed jointly by haematologist and specialist obstetrician. Start low-dose aspirin at 12 weeks gestation for pre-eclampsia prevention.",
+    "rubric": {
+      "3": "Both drugs stopped + folic acid + genetic counseling + pregnancy risks",
+      "2": "Drugs stopped + partial counseling",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 559,
+    "id": "layer4_013",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "screening_schedule",
+    "answer": "[CASE]\nA 22-year-old male with HbSC presents to ophthalmology complaining of sudden floaters and blurred vision in his right eye for 2 days. He has never had an eye examination before.\n\n[ANSWER]\nLikely vitreous haemorrhage secondary to proliferative sickle cell retinopathy. Genotype relevance: HbSC has HIGHER risk of proliferative retinopathy than HbSS despite being the milder genotype overall — due to higher haematocrit and blood viscosity causing more peripheral vascular occlusion. He has never been screened despite screening being recommended from age 10. Management: 1) Urgent ophthalmology assessment. 2) Retinal imaging (fundoscopy, fluorescein angiography). 3) Laser photocoagulation or anti-VEGF injection for proliferative disease. 4) Enroll in annual ophthalmology screening going forward.",
+    "rubric": {
+      "3": "Correct diagnosis + HbSC risk explanation + management",
+      "2": "Correct diagnosis + management, missed HbSC explanation",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 560,
+    "id": "layer4_014",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "screening_schedule",
+    "answer": "[CASE]\nA 35-year-old woman with HbSS presents with progressive exertional dyspnea over 6 months. No fever, no chest pain. SpO2 95% at rest. Echocardiogram shows tricuspid regurgitant jet velocity (TRJV) of 2.8 m/s.\n\n[ANSWER]\nLikely pulmonary hypertension (PH). TRJV ≥2.5 m/s is the echocardiographic threshold for suspected PH in SCD — requires referral for right heart catheterization to confirm. Management pathway: 1) Refer to pulmonology and cardiology. 2) Right heart catheterization for definitive diagnosis. 3) Optimize SCD treatment: ensure on hydroxyurea at maximum tolerated dose, consider chronic transfusion therapy. 4) If PH confirmed: consider sildenafil or bosentan. 5) Annual echocardiography monitoring going forward.",
+    "rubric": {
+      "3": "Correct diagnosis + TRJV threshold + right heart cath + management",
+      "2": "Correct diagnosis + partial management",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 561,
+    "id": "layer4_015",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold",
+    "answer": "[CASE]\nA 12-year-old boy with HbSS has been on hydroxyurea for 8 months at 20 mg/kg/day. His HbF is 8% and he has had 3 crises in the past 4 months. His FBC shows ANC 2.4×10⁹/L and platelets 210,000.\n\n[ANSWER]\nSuboptimal hydroxyurea response — HbF target is >20% and he is only at 8% with ongoing crises. FBC shows no myelosuppression (ANC and platelets are above hold thresholds), meaning there is room to increase the dose. Next steps: 1) First reassess adherence — is he taking the medication daily as prescribed? 2) If adherent, increase dose toward maximum tolerated dose (titrate upward in 5 mg/kg/day increments). 3) Monitor FBC every 4–8 weeks after each dose increase. 4) Target HbF >20% and reduction in crisis frequency.",
+    "rubric": {
+      "3": "Suboptimal response identified + adherence check + dose increase + monitoring",
+      "2": "Dose increase suggested but missed adherence check",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 562,
+    "id": "layer4_016",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases — Nigeria Context",
+    "category": "emergency_management",
+    "answer": "[CASE]\nA 9-year-old girl with HbSS is brought to a rural Nigerian clinic with fever of 39.5°C, severe headache, neck stiffness, and vomiting. The clinic has no IV antibiotics in stock. The nearest hospital is 2 hours away.\n\n[ANSWER]\nSuspected bacterial meningitis/sepsis in a functionally asplenic child — life-threatening emergency. Immediate action at clinic: 1) If any oral antibiotics available (amoxicillin), give immediately — do not wait. 2) Start oral hydration if conscious. 3) Transfer to hospital IMMEDIATELY — call ahead to alert the receiving team. 4) Do not delay transfer waiting for any investigation. At hospital: blood cultures, IV ceftriaxone immediately, LP if safe, full sepsis workup. Also assess for malaria given Nigerian context — rapid malaria test and treat if positive. Every minute of delay increases mortality risk.",
+    "rubric": {
+      "3": "Correct diagnosis + immediate oral antibiotic + urgent transfer + malaria consideration",
+      "2": "Correct diagnosis + transfer, missed oral antibiotic or malaria",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 563,
+    "id": "layer4_017",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases — Nigeria Context",
+    "category": "diagnosis_criteria",
+    "answer": "[CASE]\nA 3-year-old boy in Lagos is brought to a general practitioner with his third episode of painful swollen hands in 6 months, recurrent fevers, and pallor. His mother says a previous doctor told her he has 'the blood problem.' No formal diagnosis has been made. No newborn screening was done.\n\n[ANSWER]\nLikely HbSS sickle cell disease — dactylitis, recurrent fevers, and pallor in a Nigerian child is SCD until proven otherwise. Confirmatory test: HPLC (gold standard) — send urgently. While awaiting results: 1) Start prophylactic penicillin V immediately — do not wait for confirmation given high clinical suspicion. 2) Start folic acid supplementation. 3) Counsel family on fever as emergency, hydration, cold avoidance. 4) Arrange all vaccinations including pneumococcal, meningococcal, Hib, hepatitis B, typhoid. 5) Refer to nearest SCD specialist centre. 6) Parental carrier testing.",
+    "rubric": {
+      "3": "Correct diagnosis + HPLC + penicillin started immediately + vaccinations + referral",
+      "2": "Correct diagnosis + HPLC + penicillin, missed vaccinations or referral",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 564,
+    "id": "layer4_018",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases — Nigeria Context",
+    "category": "treatment_threshold",
+    "answer": "[CASE]\nA 16-year-old girl with HbSS in Abuja has been stable on hydroxyurea for 2 years. She is now due for her annual review. The hospital pharmacy has been out of hydroxyurea for 3 months and she has had no medication. She presents with 5 pain crises in the past 3 months.\n\n[ANSWER]\nImmediate: 1) Treat current pain crisis — adequate analgesia, hydration. 2) Actively source hydroxyurea — contact national SCD association (e.g. Sickle Cell Association of Nigeria), other hospitals, international aid organizations. 3) Document supply failure for advocacy. Interim measures without hydroxyurea: 1) Maximize hydration counseling. 2) Strict cold avoidance. 3) Ensure penicillin prophylaxis is continued. 4) Ensure all vaccinations are up to date. 5) If blood bank access available and patient meets criteria, consider transfusion therapy as bridge. 6) Folic acid continuation. 7) Written emergency plan — when to go to hospital immediately.",
+    "rubric": {
+      "3": "Sourcing hydroxyurea + interim measures + written emergency plan",
+      "2": "Interim measures only, missed sourcing or emergency plan",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 565,
+    "id": "layer4_019",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases — Nigeria Context",
+    "category": "diagnosis_criteria",
+    "answer": "[CASE]\nParents of a newborn in Kano are told their baby's newborn screening result is 'FS.' They have never heard of sickle cell disease. The father becomes angry and denies anything is wrong with his child, who looks completely healthy.\n\n[ANSWER]\nCounseling approach: 1) Acknowledge the shock and anger — do not dismiss. 2) Explain clearly: FS result means the baby likely has HbSS. The baby looks healthy now because of fetal hemoglobin which is protective — this will change from 6 months onwards. 3) Explain this is not anyone's fault — autosomal recessive inheritance, both parents carry the trait. 4) Use simple language, involve a trained counselor if available. Clinical steps regardless of acceptance: 1) Repeat confirmatory HPLC immediately. 2) Start prophylactic penicillin by 2 months of age — do not delay for parental agreement. 3) Begin vaccination schedule. 4) Parental carrier testing. 5) Schedule urgent follow-up. 6) Document all counseling provided.",
+    "rubric": {
+      "3": "Empathetic counseling + confirmatory test + penicillin started + vaccinations",
+      "2": "Counseling + penicillin, missed confirmatory test or vaccinations",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 566,
+    "id": "layer4_020",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases — Nigeria Context",
+    "category": "treatment_threshold",
+    "answer": "[CASE]\nA 28-year-old male with HbSS in Port Harcourt presents with severe back and leg pain, rated 9/10. He has been managing at home for 3 days with paracetamol and ibuprofen with no relief. He is reluctant to go to hospital because the last time he went, staff accused him of drug-seeking.\n\n[ANSWER]\nSevere vaso-occlusive crisis requiring hospital management. Immediate management: 1) IV access, isotonic IV fluids. 2) Strong opioid analgesia — IV morphine titrated to effect. Do NOT withhold opioids due to addiction concerns in acute VOC. 3) Regular paracetamol and NSAID as adjuncts. 4) Monitor SpO2 — oxygen only if below 95%. 5) Assess for precipitating cause (infection, dehydration). Stigma: 1) Staff should be educated that SCD pain is real, severe, and undertreated in this population. 2) Patient should have a written pain management plan to present at triage. 3) Document the previous experience and escalate to clinical lead. 4) Every patient deserves dignified, timely care.",
+    "rubric": {
+      "3": "Correct management + opioids not withheld + stigma addressed",
+      "2": "Correct management, missed stigma component",
+      "1": "Partial",
+      "0": "Withholds opioids = dangerous"
+    }
+  },
+  {
+    "index": 567,
+    "id": "layer4_021",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "screening_schedule",
+    "answer": "[CASE]\nA 40-year-old woman with HbSS has progressive fatigue, ankle swelling, and her creatinine has risen from 90 to 210 µmol/L over 2 years. Urine ACR is 45 mg/mmol. She is not on any renal-protective therapy.\n\n[ANSWER]\nSickle cell nephropathy with chronic kidney disease — significantly elevated ACR (normal <3.5 mg/mmol) and rising creatinine indicate progressive nephropathy. Management: 1) Initiate ACE inhibitor (or ARB if ACE not tolerated) — first-line renal protection. 2) Strict blood pressure control. 3) Nephrology referral for CKD staging and co-management. 4) Optimize SCD treatment — hydroxyurea, consider transfusion. 5) Avoid nephrotoxic drugs (NSAIDs, contrast agents, aminoglycosides). 6) Monitor creatinine, eGFR, and ACR every 3–6 months. 7) Counsel on fluid intake and avoiding dehydration.",
+    "rubric": {
+      "3": "Correct diagnosis + ACE inhibitor + nephrology referral + avoid nephrotoxins",
+      "2": "Correct diagnosis + ACE inhibitor, missed nephrology or nephrotoxins",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 568,
+    "id": "layer4_022",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "pathophysiology",
+    "answer": "[CASE]\nA 17-year-old boy with HbSS has just been told by his school that he cannot sit exams because he has missed too many days. His teacher says he is 'lazy' and 'uses his illness as an excuse.' His mother asks you for help.\n\n[ANSWER]\nClinical assessment: 1) Review frequency and severity of crises causing absences — document medically. 2) Assess for silent cerebral infarcts via MRI — present in 20–35% of HbSS patients, affect attention and processing speed without obvious symptoms. 3) Neuropsychological assessment if not already done. Practical support: 1) Write a formal medical letter to the school explaining SCD, its impact on attendance, and that absences are medically necessary — not voluntary. 2) Request formal educational accommodations: extra exam time, flexibility on deadlines, option to sit exams in a separate room. 3) Optimize medical management to reduce crisis frequency. 4) Refer to a school counselor or SCD patient support group. 5) Educate teaching staff about SCD.",
+    "rubric": {
+      "3": "Medical documentation + silent infarct screening + school accommodations + staff education",
+      "2": "Medical letter + accommodations, missed silent infarct screening",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 569,
+    "id": "layer4_023",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "answer": "[CASE]\nA 30-year-old woman with HbSS is 20 weeks pregnant. She presents with sudden onset severe right upper quadrant pain and jaundice. Her Hb has dropped from 8.2 to 5.8 g/dL. LFTs show ALT 340 U/L.\n\n[ANSWER]\nHepatic sequestration or intrahepatic cholestasis in SCD pregnancy — severe acute presentation. Management: 1) Urgent haematology and obstetrics joint review. 2) Blood transfusion to correct anaemia — exchange transfusion if severe. 3) IV hydration and analgesia. 4) Monitor fetal wellbeing urgently. 5) LFT monitoring, liver ultrasound. 6) This pregnancy is now very high risk — increase monitoring frequency to at least every 2 weeks. 7) Consider delivery planning with neonatal team involvement. 8) Ensure folic acid 5mg daily continues. 9) Low-dose aspirin should already be on board from 12 weeks for pre-eclampsia prevention.",
+    "rubric": {
+      "3": "Correct diagnosis + joint haematology-obstetrics care + transfusion + fetal monitoring",
+      "2": "Correct diagnosis + transfusion, missed joint care or fetal monitoring",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 570,
+    "id": "layer4_024",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold",
+    "answer": "[CASE]\nAn 8-year-old boy with HbSS has annual TCD showing velocity of 210 cm/s. He is currently on hydroxyurea 20 mg/kg/day with HbF of 22% and has had no strokes. His parents refuse blood transfusion on religious grounds.\n\n[ANSWER]\nTCD ≥200 cm/s is abnormal — this child has approximately 10-fold elevated stroke risk. Clinical and ethical management: 1) Explain clearly to parents that without chronic transfusion therapy this child has a very high risk of stroke which could cause permanent disability or death. 2) Explore the specific religious concerns — some families accept certain blood products or exchange transfusion differently. 3) Involve a patient advocate, chaplaincy, or ethics team. 4) Document all conversations thoroughly. 5) If parents continue to refuse: optimize hydroxyurea to maximum tolerated dose — this is second-best but has some stroke risk reduction. 6) In many jurisdictions a child's best interests can override parental refusal for life-saving treatment — consider legal advice and child protection pathway if stroke risk is imminent. 7) Maintain follow-up and keep dialogue open.",
+    "rubric": {
+      "3": "Risk explained + religious exploration + ethics team + legal pathway + hydroxyurea optimization",
+      "2": "Risk explained + hydroxyurea, missed ethics or legal pathway",
+      "1": "Partial",
+      "0": "Accepts refusal without further action = dangerous"
+    }
+  },
+  {
+    "index": 571,
+    "id": "layer4_025",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold",
+    "answer": "[CASE]\nA 45-year-old man with HbSS is seen in adult clinic. He reports he has never taken hydroxyurea because he heard 'it causes cancer.' His Hb is 6.5 g/dL, he has 6 admissions per year, and his renal function is declining.\n\n[ANSWER]\nAddress concern: 1) Acknowledge his worry — do not dismiss it. 2) Explain clearly: hydroxyurea does not cause cancer. It is a cytoreductive agent that has been used safely in SCD for over 30 years with robust long-term safety data. 3) Explain the benefits specifically for him: reduces crisis frequency, hospitalizations, ACS, stroke risk, and importantly may slow renal disease progression. 4) The risk of NOT taking hydroxyurea (6 admissions/year, declining kidneys) is far greater than any theoretical risk. Management plan: 1) Start hydroxyurea at 15 mg/kg/day. 2) FBC monitoring every 4–8 weeks. 3) Nephrology co-management for declining renal function. 4) Avoid NSAIDs and nephrotoxins. 5) ACE inhibitor if proteinuria present. 6) Follow up in 3 months to assess response.",
+    "rubric": {
+      "3": "Myth addressed + benefits explained + hydroxyurea started + renal co-management",
+      "2": "Hydroxyurea started + renal care, missed myth addressing",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 572,
+    "id": "layer4_026",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management",
+    "answer": "[CASE]\nA 6-year-old girl with HbSS is brought in by her grandmother. She has had fever and cough for 2 days. SpO2 is 93% on room air. CXR shows bilateral lower lobe infiltrates. She is started on ceftriaxone. Six hours later her SpO2 is 89% despite 4L O2 via mask.\n\n[ANSWER]\nACS is deteriorating despite initial management — SpO2 falling below 90% despite supplemental O2 is an escalation criterion. Immediate management: 1) Escalate to urgent exchange transfusion — simple transfusion is no longer sufficient given bilateral involvement and deterioration. 2) Increase O2 delivery — consider non-rebreather mask or escalate to ICU for possible intubation if SpO2 continues to fall. 3) Continue ceftriaxone, add azithromycin if not already given. 4) Call ICU/HDU team immediately. 5) IV fluids carefully — avoid overload which worsens ACS. 6) Incentive spirometry if patient is conscious and cooperative. 7) Urgent haematology input.",
+    "rubric": {
+      "3": "Escalation recognized + exchange transfusion + ICU + azithromycin added",
+      "2": "Escalation recognized + exchange transfusion, missed ICU or azithromycin",
+      "1": "Partial",
+      "0": "Continues simple measures only = dangerous"
+    }
+  },
+  {
+    "index": 573,
+    "id": "layer4_027",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "diagnosis_criteria",
+    "answer": "[CASE]\nA 13-year-old girl with HbSS has been referred by her teacher due to declining school performance, difficulty concentrating, and slow processing speed. She has never had an overt stroke. Her neurological examination is normal.\n\n[ANSWER]\nLikely silent cerebral infarcts — present in 20–35% of children with HbSS, cause no obvious neurological symptoms but impair attention, processing speed, and academic performance. Normal neurological exam does not exclude them. Investigation: 1) Brain MRI (not CT) — only MRI can detect silent infarcts. 2) Formal neuropsychological assessment. Management: 1) If silent infarcts confirmed: intensify SCD treatment — consider chronic transfusion therapy or optimize hydroxyurea. 2) Inform school — request educational accommodations (extra time, smaller class, support tutor). 3) Regular MRI monitoring. 4) Ensure annual TCD continues. 5) Family counseling.",
+    "rubric": {
+      "3": "Silent infarcts identified + MRI + neuropsychological assessment + school accommodations",
+      "2": "Silent infarcts + MRI, missed neuropsychological or school support",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 574,
+    "id": "layer4_028",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "dosing_guideline",
+    "answer": "[CASE]\nA 24-year-old male with HbSS presents planning a 14-hour flight from Lagos to London. He asks whether it is safe to travel and what he needs to do.\n\n[ANSWER]\nTravel is generally safe with correct precautions. Advice: 1) Commercial aircraft are pressurized to equivalent of 6,000–8,000 feet — reduced oxygen levels can trigger sickling. 2) Drink water regularly throughout the flight — avoid alcohol and caffeine (dehydrating). 3) Walk and stretch legs every 1–2 hours to prevent stasis and thrombosis. 4) Wear compression stockings. 5) Carry ALL medications in hand luggage — never in checked baggage. 6) Carry a medical summary letter in case of inflight emergency. 7) Inform the airline of medical condition in advance — request aisle seat. 8) For a 14-hour flight: discuss supplemental in-flight oxygen with doctor before travel — may be warranted given length. 9) Ensure travel insurance covers SCD. 10) Know the location of a specialist SCD centre in London before departure.",
+    "rubric": {
+      "3": "Pressurization explained + hydration + mobility + medications in hand luggage + insurance + supplemental O2 discussion",
+      "2": "Most points covered, missing 1–2 key items",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 575,
+    "id": "layer4_029",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "screening_schedule",
+    "answer": "[CASE]\nA 50-year-old woman with HbSS has been attending a clinic irregularly. She has no documented TCD since age 16, no ophthalmology review in 10 years, no echocardiogram ever, and her last FBC was 18 months ago. She feels 'relatively well.'\n\n[ANSWER]\nThis is a significantly under-monitored adult SCD patient. Priority order: 1) FBC + reticulocytes immediately — baseline haematological status. 2) Renal function (creatinine, eGFR) + urine ACR — screen for nephropathy. 3) Liver function tests. 4) Echocardiogram — screen for pulmonary hypertension (TRJV ≥2.5 m/s = refer for right heart catheterization). 5) Ophthalmology review — proliferative retinopathy screening, last done 10 years ago. 6) Brain MRI — given age and lack of monitoring, screen for silent infarcts and cerebrovascular disease. 7) Iron studies if any transfusion history. 8) Review vaccination status — ensure pneumococcal booster up to date (every 5 years), annual flu. 9) Review and restart penicillin if not taking. 10) Establish regular annual review schedule going forward.",
+    "rubric": {
+      "3": "All major investigations listed in logical priority + annual review established",
+      "2": "Most investigations covered, missing 1–2 key items",
+      "1": "Partial",
+      "0": "Wrong or dangerous"
+    }
+  },
+  {
+    "index": 576,
+    "id": "layer4_030",
+    "layer": 4,
+    "source": "Layer 4 Clinical Cases",
+    "category": "diagnosis_criteria",
+    "answer": "[CASE]\nA couple attends genetic counseling. The woman has HbSS and the man has just been tested and found to have HbAS. They want to know their options for having children who are unaffected by SCD.\n\n[ANSWER]\nGenetic odds: With HbSS mother and HbAS father — each pregnancy has 50% chance of HbSS (affected) and 50% chance of HbAS (carrier, clinically unaffected). There is NO chance of an HbAA (completely unaffected) child from this pairing. Reproductive options: 1) Natural conception with prenatal diagnosis: CVS at 11–14 weeks or amniocentesis from 16 weeks — allows diagnosis and decision-making. 2) Preimplantation genetic testing (PGT) during IVF: embryos tested before implantation, only HbAS embryos implanted — avoids termination decision but IVF process required. 3) Use of donor egg or donor sperm from HbAA individual — would change the odds. 4) Adoption. 5) Proceeding without testing. Counsel that all options are valid and the decision is theirs — the role of the clinician is to inform, not direct.",
+    "rubric": {
+      "3": "Correct odds + all reproductive options explained + non-directive counseling stance",
+      "2": "Correct odds + most options, missed PGT or non-directive stance",
+      "1": "Partial",
+      "0": "Wrong odds = dangerous"
+    }
+  }
+]
