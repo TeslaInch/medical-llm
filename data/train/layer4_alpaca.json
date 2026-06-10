@@ -1,0 +1,198 @@
+[
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 4-year-old boy with HbSS presents with fever of 39.2°C, irritability, and refusal to walk. Parents report he was well yesterday. On examination he has swollen, tender hands and feet bilaterally. Hb 7.2 g/dL, WBC 14,000, platelets 320,000.\n\nQuestion: What is the diagnosis and immediate management in priority order?",
+    "output": "Dactylitis (hand-foot syndrome) with fever. Priority: 1) Treat fever as emergency — blood cultures, FBC, CRP, empirical IV ceftriaxone within 1 hour. 2) Adequate analgesia (paracetamol + ibuprofen, escalate to opioids if needed). 3) IV hydration at maintenance. 4) If not already diagnosed with SCD, confirm diagnosis urgently via HPLC. 5) Admission for monitoring.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 19-year-old male with HbSS presents with severe chest pain, fever of 38.8°C, cough, and SpO2 dropping from his baseline of 98% to 91% on room air. CXR shows new right lower lobe infiltrate. He is currently on hydroxyurea.\n\nQuestion: What is the diagnosis and complete management protocol?",
+    "output": "Acute Chest Syndrome (ACS). Management: 1) Supplemental oxygen to maintain SpO2 >95%. 2) IV ceftriaxone + azithromycin (cover typical and atypical organisms). 3) IV hydration — avoid overload. 4) Adequate analgesia + incentive spirometry 10 breaths every hour. 5) Simple transfusion if Hb significantly below baseline. 6) Escalate to exchange transfusion if SpO2 falls below 90% despite O2, or multi-lobar progression. 7) ICU if deteriorating. 8) Bronchodilators if wheeze present.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 6-year-old boy with HbSS presents with 4 days of fever, pallor, and extreme fatigue. His Hb has dropped from baseline 8.2 to 3.1 g/dL. Reticulocyte count is 0.1% (near zero). He attends a school where another child recently had a viral illness with rash.\n\nQuestion: What is the diagnosis, cause, management, and important infection control consideration?",
+    "output": "Aplastic crisis secondary to Parvovirus B19 infection. Management: 1) Blood transfusion to correct severe anaemia. 2) Supportive care — condition is self-limiting (7–10 days as immune response clears virus). 3) Monitor reticulocyte count for recovery. Infection control: Parvovirus B19 is highly contagious — isolate patient from pregnant women (risk of hydrops fetalis) and immunocompromised individuals immediately.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 16-year-old male with HbSS presents to ED with a painful penile erection that has been present for 5 hours. He is distressed and embarrassed. He had a similar episode 2 months ago that resolved after 2 hours.\n\nQuestion: Classify this episode, what is the diagnosis, and outline emergency management in priority order?",
+    "output": "Major priapism (>4 hours) — urological emergency. Previous episode was stuttering priapism (<4 hours). Management: 1) IV hydration and adequate analgesia immediately. 2) Urgent urology review for aspiration and irrigation of corpus cavernosum. 3) Exchange transfusion if aspiration fails. 4) Onset-to-treatment time critically affects outcome — document time of onset. 5) Counsel patient that future episodes must be reported immediately — do not wait at home.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 10-year-old boy with HbSS attends his annual review. His TCD shows a time-averaged mean velocity of 185 cm/s in the right middle cerebral artery. Last year it was 160 cm/s.\n\nQuestion: How do you interpret this result and what is the immediate management plan?",
+    "output": "Conditional TCD result (170–199 cm/s) with rising trend from 160 cm/s last year. This is concerning for progression toward abnormal range. Management: 1) Do not ignore — this is not a normal result. 2) Repeat TCD in 3 months rather than waiting for annual review. 3) Reassess hydroxyurea adherence and optimize dose. 4) Counsel family about stroke risk and symptoms to watch for. 5) If next TCD reaches ≥200 cm/s, initiate chronic transfusion program immediately.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 25-year-old woman with HbSS on chronic transfusion therapy for secondary stroke prevention. Her serum ferritin is 2,800 ng/mL. She has been on transfusions for 4 years. She has no current symptoms of organ dysfunction.\n\nQuestion: What complication has developed and what is the management?",
+    "output": "Transfusional iron overload (ferritin well above 1,500 ng/mL threshold). Management: 1) Initiate iron chelation therapy — deferasirox (oral, preferred first-line) or deferoxamine (SC infusion). 2) Monitor liver iron concentration by MRI T2* to assess organ iron loading. 3) Monitor cardiac MRI T2* for cardiac iron. 4) Continue transfusion program — do not stop for iron overload alone. 5) Review chelation dose regularly based on ferritin trend and LIC. 6) Consider switching to exchange transfusion rather than simple transfusion going forward to reduce iron accumulation.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 14-year-old girl with HbSS is seen in clinic. Her mother reports she has been having 4–5 painful crises per year requiring hospital admission. She is not currently on hydroxyurea. Her Hb is 7.1 g/dL and HbF is 4%.\n\nQuestion: What treatment should be initiated, what is the target response, and what monitoring is required?",
+    "output": "Initiate hydroxyurea therapy. Starting dose 15–20 mg/kg/day, titrate to maximum tolerated dose. Target response: HbF >20%, reduction in crisis frequency, improvement in Hb. Monitoring: FBC every 4–8 weeks. Hold if ANC <1,000/µL, platelets <80,000/µL, or reticulocytes <80×10⁹/L. Monitor renal and liver function. Mandatory contraceptive counseling — hydroxyurea is teratogenic. Reassess adherence if HbF has not risen after 3–6 months.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 32-year-old man with HbSS receives a blood transfusion for a severe VOC. Two days later his Hb is 5.2 g/dL — lower than his pre-transfusion level of 6.8 g/dL. His reticulocyte count has also fallen. The team considers a second transfusion.\n\nQuestion: What is the diagnosis and what is the critical management decision?",
+    "output": "Hyperhemolysis syndrome — both donor and patient's own red cells are being destroyed, dropping Hb below pre-transfusion level. Critical decision: AVOID further transfusion if at all possible — additional transfusion typically worsens hemolysis and can be fatal. Management: 1) IVIG. 2) High-dose corticosteroids. 3) Rituximab in refractory cases. 4) Erythropoiesis-stimulating agents. 5) Urgent haematology consultation. Only transfuse if patient is in immediate life-threatening danger and no alternative exists.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 5-year-old boy with HbSS is about to have elective tonsillectomy under general anaesthesia. His current Hb is 7.0 g/dL and HbS is 68%.\n\nQuestion: What pre-operative, intra-operative, and post-operative management is required?",
+    "output": "Pre-op: Haematology review, consider pre-operative transfusion to reduce HbS to <30% before surgery. Optimize Hb. Intra-op: Avoid hypothermia, hypoxia, hypovolemia, and acidosis. Maintain adequate oxygenation and IV hydration. Avoid tourniquet. Post-op: Early mobilization, incentive spirometry to prevent ACS, adequate analgesia to prevent splinting, thromboprophylaxis, monitor SpO2 closely.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 28-year-old woman with HbSS attends pre-conception counseling. She is currently on hydroxyurea and an ACE inhibitor for microalbuminuria. Her partner has been tested and has HbAS.\n\nQuestion: What counseling and medication changes are required before she attempts conception?",
+    "output": "Medication changes: 1) Stop hydroxyurea at least 3 months before conception — teratogenic. 2) Stop ACE inhibitor before conception — contraindicated in pregnancy (fetal toxicity). Start folic acid 5mg daily immediately. Counseling: Partner has HbAS — each pregnancy has 50% chance of HbAS (trait) and 50% chance of HbSS (disease). Offer prenatal diagnosis via CVS at 11–14 weeks or amniocentesis from 16 weeks. Advise that SCD pregnancy is high risk: increased VOC, ACS, pre-eclampsia, preterm birth. Must be managed jointly by haematologist and specialist obstetrician. Start low-dose aspirin at 12 weeks gestation for pre-eclampsia prevention.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "contraindication"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 22-year-old male with HbSC presents to ophthalmology complaining of sudden floaters and blurred vision in his right eye for 2 days. He has never had an eye examination before.\n\nQuestion: What is the likely diagnosis, why is his genotype particularly relevant, and what is the management?",
+    "output": "Likely vitreous haemorrhage secondary to proliferative sickle cell retinopathy. Genotype relevance: HbSC has HIGHER risk of proliferative retinopathy than HbSS despite being the milder genotype overall — due to higher haematocrit and blood viscosity causing more peripheral vascular occlusion. He has never been screened despite screening being recommended from age 10. Management: 1) Urgent ophthalmology assessment. 2) Retinal imaging (fundoscopy, fluorescein angiography). 3) Laser photocoagulation or anti-VEGF injection for proliferative disease. 4) Enroll in annual ophthalmology screening going forward.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 35-year-old woman with HbSS presents with progressive exertional dyspnea over 6 months. No fever, no chest pain. SpO2 95% at rest. Echocardiogram shows tricuspid regurgitant jet velocity (TRJV) of 2.8 m/s.\n\nQuestion: What is the likely diagnosis, what does the TRJV indicate, and what is the management pathway?",
+    "output": "Likely pulmonary hypertension (PH). TRJV ≥2.5 m/s is the echocardiographic threshold for suspected PH in SCD — requires referral for right heart catheterization to confirm. Management pathway: 1) Refer to pulmonology and cardiology. 2) Right heart catheterization for definitive diagnosis. 3) Optimize SCD treatment: ensure on hydroxyurea at maximum tolerated dose, consider chronic transfusion therapy. 4) If PH confirmed: consider sildenafil or bosentan. 5) Annual echocardiography monitoring going forward.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 12-year-old boy with HbSS has been on hydroxyurea for 8 months at 20 mg/kg/day. His HbF is 8% and he has had 3 crises in the past 4 months. His FBC shows ANC 2.4×10⁹/L and platelets 210,000.\n\nQuestion: How do you interpret the treatment response and what is the next step?",
+    "output": "Suboptimal hydroxyurea response — HbF target is >20% and he is only at 8% with ongoing crises. FBC shows no myelosuppression (ANC and platelets are above hold thresholds), meaning there is room to increase the dose. Next steps: 1) First reassess adherence — is he taking the medication daily as prescribed? 2) If adherent, increase dose toward maximum tolerated dose (titrate upward in 5 mg/kg/day increments). 3) Monitor FBC every 4–8 weeks after each dose increase. 4) Target HbF >20% and reduction in crisis frequency.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 9-year-old girl with HbSS is brought to a rural Nigerian clinic with fever of 39.5°C, severe headache, neck stiffness, and vomiting. The clinic has no IV antibiotics in stock. The nearest hospital is 2 hours away.\n\nQuestion: What is the diagnosis, immediate action at the clinic level, and what must happen in the next 2 hours?",
+    "output": "Suspected bacterial meningitis/sepsis in a functionally asplenic child — life-threatening emergency. Immediate action at clinic: 1) If any oral antibiotics available (amoxicillin), give immediately — do not wait. 2) Start oral hydration if conscious. 3) Transfer to hospital IMMEDIATELY — call ahead to alert the receiving team. 4) Do not delay transfer waiting for any investigation. At hospital: blood cultures, IV ceftriaxone immediately, LP if safe, full sepsis workup. Also assess for malaria given Nigerian context — rapid malaria test and treat if positive. Every minute of delay increases mortality risk.",
+    "source": "Layer 4 Clinical Cases — Nigeria Context",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 3-year-old boy in Lagos is brought to a general practitioner with his third episode of painful swollen hands in 6 months, recurrent fevers, and pallor. His mother says a previous doctor told her he has 'the blood problem.' No formal diagnosis has been made. No newborn screening was done.\n\nQuestion: What is the likely diagnosis, what confirmatory test is needed, and what immediate care must be initiated while awaiting results?",
+    "output": "Likely HbSS sickle cell disease — dactylitis, recurrent fevers, and pallor in a Nigerian child is SCD until proven otherwise. Confirmatory test: HPLC (gold standard) — send urgently. While awaiting results: 1) Start prophylactic penicillin V immediately — do not wait for confirmation given high clinical suspicion. 2) Start folic acid supplementation. 3) Counsel family on fever as emergency, hydration, cold avoidance. 4) Arrange all vaccinations including pneumococcal, meningococcal, Hib, hepatitis B, typhoid. 5) Refer to nearest SCD specialist centre. 6) Parental carrier testing.",
+    "source": "Layer 4 Clinical Cases — Nigeria Context",
+    "category": "diagnosis_criteria"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 16-year-old girl with HbSS in Abuja has been stable on hydroxyurea for 2 years. She is now due for her annual review. The hospital pharmacy has been out of hydroxyurea for 3 months and she has had no medication. She presents with 5 pain crises in the past 3 months.\n\nQuestion: How do you manage the immediate crisis in supply and what interim measures reduce her risk while hydroxyurea is unavailable?",
+    "output": "Immediate: 1) Treat current pain crisis — adequate analgesia, hydration. 2) Actively source hydroxyurea — contact national SCD association (e.g. Sickle Cell Association of Nigeria), other hospitals, international aid organizations. 3) Document supply failure for advocacy. Interim measures without hydroxyurea: 1) Maximize hydration counseling. 2) Strict cold avoidance. 3) Ensure penicillin prophylaxis is continued. 4) Ensure all vaccinations are up to date. 5) If blood bank access available and patient meets criteria, consider transfusion therapy as bridge. 6) Folic acid continuation. 7) Written emergency plan — when to go to hospital immediately.",
+    "source": "Layer 4 Clinical Cases — Nigeria Context",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nParents of a newborn in Kano are told their baby's newborn screening result is 'FS.' They have never heard of sickle cell disease. The father becomes angry and denies anything is wrong with his child, who looks completely healthy.\n\nQuestion: How do you counsel this family and what immediate clinical steps must be taken regardless of parental acceptance?",
+    "output": "Counseling approach: 1) Acknowledge the shock and anger — do not dismiss. 2) Explain clearly: FS result means the baby likely has HbSS. The baby looks healthy now because of fetal hemoglobin which is protective — this will change from 6 months onwards. 3) Explain this is not anyone's fault — autosomal recessive inheritance, both parents carry the trait. 4) Use simple language, involve a trained counselor if available. Clinical steps regardless of acceptance: 1) Repeat confirmatory HPLC immediately. 2) Start prophylactic penicillin by 2 months of age — do not delay for parental agreement. 3) Begin vaccination schedule. 4) Parental carrier testing. 5) Schedule urgent follow-up. 6) Document all counseling provided.",
+    "source": "Layer 4 Clinical Cases — Nigeria Context",
+    "category": "diagnosis_criteria"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 28-year-old male with HbSS in Port Harcourt presents with severe back and leg pain, rated 9/10. He has been managing at home for 3 days with paracetamol and ibuprofen with no relief. He is reluctant to go to hospital because the last time he went, staff accused him of drug-seeking.\n\nQuestion: What is the diagnosis, what should immediate hospital management include, and how should the stigma concern be addressed?",
+    "output": "Severe vaso-occlusive crisis requiring hospital management. Immediate management: 1) IV access, isotonic IV fluids. 2) Strong opioid analgesia — IV morphine titrated to effect. Do NOT withhold opioids due to addiction concerns in acute VOC. 3) Regular paracetamol and NSAID as adjuncts. 4) Monitor SpO2 — oxygen only if below 95%. 5) Assess for precipitating cause (infection, dehydration). Stigma: 1) Staff should be educated that SCD pain is real, severe, and undertreated in this population. 2) Patient should have a written pain management plan to present at triage. 3) Document the previous experience and escalate to clinical lead. 4) Every patient deserves dignified, timely care.",
+    "source": "Layer 4 Clinical Cases — Nigeria Context",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 40-year-old woman with HbSS has progressive fatigue, ankle swelling, and her creatinine has risen from 90 to 210 µmol/L over 2 years. Urine ACR is 45 mg/mmol. She is not on any renal-protective therapy.\n\nQuestion: What is the diagnosis, staging, and management?",
+    "output": "Sickle cell nephropathy with chronic kidney disease — significantly elevated ACR (normal <3.5 mg/mmol) and rising creatinine indicate progressive nephropathy. Management: 1) Initiate ACE inhibitor (or ARB if ACE not tolerated) — first-line renal protection. 2) Strict blood pressure control. 3) Nephrology referral for CKD staging and co-management. 4) Optimize SCD treatment — hydroxyurea, consider transfusion. 5) Avoid nephrotoxic drugs (NSAIDs, contrast agents, aminoglycosides). 6) Monitor creatinine, eGFR, and ACR every 3–6 months. 7) Counsel on fluid intake and avoiding dehydration.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 17-year-old boy with HbSS has just been told by his school that he cannot sit exams because he has missed too many days. His teacher says he is 'lazy' and 'uses his illness as an excuse.' His mother asks you for help.\n\nQuestion: What is the clinical and practical response to support this patient?",
+    "output": "Clinical assessment: 1) Review frequency and severity of crises causing absences — document medically. 2) Assess for silent cerebral infarcts via MRI — present in 20–35% of HbSS patients, affect attention and processing speed without obvious symptoms. 3) Neuropsychological assessment if not already done. Practical support: 1) Write a formal medical letter to the school explaining SCD, its impact on attendance, and that absences are medically necessary — not voluntary. 2) Request formal educational accommodations: extra exam time, flexibility on deadlines, option to sit exams in a separate room. 3) Optimize medical management to reduce crisis frequency. 4) Refer to a school counselor or SCD patient support group. 5) Educate teaching staff about SCD.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "pathophysiology"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 30-year-old woman with HbSS is 20 weeks pregnant. She presents with sudden onset severe right upper quadrant pain and jaundice. Her Hb has dropped from 8.2 to 5.8 g/dL. LFTs show ALT 340 U/L.\n\nQuestion: What is the likely diagnosis and how is this pregnancy managed from this point?",
+    "output": "Hepatic sequestration or intrahepatic cholestasis in SCD pregnancy — severe acute presentation. Management: 1) Urgent haematology and obstetrics joint review. 2) Blood transfusion to correct anaemia — exchange transfusion if severe. 3) IV hydration and analgesia. 4) Monitor fetal wellbeing urgently. 5) LFT monitoring, liver ultrasound. 6) This pregnancy is now very high risk — increase monitoring frequency to at least every 2 weeks. 7) Consider delivery planning with neonatal team involvement. 8) Ensure folic acid 5mg daily continues. 9) Low-dose aspirin should already be on board from 12 weeks for pre-eclampsia prevention.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nAn 8-year-old boy with HbSS has annual TCD showing velocity of 210 cm/s. He is currently on hydroxyurea 20 mg/kg/day with HbF of 22% and has had no strokes. His parents refuse blood transfusion on religious grounds.\n\nQuestion: How do you manage this situation clinically and ethically?",
+    "output": "TCD ≥200 cm/s is abnormal — this child has approximately 10-fold elevated stroke risk. Clinical and ethical management: 1) Explain clearly to parents that without chronic transfusion therapy this child has a very high risk of stroke which could cause permanent disability or death. 2) Explore the specific religious concerns — some families accept certain blood products or exchange transfusion differently. 3) Involve a patient advocate, chaplaincy, or ethics team. 4) Document all conversations thoroughly. 5) If parents continue to refuse: optimize hydroxyurea to maximum tolerated dose — this is second-best but has some stroke risk reduction. 6) In many jurisdictions a child's best interests can override parental refusal for life-saving treatment — consider legal advice and child protection pathway if stroke risk is imminent. 7) Maintain follow-up and keep dialogue open.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 45-year-old man with HbSS is seen in adult clinic. He reports he has never taken hydroxyurea because he heard 'it causes cancer.' His Hb is 6.5 g/dL, he has 6 admissions per year, and his renal function is declining.\n\nQuestion: How do you address his concern and what is your management plan?",
+    "output": "Address concern: 1) Acknowledge his worry — do not dismiss it. 2) Explain clearly: hydroxyurea does not cause cancer. It is a cytoreductive agent that has been used safely in SCD for over 30 years with robust long-term safety data. 3) Explain the benefits specifically for him: reduces crisis frequency, hospitalizations, ACS, stroke risk, and importantly may slow renal disease progression. 4) The risk of NOT taking hydroxyurea (6 admissions/year, declining kidneys) is far greater than any theoretical risk. Management plan: 1) Start hydroxyurea at 15 mg/kg/day. 2) FBC monitoring every 4–8 weeks. 3) Nephrology co-management for declining renal function. 4) Avoid NSAIDs and nephrotoxins. 5) ACE inhibitor if proteinuria present. 6) Follow up in 3 months to assess response.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 6-year-old girl with HbSS is brought in by her grandmother. She has had fever and cough for 2 days. SpO2 is 93% on room air. CXR shows bilateral lower lobe infiltrates. She is started on ceftriaxone. Six hours later her SpO2 is 89% despite 4L O2 via mask.\n\nQuestion: What has happened and what is the immediate escalation management?",
+    "output": "ACS is deteriorating despite initial management — SpO2 falling below 90% despite supplemental O2 is an escalation criterion. Immediate management: 1) Escalate to urgent exchange transfusion — simple transfusion is no longer sufficient given bilateral involvement and deterioration. 2) Increase O2 delivery — consider non-rebreather mask or escalate to ICU for possible intubation if SpO2 continues to fall. 3) Continue ceftriaxone, add azithromycin if not already given. 4) Call ICU/HDU team immediately. 5) IV fluids carefully — avoid overload which worsens ACS. 6) Incentive spirometry if patient is conscious and cooperative. 7) Urgent haematology input.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 13-year-old girl with HbSS has been referred by her teacher due to declining school performance, difficulty concentrating, and slow processing speed. She has never had an overt stroke. Her neurological examination is normal.\n\nQuestion: What is the likely underlying cause and what investigation and support is needed?",
+    "output": "Likely silent cerebral infarcts — present in 20–35% of children with HbSS, cause no obvious neurological symptoms but impair attention, processing speed, and academic performance. Normal neurological exam does not exclude them. Investigation: 1) Brain MRI (not CT) — only MRI can detect silent infarcts. 2) Formal neuropsychological assessment. Management: 1) If silent infarcts confirmed: intensify SCD treatment — consider chronic transfusion therapy or optimize hydroxyurea. 2) Inform school — request educational accommodations (extra time, smaller class, support tutor). 3) Regular MRI monitoring. 4) Ensure annual TCD continues. 5) Family counseling.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "diagnosis_criteria"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 24-year-old male with HbSS presents planning a 14-hour flight from Lagos to London. He asks whether it is safe to travel and what he needs to do.\n\nQuestion: What travel advice do you give and are there any specific medical preparations needed?",
+    "output": "Travel is generally safe with correct precautions. Advice: 1) Commercial aircraft are pressurized to equivalent of 6,000–8,000 feet — reduced oxygen levels can trigger sickling. 2) Drink water regularly throughout the flight — avoid alcohol and caffeine (dehydrating). 3) Walk and stretch legs every 1–2 hours to prevent stasis and thrombosis. 4) Wear compression stockings. 5) Carry ALL medications in hand luggage — never in checked baggage. 6) Carry a medical summary letter in case of inflight emergency. 7) Inform the airline of medical condition in advance — request aisle seat. 8) For a 14-hour flight: discuss supplemental in-flight oxygen with doctor before travel — may be warranted given length. 9) Ensure travel insurance covers SCD. 10) Know the location of a specialist SCD centre in London before departure.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA 50-year-old woman with HbSS has been attending a clinic irregularly. She has no documented TCD since age 16, no ophthalmology review in 10 years, no echocardiogram ever, and her last FBC was 18 months ago. She feels 'relatively well.'\n\nQuestion: What overdue investigations must be arranged urgently and in what priority order?",
+    "output": "This is a significantly under-monitored adult SCD patient. Priority order: 1) FBC + reticulocytes immediately — baseline haematological status. 2) Renal function (creatinine, eGFR) + urine ACR — screen for nephropathy. 3) Liver function tests. 4) Echocardiogram — screen for pulmonary hypertension (TRJV ≥2.5 m/s = refer for right heart catheterization). 5) Ophthalmology review — proliferative retinopathy screening, last done 10 years ago. 6) Brain MRI — given age and lack of monitoring, screen for silent infarcts and cerebrovascular disease. 7) Iron studies if any transfusion history. 8) Review vaccination status — ensure pneumococcal booster up to date (every 5 years), annual flu. 9) Review and restart penicillin if not taking. 10) Establish regular annual review schedule going forward.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Clinical case:\nA couple attends genetic counseling. The woman has HbSS and the man has just been tested and found to have HbAS. They want to know their options for having children who are unaffected by SCD.\n\nQuestion: What are the reproductive options available to this couple and what are the odds for each pregnancy?",
+    "output": "Genetic odds: With HbSS mother and HbAS father — each pregnancy has 50% chance of HbSS (affected) and 50% chance of HbAS (carrier, clinically unaffected). There is NO chance of an HbAA (completely unaffected) child from this pairing. Reproductive options: 1) Natural conception with prenatal diagnosis: CVS at 11–14 weeks or amniocentesis from 16 weeks — allows diagnosis and decision-making. 2) Preimplantation genetic testing (PGT) during IVF: embryos tested before implantation, only HbAS embryos implanted — avoids termination decision but IVF process required. 3) Use of donor egg or donor sperm from HbAA individual — would change the odds. 4) Adoption. 5) Proceeding without testing. Counsel that all options are valid and the decision is theirs — the role of the clinician is to inform, not direct.",
+    "source": "Layer 4 Clinical Cases",
+    "category": "diagnosis_criteria"
+  }
+]

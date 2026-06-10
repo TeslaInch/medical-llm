@@ -1,0 +1,12 @@
+[
+  {
+    "instruction": "What is the primary pathophysiology of sickle cell disease?",
+    "input": "",
+    "output": "Sickle cell disease is caused by a point mutation in the beta-globin gene (HBB) where glutamic acid is replaced by valine at position 6. This leads to the formation of abnormal hemoglobin S (HbS), which polymerizes under deoxygenated conditions, causing red blood cells to become rigid and sickle-shaped."
+  },
+  {
+    "instruction": "What is the recommended starting dose for hydroxyurea in an adult patient with sickle cell anemia?",
+    "input": "Adult patient, 65 kg, normal renal function.",
+    "output": "According to ASH guidelines, the starting dose of hydroxyurea for an adult with normal renal function is typically 15 mg/kg/day, rounded to the nearest 500 mg. For a 65 kg adult, this is approximately 1,000 mg daily."
+  }
+]

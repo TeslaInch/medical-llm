@@ -1,0 +1,352 @@
+[
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What specific genetic mutation causes sickle cell disease?",
+    "output": "A single point mutation in codon 6 of the HBB gene on chromosome 11, replacing glutamic acid with valine (Glu6Val). This causes production of HbS instead of normal HbA, and HbS polymerizes when deoxygenated, distorting red blood cells into the sickle shape.",
+    "source": "Custom SCD Notes",
+    "category": "pathophysiology"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the difference between sickle cell disease and sickle cell trait?",
+    "output": "Sickle cell disease (HbSS) means inheriting two HbS genes causing clinical disease. Sickle cell trait (HbAS) means inheriting one HbS and one normal HbA gene. Carriers are generally asymptomatic but can pass the gene to children. Under extreme conditions trait carriers may rarely experience complications.",
+    "source": "Custom SCD Notes",
+    "category": "diagnosis_criteria"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Name the four common genotypes of sickle cell disease and rank them by severity.",
+    "output": "HbSS (most severe), HbS-β0 thalassemia (similar to HbSS), HbSC (moderate), HbS-β+ thalassemia (mildest). HbSS and HbS-β0 cause the most frequent and severe crises. HbSC carries higher risk of retinopathy and avascular necrosis.",
+    "source": "Custom SCD Notes",
+    "category": "diagnosis_criteria"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the gold standard diagnostic test for sickle cell disease and what alternatives exist?",
+    "output": "HPLC is the gold standard. Alternatives include hemoglobin electrophoresis and isoelectric focusing. Solubility tests (Sickledex) are NOT sufficient as they cannot distinguish HbSS from HbAS.",
+    "source": "Custom SCD Notes",
+    "category": "diagnosis_criteria"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "How is sickle cell disease inherited? What are the odds if both parents have sickle cell trait?",
+    "output": "Autosomal recessive. If both parents carry HbAS: 25% chance HbSS, 50% chance HbAS (trait), 25% chance HbAA (unaffected).",
+    "source": "Custom SCD Notes",
+    "category": "pathophysiology"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Why does sickle cell disease not typically present at birth, and when does it become symptomatic?",
+    "output": "Newborns are protected by fetal hemoglobin (HbF) which does not polymerize. As HbF falls and HbS rises over the first 6 months of life, symptoms emerge — typically between 6–12 months of age.",
+    "source": "Custom SCD Notes",
+    "category": "pathophysiology"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What does a newborn screening result of 'FS' indicate and what are the next steps?",
+    "output": "FS pattern indicates HbSS disease or HbS-β0 thalassemia. Next steps: repeat confirmatory testing, parental hemoglobin testing, urgent haematology referral, start penicillin prophylaxis and vaccinations immediately.",
+    "source": "Custom SCD Notes",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is dactylitis and what is its clinical significance?",
+    "output": "Dactylitis (hand-foot syndrome) is painful swelling of the fingers and toes due to vaso-occlusion. It is typically the first clinical manifestation of SCD, occurring in infants aged 6–24 months. It should prompt immediate sickle cell screening.",
+    "source": "Custom SCD Notes",
+    "category": "diagnosis_criteria"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What distinguishes HbSC disease from HbSS clinically, and what complications is HbSC particularly associated with?",
+    "output": "HbSC is generally milder with higher hemoglobin levels (10–12 g/dL vs 6–9 g/dL). However HbSC carries disproportionately high risk of proliferative sickle cell retinopathy and avascular necrosis of the femoral head due to higher blood viscosity.",
+    "source": "Custom SCD Notes",
+    "category": "diagnosis_criteria"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "At what point should prenatal diagnosis for SCD be offered and what methods are used?",
+    "output": "Offered to couples where both partners are carriers. CVS at 11–14 weeks (preferred), amniocentesis from 16 weeks, or preimplantation genetic testing (PGT) during IVF.",
+    "source": "Custom SCD Notes",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the mechanism of action of hydroxyurea in sickle cell disease?",
+    "output": "Inhibits ribonucleotide reductase, reactivating gamma-globin gene expression and increasing HbF production. Higher HbF dilutes HbS and inhibits polymerization. Also reduces neutrophil and platelet counts, decreasing vascular inflammation.",
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What are the indications for starting hydroxyurea in a child with HbSS disease?",
+    "output": "Recommended for ALL children with HbSS from 9 months of age regardless of clinical severity (NHLBI 2014). Additional indications: ≥3 moderate-severe VOC per year, any ACS episode, severe anemia, priapism, high TCD velocities, silent cerebral infarcts.",
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What monitoring parameters are required for a patient on hydroxyurea therapy?",
+    "output": "FBC every 4–8 weeks. Hold if neutrophils <2.0×10⁹/L, platelets <80×10⁹/L, or reticulocytes <80×10⁹/L. Monitor renal function, liver function, HbF percentage. Mandatory contraceptive counseling (teratogenic).",
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which vaccinations are essential for a child with sickle cell disease and why?",
+    "output": "Pneumococcal (PCV13 + PPSV23 at ages 2 and 5), Meningococcal (MenACWY + MenB), Hib, Hepatitis B, annual influenza. These address encapsulated organisms causing overwhelming infection due to functional asplenia. In Nigeria, Typhoid vaccination is also important.",
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Why is penicillin prophylaxis prescribed in SCD and until what age?",
+    "output": "Children develop functional asplenia making them susceptible to overwhelming infection by encapsulated bacteria especially S. pneumoniae. Penicillin V started from diagnosis, continued until at least age 5. Lifelong prophylaxis recommended for severe disease or post-splenectomy.",
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What are the indications for chronic blood transfusion therapy in SCD?",
+    "output": "Primary stroke prevention (TCD ≥200 cm/s), secondary stroke prevention, severe anemia unresponsive to hydroxyurea, recurrent ACS, pulmonary hypertension, pre-operatively for major surgery. Target: HbS <30% of total hemoglobin.",
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Name the newer FDA-approved treatments for SCD beyond hydroxyurea.",
+    "output": "L-glutamine/Endari (2017) — reduces oxidative stress. Crizanlizumab/Adakveo (2019) — anti-P-selectin antibody. Voxelotor/Oxbryta (2019) — prevents HbS polymerization. Casgevy (CRISPR, Dec 2023) and Lyfgenia (gene therapy, Dec 2023) — both potentially curative.",
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What pre-operative management is required for a patient with SCD undergoing general anaesthesia?",
+    "output": "Pre-operative haematology assessment, optimize hemoglobin, consider transfusion to reduce HbS to <30%. Avoid hypothermia, hypoxia, hypovolemia, acidosis intraoperatively. Post-op: early mobilization, incentive spirometry, adequate analgesia, thromboprophylaxis. Avoid tourniquet.",
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the role of folic acid supplementation in SCD?",
+    "output": "SCD causes chronic hemolysis increasing folate demand for accelerated erythropoiesis. Standard supplementation: 5mg daily in adults, weight-adjusted in children. Dietary folate alone is insufficient.",
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the approach to fever (≥38.5°C) in a child with SCD?",
+    "output": "Medical emergency. Attend ED immediately, full sepsis assessment, empirical IV antibiotics within ONE HOUR (e.g. ceftriaxone). Do not give paracetamol and wait. Functional asplenia means fatal sepsis can develop in hours. Assess for malaria in endemic areas including Nigeria.",
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What analgesics form the mainstay of acute VOC management and what should be avoided?",
+    "output": "Mainstay: strong opioids — morphine or oxycodone titrated to effect. NSAIDs as adjuncts if no renal contraindication. Regular paracetamol. AVOID pethidine (meperidine) — metabolite norpethidine accumulates and causes seizures in SCD.",
+    "source": "Custom SCD Notes",
+    "category": "contraindication"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is exchange transfusion and when is it preferred over simple transfusion?",
+    "output": "Exchange transfusion removes patient blood while replacing with donor blood, rapidly lowering HbS without increasing viscosity or causing iron overload. Preferred for acute ischemic stroke, severe ACS with rapid deterioration, multi-organ failure, and chronic transfusion programs.",
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the annual review schedule and which specific investigations are required?",
+    "output": "FBC + reticulocytes, liver and renal function, urinalysis, iron studies (if on transfusions), TCD (children 2–16 years), ophthalmology from age 10, blood pressure, pulse oximetry, echocardiography (adults), growth assessment in children, medication and vaccination review.",
+    "source": "Custom SCD Notes",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the recommended IV fluid type and rate for a patient with SCD in vaso-occlusive crisis?",
+    "output": "Normal saline (0.9% NaCl) or isotonic crystalloid at maintenance rate plus estimated deficit. Target urine output 1–2 ml/kg/hr. Do NOT give large volumes of hypotonic fluids (hyponatremia risk). Oral hydration preferred when tolerated.",
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What oxygen saturation should be maintained during acute illness and what is the role of routine supplemental oxygen?",
+    "output": "Target SpO2 ≥95%. Give supplemental oxygen if below 95%. Routine supplemental oxygen in the absence of hypoxia is NOT recommended — has not been shown to reduce crisis duration and can suppress reticulocytosis.",
+    "source": "Custom SCD Notes",
+    "category": "contraindication"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the target HbF percentage indicating adequate hydroxyurea response?",
+    "output": "HbF >20% is generally a good response. Maximum tolerated dose approach aims for HbF 15–30%. If HbF has not risen after 3–6 months at stable dose, reassess adherence first then consider dose increase.",
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the role of transcranial Doppler (TCD) in SCD management?",
+    "output": "Measures cerebral artery blood flow velocities to identify stroke risk. Annual screening for HbSS children aged 2–16. Normal <170 cm/s, Conditional 170–199 cm/s (repeat in 3 months), Abnormal ≥200 cm/s (initiate chronic transfusion immediately). Reduces first stroke incidence by 90%.",
+    "source": "Custom SCD Notes",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What complications arise from chronic transfusion therapy and how are they managed?",
+    "output": "Iron overload (each unit ~200–250mg iron) — requires chelation with deferasirox (oral, preferred) or deferoxamine (SC). Monitor liver iron by MRI T2*. Alloimmunization in 20–30% — use antigen-matched blood. Also transfusion reactions and hyperviscosity if over-transfused.",
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the outpatient pain management ladder for a patient with a mild-to-moderate VOC at home?",
+    "output": "Step 1: Regular paracetamol + NSAID. Step 2: Add weak opioid (codeine or tramadol). Use heat (warm compress or bath — NEVER ice). Increased oral fluids. If not controlled within 30–60 minutes of Step 2 or if severe from onset, attend ED.",
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What curative options currently exist for SCD and what are the eligibility criteria?",
+    "output": "HSCT: cure rate ~90% with matched sibling, now offered to adults with reduced-intensity conditioning. Gene therapies Casgevy (CRISPR) and Lyfgenia both FDA approved December 2023 — no matched donor needed. Access in Nigeria very limited due to cost (~$2 million per treatment).",
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 7-year-old with HbSS develops sudden left-sided weakness and slurred speech. What is the diagnosis and immediate management?",
+    "output": "Acute ischemic stroke — haematological emergency. Emergency CT head, URGENT exchange transfusion to reduce HbS to <30%, supplemental oxygen, IV access and fluids, neurological monitoring, neurology review. Do NOT use thrombolysis (tPA). Follow with chronic transfusion therapy.",
+    "source": "Custom SCD Notes",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Define acute chest syndrome, its diagnostic criteria, and complete management protocol.",
+    "output": "New pulmonary infiltrate on CXR involving at least one complete lung segment with fever >38.5°C and/or respiratory symptoms. Leading cause of death in SCD. Management: O2, IV hydration, analgesia + incentive spirometry, ceftriaxone + azithromycin, transfusion, bronchodilators if wheeze, ICU if deteriorating.",
+    "source": "Custom SCD Notes",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is splenic sequestration crisis? How do you recognize and treat it?",
+    "output": "Rapid pooling of blood in the spleen causing acute severe anemia (Hb drop >2 g/dL below baseline), sudden splenomegaly, pallor, and potentially hypovolemic shock. Most common in children aged 3 months–5 years. Treatment: urgent conservative blood transfusion, treat shock, parental education, splenectomy after first episode.",
+    "source": "Custom SCD Notes",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is aplastic crisis? Cause, presentation, management, and infection control considerations.",
+    "output": "Temporary cessation of red cell production caused by Parvovirus B19. Presents with sudden Hb drop, reticulocytopenia, fever, mild viral symptoms. Management: blood transfusion as needed, supportive care (self-limiting 7–10 days). Isolate from pregnant women and immunocompromised individuals.",
+    "source": "Custom SCD Notes",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Define priapism in SCD, classify it, and outline emergency management for major priapism.",
+    "output": "Prolonged painful penile erection due to vaso-occlusion. Stuttering: <4 hours, resolves spontaneously. Major: >4 hours — urological emergency. Management: IV hydration and analgesia, urgent urology for aspiration and irrigation, exchange transfusion if aspiration fails. Present immediately.",
+    "source": "Custom SCD Notes",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the significance of TCD velocity ≥200 cm/s and what immediate action follows?",
+    "output": "Indicates ~10-fold elevated stroke risk. Initiate chronic transfusion therapy within days targeting HbS <30%. Do not wait or repeat TCD first. Reduces first stroke incidence from ~10% to <1% per year. If transfusion unavailable, start hydroxyurea as a bridge.",
+    "source": "Custom SCD Notes",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A patient's hemoglobin falls below pre-transfusion levels 2 days after a blood transfusion. What is the diagnosis and management?",
+    "output": "Hyperhemolysis syndrome — both donor AND patient's own red cells are destroyed. AVOID further transfusion if possible, IVIG, high-dose corticosteroids, rituximab in refractory cases, erythropoiesis-stimulating agents. Consult haematology immediately.",
+    "source": "Custom SCD Notes",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What renal complications occur in SCD and how are they screened for?",
+    "output": "Hyposthenuria (earliest, virtually all HbSS), microscopic haematuria, nephrotic syndrome, progressive CKD (leading cause of adult death), renal medullary carcinoma. Annual urinalysis for proteinuria/microalbuminuria, serum creatinine and eGFR from childhood. Treat proteinuria with ACE inhibitors.",
+    "source": "Custom SCD Notes",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Describe sickle cell retinopathy, who is most at risk, and when to screen.",
+    "output": "Non-proliferative: salmon patch haemorrhages, black sunbursts, sea fans. Proliferative: neovascularization → vitreous haemorrhage → retinal detachment → blindness. HbSC has HIGHER risk than HbSS. Screen annually from age 10. Treatment: laser photocoagulation or anti-VEGF.",
+    "source": "Custom SCD Notes",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What pulmonary complications beyond ACS can occur in SCD and how are they monitored?",
+    "output": "Pulmonary hypertension (~10% of adults) — screen with annual echocardiography (TRJV ≥2.5 m/s → right heart catheterization). Obstructive/restrictive lung disease. Nocturnal hypoxia. Asthma worsens ACS risk. Consider sildenafil or bosentan for confirmed PH.",
+    "source": "Custom SCD Notes",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What symptoms should a patient or parent always treat as an emergency?",
+    "output": "Temperature ≥38.5°C, severe pain uncontrolled within 30–60 minutes, chest pain or difficulty breathing, any neurological change, sudden severe abdominal pain or enlarging spleen, sudden severe pallor, priapism >2 hours, unusually drowsy or floppy child.",
+    "source": "Custom SCD Notes",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What lifestyle modifications help reduce the frequency of sickle cell crises?",
+    "output": "Stay well hydrated (8–10 glasses daily), avoid cold (never apply ice), moderate regular exercise, avoid high altitude without advice, avoid alcohol and smoking, good hand hygiene, up-to-date vaccinations, take prescribed penicillin, manage stress, attend all appointments.",
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What are the key considerations for a woman with SCD planning a pregnancy?",
+    "output": "Stop hydroxyurea before conception (teratogenic), start folic acid 5mg daily, partner testing for HbAS. SCD pregnancy is HIGH RISK: increased VOC, ACS, pre-eclampsia, preterm birth, fetal growth restriction, higher maternal mortality. Must be managed jointly by haematologist and specialist obstetrician.",
+    "source": "Custom SCD Notes",
+    "category": "contraindication"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Can patients with SCD travel by air? What precautions should they take?",
+    "output": "Yes, generally safe with precautions. Aircraft pressurized to 6,000–8,000 feet. Precautions: regular water intake, walk every 1–2 hours, compression stockings, carry medications in hand luggage, inform airline, discuss supplemental oxygen for long flights, ensure travel insurance.",
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What are the dietary and nutritional recommendations for patients with SCD?",
+    "output": "Balanced high-calorie diet. Folic acid 5mg daily. Good hydration. Zinc supplementation may benefit. Avoid alcohol and excess caffeine. No specific foods proven to trigger crises directly.",
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What should schools and employers know about managing a student or employee with SCD?",
+    "output": "Unpredictable absences are not voluntary. Needs: unrestricted water and toilet access, ability to wear extra layers, flexibility to rest, understanding of prescribed opioids, awareness of stroke symptoms. Fatigue is chronic not laziness. Not contagious. Formal health care plan should be shared with consent.",
+    "source": "Custom SCD Notes",
+    "category": "pathophysiology"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What mental health considerations are important in SCD care?",
+    "output": "Chronic pain causes depression and anxiety in the majority. Social isolation, absenteeism, opioid stigma, fear of complications, body image issues, caregiver burnout. Routine psychological screening should be standard. Counseling and peer support should be actively offered.",
+    "source": "Custom SCD Notes",
+    "category": "pathophysiology"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What are the specific implications of SCD in Nigeria?",
+    "output": "Nigeria has the highest SCD burden globally — ~150,000 children born with SCD annually (~45% of global total). Challenges: limited newborn screening, irregular hydroxyurea supply, blood bank shortages, few specialist centres, poor community awareness, stigma, inadequate health insurance. Under-5 mortality far exceeds high-income countries.",
+    "source": "Custom SCD Notes",
+    "category": "pathophysiology"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What pain management plan should a patient with SCD have at home?",
+    "output": "Written personalised pain plan: specific medications and maximum doses, clear criteria for when to attend hospital, medications to avoid (e.g. pethidine), haematology contact number. Use heat not ice. Keep pain diary. Adequate home analgesia reduces unnecessary admissions.",
+    "source": "Custom SCD Notes",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "How does SCD affect cognitive development and educational attainment?",
+    "output": "Affects cognition via overt stroke, silent cerebral infarcts (20–35% of HbSS children affecting attention and processing speed), chronic anaemia, frequent absences, and pain. All HbSS children should have neuropsychological assessment. Silent infarcts detected by MRI warrant intensified treatment and educational accommodations.",
+    "source": "Custom SCD Notes",
+    "category": "pathophysiology"
+  }
+]

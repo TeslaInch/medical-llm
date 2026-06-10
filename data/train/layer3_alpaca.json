@@ -1,0 +1,282 @@
+[
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What are the primary monitoring intervals recommended for adult patients stabilizing on Hydroxyurea therapy, and what specific parameters must be checked at every visit?",
+    "output": "Once a stable dose is achieved, monitoring should occur every 2 to 3 months. Essential parameters: Full Blood Count (Hb, MCV, neutrophils, platelets), renal function (biochemistry), and liver function tests.",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What advice must be given to both male and female adult patients of reproductive age regarding Hydroxyurea therapy and family planning?",
+    "output": "Hydroxyurea is potentially teratogenic. It must be discontinued at least 3 months prior to planned conception, and effective contraception must be used during therapy.",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "contraindication"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the clinical standard regarding the routine use of Transcranial Doppler (TCD) screening in adult patients with Sickle Cell Disease?",
+    "output": "Routine annual TCD screening is not standard practice in adults. TCD velocities are not validated for stroke prediction in adults as they are in children. Adult stroke risk management focuses on clinical history and direct neuroimaging (MRI/MRA) if symptomatic.",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What specific red blood cell antigen matching protocol must be performed for all adult sickle cell patients to prevent alloimmunization during transfusions?",
+    "output": "All patients must receive red blood cells fully matched for extended phenotypes, specifically Rh (C, c, E, e) and Kell antigens, in addition to standard ABO matching.",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the recommended threshold of cumulative blood units or serum ferritin level at which an adult patient should be formally assessed for transfusion-linked iron overload?",
+    "output": "Adults should be assessed for iron overload after receiving more than 20 units of blood or when serum ferritin levels systematically rise above 1,000 µg/L.",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "If an adult patient with sickle cell disease presents with an acute neurological deficit suggestive of stroke, what imaging must be arranged immediately and what is the target timeline?",
+    "output": "An immediate CT or MRI brain scan must be performed within 1 hour of presentation to differentiate between ischemic and hemorrhagic stroke.",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the definitive therapeutic intervention required immediately following confirmation of an acute ischemic stroke in an adult sickle cell patient?",
+    "output": "Emergency automated red cell exchange transfusion, aimed at reducing HbS percentage to less than 30% while avoiding hyperviscosity.",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What clinical findings define the presence of Acute Chest Syndrome (ACS) in an adult patient presenting with an acute painful crisis?",
+    "output": "New pulmonary infiltrate on chest radiograph involving at least one complete lung lobe, accompanied by acute chest symptoms (cough, chest pain, dyspnea) or hypoxia (reduction in baseline oxygen saturation).",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "diagnosis_criteria"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Apart from empiric antibiotics and oxygen supplementation, what specific respiratory therapy must be actively encouraged hourly in an adult patient to prevent worsening of ACS?",
+    "output": "Incentive spirometry (10 breaths every hour while awake) alongside optimal analgesia to prevent atelectasis.",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the recommended revaccination schedule for the 23-valent pneumococcal polysaccharide vaccine (PPV23) in adult patients with sickle cell disease?",
+    "output": "A booster dose of PPV23 is required every 5 years due to functional asplenia.",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which annual vaccine is strongly recommended for all adult sickle cell patients to reduce the risk of secondary bacterial respiratory infections?",
+    "output": "The annual influenza vaccine is strongly recommended for all adult patients.",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the UK standard policy regarding the continuation of prophylactic oral penicillin in adult patients with homozygous sickle cell disease (HbSS)?",
+    "output": "Prophylactic oral penicillin (or Erythromycin if allergic) should be continued lifelong for all adult patients with HbSS and HbSβ0 due to permanent functional asplenia.",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What specific high-dose supplement must be prescribed to all pregnant women with sickle cell disease starting preconceptionally and continuing throughout pregnancy?",
+    "output": "Daily Folic Acid 5mg to support high red blood cell turnover and protect against neural tube defects.",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Due to the high risk of pre-eclampsia in pregnant individuals with SCD, what prophylactic medication is recommended from the end of the first trimester onward?",
+    "output": "Low-dose Aspirin (75–150 mg daily) should be initiated from 12 weeks of gestation onwards.",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "How frequently should adult patients with sickle cell disease be screened for sickle nephropathy, and what constitutes an abnormal finding requiring action?",
+    "output": "Annual screening using urine albumin-to-creatinine ratio (ACR). An ACR >3.5 mg/mmol (or significant proteinuria on dipstick) indicates microalbuminuria and requires further clinical review.",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which class of antihypertensive/renal-protective agents should be initiated in an adult patient who demonstrates persistent microalbuminuria?",
+    "output": "ACE inhibitors (or Angiotensin II Receptor Blockers if ACE inhibitors are not tolerated) are the first-line treatment choice.",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the recommended frequency for ophthalmology screening to catch proliferative sickle retinopathy in adults, and what is the definitive therapeutic option if proliferative changes are found?",
+    "output": "Ophthalmic screening every 1 to 2 years. If proliferative retinopathy is diagnosed, the primary definitive treatment is retinal laser photocoagulation.",
+    "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "At what specific age should hydroxyurea therapy be offered to infants with sickle cell anemia (HbSS/HbSβ0), regardless of clinical severity, and what is the typical starting dose?",
+    "output": "Hydroxyurea should be offered starting at 9 months of age. Standard initial dose is 20 mg/kg/day (or 15 mg/kg/day in adults).",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What are the standard toxic thresholds for neutrophils and platelets that require a clinician to temporarily hold hydroxyurea therapy?",
+    "output": "Hold hydroxyurea if ANC drops below 1,000/µL (1.0×10⁹/L) or platelet count drops below 80,000/µL (80×10⁹/L).",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Name two absolute contraindications or situations where hydroxyurea must be withheld or permanently discontinued.",
+    "output": "1. Pregnancy and breastfeeding (teratogenic risk). 2. Severe unremitting bone marrow toxicity that does not recover after temporary holds.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "contraindication"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the recommended age range for screening children with sickle cell anemia using annual Transcranial Doppler (TCD) ultrasonography?",
+    "output": "Children should be screened annually beginning at 2 years of age and continuing through at least 16 years of age.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "According to TCD velocity cutoffs, what blood flow velocity is classified as abnormal and what immediate intervention is required?",
+    "output": "A time-averaged maximum mean velocity ≥200 cm/s is abnormal. Immediate intervention: initiation of a long-term periodic blood transfusion program. Conditional range (170–199 cm/s) requires repeat TCD sooner to track progression.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What are two strong acute clinical indications where blood transfusion is strictly required in a patient with sickle cell disease?",
+    "output": "Acute stroke, Acute Chest Syndrome with severe hypoxemia/respiratory distress, and acute splenic sequestration with severe anemia.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "When a patient is on a chronic transfusion program for stroke prevention, what is the target HbS percentage?",
+    "output": "HbS must be maintained at less than 30% of total hemoglobin prior to each subsequent transfusion.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "At what quantitative threshold of iron overload should iron chelation therapy be initiated?",
+    "output": "Chelation should be initiated when serum ferritin consistently exceeds 1,500 ng/mL or when liver iron concentration (LIC) is ≥7 mg/g dry weight.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the absolute first-line immediate intervention for a patient with sickle cell disease presenting with signs of acute ischemic stroke?",
+    "output": "Emergent exchange transfusion (or simple transfusion if exchange is unavailable) to rapidly lower HbS levels without increasing blood viscosity.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the primary long-term prevention protocol for a pediatric patient with a history of abnormal TCD or prior stroke?",
+    "output": "Regular long-term periodic blood transfusion protocol to continuously suppress native sickled red blood cell production.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What diagnostic criteria must be met to formally diagnose Acute Chest Syndrome (ACS)?",
+    "output": "New pulmonary infiltrate on chest X-ray combined with at least one clinical sign: fever, chest pain, tachypnea, wheezing, cough, or hypoxemia.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "diagnosis_criteria"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which empiric antibiotic classes should be promptly initiated in a patient suspected of having ACS and what are they targeting?",
+    "output": "IV broad-spectrum cephalosporin (e.g. ceftriaxone) combined with a macrolide (e.g. azithromycin) to cover atypical pathogens including Mycoplasma pneumoniae and Chlamydia pneumoniae.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What specific escalation criteria dictate that a simple transfusion should be upgraded to urgent exchange transfusion in an ACS patient?",
+    "output": "Escalation required if: rapidly progressive respiratory distress, severe hypoxemia (O2 saturation dropping below 90% despite supplemental oxygen), or multi-lobar progression on chest X-ray.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "emergency_management"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which foundational pneumococcal vaccine should all children with sickle cell disease receive as a primary series and at what exact ages?",
+    "output": "PCV13 series at 2, 4, 6, and 12–15 months of age.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "At what age should children with SCD receive the PPSV23 vaccine and when is the booster dose required?",
+    "output": "First dose of PPSV23 at 2 years of age (at least 8 weeks after last PCV13 dose). Booster dose 5 years later at age 7.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "At what age should prophylactic oral penicillin therapy be initiated in a newborn diagnosed with HbSS?",
+    "output": "Daily oral prophylactic penicillin should be started by 2 months of age.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "At what specific age can prophylactic penicillin safely be discontinued, provided the patient has no history of splenectomy or invasive pneumococcal disease?",
+    "output": "Prophylactic penicillin can be discontinued at 5 years of age.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "dosing_guideline"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What are two severe gestational or fetal risks significantly increased in pregnant individuals with sickle cell disease?",
+    "output": "Increased rates of pre-eclampsia, preterm labor, low birth weight, and higher frequency of maternal vaso-occlusive pain crises.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "contraindication"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which common sickle cell disease medications are strictly contraindicated during pregnancy and must be discontinued prior to conception?",
+    "output": "Hydroxyurea and ACE inhibitors must be completely discontinued due to high risks of fetal toxicity and congenital malformations.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "contraindication"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "At what age should routine screening for renal disease begin in individuals with sickle cell disease and what specific test is used?",
+    "output": "Screening should begin at 10 years of age using a random spot urine sample to test for the microalbumin-to-creatinine ratio.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "If an individual with sickle cell disease tests positive for persistent microalbuminuria, what first-line pharmacological treatment should be initiated?",
+    "output": "ACE inhibitor (e.g. Enalapril or Lisinopril) to slow progression of sickle nephropathy.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "At what age should patients with sickle cell anemia begin regular screening for proliferative sickle cell retinopathy?",
+    "output": "Comprehensive ophthalmology screening should begin at 10 years of age.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "How do retinopathy screening outcomes differ between HbSS and HbSC genotypes?",
+    "output": "Proliferative sickle cell retinopathy is significantly higher and more aggressive in HbSC patients compared to HbSS, despite HbSC being the milder genotype overall.",
+    "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
+    "category": "diagnosis_criteria"
+  }
+]
