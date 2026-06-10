@@ -83,19 +83,61 @@ def build_training_data():
     else:
         print(f"Note: {CUSTOM_QA_FILE} not found. Proceeding without hand-crafted data.")
         
+    # Load converted Alpaca eval layers
+    alpaca_files = ["layer1_alpaca.json", "layer3_alpaca.json", "layer4_alpaca.json"]
+    eval_examples = []
+    for af in alpaca_files:
+        path = Path(f"data/train/{af}")
+        if path.exists():
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                eval_examples.extend(data)
+                print(f"Loaded {len(data)} examples from {af}")
+                
     # Merge datasets
-    final_dataset = filtered_examples + custom_examples
+    merged_dataset = filtered_examples + custom_examples + eval_examples
+    
+    # Deduplicate on exact input match (to avoid duplicate questions)
+    final_dataset = []
+    seen_inputs = set()
+    for item in merged_dataset:
+        input_text = item.get("input", "").strip()
+        if input_text in seen_inputs:
+            continue
+        seen_inputs.add(input_text)
+        final_dataset.append(item)
     
     # Shuffle dataset
     random.seed(42)
     random.shuffle(final_dataset)
     
-    # Save to disk
-    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(final_dataset, f, indent=2, ensure_ascii=False)
+    # Split into Train / Validation (90/10)
+    split_idx = int(len(final_dataset) * 0.9)
+    train_split = final_dataset[:split_idx]
+    val_split = final_dataset[split_idx:]
+    
+    # Save to disk as scd_training_final.json
+    final_output_file = Path("data/train/scd_training_final.json")
+    final_output_file.parent.mkdir(parents=True, exist_ok=True)
+    
+    output_data = {
+        "train": train_split,
+        "validation": val_split
+    }
+    
+    with open(final_output_file, "w", encoding="utf-8") as f:
+        json.dump(output_data, f, indent=2, ensure_ascii=False)
         
-    print(f"Success! Final instruction dataset saved to {OUTPUT_FILE} ({len(final_dataset)} total examples)")
+    # Print summary
+    print("\n--- Final Dataset Summary ---")
+    print(f"medical_meadow_medqa: {len(filtered_examples)}")
+    print(f"custom_handcrafted: {len(custom_examples)}")
+    print(f"converted_eval_layers: {len(eval_examples)}")
+    print(f"Total before deduplication: {len(merged_dataset)}")
+    print(f"Total after deduplication: {len(final_dataset)}")
+    print(f"Train split size: {len(train_split)}")
+    print(f"Validation split size: {len(val_split)}")
+    print(f"\nSuccess! Final instruction dataset saved to {final_output_file}")
 
 if __name__ == "__main__":
     build_training_data()
