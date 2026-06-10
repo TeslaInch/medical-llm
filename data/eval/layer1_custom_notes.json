@@ -162,7 +162,10 @@
     "category": "dosing_guideline",
     "official_source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
     "official_page": 31,
-    "citation_method": "layer3_match"
+    "citation_method": "layer3_match",
+    "clinical_note": "GUIDELINE VERSION DIFFERENCE (not an error — both are correct for their respective guideline):\nNHLBI 2014 → Penicillin prophylaxis can be DISCONTINUED at age 5 in children with no history of splenectomy or invasive pneumococcal infection.\nUK Standards 2018 (adult-focused) → Lifelong penicillin prophylaxis is recommended for all adults with HbSS and HbSβ⁰ due to permanent functional asplenia.\nThis is a genuine policy difference between the two guidelines, not a contradiction. The gold answer reflects the NHLBI 2014 position. If deploying for a UK clinical audience, the UK 2018 position applies.",
+    "patch_date": "2026-06-08",
+    "patch_source": "NHLBI 2014 Expert Panel Report, p.15; UK Standards for Clinical Care of Adults with SCD (2018), p.31."
   },
   {
     "id": "layer1_016",
@@ -184,7 +187,11 @@
     "category": "treatment_threshold",
     "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
     "official_page": "35-44",
-    "citation_method": "category_map"
+    "citation_method": "category_map",
+    "clinical_note": "POST-2018 REGULATORY UPDATE (verified 2026-06-08):\n1. VOXELOTOR (Oxbryta) — WITHDRAWN GLOBALLY. Pfizer voluntarily withdrew voxelotor from all markets on 25 September 2024 following a clinical imbalance in vaso-occlusive crises and deaths in the HOPE-KIDS 2 trial. It is no longer an available treatment option. Any model output listing voxelotor as a current SCD treatment is INCORRECT as of late 2024.\n2. CRIZANLIZUMAB (Adakveo) — EVOLVING STATUS. The confirmatory Phase III STAND trial was negative. The EMA withdrew conditional approval in 2023. As of June 2026, it remained FDA-approved in the US but its clinical role is increasingly questioned. Re-verify against the current FDA label before relying on this.\n3. GENE THERAPIES (Casgevy, Lyfgenia) — Both FDA-approved 8 December 2023 for patients ≥12 years with recurrent VOCs. This predates the 2014/2018 source guidelines entirely. The mention of these in the gold answer is CORRECT and current.\n4. L-GLUTAMINE (Endari) — Approved 2017, still available. No change.",
+    "answer_amendment": "AMENDED: Remove voxelotor from the list of currently available treatments — it was withdrawn globally in September 2024. Crizanlizumab's status is contested (STAND trial negative, EMA withdrawn); flag as uncertain for clinical use. Casgevy and Lyfgenia (approved Dec 2023) remain correct.",
+    "patch_date": "2026-06-08",
+    "patch_source": "FDA Drug Safety Communications; Pfizer press release 25 Sep 2024 (voxelotor withdrawal); EMA product page (crizanlizumab conditional MA withdrawal 2023); FDA approval letters for Casgevy and Lyfgenia, 8 Dec 2023."
   },
   {
     "id": "layer1_018",
@@ -327,7 +334,11 @@
     "category": "treatment_threshold",
     "official_source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
     "official_page": "35-44",
-    "citation_method": "category_map"
+    "citation_method": "category_map",
+    "clinical_note": "POST-2018 UPDATE (verified 2026-06-08):\nVOXELOTOR — WITHDRAWN. Pfizer withdrew voxelotor globally on 25 September 2024. It should not be listed as a curative or disease-modifying option.\nGENE THERAPIES — Casgevy (CRISPR/Cas9, editing BCL11A enhancer) and Lyfgenia (lentiviral; carries a boxed warning for haematologic malignancy) were both FDA-approved 8 December 2023 for patients ≥12 years with recurrent VOCs. The gold answer correctly names both. Cost remains a major access barrier in Nigeria (~$2–3M per treatment as of 2025).",
+    "answer_amendment": "AMENDED: Remove voxelotor from curative/newer options — withdrawn Sept 2024. Casgevy and Lyfgenia remain correct.",
+    "patch_date": "2026-06-08",
+    "patch_source": "Pfizer press release 25 Sep 2024; FDA approval letters Casgevy/Lyfgenia 8 Dec 2023."
   },
   {
     "id": "layer1_031",

@@ -34,7 +34,7 @@
   {
     "id": "layer3_005",
     "question": "What is the recommended threshold of cumulative blood units or serum ferritin level at which an adult patient should be formally assessed for transfusion-linked iron overload?",
-    "answer": "Adults should be assessed for iron overload after receiving more than 20 units of blood or when serum ferritin levels systematically rise above 1,000 \u00b5g/L.",
+    "answer": "Adults should be assessed for iron overload after receiving more than 20 units of blood or when serum ferritin levels systematically rise above 1,000 µg/L.",
     "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
     "page": 39,
     "category": "treatment_threshold"
@@ -90,10 +90,13 @@
   {
     "id": "layer3_012",
     "question": "What is the UK standard policy regarding the continuation of prophylactic oral penicillin in adult patients with homozygous sickle cell disease (HbSS)?",
-    "answer": "Prophylactic oral penicillin (or Erythromycin if allergic) should be continued lifelong for all adult patients with HbSS and HbS\u03b20 due to permanent functional asplenia.",
+    "answer": "Prophylactic oral penicillin (or Erythromycin if allergic) should be continued lifelong for all adult patients with HbSS and HbSβ0 due to permanent functional asplenia.",
     "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
     "page": 31,
-    "category": "dosing_guideline"
+    "category": "dosing_guideline",
+    "clinical_note": "GUIDELINE VERSION DIFFERENCE (not an error — both are correct for their respective guideline):\nUK Standards 2018 (this source) → Lifelong penicillin for all HbSS/HbSβ⁰ adults.\nNHLBI 2014 → Can stop at age 5 (paediatric guidance). These guidelines cover different populations (adult vs general). A model trained on both may appear self-contradictory but both answers are clinically correct in context.",
+    "patch_date": "2026-06-08",
+    "patch_source": "UK Standards for Clinical Care of Adults with SCD (2018), p.31; NHLBI 2014 Expert Panel Report, p.15."
   },
   {
     "id": "layer3_013",
@@ -106,7 +109,7 @@
   {
     "id": "layer3_014",
     "question": "Due to the high risk of pre-eclampsia in pregnant individuals with SCD, what prophylactic medication is recommended from the end of the first trimester onward?",
-    "answer": "Low-dose Aspirin (75\u2013150 mg daily) should be initiated from 12 weeks of gestation onwards.",
+    "answer": "Low-dose Aspirin (75–150 mg daily) should be initiated from 12 weeks of gestation onwards.",
     "source": "Standards for the Clinical Care of Adults with Sickle Cell Disease in the UK (2018, 2nd Edition)",
     "page": 75,
     "category": "dosing_guideline"
@@ -137,7 +140,7 @@
   },
   {
     "id": "layer3_018",
-    "question": "At what specific age should hydroxyurea therapy be offered to infants with sickle cell anemia (HbSS/HbS\u03b20), regardless of clinical severity, and what is the typical starting dose?",
+    "question": "At what specific age should hydroxyurea therapy be offered to infants with sickle cell anemia (HbSS/HbSβ0), regardless of clinical severity, and what is the typical starting dose?",
     "answer": "Hydroxyurea should be offered starting at 9 months of age. Standard initial dose is 20 mg/kg/day (or 15 mg/kg/day in adults).",
     "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
     "page": 26,
@@ -146,7 +149,7 @@
   {
     "id": "layer3_019",
     "question": "What are the standard toxic thresholds for neutrophils and platelets that require a clinician to temporarily hold hydroxyurea therapy?",
-    "answer": "Hold hydroxyurea if ANC drops below 1,000/\u00b5L (1.0\u00d710\u2079/L) or platelet count drops below 80,000/\u00b5L (80\u00d710\u2079/L).",
+    "answer": "Hold hydroxyurea if ANC drops below 1,000/µL (1.0×10⁹/L) or platelet count drops below 80,000/µL (80×10⁹/L).",
     "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
     "page": 33,
     "category": "treatment_threshold"
@@ -170,7 +173,7 @@
   {
     "id": "layer3_022",
     "question": "According to TCD velocity cutoffs, what blood flow velocity is classified as abnormal and what immediate intervention is required?",
-    "answer": "A time-averaged maximum mean velocity \u2265200 cm/s is abnormal. Immediate intervention: initiation of a long-term periodic blood transfusion program. Conditional range (170\u2013199 cm/s) requires repeat TCD sooner to track progression.",
+    "answer": "A time-averaged maximum mean velocity ≥200 cm/s is abnormal. Immediate intervention: initiation of a long-term periodic blood transfusion program. Conditional range (170–199 cm/s) requires repeat TCD sooner to track progression.",
     "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
     "page": 21,
     "category": "treatment_threshold"
@@ -194,7 +197,7 @@
   {
     "id": "layer3_025",
     "question": "At what quantitative threshold of iron overload should iron chelation therapy be initiated?",
-    "answer": "Chelation should be initiated when serum ferritin consistently exceeds 1,500 ng/mL or when liver iron concentration (LIC) is \u22657 mg/g dry weight.",
+    "answer": "Chelation should be initiated when serum ferritin consistently exceeds 1,500 ng/mL or when liver iron concentration (LIC) is ≥7 mg/g dry weight.",
     "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
     "page": 104,
     "category": "treatment_threshold"
@@ -242,7 +245,7 @@
   {
     "id": "layer3_031",
     "question": "Which foundational pneumococcal vaccine should all children with sickle cell disease receive as a primary series and at what exact ages?",
-    "answer": "PCV13 series at 2, 4, 6, and 12\u201315 months of age.",
+    "answer": "PCV13 series at 2, 4, 6, and 12–15 months of age.",
     "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
     "page": 17,
     "category": "dosing_guideline"
@@ -269,7 +272,10 @@
     "answer": "Prophylactic penicillin can be discontinued at 5 years of age.",
     "source": "NIH/NHLBI Evidence-Based Management of Sickle Cell Disease Expert Panel Report (Yawn et al., 2014)",
     "page": 15,
-    "category": "dosing_guideline"
+    "category": "dosing_guideline",
+    "clinical_note": "GUIDELINE VERSION DIFFERENCE (not an error):\nNHLBI 2014 (this source) → Prophylactic penicillin can be discontinued at age 5 in the absence of splenectomy or invasive pneumococcal disease.\nUK Standards 2018 → Lifelong prophylaxis for HbSS/HbSβ⁰ adults.\nBoth are correct within their guideline context.",
+    "patch_date": "2026-06-08",
+    "patch_source": "NHLBI 2014 Expert Panel Report, p.15; UK Standards for Clinical Care of Adults with SCD (2018), p.31."
   },
   {
     "id": "layer3_035",
