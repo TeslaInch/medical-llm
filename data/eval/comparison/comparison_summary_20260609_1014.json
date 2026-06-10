@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-06-09T10:14:56.321191",
+  "total_questions": 456,
+  "scored": 456,
+  "unscored": 0,
+  "overall": {
+    "count": 456,
+    "phi3_pct": 42.5,
+    "claude_pct": 69.3,
+    "winner": "claude_opus_4.8"
+  },
+  "by_layer": {
+    "layer2": {
+      "count": 456,
+      "phi3_pct": 42.5,
+      "claude_pct": 69.3,
+      "winner": "claude_opus_4.8"
+    }
+  },
+  "by_category": {
+    "multiple_choice": {
+      "count": 454,
+      "phi3_pct": 42.3,
+      "claude_pct": 69.2,
+      "winner": "claude_opus_4.8"
+    },
+    "yes_no_maybe": {
+      "count": 2,
+      "phi3_pct": 100.0,
+      "claude_pct": 100.0,
+      "winner": "tie"
+    }
+  }
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical LLM Benchmark Report</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        :root {
+            --bg-color: #0f172a;
+            --text-color: #f8fafc;
+            --card-bg: #1e293b;
+            --primary: #3b82f6;
+            --secondary: #10b981;
+            --phi3-color: #8b5cf6;
+            --claude-color: #f43f5e;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, rgba(15,23,42,0.9), rgba(30,41,59,0.9)), url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') center/cover;
+            padding: 100px 20px;
+            text-align: center;
+            border-bottom: 4px solid var(--primary);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+            background: linear-gradient(to right, #60a5fa, #34d399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #cbd5e1;
+        }
+
+        .layers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: -50px auto 40px;
+            padding: 0 20px;
+        }
+
+        .layer-card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            border-top: 3px solid var(--primary);
+            transition: transform 0.3s ease;
+        }
+
+        .layer-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .layer-card h3 {
+            margin-top: 0;
+            color: #60a5fa;
+            font-size: 1.1rem;
+        }
+
+        .layer-card p {
+            font-size: 0.9rem;
+            color: #94a3b8;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .chart-container {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.2);
+        }
+
+        h2.section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #f1f5f9;
+        }
+
+        .stats-row {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .stat-box {
+            background: rgba(255,255,255,0.05);
+            padding: 20px 40px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .stat-box h4 {
+            margin: 0;
+            color: #94a3b8;
+            font-weight: 400;
+        }
+
+        .stat-box .number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 10px 0 0;
+        }
+
+        .phi3-text { color: var(--phi3-color); }
+        .claude-text { color: var(--claude-color); }
+
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>Sickle Cell Disease (SCD) Benchmark</h1>
+        <p>A comprehensive evaluation framework comparing AI models on their medical knowledge, clinical reasoning, and guideline adherence for Sickle Cell Disease.</p>
+    </div>
+
+    <div class="layers-grid">
+        <div class="layer-card" style="border-color: #3b82f6;">
+            <h3>Layer 1: Custom Notes</h3>
+            <p>Evaluates foundational knowledge using specialized, open-ended clinical questions.</p>
+        </div>
+        <div class="layer-card" style="border-color: #10b981;">
+            <h3>Layer 2: MCQ Benchmark</h3>
+            <p>USMLE-style multiple choice questions targeting specific diagnostic and pathophysiological facts.</p>
+        </div>
+        <div class="layer-card" style="border-color: #f59e0b;">
+            <h3>Layer 3: Combined Reasoning</h3>
+            <p>Complex, multi-step reasoning questions combining basic science with clinical application.</p>
+        </div>
+        <div class="layer-card" style="border-color: #ef4444;">
+            <h3>Layer 4: Clinical Cases</h3>
+            <p>Full patient vignette evaluations requiring diagnosis, workup, and treatment planning.</p>
+        </div>
+        <div class="layer-card" style="border-color: #8b5cf6;">
+            <h3>Layer 5: ASH Guidelines</h3>
+            <p>Strict adherence testing against the latest American Society of Hematology (ASH) guidelines.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="section-title">Overall Performance</h2>
+        <div class="stats-row">
+            <div class="stat-box">
+                <h4>Phi3:mini Overall</h4>
+                <div class="number phi3-text">60.6%</div>
+            </div>
+            <div class="stat-box">
+                <h4>Claude Opus 4.8 Overall</h4>
+                <div class="number claude-text">74.7%</div>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="layerChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        const ctx = document.getElementById('layerChart').getContext('2d');
+        
+        // Setup gradient for Phi3
+        let phi3Gradient = ctx.createLinearGradient(0, 0, 0, 400);
+        phi3Gradient.addColorStop(0, 'rgba(139, 92, 246, 1)');
+        phi3Gradient.addColorStop(1, 'rgba(139, 92, 246, 0.4)');
+
+        // Setup gradient for Claude
+        let claudeGradient = ctx.createLinearGradient(0, 0, 0, 400);
+        claudeGradient.addColorStop(0, 'rgba(244, 63, 94, 1)');
+        claudeGradient.addColorStop(1, 'rgba(244, 63, 94, 0.4)');
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["Layer 1 (Custom Notes)", "Layer 2 (MCQ)", "Layer 3 (Combined)", "Layer 4 (Clinical Cases)", "Layer 5 (ASH Guidelines)"],
+                datasets: [
+                    {
+                        label: 'Phi3:mini Score (%)',
+                        data: [65.0, 59.6, 57.5, 65.6, 81.2],
+                        backgroundColor: phi3Gradient,
+                        borderRadius: 8,
+                        borderWidth: 0
+                    },
+                    {
+                        label: 'Claude Opus 4.8 Score (%)',
+                        data: [99.0, 69.3, 96.2, 81.1, 100.0],
+                        backgroundColor: claudeGradient,
+                        borderRadius: 8,
+                        borderWidth: 0
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        labels: { color: '#f8fafc', font: { family: 'Inter', size: 14 } }
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(15, 23, 42, 0.9)',
+                        titleFont: { size: 14 },
+                        bodyFont: { size: 14 },
+                        padding: 12,
+                        cornerRadius: 8
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100,
+                        grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                        ticks: { color: '#94a3b8', font: { family: 'Inter' } }
+                    },
+                    x: {
+                        grid: { display: false },
+                        ticks: { color: '#cbd5e1', font: { family: 'Inter', size: 13 } }
+                    }
+                },
+                animation: {
+                    duration: 1500,
+                    easing: 'easeOutQuart'
+                }
+            }
+        });
+    </script>
+</body>
+</html>
