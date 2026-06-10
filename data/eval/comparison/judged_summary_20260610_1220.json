@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-06-10T12:27:50.160631",
+  "judge_model": "llama-3.1-8b-instant",
+  "total_questions": 584,
+  "scored": 584,
+  "unscored": 0,
+  "auto_scored_l2": 456,
+  "llm_judged": 128,
+  "overall": {
+    "count": 584,
+    "phi3_pct": 60.6,
+    "claude_pct": 74.7,
+    "winner": "claude_opus_4.8"
+  },
+  "by_layer": {
+    "layer1": {
+      "count": 50,
+      "phi3_pct": 65.0,
+      "claude_pct": 99.0,
+      "winner": "claude_opus_4.8"
+    },
+    "layer2": {
+      "count": 456,
+      "phi3_pct": 59.6,
+      "claude_pct": 69.3,
+      "winner": "claude_opus_4.8"
+    },
+    "layer3": {
+      "count": 40,
+      "phi3_pct": 57.5,
+      "claude_pct": 96.2,
+      "winner": "claude_opus_4.8"
+    },
+    "layer4": {
+      "count": 30,
+      "phi3_pct": 65.6,
+      "claude_pct": 81.1,
+      "winner": "claude_opus_4.8"
+    },
+    "layer5": {
+      "count": 8,
+      "phi3_pct": 81.2,
+      "claude_pct": 100.0,
+      "winner": "claude_opus_4.8"
+    }
+  },
+  "by_category": {
+    "contraindication": {
+      "count": 8,
+      "phi3_pct": 64.6,
+      "claude_pct": 93.8,
+      "winner": "claude_opus_4.8"
+    },
+    "diagnosis_criteria": {
+      "count": 13,
+      "phi3_pct": 67.9,
+      "claude_pct": 97.4,
+      "winner": "claude_opus_4.8"
+    },
+    "dosing_guideline": {
+      "count": 21,
+      "phi3_pct": 60.3,
+      "claude_pct": 96.0,
+      "winner": "claude_opus_4.8"
+    },
+    "emergency_management": {
+      "count": 21,
+      "phi3_pct": 61.1,
+      "claude_pct": 95.2,
+      "winner": "claude_opus_4.8"
+    },
+    "multiple_choice": {
+      "count": 454,
+      "phi3_pct": 59.5,
+      "claude_pct": 69.2,
+      "winner": "claude_opus_4.8"
+    },
+    "pathophysiology": {
+      "count": 8,
+      "phi3_pct": 83.3,
+      "claude_pct": 95.8,
+      "winner": "claude_opus_4.8"
+    },
+    "screening_schedule": {
+      "count": 20,
+      "phi3_pct": 54.2,
+      "claude_pct": 91.7,
+      "winner": "claude_opus_4.8"
+    },
+    "treatment_threshold": {
+      "count": 37,
+      "phi3_pct": 66.7,
+      "claude_pct": 91.9,
+      "winner": "claude_opus_4.8"
+    },
+    "yes_no_maybe": {
+      "count": 2,
+      "phi3_pct": 100.0,
+      "claude_pct": 100.0,
+      "winner": "tie"
+    }
+  }
+}
