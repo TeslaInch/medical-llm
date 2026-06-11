@@ -14,7 +14,7 @@
             --card-bg: #1e293b;
             --primary: #3b82f6;
             --secondary: #10b981;
-            --phi3-color: #8b5cf6;
+            --phi3.5-color: #8b5cf6;
             --claude-color: #f43f5e;
         }
 
@@ -133,7 +133,7 @@
             margin: 10px 0 0;
         }
 
-        .phi3-text { color: var(--phi3-color); }
+        .phi3.5-text { color: var(--phi3.5-color); }
         .claude-text { color: var(--claude-color); }
 
     </style>
@@ -172,8 +172,8 @@
         <h2 class="section-title">Overall Performance</h2>
         <div class="stats-row">
             <div class="stat-box">
-                <h4>Phi3:mini Overall</h4>
-                <div class="number phi3-text">60.6%</div>
+                <h4>Phi3.5.5:mini Overall</h4>
+                <div class="number phi3.5-text">60.6%</div>
             </div>
             <div class="stat-box">
                 <h4>Claude Opus 4.8 Overall</h4>
@@ -189,10 +189,10 @@
     <script>
         const ctx = document.getElementById('layerChart').getContext('2d');
         
-        // Setup gradient for Phi3
-        let phi3Gradient = ctx.createLinearGradient(0, 0, 0, 400);
-        phi3Gradient.addColorStop(0, 'rgba(139, 92, 246, 1)');
-        phi3Gradient.addColorStop(1, 'rgba(139, 92, 246, 0.4)');
+        // Setup gradient for Phi3.5
+        let phi3.5Gradient = ctx.createLinearGradient(0, 0, 0, 400);
+        phi3.5Gradient.addColorStop(0, 'rgba(139, 92, 246, 1)');
+        phi3.5Gradient.addColorStop(1, 'rgba(139, 92, 246, 0.4)');
 
         // Setup gradient for Claude
         let claudeGradient = ctx.createLinearGradient(0, 0, 0, 400);
@@ -205,9 +205,9 @@
                 labels: ["Layer 1 (Custom Notes)", "Layer 2 (MCQ)", "Layer 3 (Combined)", "Layer 4 (Clinical Cases)", "Layer 5 (ASH Guidelines)"],
                 datasets: [
                     {
-                        label: 'Phi3:mini Score (%)',
+                        label: 'Phi3.5.5:mini Score (%)',
                         data: [65.0, 59.6, 57.5, 65.6, 81.2],
-                        backgroundColor: phi3Gradient,
+                        backgroundColor: phi3.5Gradient,
                         borderRadius: 8,
                         borderWidth: 0
                     },
