@@ -10,7 +10,7 @@
     "gold_answer": "No — ASH recommends against a routine screening echocardiogram to identify pulmonary hypertension in asymptomatic SCD patients.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 2,
@@ -23,7 +23,7 @@
     "gold_answer": "Not on the TRJ value alone — ASH recommends against right heart catheterisation for an isolated TRJ of 2.5-2.9 m/s in an asymptomatic patient. Catheterisation is recommended when a TRJ ≥2.5 m/s is combined with a reduced 6-minute walk distance and/or an elevated NT-proBNP.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 3,
@@ -36,7 +36,7 @@
     "gold_answer": "Right heart catheterisation (RHC) is the gold standard; the current haemodynamic definition of PH is a mean pulmonary artery pressure >20 mm Hg.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 4,
@@ -49,7 +49,7 @@
     "gold_answer": "A pulmonary hypertension specialist.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 5,
@@ -62,7 +62,7 @@
     "gold_answer": "Hydroxyurea or chronic transfusion therapy.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 6,
@@ -75,7 +75,7 @@
     "gold_answer": "No — ASH recommends against routine polysomnography in asymptomatic patients.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 7,
@@ -88,7 +88,7 @@
     "gold_answer": "ACE inhibitors or angiotensin II receptor blockers (ARBs).",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 8,
@@ -101,7 +101,7 @@
     "gold_answer": "A blood pressure goal of <130/80 mm Hg (preferred over <140/90 mm Hg).",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 9,
@@ -114,7 +114,7 @@
     "gold_answer": "A single point mutation in codon 6 of the HBB gene on chromosome 11, replacing glutamic acid with valine (Glu6Val). This causes production of HbS instead of normal HbA, and HbS polymerizes when deoxygenated, distorting red blood cells into the sickle shape.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 10,
@@ -127,7 +127,7 @@
     "gold_answer": "Sickle cell disease (HbSS) means inheriting two HbS genes causing clinical disease. Sickle cell trait (HbAS) means inheriting one HbS and one normal HbA gene. Carriers are generally asymptomatic but can pass the gene to children. Under extreme conditions trait carriers may rarely experience complications.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 11,
@@ -140,7 +140,7 @@
     "gold_answer": "HbSS (most severe), HbS-β0 thalassemia (similar to HbSS), HbSC (moderate), HbS-β+ thalassemia (mildest). HbSS and HbS-β0 cause the most frequent and severe crises. HbSC carries higher risk of retinopathy and avascular necrosis.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 12,
@@ -153,7 +153,7 @@
     "gold_answer": "HPLC is the gold standard. Alternatives include hemoglobin electrophoresis and isoelectric focusing. Solubility tests (Sickledex) are NOT sufficient as they cannot distinguish HbSS from HbAS.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 13,
@@ -166,7 +166,7 @@
     "gold_answer": "Autosomal recessive. If both parents carry HbAS: 25% chance HbSS, 50% chance HbAS (trait), 25% chance HbAA (unaffected).",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 14,
@@ -179,7 +179,7 @@
     "gold_answer": "Newborns are protected by fetal hemoglobin (HbF) which does not polymerize. As HbF falls and HbS rises over the first 6 months of life, symptoms emerge — typically between 6–12 months of age.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 15,
@@ -192,7 +192,7 @@
     "gold_answer": "FS pattern indicates HbSS disease or HbS-β0 thalassemia. Next steps: repeat confirmatory testing, parental hemoglobin testing, urgent haematology referral, start penicillin prophylaxis and vaccinations immediately.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 16,
@@ -205,7 +205,7 @@
     "gold_answer": "Dactylitis (hand-foot syndrome) is painful swelling of the fingers and toes due to vaso-occlusion. It is typically the first clinical manifestation of SCD, occurring in infants aged 6–24 months. It should prompt immediate sickle cell screening.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 17,
@@ -218,7 +218,7 @@
     "gold_answer": "HbSC is generally milder with higher hemoglobin levels (10–12 g/dL vs 6–9 g/dL). However HbSC carries disproportionately high risk of proliferative sickle cell retinopathy and avascular necrosis of the femoral head due to higher blood viscosity.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 18,
@@ -231,7 +231,7 @@
     "gold_answer": "Offered to couples where both partners are carriers. CVS at 11–14 weeks (preferred), amniocentesis from 16 weeks, or preimplantation genetic testing (PGT) during IVF.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 19,
@@ -244,7 +244,7 @@
     "gold_answer": "Inhibits ribonucleotide reductase, reactivating gamma-globin gene expression and increasing HbF production. Higher HbF dilutes HbS and inhibits polymerization. Also reduces neutrophil and platelet counts, decreasing vascular inflammation.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 20,
@@ -257,7 +257,7 @@
     "gold_answer": "Recommended for ALL children with HbSS from 9 months of age regardless of clinical severity (NHLBI 2014). Additional indications: ≥3 moderate-severe VOC per year, any ACS episode, severe anemia, priapism, high TCD velocities, silent cerebral infarcts.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 21,
@@ -270,7 +270,7 @@
     "gold_answer": "FBC every 4–8 weeks. Hold if neutrophils <2.0×10⁹/L, platelets <80×10⁹/L, or reticulocytes <80×10⁹/L. Monitor renal function, liver function, HbF percentage. Mandatory contraceptive counseling (teratogenic).",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 22,
@@ -283,7 +283,7 @@
     "gold_answer": "Pneumococcal (PCV13 + PPSV23 at ages 2 and 5), Meningococcal (MenACWY + MenB), Hib, Hepatitis B, annual influenza. These address encapsulated organisms causing overwhelming infection due to functional asplenia. In Nigeria, Typhoid vaccination is also important.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 23,
@@ -296,7 +296,7 @@
     "gold_answer": "Children develop functional asplenia making them susceptible to overwhelming infection by encapsulated bacteria especially S. pneumoniae. Penicillin V started from diagnosis, continued until at least age 5. Lifelong prophylaxis recommended for severe disease or post-splenectomy.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 24,
@@ -309,7 +309,7 @@
     "gold_answer": "Primary stroke prevention (TCD ≥200 cm/s), secondary stroke prevention, severe anemia unresponsive to hydroxyurea, recurrent ACS, pulmonary hypertension, pre-operatively for major surgery. Target: HbS <30% of total hemoglobin.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 25,
@@ -322,7 +322,7 @@
     "gold_answer": "L-glutamine/Endari (2017) — reduces oxidative stress. Crizanlizumab/Adakveo (2019) — anti-P-selectin antibody. Voxelotor/Oxbryta (2019) — prevents HbS polymerization. Casgevy (CRISPR, Dec 2023) and Lyfgenia (gene therapy, Dec 2023) — both potentially curative.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 26,
@@ -335,7 +335,7 @@
     "gold_answer": "Pre-operative haematology assessment, optimize hemoglobin, consider transfusion to reduce HbS to <30%. Avoid hypothermia, hypoxia, hypovolemia, acidosis intraoperatively. Post-op: early mobilization, incentive spirometry, adequate analgesia, thromboprophylaxis. Avoid tourniquet.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 27,
@@ -348,7 +348,7 @@
     "gold_answer": "SCD causes chronic hemolysis increasing folate demand for accelerated erythropoiesis. Standard supplementation: 5mg daily in adults, weight-adjusted in children. Dietary folate alone is insufficient.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 28,
@@ -361,7 +361,7 @@
     "gold_answer": "Medical emergency. Attend ED immediately, full sepsis assessment, empirical IV antibiotics within ONE HOUR (e.g. ceftriaxone). Do not give paracetamol and wait. Functional asplenia means fatal sepsis can develop in hours. Assess for malaria in endemic areas including Nigeria.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 29,
@@ -374,7 +374,7 @@
     "gold_answer": "Mainstay: strong opioids — morphine or oxycodone titrated to effect. NSAIDs as adjuncts if no renal contraindication. Regular paracetamol. AVOID pethidine (meperidine) — metabolite norpethidine accumulates and causes seizures in SCD.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 30,
@@ -387,7 +387,7 @@
     "gold_answer": "Exchange transfusion removes patient blood while replacing with donor blood, rapidly lowering HbS without increasing viscosity or causing iron overload. Preferred for acute ischemic stroke, severe ACS with rapid deterioration, multi-organ failure, and chronic transfusion programs.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 31,
@@ -400,7 +400,7 @@
     "gold_answer": "FBC + reticulocytes, liver and renal function, urinalysis, iron studies (if on transfusions), TCD (children 2–16 years), ophthalmology from age 10, blood pressure, pulse oximetry, echocardiography (adults), growth assessment in children, medication and vaccination review.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 32,
@@ -413,7 +413,7 @@
     "gold_answer": "Normal saline (0.9% NaCl) or isotonic crystalloid at maintenance rate plus estimated deficit. Target urine output 1–2 ml/kg/hr. Do NOT give large volumes of hypotonic fluids (hyponatremia risk). Oral hydration preferred when tolerated.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 33,
@@ -426,7 +426,7 @@
     "gold_answer": "Target SpO2 ≥95%. Give supplemental oxygen if below 95%. Routine supplemental oxygen in the absence of hypoxia is NOT recommended — has not been shown to reduce crisis duration and can suppress reticulocytosis.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 34,
@@ -439,7 +439,7 @@
     "gold_answer": "HbF >20% is generally a good response. Maximum tolerated dose approach aims for HbF 15–30%. If HbF has not risen after 3–6 months at stable dose, reassess adherence first then consider dose increase.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 35,
@@ -452,7 +452,7 @@
     "gold_answer": "Measures cerebral artery blood flow velocities to identify stroke risk. Annual screening for HbSS children aged 2–16. Normal <170 cm/s, Conditional 170–199 cm/s (repeat in 3 months), Abnormal ≥200 cm/s (initiate chronic transfusion immediately). Reduces first stroke incidence by 90%.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 36,
@@ -465,7 +465,7 @@
     "gold_answer": "Iron overload (each unit ~200–250mg iron) — requires chelation with deferasirox (oral, preferred) or deferoxamine (SC). Monitor liver iron by MRI T2*. Alloimmunization in 20–30% — use antigen-matched blood. Also transfusion reactions and hyperviscosity if over-transfused.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 37,
@@ -478,7 +478,7 @@
     "gold_answer": "Step 1: Regular paracetamol + NSAID. Step 2: Add weak opioid (codeine or tramadol). Use heat (warm compress or bath — NEVER ice). Increased oral fluids. If not controlled within 30–60 minutes of Step 2 or if severe from onset, attend ED.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 38,
@@ -491,7 +491,7 @@
     "gold_answer": "HSCT: cure rate ~90% with matched sibling, now offered to adults with reduced-intensity conditioning. Gene therapies Casgevy (CRISPR) and Lyfgenia both FDA approved December 2023 — no matched donor needed. Access in Nigeria very limited due to cost (~$2 million per treatment).",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 39,
@@ -504,7 +504,7 @@
     "gold_answer": "Acute ischemic stroke — haematological emergency. Emergency CT head, URGENT exchange transfusion to reduce HbS to <30%, supplemental oxygen, IV access and fluids, neurological monitoring, neurology review. Do NOT use thrombolysis (tPA). Follow with chronic transfusion therapy.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 40,
@@ -517,7 +517,7 @@
     "gold_answer": "New pulmonary infiltrate on CXR involving at least one complete lung segment with fever >38.5°C and/or respiratory symptoms. Leading cause of death in SCD. Management: O2, IV hydration, analgesia + incentive spirometry, ceftriaxone + azithromycin, transfusion, bronchodilators if wheeze, ICU if deteriorating.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 41,
@@ -530,7 +530,7 @@
     "gold_answer": "Rapid pooling of blood in the spleen causing acute severe anemia (Hb drop >2 g/dL below baseline), sudden splenomegaly, pallor, and potentially hypovolemic shock. Most common in children aged 3 months–5 years. Treatment: urgent conservative blood transfusion, treat shock, parental education, splenectomy after first episode.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 42,
@@ -543,7 +543,7 @@
     "gold_answer": "Temporary cessation of red cell production caused by Parvovirus B19. Presents with sudden Hb drop, reticulocytopenia, fever, mild viral symptoms. Management: blood transfusion as needed, supportive care (self-limiting 7–10 days). Isolate from pregnant women and immunocompromised individuals.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 43,
@@ -556,7 +556,7 @@
     "gold_answer": "Prolonged painful penile erection due to vaso-occlusion. Stuttering: <4 hours, resolves spontaneously. Major: >4 hours — urological emergency. Management: IV hydration and analgesia, urgent urology for aspiration and irrigation, exchange transfusion if aspiration fails. Present immediately.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 44,
@@ -569,7 +569,7 @@
     "gold_answer": "Indicates ~10-fold elevated stroke risk. Initiate chronic transfusion therapy within days targeting HbS <30%. Do not wait or repeat TCD first. Reduces first stroke incidence from ~10% to <1% per year. If transfusion unavailable, start hydroxyurea as a bridge.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 45,
@@ -582,7 +582,7 @@
     "gold_answer": "Hyperhemolysis syndrome — both donor AND patient's own red cells are destroyed. AVOID further transfusion if possible, IVIG, high-dose corticosteroids, rituximab in refractory cases, erythropoiesis-stimulating agents. Consult haematology immediately.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 46,
@@ -595,7 +595,7 @@
     "gold_answer": "Hyposthenuria (earliest, virtually all HbSS), microscopic haematuria, nephrotic syndrome, progressive CKD (leading cause of adult death), renal medullary carcinoma. Annual urinalysis for proteinuria/microalbuminuria, serum creatinine and eGFR from childhood. Treat proteinuria with ACE inhibitors.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 47,
@@ -608,7 +608,7 @@
     "gold_answer": "Non-proliferative: salmon patch haemorrhages, black sunbursts, sea fans. Proliferative: neovascularization → vitreous haemorrhage → retinal detachment → blindness. HbSC has HIGHER risk than HbSS. Screen annually from age 10. Treatment: laser photocoagulation or anti-VEGF.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 48,
@@ -621,7 +621,7 @@
     "gold_answer": "Pulmonary hypertension (~10% of adults) — screen with annual echocardiography (TRJV ≥2.5 m/s → right heart catheterization). Obstructive/restrictive lung disease. Nocturnal hypoxia. Asthma worsens ACS risk. Consider sildenafil or bosentan for confirmed PH.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 49,
@@ -634,7 +634,7 @@
     "gold_answer": "Temperature ≥38.5°C, severe pain uncontrolled within 30–60 minutes, chest pain or difficulty breathing, any neurological change, sudden severe abdominal pain or enlarging spleen, sudden severe pallor, priapism >2 hours, unusually drowsy or floppy child.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 50,
@@ -647,7 +647,7 @@
     "gold_answer": "Stay well hydrated (8–10 glasses daily), avoid cold (never apply ice), moderate regular exercise, avoid high altitude without advice, avoid alcohol and smoking, good hand hygiene, up-to-date vaccinations, take prescribed penicillin, manage stress, attend all appointments.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 51,
@@ -660,7 +660,7 @@
     "gold_answer": "Stop hydroxyurea before conception (teratogenic), start folic acid 5mg daily, partner testing for HbAS. SCD pregnancy is HIGH RISK: increased VOC, ACS, pre-eclampsia, preterm birth, fetal growth restriction, higher maternal mortality. Must be managed jointly by haematologist and specialist obstetrician.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 52,
@@ -673,7 +673,7 @@
     "gold_answer": "Yes, generally safe with precautions. Aircraft pressurized to 6,000–8,000 feet. Precautions: regular water intake, walk every 1–2 hours, compression stockings, carry medications in hand luggage, inform airline, discuss supplemental oxygen for long flights, ensure travel insurance.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 53,
@@ -686,7 +686,7 @@
     "gold_answer": "Balanced high-calorie diet. Folic acid 5mg daily. Good hydration. Zinc supplementation may benefit. Avoid alcohol and excess caffeine. No specific foods proven to trigger crises directly.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 54,
@@ -699,7 +699,7 @@
     "gold_answer": "Unpredictable absences are not voluntary. Needs: unrestricted water and toilet access, ability to wear extra layers, flexibility to rest, understanding of prescribed opioids, awareness of stroke symptoms. Fatigue is chronic not laziness. Not contagious. Formal health care plan should be shared with consent.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 55,
@@ -712,7 +712,7 @@
     "gold_answer": "Chronic pain causes depression and anxiety in the majority. Social isolation, absenteeism, opioid stigma, fear of complications, body image issues, caregiver burnout. Routine psychological screening should be standard. Counseling and peer support should be actively offered.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 56,
@@ -725,7 +725,7 @@
     "gold_answer": "Nigeria has the highest SCD burden globally — ~150,000 children born with SCD annually (~45% of global total). Challenges: limited newborn screening, irregular hydroxyurea supply, blood bank shortages, few specialist centres, poor community awareness, stigma, inadequate health insurance. Under-5 mortality far exceeds high-income countries.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 57,
@@ -738,7 +738,7 @@
     "gold_answer": "Written personalised pain plan: specific medications and maximum doses, clear criteria for when to attend hospital, medications to avoid (e.g. pethidine), haematology contact number. Use heat not ice. Keep pain diary. Adequate home analgesia reduces unnecessary admissions.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 58,
@@ -751,7 +751,7 @@
     "gold_answer": "Affects cognition via overt stroke, silent cerebral infarcts (20–35% of HbSS children affecting attention and processing speed), chronic anaemia, frequent absences, and pain. All HbSS children should have neuropsychological assessment. Silent infarcts detected by MRI warrant intensified treatment and educational accommodations.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 59,
@@ -764,7 +764,7 @@
     "gold_answer": "Positive direct Coombs test",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 60,
@@ -777,7 +777,7 @@
     "gold_answer": "The patient should receive serogroup B meningococcal vaccination at the age of 10 years.",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 61,
@@ -790,7 +790,7 @@
     "gold_answer": "Essential thrombocythemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 62,
@@ -803,7 +803,7 @@
     "gold_answer": "Renal papillary necrosis",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 63,
@@ -816,7 +816,7 @@
     "gold_answer": "Hydroxyurea",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 64,
@@ -829,7 +829,7 @@
     "gold_answer": "Sickle cell trait",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 65,
@@ -842,7 +842,7 @@
     "gold_answer": "Chronic hemolysis",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 66,
@@ -855,7 +855,7 @@
     "gold_answer": "I, IV",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 67,
@@ -868,7 +868,7 @@
     "gold_answer": "Salmonella enterica",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 68,
@@ -881,7 +881,7 @@
     "gold_answer": "Intravenous morphine",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 69,
@@ -894,7 +894,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 70,
@@ -907,7 +907,7 @@
     "gold_answer": "Amino acid substitution",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 71,
@@ -920,7 +920,7 @@
     "gold_answer": "C3 complement deficiency",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 72,
@@ -933,7 +933,7 @@
     "gold_answer": "Initial sequence of the 3' end of a DNA strand",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 73,
@@ -946,7 +946,7 @@
     "gold_answer": "Aplastic crisis",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 74,
@@ -959,7 +959,7 @@
     "gold_answer": "Segmental sclerosis and negative immunofluorescence and foot process effacement",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 75,
@@ -972,7 +972,7 @@
     "gold_answer": "Prevents RBC dehydration by inhibiting K+ efflux",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 76,
@@ -985,7 +985,7 @@
     "gold_answer": "Howell-Jolly bodies",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 77,
@@ -998,7 +998,7 @@
     "gold_answer": "Streptococcus pneumoniae",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 78,
@@ -1011,7 +1011,7 @@
     "gold_answer": "Flow cytometry",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 79,
@@ -1024,7 +1024,7 @@
     "gold_answer": "Hearing loss",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 80,
@@ -1037,7 +1037,7 @@
     "gold_answer": "Legg-Calve-Perthes disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 81,
@@ -1050,7 +1050,7 @@
     "gold_answer": "Renal papillary ischemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 82,
@@ -1063,7 +1063,7 @@
     "gold_answer": "Hydroxyurea",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 83,
@@ -1076,7 +1076,7 @@
     "gold_answer": "Trazodone",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 84,
@@ -1089,7 +1089,7 @@
     "gold_answer": "Polysaccharide vaccination",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 85,
@@ -1102,7 +1102,7 @@
     "gold_answer": "ABO incompatibility",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 86,
@@ -1115,7 +1115,7 @@
     "gold_answer": "S. aureus",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 87,
@@ -1128,7 +1128,7 @@
     "gold_answer": "Trazodone",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 88,
@@ -1141,7 +1141,7 @@
     "gold_answer": "Hydroxyurea",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 89,
@@ -1154,7 +1154,7 @@
     "gold_answer": "Increase in hemoglobin with higher oxygen affinity",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 90,
@@ -1167,7 +1167,7 @@
     "gold_answer": "Beta-thalassemia major",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 91,
@@ -1180,7 +1180,7 @@
     "gold_answer": "Clostridium perfringens",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 92,
@@ -1193,7 +1193,7 @@
     "gold_answer": "Antibiotics and supportive care",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 93,
@@ -1206,7 +1206,7 @@
     "gold_answer": "Depression treatment with trazodone",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 94,
@@ -1219,7 +1219,7 @@
     "gold_answer": "An individual needs 2 defective β-globin genes to have the sickle cell trait",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 95,
@@ -1232,7 +1232,7 @@
     "gold_answer": "Hydroxyurea",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 96,
@@ -1245,7 +1245,7 @@
     "gold_answer": "Salmonella enterica",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 97,
@@ -1258,7 +1258,7 @@
     "gold_answer": "Sickle cell disease (SCD)",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 98,
@@ -1271,7 +1271,7 @@
     "gold_answer": "Ceftriaxone",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 99,
@@ -1284,7 +1284,7 @@
     "gold_answer": "Positive direct Coombs test",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 100,
@@ -1297,7 +1297,7 @@
     "gold_answer": "Viral infection",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 101,
@@ -1310,7 +1310,7 @@
     "gold_answer": "Parvovirus infection",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 102,
@@ -1323,7 +1323,7 @@
     "gold_answer": "Pneumococcal vaccine",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 103,
@@ -1336,7 +1336,7 @@
     "gold_answer": "Pneumovax",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 104,
@@ -1349,7 +1349,7 @@
     "gold_answer": "Hydroxyurea",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 105,
@@ -1362,7 +1362,7 @@
     "gold_answer": "Penicillin until age 5",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 106,
@@ -1375,7 +1375,7 @@
     "gold_answer": "A recessive beta-globin mutation causing morphological changes to the RBC",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 107,
@@ -1388,7 +1388,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 108,
@@ -1401,7 +1401,7 @@
     "gold_answer": "Lane 4",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 109,
@@ -1414,7 +1414,7 @@
     "gold_answer": "Segmental scarring",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 110,
@@ -1427,7 +1427,7 @@
     "gold_answer": "Have the baby sleep in supine position",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 111,
@@ -1440,7 +1440,7 @@
     "gold_answer": "Anti-B antibodies",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 112,
@@ -1453,7 +1453,7 @@
     "gold_answer": "1 and 2",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 113,
@@ -1466,7 +1466,7 @@
     "gold_answer": "Exchange transfusion",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 114,
@@ -1479,7 +1479,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 115,
@@ -1492,7 +1492,7 @@
     "gold_answer": "Exchange transfusion",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 116,
@@ -1505,7 +1505,7 @@
     "gold_answer": "Increases levels of fetal hemoglobin (HgbF)",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 117,
@@ -1518,7 +1518,7 @@
     "gold_answer": "Dog bite",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 118,
@@ -1531,7 +1531,7 @@
     "gold_answer": "Alanine",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 119,
@@ -1544,7 +1544,7 @@
     "gold_answer": "Impaired urine concentration ability",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 120,
@@ -1557,7 +1557,7 @@
     "gold_answer": "X",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 121,
@@ -1570,7 +1570,7 @@
     "gold_answer": "Increase in circulating fetal hemoglobin",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 122,
@@ -1583,7 +1583,7 @@
     "gold_answer": "Hemolytic transfusion reaction; discontinue transfusion",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 123,
@@ -1596,7 +1596,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 124,
@@ -1609,7 +1609,7 @@
     "gold_answer": "Missense",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 125,
@@ -1622,7 +1622,7 @@
     "gold_answer": "Metabisulfite test",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 126,
@@ -1635,7 +1635,7 @@
     "gold_answer": "Protective against adult malaria",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 127,
@@ -1648,7 +1648,7 @@
     "gold_answer": "IV. Regional Anaesthesia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 128,
@@ -1661,7 +1661,7 @@
     "gold_answer": "Thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 129,
@@ -1674,7 +1674,7 @@
     "gold_answer": "A base substitution in DNA",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 130,
@@ -1687,7 +1687,7 @@
     "gold_answer": "P. falciparum",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 131,
@@ -1700,7 +1700,7 @@
     "gold_answer": "100%",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 132,
@@ -1713,7 +1713,7 @@
     "gold_answer": "G6PD deficiency",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 133,
@@ -1726,7 +1726,7 @@
     "gold_answer": "Missense mutation of beta chain",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 134,
@@ -1739,7 +1739,7 @@
     "gold_answer": "Barrier method",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 135,
@@ -1752,7 +1752,7 @@
     "gold_answer": "Renal medullary carcinoma",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 136,
@@ -1765,7 +1765,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 137,
@@ -1778,7 +1778,7 @@
     "gold_answer": "Thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 138,
@@ -1791,7 +1791,7 @@
     "gold_answer": "Splenomegaly usually seen",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 139,
@@ -1804,7 +1804,7 @@
     "gold_answer": "Point mutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 140,
@@ -1817,7 +1817,7 @@
     "gold_answer": "B-chain",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 141,
@@ -1830,7 +1830,7 @@
     "gold_answer": "Point mutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 142,
@@ -1843,7 +1843,7 @@
     "gold_answer": "Sickle cell anaemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 143,
@@ -1856,7 +1856,7 @@
     "gold_answer": "Heterozygous individuals are at increased risk of Plasmodium falciparum infection",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 144,
@@ -1869,7 +1869,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 145,
@@ -1882,7 +1882,7 @@
     "gold_answer": "Sickle cell anaemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 146,
@@ -1895,7 +1895,7 @@
     "gold_answer": "Ringed sideroblast",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 147,
@@ -1908,7 +1908,7 @@
     "gold_answer": "Sickle cell anaemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 148,
@@ -1921,7 +1921,7 @@
     "gold_answer": "Point mutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 149,
@@ -1934,7 +1934,7 @@
     "gold_answer": "bc",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 150,
@@ -1947,7 +1947,7 @@
     "gold_answer": "Ringedsideroblast",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 151,
@@ -1960,7 +1960,7 @@
     "gold_answer": "All of the above",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 152,
@@ -1973,7 +1973,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 153,
@@ -1986,7 +1986,7 @@
     "gold_answer": "Sickle cell anaemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 154,
@@ -1999,7 +1999,7 @@
     "gold_answer": "β-chain",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 155,
@@ -2012,7 +2012,7 @@
     "gold_answer": "Beta-chain",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 156,
@@ -2025,7 +2025,7 @@
     "gold_answer": "Intravenous Regional Anesthesia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 157,
@@ -2038,7 +2038,7 @@
     "gold_answer": "2",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 158,
@@ -2051,7 +2051,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 159,
@@ -2064,7 +2064,7 @@
     "gold_answer": "50% HbS is required for occurrence of sickling",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 160,
@@ -2077,7 +2077,7 @@
     "gold_answer": "Thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 161,
@@ -2090,7 +2090,7 @@
     "gold_answer": "Autosplenectomy",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 162,
@@ -2103,7 +2103,7 @@
     "gold_answer": "G6PD deficiency",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 163,
@@ -2116,7 +2116,7 @@
     "gold_answer": "Thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 164,
@@ -2129,7 +2129,7 @@
     "gold_answer": "Base pair substitution",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 165,
@@ -2142,7 +2142,7 @@
     "gold_answer": "Myco tuberculosis",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 166,
@@ -2155,7 +2155,7 @@
     "gold_answer": "Salmonella",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 167,
@@ -2168,7 +2168,7 @@
     "gold_answer": "HbA",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 168,
@@ -2181,7 +2181,7 @@
     "gold_answer": "Parvovirus B19 infection",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 169,
@@ -2194,7 +2194,7 @@
     "gold_answer": "Autosplenectomy",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 170,
@@ -2207,7 +2207,7 @@
     "gold_answer": "Splenic dysfunction",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 171,
@@ -2220,7 +2220,7 @@
     "gold_answer": "Salmonella",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 172,
@@ -2233,7 +2233,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 173,
@@ -2246,7 +2246,7 @@
     "gold_answer": "b- Thalassemia trait",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 174,
@@ -2259,7 +2259,7 @@
     "gold_answer": "Thalassemia and Iron deficiency anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 175,
@@ -2272,7 +2272,7 @@
     "gold_answer": "Inherited as AR",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 176,
@@ -2285,7 +2285,7 @@
     "gold_answer": "Parvovirus B19",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 177,
@@ -2298,7 +2298,7 @@
     "gold_answer": "Thalassemia major",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 178,
@@ -2311,7 +2311,7 @@
     "gold_answer": "Sticky patch is generated as a result of replacement of a non polar residue with a polar residue",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 179,
@@ -2324,7 +2324,7 @@
     "gold_answer": "Chondrocalcinosis.",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 180,
@@ -2337,7 +2337,7 @@
     "gold_answer": "Bone infarction",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 181,
@@ -2350,7 +2350,7 @@
     "gold_answer": "Hydroxyurea",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 182,
@@ -2363,7 +2363,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 183,
@@ -2376,7 +2376,7 @@
     "gold_answer": "High hematocrit",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 184,
@@ -2389,7 +2389,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 185,
@@ -2402,7 +2402,7 @@
     "gold_answer": "0 and 100%",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 186,
@@ -2415,7 +2415,7 @@
     "gold_answer": "Beta thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 187,
@@ -2428,7 +2428,7 @@
     "gold_answer": "High recticulocyte count",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 188,
@@ -2441,7 +2441,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 189,
@@ -2454,7 +2454,7 @@
     "gold_answer": "Beta thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 190,
@@ -2467,7 +2467,7 @@
     "gold_answer": "α–thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 191,
@@ -2480,7 +2480,7 @@
     "gold_answer": "Moderate to massive spleenomegaly",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 192,
@@ -2493,7 +2493,7 @@
     "gold_answer": "G6PD deficiency",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 193,
@@ -2506,7 +2506,7 @@
     "gold_answer": "Fever",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 194,
@@ -2519,7 +2519,7 @@
     "gold_answer": "Salmonella",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 195,
@@ -2532,7 +2532,7 @@
     "gold_answer": "Thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 196,
@@ -2545,7 +2545,7 @@
     "gold_answer": "Malaria",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 197,
@@ -2558,7 +2558,7 @@
     "gold_answer": "Thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 198,
@@ -2571,7 +2571,7 @@
     "gold_answer": "Plasmodium falciparum",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 199,
@@ -2584,7 +2584,7 @@
     "gold_answer": "G6PD deficiency",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 200,
@@ -2597,7 +2597,7 @@
     "gold_answer": "CTC → CAC in DNA",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 201,
@@ -2610,7 +2610,7 @@
     "gold_answer": "Condom or diaphragm",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 202,
@@ -2623,7 +2623,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 203,
@@ -2636,7 +2636,7 @@
     "gold_answer": "High performance liquid chromatography",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 204,
@@ -2649,7 +2649,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 205,
@@ -2662,7 +2662,7 @@
     "gold_answer": "All of the above",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 206,
@@ -2675,7 +2675,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 207,
@@ -2688,7 +2688,7 @@
     "gold_answer": "Glu by val in β6",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 208,
@@ -2701,7 +2701,7 @@
     "gold_answer": "Thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 209,
@@ -2714,7 +2714,7 @@
     "gold_answer": "Sickle cell retinopathy",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 210,
@@ -2727,7 +2727,7 @@
     "gold_answer": "Salmonella",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 211,
@@ -2740,7 +2740,7 @@
     "gold_answer": "Hydroxyurea",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 212,
@@ -2753,7 +2753,7 @@
     "gold_answer": "Beta thalassemia trait",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 213,
@@ -2766,7 +2766,7 @@
     "gold_answer": "abc",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 214,
@@ -2779,7 +2779,7 @@
     "gold_answer": "Point mutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 215,
@@ -2792,7 +2792,7 @@
     "gold_answer": "50% HbS is required for occurrence of sickling",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 216,
@@ -2805,7 +2805,7 @@
     "gold_answer": "Intravenous regional anesthesia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 217,
@@ -2818,7 +2818,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 218,
@@ -2831,7 +2831,7 @@
     "gold_answer": "50% HbS is required for occurrence of sickling",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 219,
@@ -2844,7 +2844,7 @@
     "gold_answer": "Hemolysis is predominantly intravascular",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 220,
@@ -2857,7 +2857,7 @@
     "gold_answer": "Valine instead of glutamic acid in the 6th position of b chain",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 221,
@@ -2870,7 +2870,7 @@
     "gold_answer": "Beta thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 222,
@@ -2883,7 +2883,7 @@
     "gold_answer": "Hay fever, sickle cell anemia and tuberculosis are contraindications for vaccination",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 223,
@@ -2896,7 +2896,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 224,
@@ -2909,7 +2909,7 @@
     "gold_answer": "Malaria",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 225,
@@ -2922,7 +2922,7 @@
     "gold_answer": "Thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 226,
@@ -2935,7 +2935,7 @@
     "gold_answer": "Deletion of gene",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 227,
@@ -2948,7 +2948,7 @@
     "gold_answer": "Missense",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 228,
@@ -2961,7 +2961,7 @@
     "gold_answer": "Sickle cell disease (SS)",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 229,
@@ -2974,7 +2974,7 @@
     "gold_answer": "Point mutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 230,
@@ -2987,7 +2987,7 @@
     "gold_answer": "Sticky patch is generated as a result of replacement of a non polar residue with a polar residue",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 231,
@@ -3000,7 +3000,7 @@
     "gold_answer": "Beta thalassemia major",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 232,
@@ -3013,7 +3013,7 @@
     "gold_answer": "Bone pain",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 233,
@@ -3026,7 +3026,7 @@
     "gold_answer": "Priapism.",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 234,
@@ -3039,7 +3039,7 @@
     "gold_answer": "All",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 235,
@@ -3052,7 +3052,7 @@
     "gold_answer": "Ringed sideroblast",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 236,
@@ -3065,7 +3065,7 @@
     "gold_answer": "a-thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 237,
@@ -3078,7 +3078,7 @@
     "gold_answer": "Alpha thalassemia trait",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 238,
@@ -3091,7 +3091,7 @@
     "gold_answer": "Bone pain",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 239,
@@ -3104,7 +3104,7 @@
     "gold_answer": "High hematocrit",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 240,
@@ -3117,7 +3117,7 @@
     "gold_answer": "Point mutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 241,
@@ -3130,7 +3130,7 @@
     "gold_answer": "Ribonucleotide diphosphate reductase",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 242,
@@ -3143,7 +3143,7 @@
     "gold_answer": "Thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 243,
@@ -3156,7 +3156,7 @@
     "gold_answer": "G6PD deficiency",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 244,
@@ -3169,7 +3169,7 @@
     "gold_answer": "Medullary",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 245,
@@ -3182,7 +3182,7 @@
     "gold_answer": "0 and 100%",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 246,
@@ -3195,7 +3195,7 @@
     "gold_answer": "Point mutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 247,
@@ -3208,7 +3208,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 248,
@@ -3221,7 +3221,7 @@
     "gold_answer": "Sickle cell anaemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 249,
@@ -3234,7 +3234,7 @@
     "gold_answer": "Myco tuberculosis",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 250,
@@ -3247,7 +3247,7 @@
     "gold_answer": "Hydroxyurea",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 251,
@@ -3260,7 +3260,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 252,
@@ -3273,7 +3273,7 @@
     "gold_answer": "Falx Cerebri",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 253,
@@ -3286,7 +3286,7 @@
     "gold_answer": "I.V. Regional Anaesthesia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 254,
@@ -3299,7 +3299,7 @@
     "gold_answer": "IVRA (intravenous regional anesthesia)",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 255,
@@ -3312,7 +3312,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 256,
@@ -3325,7 +3325,7 @@
     "gold_answer": "Deoxyhemoglobin",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 257,
@@ -3338,7 +3338,7 @@
     "gold_answer": "Thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 258,
@@ -3351,7 +3351,7 @@
     "gold_answer": "Nohern blot analysis",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 259,
@@ -3364,7 +3364,7 @@
     "gold_answer": "Staphylococcus epidermidis",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 260,
@@ -3377,7 +3377,7 @@
     "gold_answer": "Sticky patch is generated as a result of replacement of a non polar residue with a polar residue",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 261,
@@ -3390,7 +3390,7 @@
     "gold_answer": "Parvovirus",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 262,
@@ -3403,7 +3403,7 @@
     "gold_answer": "Point mutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 263,
@@ -3416,7 +3416,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 264,
@@ -3429,7 +3429,7 @@
     "gold_answer": "100%",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 265,
@@ -3442,7 +3442,7 @@
     "gold_answer": "50% HbS is required for occurrence of sickling",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 266,
@@ -3455,7 +3455,7 @@
     "gold_answer": "0% and 100%",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 267,
@@ -3468,7 +3468,7 @@
     "gold_answer": "Malaria",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 268,
@@ -3481,7 +3481,7 @@
     "gold_answer": "b-chain",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 269,
@@ -3494,7 +3494,7 @@
     "gold_answer": "Base substitution mutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 270,
@@ -3507,7 +3507,7 @@
     "gold_answer": "0 and 100%",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 271,
@@ -3520,7 +3520,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 272,
@@ -3533,7 +3533,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 273,
@@ -3546,7 +3546,7 @@
     "gold_answer": "Patient presents early in life before 6 months of life",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 274,
@@ -3559,7 +3559,7 @@
     "gold_answer": "2",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 275,
@@ -3572,7 +3572,7 @@
     "gold_answer": "Splenomegaly",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 276,
@@ -3585,7 +3585,7 @@
     "gold_answer": "sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 277,
@@ -3598,7 +3598,7 @@
     "gold_answer": "Point mutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 278,
@@ -3611,7 +3611,7 @@
     "gold_answer": "Normal reticulocyte count",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 279,
@@ -3624,7 +3624,7 @@
     "gold_answer": "Bone pain",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 280,
@@ -3637,7 +3637,7 @@
     "gold_answer": "P. falciparum",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 281,
@@ -3650,7 +3650,7 @@
     "gold_answer": "Sickle cell anaemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 282,
@@ -3663,7 +3663,7 @@
     "gold_answer": "P. falciparum",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 283,
@@ -3676,7 +3676,7 @@
     "gold_answer": "Point mutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 284,
@@ -3689,7 +3689,7 @@
     "gold_answer": "Leucopenia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 285,
@@ -3702,7 +3702,7 @@
     "gold_answer": "Acidosis",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 286,
@@ -3715,7 +3715,7 @@
     "gold_answer": "Acidosis",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 287,
@@ -3728,7 +3728,7 @@
     "gold_answer": "Plasmodium falciparum",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 288,
@@ -3741,7 +3741,7 @@
     "gold_answer": "Infarctions",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 289,
@@ -3754,7 +3754,7 @@
     "gold_answer": "Bone pain",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 290,
@@ -3767,7 +3767,7 @@
     "gold_answer": "Isosthenuria",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 291,
@@ -3780,7 +3780,7 @@
     "gold_answer": "Autosplenectomy due to thrombosis &infarction",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 292,
@@ -3793,7 +3793,7 @@
     "gold_answer": "G6PD deficiency",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 293,
@@ -3806,7 +3806,7 @@
     "gold_answer": "Beta-thalassemia (major)",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 294,
@@ -3819,7 +3819,7 @@
     "gold_answer": "Salmonella",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 295,
@@ -3832,7 +3832,7 @@
     "gold_answer": "Valine",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 296,
@@ -3845,7 +3845,7 @@
     "gold_answer": "Calcium bilirubinate",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 297,
@@ -3858,7 +3858,7 @@
     "gold_answer": "Point mutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 298,
@@ -3871,7 +3871,7 @@
     "gold_answer": "2",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 299,
@@ -3884,7 +3884,7 @@
     "gold_answer": "Beta thalassemia major",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 300,
@@ -3897,7 +3897,7 @@
     "gold_answer": "It is motile and does not ferment lactose",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 301,
@@ -3910,7 +3910,7 @@
     "gold_answer": "Beta chain",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 302,
@@ -3923,7 +3923,7 @@
     "gold_answer": "Medullary",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 303,
@@ -3936,7 +3936,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 304,
@@ -3949,7 +3949,7 @@
     "gold_answer": "'Sticky patch' is generated as a result of replacement of a non polar residue with a polar residue",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 305,
@@ -3962,7 +3962,7 @@
     "gold_answer": "None of the above",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 306,
@@ -3975,7 +3975,7 @@
     "gold_answer": "Valine",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 307,
@@ -3988,7 +3988,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 308,
@@ -4001,7 +4001,7 @@
     "gold_answer": "Sticky patch is generated as a result of replacement of a non polar residue with a polar residue",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 309,
@@ -4014,7 +4014,7 @@
     "gold_answer": "Acidemia, metabolic acidosis, respiratory alkalosis, and hypoxia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 310,
@@ -4027,7 +4027,7 @@
     "gold_answer": "Alpha Thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 311,
@@ -4040,7 +4040,7 @@
     "gold_answer": "Bilirubin",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 312,
@@ -4053,7 +4053,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 313,
@@ -4066,7 +4066,7 @@
     "gold_answer": "Sickle cells on peripheral blood smear",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 314,
@@ -4079,7 +4079,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 315,
@@ -4092,7 +4092,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 316,
@@ -4105,7 +4105,7 @@
     "gold_answer": "Mutation in alpha chain",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 317,
@@ -4118,7 +4118,7 @@
     "gold_answer": "Deoxyhemoglobin",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 318,
@@ -4131,7 +4131,7 @@
     "gold_answer": "Sickle cell anaemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 319,
@@ -4144,7 +4144,7 @@
     "gold_answer": "Sickle Cell Disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 320,
@@ -4157,7 +4157,7 @@
     "gold_answer": "Salmonella",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 321,
@@ -4170,7 +4170,7 @@
     "gold_answer": "abce",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 322,
@@ -4183,7 +4183,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 323,
@@ -4196,7 +4196,7 @@
     "gold_answer": "Missense mutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 324,
@@ -4209,7 +4209,7 @@
     "gold_answer": "Salmonella enteritidis",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 325,
@@ -4222,7 +4222,7 @@
     "gold_answer": "Splenomegaly",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 326,
@@ -4235,7 +4235,7 @@
     "gold_answer": "Seidel's sign",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 327,
@@ -4248,7 +4248,7 @@
     "gold_answer": "2",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 328,
@@ -4261,7 +4261,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 329,
@@ -4274,7 +4274,7 @@
     "gold_answer": "Sickle cell anaemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 330,
@@ -4287,7 +4287,7 @@
     "gold_answer": "HbA first appears in fetal blood at 11 weeks when bone marrow stas hematopoiesis",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 331,
@@ -4300,7 +4300,7 @@
     "gold_answer": "Thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 332,
@@ -4313,7 +4313,7 @@
     "gold_answer": "All of the above",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 333,
@@ -4326,7 +4326,7 @@
     "gold_answer": "Both IgA nephropathy and sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 334,
@@ -4339,7 +4339,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 335,
@@ -4352,7 +4352,7 @@
     "gold_answer": "Northern blot analysis",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 336,
@@ -4365,7 +4365,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 337,
@@ -4378,7 +4378,7 @@
     "gold_answer": "Sickle cell anaemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 338,
@@ -4391,7 +4391,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 339,
@@ -4404,7 +4404,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 340,
@@ -4417,7 +4417,7 @@
     "gold_answer": "Leukopenia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 341,
@@ -4430,7 +4430,7 @@
     "gold_answer": "Beta-thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 342,
@@ -4443,7 +4443,7 @@
     "gold_answer": "Intake of primaquine",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 343,
@@ -4456,7 +4456,7 @@
     "gold_answer": "I.V. Regional Anaesthesia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 344,
@@ -4469,7 +4469,7 @@
     "gold_answer": "Malaria",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 345,
@@ -4482,7 +4482,7 @@
     "gold_answer": "Replacement of glutamate by valine in b-chain of HbA",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 346,
@@ -4495,7 +4495,7 @@
     "gold_answer": "Sickle cell disease",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 347,
@@ -4508,7 +4508,7 @@
     "gold_answer": "Hydroxyurea",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 348,
@@ -4521,7 +4521,7 @@
     "gold_answer": "75 to 100% haemoglobin",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 349,
@@ -4534,7 +4534,7 @@
     "gold_answer": "Point mutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 350,
@@ -4547,7 +4547,7 @@
     "gold_answer": "Splenomegaly usually seen",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 351,
@@ -4560,7 +4560,7 @@
     "gold_answer": "Splenomegaly usually seen",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 352,
@@ -4573,7 +4573,7 @@
     "gold_answer": "Thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 353,
@@ -4586,7 +4586,7 @@
     "gold_answer": "Nohern blot analysis",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 354,
@@ -4599,7 +4599,7 @@
     "gold_answer": "B - Thalassemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 355,
@@ -4612,7 +4612,7 @@
     "gold_answer": "Decreased ESR",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 356,
@@ -4625,7 +4625,7 @@
     "gold_answer": "GUG",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 357,
@@ -4638,7 +4638,7 @@
     "gold_answer": "Reduction in TLC",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 358,
@@ -4651,7 +4651,7 @@
     "gold_answer": "Sickling occurs both in heterozygous and homozygous state",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 359,
@@ -4664,7 +4664,7 @@
     "gold_answer": "Substitution of valine by glutamic acid",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 360,
@@ -4677,7 +4677,7 @@
     "gold_answer": "Chymotrypsin",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 361,
@@ -4690,7 +4690,7 @@
     "gold_answer": "IV Regional anaesthesia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 362,
@@ -4703,7 +4703,7 @@
     "gold_answer": "Butyrates",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 363,
@@ -4716,7 +4716,7 @@
     "gold_answer": "non-sensemutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 364,
@@ -4729,7 +4729,7 @@
     "gold_answer": "Hemophilia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 365,
@@ -4742,7 +4742,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 366,
@@ -4755,7 +4755,7 @@
     "gold_answer": "Valine for glutamate",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 367,
@@ -4768,7 +4768,7 @@
     "gold_answer": "Sickle cell anemia patient",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 368,
@@ -4781,7 +4781,7 @@
     "gold_answer": "Sickle cell anaemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 369,
@@ -4794,7 +4794,7 @@
     "gold_answer": "Point mutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 370,
@@ -4807,7 +4807,7 @@
     "gold_answer": "Point",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 371,
@@ -4820,7 +4820,7 @@
     "gold_answer": "Sickle cell anemia",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 372,
@@ -4833,7 +4833,7 @@
     "gold_answer": "Point mutation",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 373,
@@ -4846,7 +4846,7 @@
     "gold_answer": "Beta thalassemic trait",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 374,
@@ -4859,7 +4859,7 @@
     "gold_answer": "Decreased",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 375,
@@ -4872,7 +4872,7 @@
     "gold_answer": "no",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 376,
@@ -4885,7 +4885,7 @@
     "gold_answer": "no",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 377,
@@ -4898,7 +4898,7 @@
     "gold_answer": "Once a stable dose is achieved, monitoring should occur every 2 to 3 months. Essential parameters: Full Blood Count (Hb, MCV, neutrophils, platelets), renal function (biochemistry), and liver function tests.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 378,
@@ -4911,7 +4911,7 @@
     "gold_answer": "Hydroxyurea is potentially teratogenic. It must be discontinued at least 3 months prior to planned conception, and effective contraception must be used during therapy.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 379,
@@ -4924,7 +4924,7 @@
     "gold_answer": "Routine annual TCD screening is not standard practice in adults. TCD velocities are not validated for stroke prediction in adults as they are in children. Adult stroke risk management focuses on clinical history and direct neuroimaging (MRI/MRA) if symptomatic.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 380,
@@ -4937,7 +4937,7 @@
     "gold_answer": "All patients must receive red blood cells fully matched for extended phenotypes, specifically Rh (C, c, E, e) and Kell antigens, in addition to standard ABO matching.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 381,
@@ -4950,7 +4950,7 @@
     "gold_answer": "Adults should be assessed for iron overload after receiving more than 20 units of blood or when serum ferritin levels systematically rise above 1,000 µg/L.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 382,
@@ -4963,7 +4963,7 @@
     "gold_answer": "An immediate CT or MRI brain scan must be performed within 1 hour of presentation to differentiate between ischemic and hemorrhagic stroke.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 383,
@@ -4976,7 +4976,7 @@
     "gold_answer": "Emergency automated red cell exchange transfusion, aimed at reducing HbS percentage to less than 30% while avoiding hyperviscosity.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 384,
@@ -4989,7 +4989,7 @@
     "gold_answer": "New pulmonary infiltrate on chest radiograph involving at least one complete lung lobe, accompanied by acute chest symptoms (cough, chest pain, dyspnea) or hypoxia (reduction in baseline oxygen saturation).",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 385,
@@ -5002,7 +5002,7 @@
     "gold_answer": "Incentive spirometry (10 breaths every hour while awake) alongside optimal analgesia to prevent atelectasis.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 386,
@@ -5015,7 +5015,7 @@
     "gold_answer": "A booster dose of PPV23 is required every 5 years due to functional asplenia.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 387,
@@ -5028,7 +5028,7 @@
     "gold_answer": "The annual influenza vaccine is strongly recommended for all adult patients.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 388,
@@ -5041,7 +5041,7 @@
     "gold_answer": "Prophylactic oral penicillin (or Erythromycin if allergic) should be continued lifelong for all adult patients with HbSS and HbSβ0 due to permanent functional asplenia.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 389,
@@ -5054,7 +5054,7 @@
     "gold_answer": "Daily Folic Acid 5mg to support high red blood cell turnover and protect against neural tube defects.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 390,
@@ -5067,7 +5067,7 @@
     "gold_answer": "Low-dose Aspirin (75–150 mg daily) should be initiated from 12 weeks of gestation onwards.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 391,
@@ -5080,7 +5080,7 @@
     "gold_answer": "Annual screening using urine albumin-to-creatinine ratio (ACR). An ACR >3.5 mg/mmol (or significant proteinuria on dipstick) indicates microalbuminuria and requires further clinical review.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 392,
@@ -5093,7 +5093,7 @@
     "gold_answer": "ACE inhibitors (or Angiotensin II Receptor Blockers if ACE inhibitors are not tolerated) are the first-line treatment choice.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 393,
@@ -5106,7 +5106,7 @@
     "gold_answer": "Ophthalmic screening every 1 to 2 years. If proliferative retinopathy is diagnosed, the primary definitive treatment is retinal laser photocoagulation.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 394,
@@ -5119,7 +5119,7 @@
     "gold_answer": "Hydroxyurea should be offered starting at 9 months of age. Standard initial dose is 20 mg/kg/day (or 15 mg/kg/day in adults).",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 395,
@@ -5132,7 +5132,7 @@
     "gold_answer": "Hold hydroxyurea if ANC drops below 1,000/µL (1.0×10⁹/L) or platelet count drops below 80,000/µL (80×10⁹/L).",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 396,
@@ -5145,7 +5145,7 @@
     "gold_answer": "1. Pregnancy and breastfeeding (teratogenic risk). 2. Severe unremitting bone marrow toxicity that does not recover after temporary holds.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 397,
@@ -5158,7 +5158,7 @@
     "gold_answer": "Children should be screened annually beginning at 2 years of age and continuing through at least 16 years of age.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 398,
@@ -5171,7 +5171,7 @@
     "gold_answer": "A time-averaged maximum mean velocity ≥200 cm/s is abnormal. Immediate intervention: initiation of a long-term periodic blood transfusion program. Conditional range (170–199 cm/s) requires repeat TCD sooner to track progression.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 399,
@@ -5184,7 +5184,7 @@
     "gold_answer": "Acute stroke, Acute Chest Syndrome with severe hypoxemia/respiratory distress, and acute splenic sequestration with severe anemia.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 400,
@@ -5197,7 +5197,7 @@
     "gold_answer": "HbS must be maintained at less than 30% of total hemoglobin prior to each subsequent transfusion.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 401,
@@ -5210,7 +5210,7 @@
     "gold_answer": "Chelation should be initiated when serum ferritin consistently exceeds 1,500 ng/mL or when liver iron concentration (LIC) is ≥7 mg/g dry weight.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 402,
@@ -5223,7 +5223,7 @@
     "gold_answer": "Emergent exchange transfusion (or simple transfusion if exchange is unavailable) to rapidly lower HbS levels without increasing blood viscosity.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 403,
@@ -5236,7 +5236,7 @@
     "gold_answer": "Regular long-term periodic blood transfusion protocol to continuously suppress native sickled red blood cell production.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 404,
@@ -5249,7 +5249,7 @@
     "gold_answer": "New pulmonary infiltrate on chest X-ray combined with at least one clinical sign: fever, chest pain, tachypnea, wheezing, cough, or hypoxemia.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 405,
@@ -5262,7 +5262,7 @@
     "gold_answer": "IV broad-spectrum cephalosporin (e.g. ceftriaxone) combined with a macrolide (e.g. azithromycin) to cover atypical pathogens including Mycoplasma pneumoniae and Chlamydia pneumoniae.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 406,
@@ -5275,7 +5275,7 @@
     "gold_answer": "Escalation required if: rapidly progressive respiratory distress, severe hypoxemia (O2 saturation dropping below 90% despite supplemental oxygen), or multi-lobar progression on chest X-ray.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 407,
@@ -5288,7 +5288,7 @@
     "gold_answer": "PCV13 series at 2, 4, 6, and 12–15 months of age.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 408,
@@ -5301,7 +5301,7 @@
     "gold_answer": "First dose of PPSV23 at 2 years of age (at least 8 weeks after last PCV13 dose). Booster dose 5 years later at age 7.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 409,
@@ -5314,7 +5314,7 @@
     "gold_answer": "Daily oral prophylactic penicillin should be started by 2 months of age.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 410,
@@ -5327,7 +5327,7 @@
     "gold_answer": "Prophylactic penicillin can be discontinued at 5 years of age.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 411,
@@ -5340,7 +5340,7 @@
     "gold_answer": "Increased rates of pre-eclampsia, preterm labor, low birth weight, and higher frequency of maternal vaso-occlusive pain crises.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 412,
@@ -5353,7 +5353,7 @@
     "gold_answer": "Hydroxyurea and ACE inhibitors must be completely discontinued due to high risks of fetal toxicity and congenital malformations.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 413,
@@ -5366,7 +5366,7 @@
     "gold_answer": "Screening should begin at 10 years of age using a random spot urine sample to test for the microalbumin-to-creatinine ratio.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 414,
@@ -5379,7 +5379,7 @@
     "gold_answer": "ACE inhibitor (e.g. Enalapril or Lisinopril) to slow progression of sickle nephropathy.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 415,
@@ -5392,7 +5392,7 @@
     "gold_answer": "Comprehensive ophthalmology screening should begin at 10 years of age.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 416,
@@ -5405,7 +5405,7 @@
     "gold_answer": "Proliferative sickle cell retinopathy is significantly higher and more aggressive in HbSC patients compared to HbSS, despite HbSC being the milder genotype overall.",
     "score": null,
     "max_score": 2,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 417,
@@ -5418,7 +5418,7 @@
     "gold_answer": "Dactylitis (hand-foot syndrome) with fever. Priority: 1) Treat fever as emergency — blood cultures, FBC, CRP, empirical IV ceftriaxone within 1 hour. 2) Adequate analgesia (paracetamol + ibuprofen, escalate to opioids if needed). 3) IV hydration at maintenance. 4) If not already diagnosed with SCD, confirm diagnosis urgently via HPLC. 5) Admission for monitoring.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 418,
@@ -5431,7 +5431,7 @@
     "gold_answer": "Acute ischemic stroke. Priority: 1) Emergency CT head immediately to exclude haemorrhage. 2) Urgent exchange transfusion to reduce HbS to <30% — do not delay for MRI. 3) Supplemental oxygen to maintain SpO2 >95%. 4) IV access and isotonic fluids. 5) Neurology review. 6) Do NOT give tPA. 7) After stabilization: start chronic transfusion program.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 419,
@@ -5444,7 +5444,7 @@
     "gold_answer": "Acute Chest Syndrome (ACS). Management: 1) Supplemental oxygen to maintain SpO2 >95%. 2) IV ceftriaxone + azithromycin (cover typical and atypical organisms). 3) IV hydration — avoid overload. 4) Adequate analgesia + incentive spirometry 10 breaths every hour. 5) Simple transfusion if Hb significantly below baseline. 6) Escalate to exchange transfusion if SpO2 falls below 90% despite O2, or multi-lobar progression. 7) ICU if deteriorating. 8) Bronchodilators if wheeze present.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 420,
@@ -5457,7 +5457,7 @@
     "gold_answer": "Acute splenic sequestration crisis with hypovolemic shock. Priority: 1) Immediate IV access and fluid resuscitation for shock. 2) Urgent blood transfusion — transfuse conservatively (sequestered blood may return to circulation causing hyperviscosity, risk of overtransfusion). 3) Target Hb to safe level not full correction. 4) Admission to HDU/ICU. 5) Parental education on spleen palpation after recovery. 6) Plan elective splenectomy after stabilization to prevent recurrence.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 421,
@@ -5470,7 +5470,7 @@
     "gold_answer": "Aplastic crisis secondary to Parvovirus B19 infection. Management: 1) Blood transfusion to correct severe anaemia. 2) Supportive care — condition is self-limiting (7–10 days as immune response clears virus). 3) Monitor reticulocyte count for recovery. Infection control: Parvovirus B19 is highly contagious — isolate patient from pregnant women (risk of hydrops fetalis) and immunocompromised individuals immediately.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 422,
@@ -5483,7 +5483,7 @@
     "gold_answer": "Major priapism (>4 hours) — urological emergency. Previous episode was stuttering priapism (<4 hours). Management: 1) IV hydration and adequate analgesia immediately. 2) Urgent urology review for aspiration and irrigation of corpus cavernosum. 3) Exchange transfusion if aspiration fails. 4) Onset-to-treatment time critically affects outcome — document time of onset. 5) Counsel patient that future episodes must be reported immediately — do not wait at home.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 423,
@@ -5496,7 +5496,7 @@
     "gold_answer": "Conditional TCD result (170–199 cm/s) with rising trend from 160 cm/s last year. This is concerning for progression toward abnormal range. Management: 1) Do not ignore — this is not a normal result. 2) Repeat TCD in 3 months rather than waiting for annual review. 3) Reassess hydroxyurea adherence and optimize dose. 4) Counsel family about stroke risk and symptoms to watch for. 5) If next TCD reaches ≥200 cm/s, initiate chronic transfusion program immediately.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 424,
@@ -5509,7 +5509,7 @@
     "gold_answer": "Transfusional iron overload (ferritin well above 1,500 ng/mL threshold). Management: 1) Initiate iron chelation therapy — deferasirox (oral, preferred first-line) or deferoxamine (SC infusion). 2) Monitor liver iron concentration by MRI T2* to assess organ iron loading. 3) Monitor cardiac MRI T2* for cardiac iron. 4) Continue transfusion program — do not stop for iron overload alone. 5) Review chelation dose regularly based on ferritin trend and LIC. 6) Consider switching to exchange transfusion rather than simple transfusion going forward to reduce iron accumulation.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 425,
@@ -5522,7 +5522,7 @@
     "gold_answer": "Initiate hydroxyurea therapy. Starting dose 15–20 mg/kg/day, titrate to maximum tolerated dose. Target response: HbF >20%, reduction in crisis frequency, improvement in Hb. Monitoring: FBC every 4–8 weeks. Hold if ANC <1,000/µL, platelets <80,000/µL, or reticulocytes <80×10⁹/L. Monitor renal and liver function. Mandatory contraceptive counseling — hydroxyurea is teratogenic. Reassess adherence if HbF has not risen after 3–6 months.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 426,
@@ -5535,7 +5535,7 @@
     "gold_answer": "Hyperhemolysis syndrome — both donor and patient's own red cells are being destroyed, dropping Hb below pre-transfusion level. Critical decision: AVOID further transfusion if at all possible — additional transfusion typically worsens hemolysis and can be fatal. Management: 1) IVIG. 2) High-dose corticosteroids. 3) Rituximab in refractory cases. 4) Erythropoiesis-stimulating agents. 5) Urgent haematology consultation. Only transfuse if patient is in immediate life-threatening danger and no alternative exists.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 427,
@@ -5548,7 +5548,7 @@
     "gold_answer": "Pre-op: Haematology review, consider pre-operative transfusion to reduce HbS to <30% before surgery. Optimize Hb. Intra-op: Avoid hypothermia, hypoxia, hypovolemia, and acidosis. Maintain adequate oxygenation and IV hydration. Avoid tourniquet. Post-op: Early mobilization, incentive spirometry to prevent ACS, adequate analgesia to prevent splinting, thromboprophylaxis, monitor SpO2 closely.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 428,
@@ -5561,7 +5561,7 @@
     "gold_answer": "Medication changes: 1) Stop hydroxyurea at least 3 months before conception — teratogenic. 2) Stop ACE inhibitor before conception — contraindicated in pregnancy (fetal toxicity). Start folic acid 5mg daily immediately. Counseling: Partner has HbAS — each pregnancy has 50% chance of HbAS (trait) and 50% chance of HbSS (disease). Offer prenatal diagnosis via CVS at 11–14 weeks or amniocentesis from 16 weeks. Advise that SCD pregnancy is high risk: increased VOC, ACS, pre-eclampsia, preterm birth. Must be managed jointly by haematologist and specialist obstetrician. Start low-dose aspirin at 12 weeks gestation for pre-eclampsia prevention.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 429,
@@ -5574,7 +5574,7 @@
     "gold_answer": "Likely vitreous haemorrhage secondary to proliferative sickle cell retinopathy. Genotype relevance: HbSC has HIGHER risk of proliferative retinopathy than HbSS despite being the milder genotype overall — due to higher haematocrit and blood viscosity causing more peripheral vascular occlusion. He has never been screened despite screening being recommended from age 10. Management: 1) Urgent ophthalmology assessment. 2) Retinal imaging (fundoscopy, fluorescein angiography). 3) Laser photocoagulation or anti-VEGF injection for proliferative disease. 4) Enroll in annual ophthalmology screening going forward.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 430,
@@ -5587,7 +5587,7 @@
     "gold_answer": "Likely pulmonary hypertension (PH). TRJV ≥2.5 m/s is the echocardiographic threshold for suspected PH in SCD — requires referral for right heart catheterization to confirm. Management pathway: 1) Refer to pulmonology and cardiology. 2) Right heart catheterization for definitive diagnosis. 3) Optimize SCD treatment: ensure on hydroxyurea at maximum tolerated dose, consider chronic transfusion therapy. 4) If PH confirmed: consider sildenafil or bosentan. 5) Annual echocardiography monitoring going forward.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 431,
@@ -5600,7 +5600,7 @@
     "gold_answer": "Suboptimal hydroxyurea response — HbF target is >20% and he is only at 8% with ongoing crises. FBC shows no myelosuppression (ANC and platelets are above hold thresholds), meaning there is room to increase the dose. Next steps: 1) First reassess adherence — is he taking the medication daily as prescribed? 2) If adherent, increase dose toward maximum tolerated dose (titrate upward in 5 mg/kg/day increments). 3) Monitor FBC every 4–8 weeks after each dose increase. 4) Target HbF >20% and reduction in crisis frequency.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 432,
@@ -5613,7 +5613,7 @@
     "gold_answer": "Suspected bacterial meningitis/sepsis in a functionally asplenic child — life-threatening emergency. Immediate action at clinic: 1) If any oral antibiotics available (amoxicillin), give immediately — do not wait. 2) Start oral hydration if conscious. 3) Transfer to hospital IMMEDIATELY — call ahead to alert the receiving team. 4) Do not delay transfer waiting for any investigation. At hospital: blood cultures, IV ceftriaxone immediately, LP if safe, full sepsis workup. Also assess for malaria given Nigerian context — rapid malaria test and treat if positive. Every minute of delay increases mortality risk.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 433,
@@ -5626,7 +5626,7 @@
     "gold_answer": "Likely HbSS sickle cell disease — dactylitis, recurrent fevers, and pallor in a Nigerian child is SCD until proven otherwise. Confirmatory test: HPLC (gold standard) — send urgently. While awaiting results: 1) Start prophylactic penicillin V immediately — do not wait for confirmation given high clinical suspicion. 2) Start folic acid supplementation. 3) Counsel family on fever as emergency, hydration, cold avoidance. 4) Arrange all vaccinations including pneumococcal, meningococcal, Hib, hepatitis B, typhoid. 5) Refer to nearest SCD specialist centre. 6) Parental carrier testing.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 434,
@@ -5639,7 +5639,7 @@
     "gold_answer": "Immediate: 1) Treat current pain crisis — adequate analgesia, hydration. 2) Actively source hydroxyurea — contact national SCD association (e.g. Sickle Cell Association of Nigeria), other hospitals, international aid organizations. 3) Document supply failure for advocacy. Interim measures without hydroxyurea: 1) Maximize hydration counseling. 2) Strict cold avoidance. 3) Ensure penicillin prophylaxis is continued. 4) Ensure all vaccinations are up to date. 5) If blood bank access available and patient meets criteria, consider transfusion therapy as bridge. 6) Folic acid continuation. 7) Written emergency plan — when to go to hospital immediately.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 435,
@@ -5652,7 +5652,7 @@
     "gold_answer": "Counseling approach: 1) Acknowledge the shock and anger — do not dismiss. 2) Explain clearly: FS result means the baby likely has HbSS. The baby looks healthy now because of fetal hemoglobin which is protective — this will change from 6 months onwards. 3) Explain this is not anyone's fault — autosomal recessive inheritance, both parents carry the trait. 4) Use simple language, involve a trained counselor if available. Clinical steps regardless of acceptance: 1) Repeat confirmatory HPLC immediately. 2) Start prophylactic penicillin by 2 months of age — do not delay for parental agreement. 3) Begin vaccination schedule. 4) Parental carrier testing. 5) Schedule urgent follow-up. 6) Document all counseling provided.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 436,
@@ -5665,7 +5665,7 @@
     "gold_answer": "Severe vaso-occlusive crisis requiring hospital management. Immediate management: 1) IV access, isotonic IV fluids. 2) Strong opioid analgesia — IV morphine titrated to effect. Do NOT withhold opioids due to addiction concerns in acute VOC. 3) Regular paracetamol and NSAID as adjuncts. 4) Monitor SpO2 — oxygen only if below 95%. 5) Assess for precipitating cause (infection, dehydration). Stigma: 1) Staff should be educated that SCD pain is real, severe, and undertreated in this population. 2) Patient should have a written pain management plan to present at triage. 3) Document the previous experience and escalate to clinical lead. 4) Every patient deserves dignified, timely care.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 437,
@@ -5678,7 +5678,7 @@
     "gold_answer": "Sickle cell nephropathy with chronic kidney disease — significantly elevated ACR (normal <3.5 mg/mmol) and rising creatinine indicate progressive nephropathy. Management: 1) Initiate ACE inhibitor (or ARB if ACE not tolerated) — first-line renal protection. 2) Strict blood pressure control. 3) Nephrology referral for CKD staging and co-management. 4) Optimize SCD treatment — hydroxyurea, consider transfusion. 5) Avoid nephrotoxic drugs (NSAIDs, contrast agents, aminoglycosides). 6) Monitor creatinine, eGFR, and ACR every 3–6 months. 7) Counsel on fluid intake and avoiding dehydration.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 438,
@@ -5691,7 +5691,7 @@
     "gold_answer": "Clinical assessment: 1) Review frequency and severity of crises causing absences — document medically. 2) Assess for silent cerebral infarcts via MRI — present in 20–35% of HbSS patients, affect attention and processing speed without obvious symptoms. 3) Neuropsychological assessment if not already done. Practical support: 1) Write a formal medical letter to the school explaining SCD, its impact on attendance, and that absences are medically necessary — not voluntary. 2) Request formal educational accommodations: extra exam time, flexibility on deadlines, option to sit exams in a separate room. 3) Optimize medical management to reduce crisis frequency. 4) Refer to a school counselor or SCD patient support group. 5) Educate teaching staff about SCD.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 439,
@@ -5704,7 +5704,7 @@
     "gold_answer": "Hepatic sequestration or intrahepatic cholestasis in SCD pregnancy — severe acute presentation. Management: 1) Urgent haematology and obstetrics joint review. 2) Blood transfusion to correct anaemia — exchange transfusion if severe. 3) IV hydration and analgesia. 4) Monitor fetal wellbeing urgently. 5) LFT monitoring, liver ultrasound. 6) This pregnancy is now very high risk — increase monitoring frequency to at least every 2 weeks. 7) Consider delivery planning with neonatal team involvement. 8) Ensure folic acid 5mg daily continues. 9) Low-dose aspirin should already be on board from 12 weeks for pre-eclampsia prevention.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 440,
@@ -5717,7 +5717,7 @@
     "gold_answer": "TCD ≥200 cm/s is abnormal — this child has approximately 10-fold elevated stroke risk. Clinical and ethical management: 1) Explain clearly to parents that without chronic transfusion therapy this child has a very high risk of stroke which could cause permanent disability or death. 2) Explore the specific religious concerns — some families accept certain blood products or exchange transfusion differently. 3) Involve a patient advocate, chaplaincy, or ethics team. 4) Document all conversations thoroughly. 5) If parents continue to refuse: optimize hydroxyurea to maximum tolerated dose — this is second-best but has some stroke risk reduction. 6) In many jurisdictions a child's best interests can override parental refusal for life-saving treatment — consider legal advice and child protection pathway if stroke risk is imminent. 7) Maintain follow-up and keep dialogue open.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 441,
@@ -5730,7 +5730,7 @@
     "gold_answer": "Address concern: 1) Acknowledge his worry — do not dismiss it. 2) Explain clearly: hydroxyurea does not cause cancer. It is a cytoreductive agent that has been used safely in SCD for over 30 years with robust long-term safety data. 3) Explain the benefits specifically for him: reduces crisis frequency, hospitalizations, ACS, stroke risk, and importantly may slow renal disease progression. 4) The risk of NOT taking hydroxyurea (6 admissions/year, declining kidneys) is far greater than any theoretical risk. Management plan: 1) Start hydroxyurea at 15 mg/kg/day. 2) FBC monitoring every 4–8 weeks. 3) Nephrology co-management for declining renal function. 4) Avoid NSAIDs and nephrotoxins. 5) ACE inhibitor if proteinuria present. 6) Follow up in 3 months to assess response.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 442,
@@ -5743,7 +5743,7 @@
     "gold_answer": "ACS is deteriorating despite initial management — SpO2 falling below 90% despite supplemental O2 is an escalation criterion. Immediate management: 1) Escalate to urgent exchange transfusion — simple transfusion is no longer sufficient given bilateral involvement and deterioration. 2) Increase O2 delivery — consider non-rebreather mask or escalate to ICU for possible intubation if SpO2 continues to fall. 3) Continue ceftriaxone, add azithromycin if not already given. 4) Call ICU/HDU team immediately. 5) IV fluids carefully — avoid overload which worsens ACS. 6) Incentive spirometry if patient is conscious and cooperative. 7) Urgent haematology input.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 443,
@@ -5756,7 +5756,7 @@
     "gold_answer": "Likely silent cerebral infarcts — present in 20–35% of children with HbSS, cause no obvious neurological symptoms but impair attention, processing speed, and academic performance. Normal neurological exam does not exclude them. Investigation: 1) Brain MRI (not CT) — only MRI can detect silent infarcts. 2) Formal neuropsychological assessment. Management: 1) If silent infarcts confirmed: intensify SCD treatment — consider chronic transfusion therapy or optimize hydroxyurea. 2) Inform school — request educational accommodations (extra time, smaller class, support tutor). 3) Regular MRI monitoring. 4) Ensure annual TCD continues. 5) Family counseling.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 444,
@@ -5769,7 +5769,7 @@
     "gold_answer": "Travel is generally safe with correct precautions. Advice: 1) Commercial aircraft are pressurized to equivalent of 6,000–8,000 feet — reduced oxygen levels can trigger sickling. 2) Drink water regularly throughout the flight — avoid alcohol and caffeine (dehydrating). 3) Walk and stretch legs every 1–2 hours to prevent stasis and thrombosis. 4) Wear compression stockings. 5) Carry ALL medications in hand luggage — never in checked baggage. 6) Carry a medical summary letter in case of inflight emergency. 7) Inform the airline of medical condition in advance — request aisle seat. 8) For a 14-hour flight: discuss supplemental in-flight oxygen with doctor before travel — may be warranted given length. 9) Ensure travel insurance covers SCD. 10) Know the location of a specialist SCD centre in London before departure.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 445,
@@ -5782,7 +5782,7 @@
     "gold_answer": "This is a significantly under-monitored adult SCD patient. Priority order: 1) FBC + reticulocytes immediately — baseline haematological status. 2) Renal function (creatinine, eGFR) + urine ACR — screen for nephropathy. 3) Liver function tests. 4) Echocardiogram — screen for pulmonary hypertension (TRJV ≥2.5 m/s = refer for right heart catheterization). 5) Ophthalmology review — proliferative retinopathy screening, last done 10 years ago. 6) Brain MRI — given age and lack of monitoring, screen for silent infarcts and cerebrovascular disease. 7) Iron studies if any transfusion history. 8) Review vaccination status — ensure pneumococcal booster up to date (every 5 years), annual flu. 9) Review and restart penicillin if not taking. 10) Establish regular annual review schedule going forward.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 446,
@@ -5795,7 +5795,7 @@
     "gold_answer": "Genetic odds: With HbSS mother and HbAS father — each pregnancy has 50% chance of HbSS (affected) and 50% chance of HbAS (carrier, clinically unaffected). There is NO chance of an HbAA (completely unaffected) child from this pairing. Reproductive options: 1) Natural conception with prenatal diagnosis: CVS at 11–14 weeks or amniocentesis from 16 weeks — allows diagnosis and decision-making. 2) Preimplantation genetic testing (PGT) during IVF: embryos tested before implantation, only HbAS embryos implanted — avoids termination decision but IVF process required. 3) Use of donor egg or donor sperm from HbAA individual — would change the odds. 4) Adoption. 5) Proceeding without testing. Counsel that all options are valid and the decision is theirs — the role of the clinician is to inform, not direct.",
     "score": null,
     "max_score": 3,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 447,
@@ -5808,7 +5808,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 448,
@@ -5821,7 +5821,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 449,
@@ -5834,7 +5834,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 450,
@@ -5847,7 +5847,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 451,
@@ -5860,7 +5860,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 452,
@@ -5873,7 +5873,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 453,
@@ -5886,7 +5886,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 454,
@@ -5899,7 +5899,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 455,
@@ -5912,7 +5912,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 456,
@@ -5925,7 +5925,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 457,
@@ -5938,7 +5938,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 458,
@@ -5951,7 +5951,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 459,
@@ -5964,7 +5964,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 460,
@@ -5977,7 +5977,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 461,
@@ -5990,7 +5990,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 462,
@@ -6003,7 +6003,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 463,
@@ -6016,7 +6016,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 464,
@@ -6029,7 +6029,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 465,
@@ -6042,7 +6042,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 466,
@@ -6055,7 +6055,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 467,
@@ -6068,7 +6068,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 468,
@@ -6081,7 +6081,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 469,
@@ -6094,7 +6094,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 470,
@@ -6107,7 +6107,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 471,
@@ -6120,7 +6120,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 472,
@@ -6133,7 +6133,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 473,
@@ -6146,7 +6146,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 474,
@@ -6159,7 +6159,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 475,
@@ -6172,7 +6172,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 476,
@@ -6185,7 +6185,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 477,
@@ -6198,7 +6198,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 478,
@@ -6211,7 +6211,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 479,
@@ -6224,7 +6224,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 480,
@@ -6237,7 +6237,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 481,
@@ -6250,7 +6250,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 482,
@@ -6263,7 +6263,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 483,
@@ -6276,7 +6276,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 484,
@@ -6289,7 +6289,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 485,
@@ -6302,7 +6302,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 486,
@@ -6315,7 +6315,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 487,
@@ -6328,7 +6328,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 488,
@@ -6341,7 +6341,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 489,
@@ -6354,7 +6354,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 490,
@@ -6367,7 +6367,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 491,
@@ -6380,7 +6380,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 492,
@@ -6393,7 +6393,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 493,
@@ -6406,7 +6406,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 494,
@@ -6419,7 +6419,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 495,
@@ -6432,7 +6432,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 496,
@@ -6445,7 +6445,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 497,
@@ -6458,7 +6458,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 498,
@@ -6471,7 +6471,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 499,
@@ -6484,7 +6484,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 500,
@@ -6497,7 +6497,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 501,
@@ -6510,7 +6510,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 502,
@@ -6523,7 +6523,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 503,
@@ -6536,7 +6536,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 504,
@@ -6549,7 +6549,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 505,
@@ -6562,7 +6562,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 506,
@@ -6575,7 +6575,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 507,
@@ -6588,7 +6588,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 508,
@@ -6601,7 +6601,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 509,
@@ -6614,7 +6614,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 510,
@@ -6627,7 +6627,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 511,
@@ -6640,7 +6640,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 512,
@@ -6653,7 +6653,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 513,
@@ -6666,7 +6666,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 514,
@@ -6679,7 +6679,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 515,
@@ -6692,7 +6692,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 516,
@@ -6705,7 +6705,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 517,
@@ -6718,7 +6718,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 518,
@@ -6731,7 +6731,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 519,
@@ -6744,7 +6744,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 520,
@@ -6757,7 +6757,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 521,
@@ -6770,7 +6770,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 522,
@@ -6783,7 +6783,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 523,
@@ -6796,7 +6796,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 524,
@@ -6809,7 +6809,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 525,
@@ -6822,7 +6822,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 526,
@@ -6835,7 +6835,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 527,
@@ -6848,7 +6848,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 528,
@@ -6861,7 +6861,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 529,
@@ -6874,7 +6874,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 530,
@@ -6887,7 +6887,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 531,
@@ -6900,7 +6900,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 532,
@@ -6913,7 +6913,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 533,
@@ -6926,7 +6926,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 534,
@@ -6939,7 +6939,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 535,
@@ -6952,7 +6952,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 536,
@@ -6965,7 +6965,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 537,
@@ -6978,7 +6978,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 538,
@@ -6991,7 +6991,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 539,
@@ -7004,7 +7004,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 540,
@@ -7017,7 +7017,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 541,
@@ -7030,7 +7030,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 542,
@@ -7043,7 +7043,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 543,
@@ -7056,7 +7056,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 544,
@@ -7069,7 +7069,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 545,
@@ -7082,7 +7082,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 546,
@@ -7095,7 +7095,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 547,
@@ -7108,7 +7108,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 548,
@@ -7121,7 +7121,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 549,
@@ -7134,7 +7134,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 550,
@@ -7147,7 +7147,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 551,
@@ -7160,7 +7160,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 552,
@@ -7173,7 +7173,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 553,
@@ -7186,7 +7186,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 554,
@@ -7199,7 +7199,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 555,
@@ -7212,7 +7212,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 556,
@@ -7225,7 +7225,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 557,
@@ -7238,7 +7238,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 558,
@@ -7251,7 +7251,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 559,
@@ -7264,7 +7264,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 560,
@@ -7277,7 +7277,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 561,
@@ -7290,7 +7290,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 562,
@@ -7303,7 +7303,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 563,
@@ -7316,7 +7316,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 564,
@@ -7329,7 +7329,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 565,
@@ -7342,7 +7342,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 566,
@@ -7355,7 +7355,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 567,
@@ -7368,7 +7368,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 568,
@@ -7381,7 +7381,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 569,
@@ -7394,7 +7394,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 570,
@@ -7407,7 +7407,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 571,
@@ -7420,7 +7420,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 572,
@@ -7433,7 +7433,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 573,
@@ -7446,7 +7446,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 574,
@@ -7459,7 +7459,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 575,
@@ -7472,7 +7472,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 576,
@@ -7485,7 +7485,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 577,
@@ -7498,7 +7498,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 578,
@@ -7511,7 +7511,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 579,
@@ -7524,7 +7524,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 580,
@@ -7537,7 +7537,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 581,
@@ -7550,7 +7550,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 582,
@@ -7563,7 +7563,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 583,
@@ -7576,7 +7576,7 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   },
   {
     "index": 584,
@@ -7589,6 +7589,6 @@
     "gold_answer": "",
     "score": null,
     "max_score": 1,
-    "model": "phi3:mini"
+    "model": "phi3.5:mini"
   }
 ]

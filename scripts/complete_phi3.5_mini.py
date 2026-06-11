@@ -1,32 +1,32 @@
 """
-complete_phi3_mini.py
+complete_phi3.5_mini.py
 ─────────────────────
-Targeted re-run for phi3:mini on the 138 Layer 2 (MedMCQA / MedQA)
+Targeted re-run for phi3.5:mini on the 138 Layer 2 (MedMCQA / MedQA)
 questions that were never answered due to an interrupted eval session.
 
 Steps performed automatically:
   1. Load the master question set  (data/eval/all_questions.json)
-  2. Load already-extracted answers (data/eval/phi3_mini_answers.json)
+  2. Load already-extracted answers (data/eval/phi3.5_mini_answers.json)
   3. Identify every question id that has NO answer yet.
-  4. Query phi3:mini via Ollama for each missing question.
+  4. Query phi3.5:mini via Ollama for each missing question.
   5. Save a checkpoint every CHECKPOINT_EVERY questions so progress is
      never lost if the run is interrupted again.
   6. After all queries complete, merge the new answers into
-     phi3_mini_answers.json  and write a final merged file.
+     phi3.5_mini_answers.json  and write a final merged file.
 
 Usage:
-    python scripts/complete_phi3_mini.py
+    python scripts/complete_phi3.5_mini.py
 
 Optional flags:
     --answers-file   Path to the existing answers JSON
-                     (default: data/eval/phi3_mini_answers.json)
+                     (default: data/eval/phi3.5_mini_answers.json)
     --questions-file Path to all_questions.json
                      (default: data/eval/all_questions.json)
     --output         Where to write the merged output
-                     (default: data/eval/phi3_mini_answers.json  — overwrites in place)
+                     (default: data/eval/phi3.5_mini_answers.json  — overwrites in place)
     --checkpoint-dir Directory for mid-run checkpoint files
                      (default: data/eval/baselines/completion_checkpoints)
-    --model          Ollama model name  (default: phi3:mini)
+    --model          Ollama model name  (default: phi3.5:mini)
     --dry-run        Print missing question ids and exit without querying
 """
 
@@ -40,7 +40,7 @@ from pathlib import Path
 import ollama
 
 # ── constants ─────────────────────────────────────────────────────────────────
-MODEL_NAME: str = "phi3:mini"
+MODEL_NAME: str = "phi3.5:mini"
 CHECKPOINT_EVERY: int = 10  # save a checkpoint file every N completions
 
 SYSTEM_PROMPT: str = (
@@ -118,7 +118,7 @@ def ask_model(model: str, prompt: str) -> str:
     Send a prompt to a locally-running Ollama model and return its response.
 
     Args:
-        model:  Ollama model identifier (e.g. ``"phi3:mini"``).
+        model:  Ollama model identifier (e.g. ``"phi3.5:mini"``).
         prompt: The user message to send.
 
     Returns:
@@ -141,7 +141,7 @@ def build_result(question: dict, response: str, model: str) -> dict:
     """
     Build a normalised result dict from a question record and model response.
 
-    The schema matches the existing phi3_mini_answers.json entries so the
+    The schema matches the existing phi3.5_mini_answers.json entries so the
     new records can be merged in cleanly.
 
     Args:
@@ -229,14 +229,14 @@ def main() -> None:
     """
     parser = argparse.ArgumentParser(
         description=(
-            "Query phi3:mini for the subset of questions not yet answered, "
-            "then merge the new responses into phi3_mini_answers.json."
+            "Query phi3.5:mini for the subset of questions not yet answered, "
+            "then merge the new responses into phi3.5_mini_answers.json."
         )
     )
     parser.add_argument(
         "--answers-file",
-        default="data/eval/phi3_mini_answers.json",
-        help="Existing phi3:mini answers file (default: data/eval/phi3_mini_answers.json)",
+        default="data/eval/phi3.5_mini_answers.json",
+        help="Existing phi3.5:mini answers file (default: data/eval/phi3.5_mini_answers.json)",
     )
     parser.add_argument(
         "--questions-file",
@@ -245,7 +245,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--output",
-        default="data/eval/phi3_mini_answers.json",
+        default="data/eval/phi3.5_mini_answers.json",
         help="Merged output path — defaults to overwriting the answers file in place",
     )
     parser.add_argument(
