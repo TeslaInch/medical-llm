@@ -40,6 +40,7 @@ EVAL_FILES = {
     2: "layer2_benchmark.json",
     3: "layer3_combined.json",
     4: "layer4_clinical_cases.json",
+    5: "layer5_ASH.json",
 }
 
 # Subfolder to exclude — contains model outputs, not source answers
