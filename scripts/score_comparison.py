@@ -1,7 +1,7 @@
 """
 score_comparison.py
 ────────────────────
-Side-by-side evaluation of phi3:mini vs Claude Opus 4.8 on the SCD benchmark.
+Side-by-side evaluation of phi3.5:mini vs Claude Opus 4.8 on the SCD benchmark.
 
 Both models are scored against the same gold standard answers using identical
 layer-specific rubrics. This script is the single place where all scoring
@@ -9,7 +9,7 @@ happens — do not pre-score either model separately, as that introduces
 evaluator drift.
 
 Coverage summary (auto-detected at runtime):
-  phi3:mini   — Layers 1–4 (merged from all checkpoint files) + Layer 5 (baselines/ash/)
+  phi3.5:mini   — Layers 1–4 (merged from all checkpoint files) + Layer 5 (baselines/ash/)
   Claude Opus — Layers 1–5 (SCD_Answer_Key_ALL.json)
 
 Scoring methods:
@@ -125,7 +125,7 @@ def load_gold_standard() -> dict[str, dict]:
 
 def load_phi3_responses() -> dict[str, str]:
     """
-    Merge all phi3:mini checkpoint files (Layers 1–4) and the ASH final file
+    Merge all phi3.5:mini checkpoint files (Layers 1–4) and the ASH final file
     (Layer 5) into a single dict of id → model_response.
 
     The latest checkpoint file wins for any duplicated id — this ensures the
@@ -137,7 +137,7 @@ def load_phi3_responses() -> dict[str, str]:
     merged: dict[str, dict] = {}
 
     # Layers 1–4: all checkpoint + final files in baselines/
-    for fpath in sorted(BASELINES_DIR.glob("phi3_mini_*.json")):
+    for fpath in sorted(BASELINES_DIR.glob("phi3.5_mini_*.json")):
         records = load_json_file(fpath)
         for r in records:
             rid = r.get("id")
@@ -310,7 +310,7 @@ def display_question(q: dict, i: int, total: int) -> None:
     if q.get("rationale"):
         print(f"\nASH RATIONALE (evaluator context):\n{q['rationale']}")
 
-    print(f"\n{'-' * 36}  phi3:mini  {'-' * 36}")
+    print(f"\n{'-' * 36}  phi3.5:mini  {'-' * 36}")
     phi3_text = q["phi3_response"]
     if phi3_text == "[NO RESPONSE]":
         print("  [NO RESPONSE — not covered in baseline]")
@@ -348,9 +348,9 @@ def human_score_entry(q: dict, i: int, total: int) -> dict:
     # Score phi3
     if q["phi3_response"] == "[NO RESPONSE]":
         q["phi3_score"] = 0
-        print("\nphi3:mini score: 0 (no response)")
+        print("\nphi3.5:mini score: 0 (no response)")
     else:
-        raw = input(f"\nScore phi3:mini (0–{max_s}): ").strip()
+        raw = input(f"\nScore phi3.5:mini (0–{max_s}): ").strip()
         q["phi3_score"] = int(raw) if raw.isdigit() else None
 
     # Score Claude
@@ -419,7 +419,7 @@ def build_summary(results: list[dict]) -> dict:
         phi3_avg    = sum(phi3_pcts)   / len(phi3_pcts)
         claude_avg  = sum(claude_pcts) / len(claude_pcts)
         winner = (
-            "phi3:mini"      if phi3_avg > claude_avg else
+            "phi3.5:mini"      if phi3_avg > claude_avg else
             "claude_opus_4.8" if claude_avg > phi3_avg else
             "tie"
         )
@@ -464,7 +464,7 @@ def print_summary(summary: dict) -> None:
     """
     sep = "=" * 72
     print(f"\n{sep}")
-    print("  COMPARISON SUMMARY — phi3:mini  vs  Claude Opus 4.8")
+    print("  COMPARISON SUMMARY — phi3.5:mini  vs  Claude Opus 4.8")
     print(sep)
     o = summary["overall"]
     print(f"  Scored   : {summary['scored']} / {summary['total_questions']}")
@@ -491,7 +491,7 @@ def main() -> None:
     Entry point: parse arguments, load data, run scoring, save results.
     """
     parser = argparse.ArgumentParser(
-        description="Side-by-side scoring of phi3:mini vs Claude Opus 4.8 on the SCD benchmark."
+        description="Side-by-side scoring of phi3.5:mini vs Claude Opus 4.8 on the SCD benchmark."
     )
     parser.add_argument(
         "--layers",
@@ -523,7 +523,7 @@ def main() -> None:
         sys.exit(1)
     print(f"  {len(gold)} gold standard answers loaded")
 
-    print("Loading phi3:mini responses...")
+    print("Loading phi3.5:mini responses...")
     phi3 = load_phi3_responses()
     print(f"  {len(phi3)} phi3 responses loaded")
 

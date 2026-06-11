@@ -3,7 +3,7 @@ groq_judge.py
 ─────────────
 LLM-as-Judge scorer for the SCD benchmark.
 
-Uses the Groq API (llama-3.3-70b-versatile) to score phi3:mini and Claude
+Uses the Groq API (llama-3.3-70b-versatile) to score phi3.5:mini and Claude
 Opus 4.8 responses against gold-standard answers for Layers 1, 3, 4, and 5.
 Layer 2 (MCQ) is handled by keyword-match auto-scoring — identical to the
 existing score_comparison.py logic — and is NOT sent to the judge.
@@ -74,7 +74,7 @@ EVAL_FILES: dict[int, Path] = {
     4: Path("data/eval/layer4_clinical_cases.json"),
     5: Path("data/eval/layer5_ASH.json"),
 }
-PHI3_ANSWERS_FILE: Path = Path("data/eval/phi3_mini_answers.json")
+PHI3_ANSWERS_FILE: Path = Path("data/eval/phi3.5_mini_answers.json")
 CLAUDE_FILE: Path        = Path("data/eval/SCD_Answer_Key_ALL.json")
 OUTPUT_DIR: Path         = Path("data/eval/comparison")
 
@@ -143,12 +143,12 @@ def load_gold_standard() -> dict[str, dict]:
 
 def load_phi3_responses() -> dict[str, str]:
     """
-    Load phi3:mini responses from the consolidated answers file.
+    Load phi3.5:mini responses from the consolidated answers file.
 
     Returns:
         Dict mapping question id → model_response string.
     """
-    records = load_json(PHI3_ANSWERS_FILE, "phi3:mini answers file")
+    records = load_json(PHI3_ANSWERS_FILE, "phi3.5:mini answers file")
     return {r["id"]: r.get("model_response", "") for r in records if "id" in r}
 
 
@@ -178,7 +178,7 @@ def align_questions(
 
     Args:
         gold:   Gold-standard records keyed by question id.
-        phi3:   phi3:mini responses keyed by question id.
+        phi3:   phi3.5:mini responses keyed by question id.
         claude: Claude responses keyed by question id.
         layers: Layer numbers to include.
 
@@ -458,7 +458,7 @@ def build_summary(questions: list[dict]) -> dict:
         phi3_avg    = sum(phi3_pcts)   / len(phi3_pcts)
         claude_avg  = sum(claude_pcts) / len(claude_pcts)
         winner = (
-            "phi3:mini"        if phi3_avg > claude_avg else
+            "phi3.5:mini"        if phi3_avg > claude_avg else
             "claude_opus_4.8"  if claude_avg > phi3_avg else
             "tie"
         )
@@ -505,7 +505,7 @@ def print_summary(summary: dict) -> None:
     """
     sep = "=" * 72
     print(f"\n{sep}")
-    print(f"  GROQ JUDGE SUMMARY  —  phi3:mini  vs  Claude Opus 4.8")
+    print(f"  GROQ JUDGE SUMMARY  —  phi3.5:mini  vs  Claude Opus 4.8")
     print(f"  Judge model: {summary['judge_model']}")
     print(sep)
     print(f"  Total questions : {summary['total_questions']}")
@@ -536,7 +536,7 @@ def main() -> None:
     """
     parser = argparse.ArgumentParser(
         description=(
-            "Score phi3:mini and Claude Opus 4.8 responses using the Groq "
+            "Score phi3.5:mini and Claude Opus 4.8 responses using the Groq "
             f"LLM-as-Judge ({JUDGE_MODEL}). Layer 2 MCQ is auto-scored "
             "via keyword matching; all other layers are sent to the judge."
         )
@@ -583,7 +583,7 @@ def main() -> None:
     gold = load_gold_standard()
     print(f"    {len(gold)} gold answers loaded")
 
-    print("  Loading phi3:mini responses...")
+    print("  Loading phi3.5:mini responses...")
     phi3 = load_phi3_responses()
     print(f"    {len(phi3)} phi3 responses loaded")
 
@@ -649,7 +649,7 @@ def main() -> None:
     for i, q in enumerate(to_judge, start=1):
         qid = q["id"]
 
-        # ── Score phi3:mini ──────────────────────────────────────────────────
+        # ── Score phi3.5:mini ──────────────────────────────────────────────────
         print(f"  [{i}/{len(to_judge)}] {qid} (L{q['layer']}) — judging phi3...", end=" ", flush=True)
         if q["phi3_response"] == "[NO RESPONSE]":
             q["phi3_score"]     = 0

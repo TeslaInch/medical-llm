@@ -6,7 +6,7 @@ This repository contains the codebase and data pipelines for evaluating and fine
 
 - [x] Training dataset: 203 examples (Layer 1 + 3 + 4 + medalpaca filtered), Alpaca format
 - [x] Eval benchmark: 6 layers including multi-turn clinical conversations
-- [ ] Fine-tuning: Phi-3 Mini 3.8B with QLoRA (in process)
+- [ ] Fine-tuning: Phi-3.5 Mini 3.8B with QLoRA (in process)
 
 ## Evaluation Benchmark
 

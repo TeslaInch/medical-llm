@@ -1,4 +1,4 @@
-"""check_coverage.py — diagnostic: compare questions vs phi3:mini answers."""
+"""check_coverage.py — diagnostic: compare questions vs phi3.5:mini answers."""
 import json
 from collections import Counter
 from pathlib import Path
@@ -7,7 +7,7 @@ from pathlib import Path
 with open("data/eval/all_questions.json", "r", encoding="utf-8") as f:
     all_questions = json.load(f)
 
-with open("data/eval/phi3_mini_answers.json", "r", encoding="utf-8") as f:
+with open("data/eval/phi3.5_mini_answers.json", "r", encoding="utf-8") as f:
     answers = json.load(f)
 
 with open("data/eval/SCD_Answer_Key_ALL.json", "r", encoding="utf-8") as f:
@@ -26,7 +26,7 @@ print("  PHI3:MINI COVERAGE REPORT")
 print("=" * 60)
 print(f"  all_questions.json total     : {len(all_q_ids)}")
 print(f"  SCD_Answer_Key_ALL.json total: {len(ak_ids)}")
-print(f"  phi3:mini answers extracted  : {len(answered_ids)}")
+print(f"  phi3.5:mini answers extracted  : {len(answered_ids)}")
 print()
 print(f"  Missing vs all_questions.json: {len(missing_from_questions)}")
 print(f"  Missing vs answer key        : {len(missing_from_ak)}")

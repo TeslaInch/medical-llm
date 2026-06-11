@@ -233,12 +233,12 @@ if __name__ == "__main__":
     print(f"\nTotal: {len(questions)} questions across {len(EVAL_FILES)} layers\n")
 
     print("Which model do you want to run?")
-    print("  1. phi3:mini  (fast on CPU, ~3B)")
+    print("  1. phi3.5:mini  (fast on CPU, ~3B)")
     print("  2. mistral    (slower on CPU, ~7B)")
     print("  3. custom     (type your own Ollama model name)")
     choice = input("\nChoice (1/2/3): ").strip()
 
-    model_map = {"1": "phi3:mini", "2": "mistral"}
+    model_map = {"1": "phi3.5:mini", "2": "mistral"}
     if choice in model_map:
         model_name = model_map[choice]
     else:

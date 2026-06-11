@@ -24,7 +24,7 @@ data/eval/baselines/ash/ to keep them separate from the main baseline results.
 
 Usage:
     python scripts/ash_eval.py
-    python scripts/ash_eval.py --model phi3:mini --auto-score
+    python scripts/ash_eval.py --model phi3.5:mini --auto-score
     python scripts/ash_eval.py --resume 4
 """
 
@@ -138,7 +138,7 @@ def ask_model(model_name: str, prompt: str) -> str:
     Send a prompt to the specified Ollama model and return the response text.
 
     Args:
-        model_name: Ollama model identifier (e.g. "phi3:mini").
+        model_name: Ollama model identifier (e.g. "phi3.5:mini").
         prompt:     The user-turn prompt string.
 
     Returns:
@@ -391,7 +391,7 @@ def main() -> None:
     parser.add_argument(
         "--model",
         default=None,
-        help="Ollama model name to evaluate (e.g. phi3:mini). "
+        help="Ollama model name to evaluate (e.g. phi3.5:mini). "
              "If omitted, you will be prompted interactively.",
     )
     parser.add_argument(
@@ -422,11 +422,11 @@ def main() -> None:
     model_name = args.model
     if not model_name:
         print("Which model do you want to evaluate?")
-        print("  1. phi3:mini  (fast on CPU, ~3B)")
+        print("  1. phi3.5:mini  (fast on CPU, ~3B)")
         print("  2. mistral    (slower, ~7B)")
         print("  3. custom     (type your own Ollama model name)")
         choice = input("\nChoice (1/2/3): ").strip()
-        model_map = {"1": "phi3:mini", "2": "mistral"}
+        model_map = {"1": "phi3.5:mini", "2": "mistral"}
         model_name = (
             model_map[choice]
             if choice in model_map
