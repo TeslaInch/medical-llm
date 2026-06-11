@@ -31,6 +31,16 @@ def main():
         
     train_records = records.get("train", [])
     val_records = records.get("validation", [])
+    
+    # Normalize keys across both splits to avoid ValueError on DatasetDict creation
+    all_keys = set()
+    for r in train_records + val_records:
+        all_keys.update(r.keys())
+    for r in train_records + val_records:
+        for k in all_keys:
+            if k not in r:
+                r[k] = ""
+                
     print(f"Loaded {len(train_records)} training and {len(val_records)} validation examples.")
     
     dataset_dict = DatasetDict({
