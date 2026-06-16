@@ -1,0 +1,58 @@
+[
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "According to ASH, should routine screening echocardiography be used to detect pulmonary hypertension in asymptomatic children and adults with sickle cell disease?",
+    "output": "No — ASH recommends against a routine screening echocardiogram to identify pulmonary hypertension in asymptomatic SCD patients.\n\nRationale: Echocardiography alone is an imperfect screen for PH in SCD, with limited positive predictive value; routine use in asymptomatic patients yields false positives and unnecessary downstream testing. Echocardiography is reserved for symptomatic or otherwise indicated patients, and abnormal results are confirmed by right heart catheterisation.",
+    "source": "layer5_ASH_guidelines",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "In an asymptomatic patient with sickle cell disease and a peak tricuspid regurgitant jet (TRJ) velocity of 2.5-2.9 m/s, when does ASH recommend proceeding to right heart catheterization?",
+    "output": "Not on the TRJ value alone — ASH recommends against right heart catheterisation for an isolated TRJ of 2.5-2.9 m/s in an asymptomatic patient. Catheterisation is recommended when a TRJ ≥2.5 m/s is combined with a reduced 6-minute walk distance and/or an elevated NT-proBNP.\n\nRationale: A mildly elevated TRJ in isolation has poor specificity for true PH. Combining it with functional (6MWD) and biomarker (NT-proBNP) data raises the pre-test probability enough to justify the invasive confirmatory study.",
+    "source": "layer5_ASH_guidelines",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the gold-standard confirmatory test for pulmonary hypertension in a sickle cell disease patient with an abnormal echocardiogram, and what is the current mean pulmonary artery pressure threshold that defines pulmonary hypertension?",
+    "output": "Right heart catheterisation (RHC) is the gold standard; the current haemodynamic definition of PH is a mean pulmonary artery pressure >20 mm Hg.\n\nRationale: Echocardiographic findings (e.g., elevated TRJ) are only suggestive; RHC directly measures pulmonary pressures, confirms the diagnosis, classifies the type of PH, and guides therapy. Adjunctive V/Q scanning or CT pulmonary angiography may help characterise pre-capillary/chronic thromboembolic causes, but RHC remains definitive.",
+    "source": "layer5_ASH_guidelines",
+    "category": "diagnosis_criteria"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "In sickle cell disease with right-heart-catheterization-confirmed pulmonary arterial hypertension, who should direct PAH-specific drug therapy?",
+    "output": "A pulmonary hypertension specialist.\n\nRationale: ASH suggests PAH-specific therapies be guided by a PH specialist. Recent evidence indicates agents such as phosphodiesterase-5 inhibitors (sildenafil, tadalafil) and soluble guanylate cyclase stimulators can be used safely in selected adults with SCD, but selection and monitoring require specialist oversight.",
+    "source": "layer5_ASH_guidelines",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What disease-modifying SCD therapy does ASH emphasize initiating or optimizing in patients with sickle cell disease and confirmed pulmonary arterial hypertension?",
+    "output": "Hydroxyurea or chronic transfusion therapy.\n\nRationale: ASH emphasises initiation or optimisation of hydroxyurea (or chronic transfusions) in SCD patients with confirmed PAH. Observational data link hydroxyurea use to a longer 6-minute walk distance, lower NT-proBNP, and lower TRJ values — a more favourable cardiopulmonary profile.",
+    "source": "layer5_ASH_guidelines",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Does ASH recommend routine polysomnography to screen for sleep-disordered breathing in asymptomatic children and adults with sickle cell disease?",
+    "output": "No — ASH recommends against routine polysomnography in asymptomatic patients.\n\nRationale: Routine sleep studies are not warranted without symptoms. A comprehensive sleep history and review of systems (supplemented by sleep questionnaires) should identify those who merit formal sleep testing, which is then directed to symptomatic or higher-risk patients.",
+    "source": "layer5_ASH_guidelines",
+    "category": "screening_schedule"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What class(es) of medication does ASH suggest to treat albuminuria in children and adults with sickle cell disease?",
+    "output": "ACE inhibitors or angiotensin II receptor blockers (ARBs).\n\nRationale: ASH suggests ACEi or ARB therapy for albuminuria in SCD, with monitoring for side effects (hyperkalaemia, cough, hypotension). Supporting trials (e.g., losartan studies) show meaningful reductions in the urine albumin-to-creatinine ratio in both micro- and macro-albuminuria, generally with stable GFR.",
+    "source": "layer5_ASH_guidelines",
+    "category": "treatment_threshold"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What blood pressure goal does ASH suggest for adults with sickle cell disease?",
+    "output": "A blood pressure goal of <130/80 mm Hg (preferred over <140/90 mm Hg).\n\nRationale: ASH suggests the tighter <130/80 mm Hg target for adults with SCD, reflecting evidence that even modestly elevated BP is associated with adverse outcomes (e.g., diastolic BP >70 mm Hg as an independent risk factor for CKD progression; nocturnal hypertension associated with silent infarcts/stroke).",
+    "source": "layer5_ASH_guidelines",
+    "category": "treatment_threshold"
+  }
+]

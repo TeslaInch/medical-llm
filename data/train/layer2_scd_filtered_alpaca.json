@@ -1,0 +1,863 @@
+[
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 27-year-old woman with sickle cell disease and at 39-weeks' gestation is brought to the emergency department in active labor. She has had multiple episodes of acute chest syndrome and has required several transfusions in the past. She has a prolonged vaginal delivery complicated by postpartum bleeding, and she receives a transfusion of 1 unit of packed red blood cells. One hour later, the patient experiences acute flank pain. Her temperature is 38.7°C (101.6°F), pulse is 115/min, respirations are 24/min, and blood pressure is 95/55 mm Hg. Foley catheter shows dark brown urine. Further evaluation of this patient is most likely to show which of the following?",
+    "output": "Positive direct Coombs test",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 7-year-old African-American boy presents to his physician with fatigue, bone and abdominal pain, and mild jaundice. The pain is dull and remitting, and the patient complains it sometimes migrates from one extremity to another. His mother reports that his jaundice and pain have occurred periodically for the past 5 years. At the time of presentation, his vital signs are as follows: the blood pressure is 80/50 mm Hg, the heart rate is 87/min, the respiratory rate is 17/min, and the temperature is 36.5°C (97.7°F). On physical examination, the patient appears to be pale with mildly icteric sclera and mucous membranes. On auscultation, there is a soft systolic ejection murmur, and palpation reveals hepatosplenomegaly. His musculoskeletal examination shows no abnormalities. Laboratory investigations show the following results:\nComplete blood count\nErythrocytes\n3.7 x 106/mm3\nHgb\n11 g/dL\nTotal leukocyte count\nNeutrophils\nLymphocytes\nEosinophils\nMonocytes\nBasophils\n7,300/mm3\n51%\n40%\n2%\n7%\n0\nPlatelet count\n151,000/mm3\nChemistry\nTotal bilirubin\n3.1 mg/dL (53 µmol/L)\nDirect bilirubin\n0.5 mg/dL (8.55 µmol/L)\nA peripheral blood smear shows numerous sickle-shaped red blood cells. Among other questions, the patient’s mother asks you how his condition would influence his vaccination schedule. Which of the following statements is true regarding vaccination in this patient?",
+    "output": "The patient should receive serogroup B meningococcal vaccination at the age of 10 years.",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 53-year-old man is being evaluated for a 3-week history of fatigue, difficulty to concentrate, dyspnea with exertion, dizziness, and digital pain that improves with cold. He has smoked half a pack of cigarettes a day since he was 20. His current medical history involves hypertension. He takes enalapril daily. The vital signs include a blood pressure of 131/82 mm Hg, a heart rate of 95/min, and a temperature of 36.9°C (98.4°F). On physical examination, splenomegaly is found. A complete blood count reveals thrombocytosis of 700,000 cells/m3. Lab work further shows decreased serum iron, iron saturation, and serum ferritin and increased total iron binding capacity. A blood smear reveals an increased number of abnormal platelets, and a bone marrow aspirate confirmed the presence of dysplastic megakaryocytes. A mutation on his chromosome 9 confirms the physician’s suspicion of a certain clonal myeloproliferative disease. The patient is started on hydroxyurea. What is the most likely diagnosis?",
+    "output": "Essential thrombocythemia",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 15-year-old boy is brought to the physician by his father because he has been waking up frequently during the night to urinate. Apart from occasional headaches, he has no other complaints. His family recently emigrated from Tanzania and his medical history is unknown. His father was diagnosed with sickle cell disease at the age of 5. Physical examination shows no abnormalities. Laboratory studies show:\nHemoglobin 14.5 g/dL\nHematocrit 44%\nMCV 90 fL\nReticulocytes 1.5%\nA hemoglobin electrophoresis shows:\nHbA 55%\nHbS 43%\nHbF 1%\nThis patient is at greatest risk for which of the following conditions?\"",
+    "output": "Renal papillary necrosis",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 13-month-old boy with sickle cell anemia is brought to the emergency department because of continuous crying and severe left-hand swelling. His condition started 2 hours earlier without any preceding trauma. The child was given diclofenac syrup at home with no relief. The temperature is 37°C (98.6°F), blood pressure is 100/60 mm Hg, and pulse is 100/min. The physical examination reveals swelling and tenderness to palpation of the left hand. The hemoglobin level is 10.4 g/dL. Which of the following is the best initial step in management of this patient condition?",
+    "output": "Intravenous morphine",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "An 8-year-old African American girl is brought to the clinic by her mother for her regular blood exchange. They come in every 2–3 months for the procedure. The child is in good health with no symptoms. Her last trip to the emergency department was 6 months ago due to bone pain. She was treated with morphine and oxygen and a blood transfusion. She takes hydroxyurea and a multivitamin with iron every day. She has an uncle that also has to get blood exchanges. Today, her heart rate is 90/min, respiratory rate is 17/min, blood pressure is 110/65 mm Hg, and temperature is 37.0°C (98.6°F). She calmly waits for the machine to be set up and catheters inserted into both of her arms. She watches a movie as her blood is slowly replaced with 6 L of red blood cells. Based on this history, which of the following mechanisms most likely explains this patient’s condition?",
+    "output": "Amino acid substitution",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 32 year-old African American man with a past medical history of sickle cell anemia presents to his primary care physician for a routine check-up. He has no complaints. His physician notes that he likely has an increased susceptibility to infections with certain organisms. Which of the following patient groups has a similar pattern of increased susceptibility?",
+    "output": "C3 complement deficiency",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "An investigator is studying the incidence of sickle cell trait in African American infants. To identify the trait, polymerase chain reaction testing is performed on venous blood samples obtained from the infants. Which of the following is required for this laboratory technique?",
+    "output": "Initial sequence of the 3' end of a DNA strand",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 48-year-old African American male presents to his primary care provider complaining of facial swelling. He reports a three-day history of worsening swelling primarily around his eyes. The patient’s medical history is notable for sickle cell disease and poorly controlled hypertension. The patient currently takes enalapril, hydrochlorothiazide, and amlodipine but has a history of medication non-adherence. He has a 15 pack-year smoking history. His temperature is 99.1°F (37.3°C), blood pressure is 155/100 mmHg, pulse is 90/min, and respirations are 20/min. Physical examination is notable for periorbital swelling and 1+ bilateral lower extremity edema. Multiple serum and urine labs are ordered. A kidney biopsy in this patient would most likely yield which of the following sets of findings on light and electron microscopy?",
+    "output": "Segmental sclerosis and negative immunofluorescence and foot process effacement",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 24-year-old African American male with sickle cell disease has been followed by a hematologist since infancy. Two years ago, he was started on hydroxyurea for frequent pain crises but has not achieved good control. The addition of a Gardos channel blocking agent is being considered. What is the mechanism of action of this class of medications?",
+    "output": "Prevents RBC dehydration by inhibiting K+ efflux",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 6-year-old boy is brought to the emergency department because of worsening confusion for the last hour. He has had high-grade fever, productive cough, fatigue, and malaise for the past 2 days. He has not seen a physician in several years. His temperature is 38.9°C (102°F), pulse is 133/min, respirations are 33/min, and blood pressure is 86/48 mm Hg. He is lethargic and minimally responsive. Mucous membranes are dry. Pulmonary examination shows subcostal retractions and coarse crackles bilaterally. Laboratory studies show a hemoglobin concentration of 8.4 g/dL and a leukocyte count of 16,000/mm3. A peripheral blood smear shows sickled red blood cells. Which of the following pathogens is the most likely cause of this patient's current condition?",
+    "output": "Streptococcus pneumoniae",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 13-year-old boy is brought to the emergency department by his parents for severe right hip pain that suddenly started about 2 hours ago. The parents are extremely anxious and feel overwhelmed because the boy has been hospitalized several times in the past for similar episodes of pain. The boy was born at 39 weeks of gestation via spontaneous vaginal delivery. He is up to date on all vaccinations and is meeting all developmental milestones. His only medication is hydroxyurea, which he has been receiving for 3 years. His blood pressure is 125/84 mm Hg, the respirations are 23/min, the pulse is 87/min, and the temperature is 36.7°C (98.0°F). On physical examination, the patient is in distress and has severe pain (8/10) elicited by gentle palpation of the right femoral head. Which of the following conditions has the same pathophysiology as the likely diagnosis for the patient described in this case?",
+    "output": "Legg-Calve-Perthes disease",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 56-year-old African-American man comes to the physician for intermittent episodes of dark urine and mild flank pain. The patient has had 3 episodes of frank reddish discoloration of his urine within 1 month. He has chronic headaches and back pain for which he has been taking aspirin and ibuprofen daily for 1 year. The patient has sickle cell trait. He has smoked a pack of cigarettes daily for 10 years. He appears well. His temperature is 37.4°C (99.3°F). His pulse is 66/min, and his blood pressure is 150/90 mm Hg. Physical exam shows mild, bilateral flank tenderness. Laboratory analysis shows a serum creatinine concentration of 2.4 mg/dL. Urine studies are shown below.\nUrine\nBlood 3+\nProtein 2+\nRBC > 10/hpf\nWBC 3/hpf\nWhich of the following is the most likely underlying cause of this patient's hematuria?\"",
+    "output": "Renal papillary ischemia",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "An 8-year-old boy is brought to the physician because of worsening confusion and lethargy for the last hour. He has had high-grade fever, productive cough, fatigue, and malaise for 2 days. He was diagnosed with sickle cell anemia at the age of 2 years but has not seen a physician in over a year. His temperature is 38.9°C (102°F), pulse is 133/min, respirations are 33/min, and blood pressure is 86/48 mm Hg. Pulse oximetry on room air shows an oxygen saturation of 92%. The patient does not respond to verbal commands. Examination shows conjunctival pallor and scleral icterus. Inspiratory crackles are heard at the left lung base. Laboratory studies show:\nHemoglobin 8.1 g/dL\nLeukocyte count 17,000/mm3\nPlatelet count 200,000/mm3\nWhich of the following is most likely to have prevented this patient's condition?\"",
+    "output": "Polysaccharide vaccination",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 19-year-old male college student is brought to the emergency department by his girlfriend complaining of intense pain. They had been playing outside in the snow when the patient started to have severe hand and feet pain. He says the pain is 9 out of 10 and causing him to have trouble moving his fingers and toes. He also reports some difficulty “catching his breath.” He notes that he has been tiring easily for the past month but thought it was because he was studying and going out late. On physical examination, the patient appears uncomfortable. Bilateral conjunctivae are pale. His hands are swollen and tender to palpation. Cardiopulmonary examination is normal. Hemoglobin is 9.0 g/dL. An electrocardiogram shows mild sinus tachycardia. Hemoglobin electrophoresis is performed, which confirms sickle cell disease. The patient’s pain is managed, and he is discharged on hydroxyurea. Which of the following is the most likely to occur as a result of the new medication?",
+    "output": "Increase in hemoglobin with higher oxygen affinity",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Two days after hospital admission and surgical treatment for a cut on his right thigh from a sickle, a 35-year-old man has fever, chills, and intense pain. The wound is swollen. He had a similar injury 4 months ago that resolved following treatment with bacitracin ointment and daily dressings. He works on a farm on the outskirts of the city. He appears anxious. His temperature is 38.5°C (101.3°F), pulse is 103/min, and blood pressure is 114/76 mm Hg. Examination shows a 6-cm edematous deep, foul-smelling wound on the medial surface of the right thigh. The skin over the thigh appears darker than the skin on the lower leg. There are multiple blisters around the wound. Light palpation around the wound causes severe pain; crepitus is present. Which of the following is the most likely causal organism?",
+    "output": "Clostridium perfringens",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 21-year-old ِAfrican American woman presents with difficulty breathing, chest pain, and a non-productive cough. She says she took some ibuprofen earlier but it did not improve her pain. Past medical history is significant for sickle cell disease. Medications include hydroxyurea, iron, vitamin B12, and an oral contraceptive pill. She says she received a blood transfusion 6 months ago to reduce her Hgb S below 30%. Her vital signs include: temperature 38.2°C (100.7°F), blood pressure 112/71 mm Hg, pulse 105/min, oxygen saturation 91% on room air. A chest radiograph is performed and is shown in the exhibit. Which of the following is best initial step in the management of this patient’s condition?",
+    "output": "Antibiotics and supportive care",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 23-year-old Caucasian male presents to the emergency department with a persistent penile erection for the last 6 hours. He recently began outpatient treatment for depression with associated insomnia. He traveled to Mexico 5 months ago. His medical history is otherwise unremarkable.\n\nWhich of the following is the most likely precipitating factor for priapism in this patient?",
+    "output": "Depression treatment with trazodone",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 2-year-old boy is being evaluated for an autosomal-recessive condition that produces valine instead of glutamine in the β-globin gene. On further examination, the patient’s X-ray showed a crew cut appearance of the skull. Which of the following statements about his condition is false?",
+    "output": "An individual needs 2 defective β-globin genes to have the sickle cell trait",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 12-year-old African American boy is brought to the emergency room due to a severely painful penile erection for the past 5 hours. He was attending a class at his school when his penis became spontaneously tumescent. A complete blood count and a cavernous blood gas analysis showed the following:\nHemoglobin (Hb) 11.5 g/dL; 14.5 g/dL (-2SD 13.0 g/dL) for boys 12–18 years of age\nMean corpuscular volume (MCV) 95 fL; 80–96 fL\nPlatelet count 250,000/mm3\npO2 38 mm Hg\npCO2 65 mm Hg\npH 7.25\nsO2 % 60%\nHCO3- 10 mEq/L\nA peripheral blood smear reveals RBCs with Howell-Jolly bodies. Rapid detumescence is achieved after aspiration of blood and administration of an adrenergic agonist and analgesia. Which of the following etiologies should be considered in this patient?",
+    "output": "Sickle cell disease (SCD)",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 25-year-old woman, gravida 2, para 1, is brought to the emergency department at 39 weeks' gestation in active labor. Her first child was delivered at 40 weeks' gestation by elective cesarean section due to limited range of motion in her hip. The patient has sickle cell disease. She has had multiple episodes of acute chest syndrome and has required several transfusions in the past. An uncomplicated repeat cesarean section is performed, and a 2.7-kg (6-lb) infant is delivered with approx. 550 mL blood loss. Perioperatively, she received one dose of intravenous cefazolin. Following the surgery, the patient continues to bleed, and she receives a transfusion of 1 unit of packed red blood cells. One hour later, the patient begins to have flank pain and appears to be in acute distress. Her temperature is 38.5°C (101.3°F), pulse is 111/min, respirations are 22/min, and blood pressure is 99/50 mm Hg. Pulse oximetry on room air shows an oxygen saturation of 97%. Foley catheter shows dark brown urine. Further evaluation of this patient is most likely to show which of the following?",
+    "output": "Positive direct Coombs test",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 3-year-old boy presents with fever, generalized fatigue, nausea, and progressive anemia. The patient’s mother says his condition was normal until one week ago when he started having flu-like symptoms such as fever, general fatigue, and abdominal discomfort. Past medical experience is significant for sickle cell disease, diagnosed 2 years ago. His vital signs include: blood pressure 98/50 mm Hg, pulse 120/min, temperature 39.0℃ (102.0℉). On physical examination, the patient is crying excessively and his skin and the conjunctivae look pale. Splenomegaly is noted. There is no skin rash nor lymphadenopathy. Laboratory findings are significant for the following:\nTotal WBC count 22,000/mm3\nNeutrophils 35%\nLymphocytes 44%\nAtypical lymphocytes 9%\nMonocytes 12%\nRBC 1. 6 million/mm3\nHb 5.4 g/dL\nHct 14.4%\nMCV 86 fL\nMCHC 37.5%\nReticulocytes 0.1%\nA peripheral blood smear shows sickle cells. A direct and indirect Coombs test is negative. Which of the following is the most likely cause of this patient’s most recent symptoms?",
+    "output": "Parvovirus infection",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 4-year-old girl is brought to her pediatrician for a routine check-up. She was diagnosed with sickle cell disease last year after an episode of dactylitis. She was started on hydroxyurea, with no painful crises or acute chest episodes since starting the medication. Which of the following is an appropriate preventive measure for this patient?",
+    "output": "Pneumococcal vaccine",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 3-year-old boy is brought to the emergency department by his mother for abdominal pain. She states that he has refused to eat and keeps clutching his stomach saying “ow.” She reports that he has not had any vomiting or diarrhea. She says that he has not had a bowel movement in 3 days. The family recently moved from Namibia and has not established care. He has no known medical conditions and takes no medications. The mother says there is a family history of a “blood illness.” On physical examination, there is mild distension with tenderness in the bilateral lower quadrants without organomegaly. An ultrasound of the abdomen reveals 2 gallstones without gallbladder wall thickening or ductal dilation and a negative Murphy sign. An abdominal radiograph shows moderate stool burden in the large bowel and rectum. Labs are obtained, as below:\n\nHemoglobin: 9 g/dL\nPlatelet count: 300,000/mm^3\nMean corpuscular volume (MCV): 85 µm^3\nReticulocyte count: 5%\nLactate dehydrogenase (LDH): 532 U/L\nLeukocyte count: 11/mm^3\nSerum iron: 140 mcg/dL\nTransferrin saturation: 31% (normal range 20-50%)\nTotal iron binding capacity (TIBC): 400 mcg/dL (normal range 240 to 450 mcg/dL)\n\nA hemoglobin electrophoresis shows hemoglobin S, increased levels of hemoglobin F, and no hemoglobin A. The results are discussed with the patient’s mother including recommendations for increasing fiber in the patient’s diet and starting hydroxyurea. Which of the following should also be part of management for the patient’s condition?",
+    "output": "Penicillin until age 5",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 3-year-old girl presents with her mother for a well-child checkup. Recent laboratory data has demonstrated a persistent normocytic anemia. Her mother denies any previous history of blood clots in her past, but she says that her mother has also had to be treated for pulmonary embolism in the recent past, and her brother has had to deal with anemia his entire life. The patient’s past medical history is noncontributory other than frequent middle ear infections. The vital signs upon arrival include: temperature, 36.7°C (98.0°F); blood pressure, 106/74 mm Hg; heart rate, 111/min and regular; and respiratory rate, 17/min. On physical examination, her pulses are bounding and fingernails are pale, but breath sounds remain clear. Oxygen saturation was initially 91% on room air and electrocardiogram (ECG) shows sinus tachycardia. The patient’s primary care physician orders a peripheral blood smear to further evaluate this finding, and preliminary results show a hemolytic anemia. Which of the following pathophysiologic mechanisms best describes sickle cell disease?",
+    "output": "A recessive beta-globin mutation causing morphological changes to the RBC",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 4-month-old African-American infant is brought to the pediatrician for a well-baby check up. He was born at term through a normal vaginal delivery and has been well since. His 4-year old brother has sickle-cell disease. He is exclusively breastfed and receives vitamin D supplements. His immunizations are up-to-date. He appears healthy. His length is at the 70th percentile and weight is at the 75th percentile. Cardiopulmonary examination is normal. His mother has heard reports of sudden infant death syndrome (SIDS) being common in his age group and would like to hear more information about it. Which of the following is the most important recommendation to prevent this condition?",
+    "output": "Have the baby sleep in supine position",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 57-year-old woman is brought to the emergency department by ambulance for dysarthria and left-sided facial droop. She is accompanied by her son, who states that the patient had just returned home an hour ago from walking the dog when suddenly the patient stated she felt “strange.” When her son asked her what was wrong, her speech was slurred and her \"face looked funny.” The son quickly called an ambulance. The paramedic upon arrival noted that the patient had left-sided facial droop. Her medical history includes asthma and sickle cell disease. She takes hydroxyurea, uses oxycodone as needed for pain, and an albuterol inhaler as needed for shortness of breath. The patient’s temperature is 97°F (36.1°C), blood pressure is 145/72 mmHg, pulse is 93/min, and respirations are 14/min with an oxygen saturation of 96% on room air. On physical examination, a left-sided facial droop is appreciated. She has trouble articulating her words, and her speech is garbled. She is put on 2 L of oxygen by nasal cannula. Labs are obtained and pending. Which of the following therapies is most likely indicated?",
+    "output": "Exchange transfusion",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 22-year-old man with sickle cell disease is brought to the emergency room for acute onset facial asymmetry and severe pain. He was in school when his teacher noted a drooping of his left face. His temperature is 99.9°F (37.7°C), blood pressure is 122/89 mmHg, pulse is 110/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for facial asymmetry and 4/5 strength in the patient's upper and lower extremity. A CT scan of the head does not demonstrate an intracranial bleed. Which of the following is the most appropriate treatment for this patient?",
+    "output": "Exchange transfusion",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Patients with the diagnosis of sickle cell anemia make a specific type of hemoglobin known as HgbS. This mutation results in the sickling of their red blood cells when exposed to inciting factors such as hypoxic conditions. Patients are often treated with hydroxyurea, which has which of the following direct effects on their hemoglobin physiology?",
+    "output": "Increases levels of fetal hemoglobin (HgbF)",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 25-year-old African American man presents to his primary care provider for routine blood work. He is a well-known case of sickle cell disease treated with hydroxyurea and tramadol as needed for pain. He does not smoke or drink alcohol. The patient asks if his disease can adversely affect his kidneys because his friend was recently diagnosed with end-stage renal failure. Which of the following is a renal complication of sickle cell disease?",
+    "output": "Impaired urine concentration ability",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 48-year-old woman comes to the physician because of a 4-month history of lightheadedness, intermittent headaches, and easy bruising. Five months ago, she was treated for an episode of thrombophlebitis. Physical examination shows multiple bruises on her limbs. Laboratory studies show a platelet count of 900,000/mm3 and elevated levels of serum lactate dehydrogenase and uric acid. Treatment with a medication is begun that is also used in the treatment of sickle cell disease. Which of the following mechanisms is most likely responsible for the beneficial effect of this drug in sickle cell disease?",
+    "output": "Increase in circulating fetal hemoglobin",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 10-year-old African American girl with known sickle cell disease becomes acutely anemic in the setting of underlying infection. Her mother denies any previous history of blood clots in her past, but she says that her mother has also had to be treated for pulmonary embolism in the recent past. The patient’s past medical history is significant for a few episodes of acute pain crisis and a need for splenectomy 3 years ago. The vital signs upon arrival include: temperature 36.7°C (98.0°F), blood pressure 106/74 mm Hg, heart rate 111/min and regular, and respiratory rate 17/min. On physical examination, her pulses are bounding and fingernails are pale, but breath sounds remain clear. Oxygen saturation was initially 91% on room air and electrocardiogram (ECG) shows sinus tachycardia. A blood transfusion is initiated. Shortly after the transfusion has begun, the patient experiences fevers, chills, a burning sensation at the intravenous (IV) site, and sudden hypotension. What is the name of this reaction, and what is the best treatment?",
+    "output": "Hemolytic transfusion reaction; discontinue transfusion",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which of the following is true about sickle cell red blood cells?",
+    "output": "Protective against adult malaria",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which of the following anaesthetic modality is to be avoided in sickle cell disease?",
+    "output": "IV. Regional Anaesthesia",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "In sickle cell anaemia, the defect can be explained as having arisen from -",
+    "output": "A base substitution in DNA",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Glutamine replaced by valine in sickle cell anaemia is characterized by",
+    "output": "Missense mutation of beta chain",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the MOST likely diagnosis for this 25-year-old man with sickle cell trait?",
+    "output": "Renal medullary carcinoma",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Following are the findings in sickle cell Anemia, except -",
+    "output": "Splenomegaly usually seen",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which of the following is not a feature of sickle cell disease?",
+    "output": "Heterozygous individuals are at increased risk of Plasmodium falciparum infection",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which anesthetic modality is to be avoided in sickle cell disease?",
+    "output": "Intravenous Regional Anesthesia",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Sickle cell trait patient do not have manifestations as that of Sickle cell disease, because:",
+    "output": "50% HbS is required for occurrence of sickling",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Sickle cell disease is present with which mutation:",
+    "output": "Base pair substitution",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 24-year-old woman with sickle cell disease is seen in the emergency room for an acute upper respiratory tract infection. Laboratory findings reveal severe, normocytic anemia. The patient develops a rapid drop in the hemoglobin level. However, the reticulocyte count is very low (<0.1%). This finding most likely reflects which of the following conditions?",
+    "output": "Parvovirus B19 infection",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "True about sickle cell disease are all, except",
+    "output": "Sticky patch is generated as a result of replacement of a non polar residue with a polar residue",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "False about sickle cell anemia",
+    "output": "High recticulocyte count",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which of the following is not seen in sickle cell disease",
+    "output": "Moderate to massive spleenomegaly",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Person having heterozygous sickle cell trait is protected from infection of -",
+    "output": "Plasmodium falciparum",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Investigation of choice to confirm sickle cell disease",
+    "output": "High performance liquid chromatography",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Sea - Fan retina is a feature of",
+    "output": "Sickle cell retinopathy",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Sickle cell trait patient do not have manifestations as that of Sickle cell disease, because :",
+    "output": "50% HbS is required for occurrence of sickling",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which anesthestic modality is to be avoided in sickle cell disease",
+    "output": "Intravenous regional anesthesia",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Sickle cell trait patient do not have manifestations as that of Sickle cell disease, because?",
+    "output": "50% HbS is required for occurrence of sickling",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which of the following statements is false about sickle cell disease?",
+    "output": "Hemolysis is predominantly intravascular",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "In sickle cell anemia change in the amino acid is",
+    "output": "Valine instead of glutamic acid in the 6th position of b chain",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "The Guidelines for immunization against infectious disease includes all of the following except",
+    "output": "Hay fever, sickle cell anemia and tuberculosis are contraindications for vaccination",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Angioid streaks occur in -",
+    "output": "Sickle cell disease (SS)",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "SCD is caused by a recessive, single-nucleotide mutation in the beta globin gene of Hgb. All of the following are TRUE about Sickle cell disease, EXCEPT:",
+    "output": "Sticky patch is generated as a result of replacement of a non polar residue with a polar residue",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Hydroxyurea mechanism of action in cancer is by inhibiting the enzyme ?",
+    "output": "Ribonucleotide diphosphate reductase",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which anaesthetic modality is to be avoided in sickle cell disease",
+    "output": "I.V. Regional Anaesthesia",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Boy with sickle cell trait.. what mode of anaesthesia will u avoid in him??",
+    "output": "IVRA (intravenous regional anesthesia)",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "The following methods can be used to detect the point mutation in the beta ((3)-globin gene that causes sickle cell anemia, except:",
+    "output": "Nohern blot analysis",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "B19 usually causes a very mild disease. Two groups of people for whom it can be serious, however, are?",
+    "output": "pregnant women and sickle-cell anemics",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "In sickle cell disease: September 2007",
+    "output": "Glutamtic acid, at position No.6 of beta-globin chain of haemoglobin is replaced by valine",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which of the following is the primary defect which leads to sickle cell anemia?",
+    "output": "Replacement of glutamate by valine in b-chain of HbA",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 43-year-old man develops chronic hepatitis, which was attributed to a complication resulting from multiple blood transfusions for sickle cell anemia. He complains of chronic sweating, palpitation, and hunger attacks. What would be the most likely cause of these symptoms?",
+    "output": "Hepatogenic hypoglycemia",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Sickle cell trait patient do not have manifestations as that of Sickle cell disease, because-",
+    "output": "50% HbS is required for occurrence of sickling",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "The primary defect which leads to sickle cell anemia is -",
+    "output": "Replacement of glutamate by valine in b-chain of HbA",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 7-year-old girl with sickle cell anemia was brought to her physician by her parents who reported that she seemed to be extremely fatigued and pale-looking. They stated that several of her classmates had recently had rashes and bright red cheeks. On examination, the doctor did not see a rash, but observed that her conjunctiva, gums, and nail beds were pale and that she had tachycardia. A CBC revealed that her hemoglobin level had fallen by 2 g/dL from her last result 3 months ago; her reticulocyte count was 0.05%. From which of the following is this child suffering?",
+    "output": "Aplastic crisis from parvovirus B19 infection",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 36-year-old woman with sickle cell disease presents with increasing pain in her right hip. She has no fever, chills, back or other bone pain, and there is no history of any trauma.On examination, her temperature is 37.3degC, range of motion in the right hip is reduced, she walks with a limp, and the right leg is shorter than the left. Movements of the hip and walking on it are painful. X-rays of the hip are shown in Figure below. Which of the following is the most likely diagnosis?",
+    "output": "avascular necrosis (AVN) of the femoral head",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which of the following regarding sickle cell disease is false?",
+    "output": "Sticky patch is generated as a result of replacement of a nonpolar residue with a polar residue",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "All of the following statements are true about sickle cell disease except -",
+    "output": "Patient presents early in life before 6 months of age",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 25 year old female, a known case of sickle cell anemia is presented with bony pain, dyspnea, fever & cough. O/E: her HR is 110/min & BP is 140/88 mmHg, SaO2 is 85%. CXR shows bilateral diffuse alveolar infiltrates. Her mother gives history of four similar episodes in the last one year. All of the statements regarding her condition are true EXCEPT:",
+    "output": "She should receive daily sildenafil.",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Aplastic crisis in sickle cell anemia as compared to haemolytic crisis leads to",
+    "output": "Decrease in reticulocytes",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Sickle Cell anaemia all are true except",
+    "output": "Adults but not children; with  sickle  cell  disease  are  functionally  asplenic,  making them  susceptible  to  infections  caused  by  encapsulated  bacteria,  such  as  pneumococci.",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Blistering Dactylitis is due to",
+    "output": "Streptococcal infection",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "All of the following is true about hydroxyurea except:",
+    "output": "Oral bioavailability is very less",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Person having heterozygous sickle cell trait is protected from infection of-",
+    "output": "Plasmodium falciparum",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which of the following is true about sickle cells?",
+    "output": "Sickling is reversible with oxygenation",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "The following methods can be used to detect the point mutation in the beta (b)-globin gene that causes sickle cell anemia, except",
+    "output": "Nohern blot analysis",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is the cause of sickling of RBC in sickle cell disease?",
+    "output": "Decreased Solubility",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "All of the following statements regarding Sickle Cell Anemia is true, EXCEPT:",
+    "output": "Patients usually presents before the age of 6 months",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "The primary defect which leads to sickle cell anemia is –",
+    "output": "Replacement of glutamate by valine in β–chain of HbA",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "In sickle cell anaemia, the defect can be explained as having arisen from",
+    "output": "A base substitution in DNA",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Hydroxyurea mechanism of action in cancer is by inhibiting the enzyme -",
+    "output": "Ribonucleoside diphosphate reductase",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "All of the following are true about Sickle cell disease, except",
+    "output": "'Sticky patch' is generated as a result of replacement of a non polar residue with a polar residue",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": ". Angloid streaks occur in",
+    "output": "Sickle cell disease (SS)",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "All are true of long standing sickle cell anemia except-",
+    "output": "Massive splenomegaly",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "The primary defect which leads to sickle cell anemia is",
+    "output": "Replacement of glutamate by valine in B-chain of HbA",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "All of the following statements about sickle cell disease are true, EXCEPT:",
+    "output": "Sticky patch' is generated as a result of replacement of a non polar residue with a polar residue",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "In sickle cell anemia there is substitution of",
+    "output": "Valine for glutamic acid at the sixth position of beta chain",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "The guidelines for immunization against infectious disease includes all of the following except:",
+    "output": "Hay fever, sickle cell anemia and tuberculosis are contraindications for vaccination",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which anaesthetic modality is to be avoided in sickle cell disease?",
+    "output": "Intravenous Regional Anaesthesia",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "In sickle cell anemia",
+    "output": "Valine replaces glutamate",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 47 year old man with a history of sickle cell disease has had numerous hospitalizations requiring the placement of intravenous lines. The patient has poor peripheral venous access, and a catheter is placed in the right subclan vein. The patient subsequently develops right arm discomfo and swelling and a temperature of 40.1 degrees C with chills. Multiple blood cultures are taken, and gram-positive cocci are isolated. The organism is catalase positive and grows on mannitol salt agar, but does not turn the agar yellow; the colonies are gamma-hemolytic on a sheep blood agar plate. Which of the following organisms is the most likely cause of this patient's symptoms?",
+    "output": "Staphylococcus epidermidis",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "True about Sickle cell disease are all, Except:",
+    "output": "Sticky patch is generated as a result of replacement of a non polar residue with a polar residue",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Sickle cell trait patient do not have manifestations as that of Sickle cell disease, because -",
+    "output": "50% HbS is required for occurrence of sickling",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Sickle cell anemia is due to which type of mutation?",
+    "output": "Base substitution mutation",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "All of the following statements are true about sickle cell disease EXCEPT:",
+    "output": "Patient presents early in life before 6 months of life",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Sickle cell anemia is usually associated with all, except:",
+    "output": "Normal reticulocyte count",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Person having heterozygous sickle cell trait is protected from infection of ?",
+    "output": "Plasmodium falciparum",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "In sickle cell anaemia true is -",
+    "output": "Autosplenectomy due to thrombosis &infarction",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 25-year-old woman with sickle cell anemia complains of steady pain in her right upper quadrant with radiation to the right shoulder, especially after large or fatty meals. Her physician diagnoses gallstones. Of which of the following compounds are these stones most likely composed?",
+    "output": "Calcium bilirubinate",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 23 year old woman with a history of sickle cell disease presents with fever and severe bone pain localized to her left tibia. X-ray reveals a lytic lesion and blood cultures reveal infection. A bone culture grows gram-negative rods. Which of the following best describes the infecting organism?",
+    "output": "It is motile and does not ferment lactose",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "All of the following are true about Sickle cell disease, Except:",
+    "output": "'Sticky patch' is generated as a result of replacement of a non polar residue with a polar residue",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "True about the Sickle cell disease are all, Except -",
+    "output": "Sticky patch is generated as a result of replacement of a non polar residue with a polar residue",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 13-year-old patient with sickle-cell anemia presents with respiratory distress; she has an infiltrate on chest radiograph. The laboratory workup of the patient reveals the following: hemoglobin 5 g/dL; hematocrit 16%; white blood cell count 30,000/mL; and arterial blood (room air) pH 7.1, PO2 35 mm Hg, and PaCO2 28 mm Hg. These values indicate which of the following?",
+    "output": "Acidemia, metabolic acidosis, respiratory alkalosis, and hypoxia",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A 23-year-old African-American man with a history since early childhood of severe anemia requiring many transfusions has non healing leg ulcers and recurrent periods of abdominal and chest pain. These signs and symptoms are most likely to be associated with which of the following laboratory abnormalities?",
+    "output": "Sickle cells on peripheral blood smear",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "All the following are true about sickle cell anemia except",
+    "output": "Mutation in alpha chain",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "The most common agent causing osteomyelitis in sickle cell disease patients?",
+    "output": "Salmonella enteritidis",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Gross hematuria can be seen in:",
+    "output": "Both IgA nephropathy and sickle cell disease",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "The following methods can be used to detect the point mutation in the beta (β)-globin gene that causes sickle cell anemia, except -",
+    "output": "Northern blot analysis",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "In sickle cell disease, which of the following does not influence the degree of sickling of red cells?",
+    "output": "Intake of primaquine",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Which anaesthetic modality is to be avoided in sickle cell disease –",
+    "output": "I.V. Regional Anaesthesia",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "The primary defet which leads to sickle cell anemia is -",
+    "output": "Replacement of glutamate by valine in b-chain of HbA",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "In sickle cell anaemia, there is",
+    "output": "75 to 100% haemoglobin",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Following are the findings in later stages of sickle cell Anemia, except -",
+    "output": "Splenomegaly usually seen",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Following are the findings in sickle cell Anemia, except –",
+    "output": "Splenomegaly usually seen",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "The following methods can be used to detect the point mutation in the beta globin gene that causes sickle cell anemia, EXCEPT:",
+    "output": "Nohern blot analysis",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "What is true about sickle cell -",
+    "output": "Sickling occurs both in heterozygous and homozygous state",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "Sickle cell anaemia is caused due to:",
+    "output": "Substitution of valine by glutamic acid",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "A young boy has sickle cell trait. Which of the following anaesthesia is contraindicated?",
+    "output": "IV Regional anaesthesia",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "In sickle cell anemia, translocation on codon 6 is due to substitution of ?",
+    "output": "Valine for glutamate",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  },
+  {
+    "instruction": "You are a medical AI assistant specialised in sickle cell disease. Answer the following clinical question accurately and completely.",
+    "input": "For which of the following is PPV-23 is most beneficial:",
+    "output": "Sickle cell anemia patient",
+    "source": "layer2_mcq_filtered",
+    "category": "multiple_choice"
+  }
+]
