@@ -1,5 +1,6 @@
 """
 score_comparison.py
+score comparison.py for all layers.
 ────────────────────
 Side-by-side evaluation of phi3.5:mini vs Claude Opus 4.8 on the SCD benchmark.
 
