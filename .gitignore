@@ -7,3 +7,4 @@ data/train/scd_training_final.json
 data/eval/baselines/
 data/eval/scores/
 *.env
+data/vectordb
