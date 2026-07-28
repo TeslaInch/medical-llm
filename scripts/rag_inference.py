@@ -3,13 +3,15 @@ import json
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, pipeline
 from peft import PeftModel
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from langchain_chroma import Chroma
 
 # ── config ────────────────────────────────────────────────────────────────────
 BASE_MODEL = "microsoft/Phi-3.5-mini-instruct"
 ADAPTER = "TeslaInch/scd-phi35-adapter-v2"  # v2 — our best model
 VECTORDB_PATH = "/kaggle/input/scd-vectordb/scd_guidelines"
+if not os.path.exists(VECTORDB_PATH):
+    VECTORDB_PATH = "data/vectordb/scd_guidelines"
 
 SYSTEM = (
     "You are a medical AI assistant specialised in sickle cell disease. "
@@ -44,10 +46,11 @@ def load_model():
 
 # ── load vector database ──────────────────────────────────────────────────────
 def load_vectordb():
-    embeddings = HuggingFaceEmbeddings(
-        model_name="pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb",
+    embeddings = HuggingFaceBgeEmbeddings(
+        model_name="BAAI/bge-large-en-v1.5",
         model_kwargs={"device": "cpu"},
-        encode_kwargs={"normalize_embeddings": True}
+        encode_kwargs={"normalize_embeddings": True},
+        query_instruction="Represent this sentence for searching relevant passages: "
     )
     return Chroma(
         persist_directory=VECTORDB_PATH,
