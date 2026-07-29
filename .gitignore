@@ -7,4 +7,9 @@ data/train/scd_training_final.json
 data/eval/baselines/
 data/eval/scores/
 *.env
-data/vectordb
+data/vectordb/
+data/chunks.json
+data/embeddings.json
+data/train/*.jsonl
+eval_results.json
+rag_test_results.json
