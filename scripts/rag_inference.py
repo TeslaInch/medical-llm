@@ -5,6 +5,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from peft import PeftModel
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from langchain_chroma import Chroma
+import numpy as np
+from sentence_transformers import CrossEncoder
 
 # ── config ────────────────────────────────────────────────────────────────────
 BASE_MODEL = "microsoft/Phi-3.5-mini-instruct"
@@ -37,6 +39,10 @@ def load_model():
     )
     model = PeftModel.from_pretrained(model, ADAPTER)
     model.eval()
+    
+    # Silence HuggingFace max_length warning
+    if hasattr(model, "generation_config"):
+        model.generation_config.max_length = None
 
     tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL)
     tokenizer.pad_token = tokenizer.eos_token
@@ -58,14 +64,48 @@ def load_vectordb():
     )
 
 # ── RAG answer function ───────────────────────────────────────────────────────
-def answer_with_rag(pipe, vectordb, question, case=""):
+def answer_with_rag(pipe, vectordb, cross_encoder, question, case=""):
     # retrieve relevant context
     search_query = f"{case} {question}" if case else question
-    retrieved = vectordb.similarity_search(search_query, k=3)
+    retrieved = vectordb.similarity_search(search_query, k=10) # fetch top 10
+
+    # rerank
+    if retrieved:
+        pairs = [[search_query, doc.page_content] for doc in retrieved]
+        scores = cross_encoder.predict(pairs)
+        best_indices = np.argsort(scores)[::-1]
+        
+        # enforce source diversity
+        seen_sources = set()
+        diverse_indices = []
+        for idx in best_indices:
+            source = retrieved[idx].metadata.get("source", "unknown")
+            if source not in seen_sources:
+                seen_sources.add(source)
+                diverse_indices.append(idx)
+            if len(diverse_indices) == 3:
+                break
+                
+        # fallback if < 3 diverse sources exist
+        if len(diverse_indices) < 3:
+            for idx in best_indices:
+                if idx not in diverse_indices:
+                    diverse_indices.append(idx)
+                if len(diverse_indices) == 3:
+                    break
+        
+        # strategic placement: [best, third_best, second_best]
+        if len(diverse_indices) >= 3:
+            placed_indices = [diverse_indices[0], diverse_indices[2], diverse_indices[1]]
+        else:
+            placed_indices = diverse_indices
+        final_docs = [retrieved[i] for i in placed_indices]
+    else:
+        final_docs = []
 
     context = "\n\n".join([
         f"[{doc.metadata.get('source', 'guideline')}]\n{doc.page_content}"
-        for doc in retrieved
+        for doc in final_docs
     ])
 
     # build augmented prompt
@@ -86,7 +126,7 @@ Answer using the guidelines above. Cite the source document."""
     response = output[0]["generated_text"].split("<|assistant|>")[-1].strip()
     response = response.replace("<|end|>", "").strip()
 
-    sources = [doc.metadata.get("source", "unknown") for doc in retrieved]
+    sources = [doc.metadata.get("source", "unknown") for doc in final_docs]
     return response, sources
 
 # ── test on your worst questions ──────────────────────────────────────────────
@@ -121,8 +161,6 @@ if __name__ == "__main__":
         "text-generation",
         model=model,
         tokenizer=tokenizer,
-        max_new_tokens=500,
-        do_sample=False,
         pad_token_id=tokenizer.eos_token_id,
     )
 
@@ -130,13 +168,17 @@ if __name__ == "__main__":
     vectordb = load_vectordb()
     print(f"Chunks loaded: {vectordb._collection.count()}")
 
+    print("Loading Cross-Encoder Reranker...")
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    cross_encoder = CrossEncoder("BAAI/bge-reranker-large", device=device)
+
     print("\nRunning RAG inference tests...\n")
     results = []
 
     for i, q in enumerate(TEST_QUESTIONS):
         print(f"[{i+1}/{len(TEST_QUESTIONS)}] {q['question'][:60]}...")
         response, sources = answer_with_rag(
-            pipe, vectordb,
+            pipe, vectordb, cross_encoder,
             q["question"],
             q["case"]
         )
@@ -147,7 +189,7 @@ if __name__ == "__main__":
             "sources": sources
         })
         print(f"Sources: {sources}")
-        print(f"Response: {response[:300]}\n")
+        print(f"Response: {response}\n")
         print("---")
 
     # save results
