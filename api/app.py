@@ -1,9 +1,17 @@
-import logging
+import os
 import time
+import logging
 from typing import List, Optional
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
+
+# RAG & LLM dependencies
+from huggingface_hub import hf_hub_download, snapshot_download
+from llama_cpp import Llama
+from sentence_transformers import CrossEncoder
+from langchain_community.embeddings import HuggingFaceBgeEmbeddings
+import chromadb
 
 # Set up structured logging
 logging.basicConfig(
@@ -12,18 +20,29 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# Config from environment variables (User must set these in HF Spaces secrets)
+MODEL_REPO = os.getenv("MODEL_REPO", "YOUR_HF_USERNAME/phi3-medical-gguf")
+MODEL_FILENAME = os.getenv("MODEL_FILENAME", "phi3-medical-q8_0.gguf")
+VECTOR_DB_REPO = os.getenv("VECTOR_DB_REPO", "YOUR_HF_USERNAME/scd-chromadb")
+CHROMA_PATH = "/app/chroma_db"
+
 app = FastAPI(
     title="Medical LLM API",
     description="Inference server for Sickle Cell Disease RAG pipeline.",
     version="1.0.0"
 )
 
+# Global variables for models
+llm = None
+embedder = None
+reranker = None
+collection = None
+
 # ── Pydantic Models ────────────────────────────────────────────────────────────
 
 class PredictRequest(BaseModel):
     question: str = Field(..., description="The clinical question to ask the model.")
     case: Optional[str] = Field(None, description="Optional clinical case context.")
-    # We can add parameters like temperature, etc. later if needed.
 
 class Citation(BaseModel):
     source: str
@@ -39,6 +58,50 @@ class PredictResponse(BaseModel):
 class ErrorResponse(BaseModel):
     error: str
     details: Optional[str] = None
+
+# ── Startup & Initialization ───────────────────────────────────────────────────
+
+@app.on_event("startup")
+def initialize_services():
+    global llm, embedder, reranker, collection
+    logger.info("Initializing services...")
+
+    try:
+        # 1. Download Model
+        logger.info(f"Downloading model {MODEL_FILENAME} from {MODEL_REPO}...")
+        model_path = hf_hub_download(repo_id=MODEL_REPO, filename=MODEL_FILENAME)
+        
+        logger.info("Loading llama-cpp-python model...")
+        llm = Llama(
+            model_path=model_path,
+            n_ctx=2048,
+            n_threads=os.cpu_count() or 4
+        )
+        
+        # 2. Initialize Embedder & Reranker
+        logger.info("Loading Embedder and Reranker...")
+        embedder = HuggingFaceBgeEmbeddings(
+            model_name="BAAI/bge-large-en-v1.5",
+            model_kwargs={'device': 'cpu'},
+            encode_kwargs={'normalize_embeddings': True}
+        )
+        reranker = CrossEncoder("BAAI/bge-reranker-large", max_length=512, device='cpu')
+
+        # 3. Download and load Vector DB
+        logger.info(f"Downloading Vector DB from {VECTOR_DB_REPO}...")
+        os.makedirs(CHROMA_PATH, exist_ok=True)
+        # Snapshot download grabs the whole directory
+        snapshot_download(repo_id=VECTOR_DB_REPO, repo_type="dataset", local_dir=CHROMA_PATH)
+        
+        db_client = chromadb.PersistentClient(path=CHROMA_PATH)
+        # Assuming the collection name is 'langchain'
+        collection = db_client.get_collection("langchain")
+        
+        logger.info("All services initialized successfully!")
+    except Exception as e:
+        logger.error(f"Failed to initialize services: {e}")
+        # In a real scenario, you might want to raise, but for testing we catch it.
+        pass
 
 # ── Middleware ─────────────────────────────────────────────────────────────────
 
@@ -62,43 +125,94 @@ async def log_requests(request: Request, call_next):
 @app.get("/health")
 async def health_check():
     """Health check endpoint to ensure the API is running."""
-    # In a real app, you would check DB connection and model loaded status here
+    if llm is None or collection is None:
+        raise HTTPException(status_code=503, detail="Services not fully initialized")
     return {"status": "healthy"}
 
 @app.post("/predict", response_model=PredictResponse, responses={500: {"model": ErrorResponse}})
 async def predict(req: PredictRequest):
     """
-    Takes a clinical question and optional case, retrieves context from the RAG pipeline, 
+    Takes a clinical question, retrieves context, reranks with dynamic thresholding, 
     and returns a generated answer with citations.
     """
     start_time = time.time()
     
-    # ── Input Validation / Safety Guardrails ──
-    # Example guardrail: block dosage calculations if strictly prohibited
+    # ── Safety Guardrails ──
     if "dosage" in req.question.lower() or "how many mg" in req.question.lower():
         logger.warning(f"Blocked dangerous query: {req.question}")
-        # Depending on policy, we might still answer but append a disclaimer, or block.
-        # For now, let's just log it.
+        # Example of soft-blocking (allowing response but logging warning)
         pass
 
     try:
-        # TODO: Hook up the actual RAG pipeline here (VectorDB, Reranker, vLLM)
-        # For Week 14 container setup, we mock the response.
+        if collection is None:
+            raise ValueError("Vector DB collection is not initialized.")
+            
+        full_query = f"{req.case}\n{req.question}" if req.case else req.question
         
-        # Simulated processing delay
-        time.sleep(0.5)
+        # 1. Retrieval (Get top 10 to rerank)
+        query_embedding = embedder.embed_query(full_query)
+        results = collection.query(
+            query_embeddings=[query_embedding],
+            n_results=10,
+            include=["documents", "metadatas"]
+        )
         
-        mock_answer = "This is a mocked clinical answer. The RAG pipeline will be integrated here."
-        mock_citations = [
-            Citation(source="mock_guideline.pdf", content="Mocked context...", relevance_score=0.95)
+        docs = results["documents"][0]
+        metadatas = results["metadatas"][0]
+        
+        if not docs:
+            return PredictResponse(answer="No relevant context found.", citations=[], confidence=0.0, latency_ms=0)
+            
+        # 2. Reranking
+        pairs = [[full_query, doc] for doc in docs]
+        scores = reranker.predict(pairs)
+        
+        # Combine docs, metas, and scores
+        ranked = sorted(zip(docs, metadatas, scores), key=lambda x: x[2], reverse=True)
+        
+        # ── Dynamic Thresholding ──
+        # Drop chunks whose score is below 0.05 OR falls by >30% compared to Rank 1
+        top_score = ranked[0][2]
+        filtered_ranked = [
+            (d, m, s) for d, m, s in ranked 
+            if s >= 0.05 and (top_score - s) <= (0.30 * top_score)
+        ]
+        
+        # Take up to top 3 of the filtered results
+        final_chunks = filtered_ranked[:3]
+        
+        context_str = "\n\n".join([f"[{m.get('source', 'Unknown')}] {d}" for d, m, s in final_chunks])
+        
+        # 3. LLM Generation
+        system_instruction = (
+            "You are a medical AI assistant specialised in sickle cell disease. "
+            "Answer clinical questions accurately and concisely. "
+            "If you are uncertain, say so clearly rather than guessing."
+        )
+        prompt_text = f"<|system|>{system_instruction}<|end|>\n<|user|>Context:\n{context_str}\n\nQuestion:\n{full_query}<|end|>\n<|assistant|>"
+        
+        # Call llama-cpp
+        output = llm(
+            prompt_text,
+            max_tokens=300,
+            temperature=0.0,
+            echo=False
+        )
+        
+        answer = output['choices'][0]['text'].strip()
+        
+        # Build citations
+        citations = [
+            Citation(source=m.get("source", "Unknown"), content=d[:200]+"...", relevance_score=float(s))
+            for d, m, s in final_chunks
         ]
         
         process_time_ms = (time.time() - start_time) * 1000
         
         return PredictResponse(
-            answer=mock_answer,
-            citations=mock_citations,
-            confidence=0.85,
+            answer=answer,
+            citations=citations,
+            confidence=float(top_score),  # Rough proxy for confidence
             latency_ms=process_time_ms
         )
         
@@ -108,4 +222,4 @@ async def predict(req: PredictRequest):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=False)
