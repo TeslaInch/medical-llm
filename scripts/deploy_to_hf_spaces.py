@@ -20,7 +20,7 @@ user_info = api.whoami()
 username = user_info["name"]
 
 # Space details
-space_name = "Medical-RAG-API"
+space_name = "SCD-Medical-LLM"
 repo_id = f"{username}/{space_name}"
 
 print(f"Creating HuggingFace Docker Space: {repo_id}...")
