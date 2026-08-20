@@ -14,17 +14,26 @@ RUN apt-get update && apt-get install -y \
     cmake \
     && rm -rf /var/lib/apt/lists/*
 
-# Install Python dependencies
-# We copy requirements first to leverage Docker cache
-COPY requirements.txt /app/
+# Setup a non-root user as required by HuggingFace Spaces
+RUN useradd -m -u 1000 user
+USER user
+
+# Set home to the user's home directory
+ENV HOME=/home/user
+ENV PATH=/home/user/.local/bin:$PATH
+
+WORKDIR $HOME/app
+
+# Copy requirements and install
+COPY --chown=user requirements.txt $HOME/app/
 RUN pip install --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
-# Copy the current directory contents into the container at /app
-COPY . /app/
+# Copy the application code
+COPY --chown=user . $HOME/app/
 
-# Expose port 8000 for FastAPI
-EXPOSE 8000
+# Expose port 7860 which is required by HF Spaces
+EXPOSE 7860
 
 # Command to run the application
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7860"]

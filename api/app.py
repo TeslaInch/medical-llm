@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 MODEL_REPO = os.getenv("MODEL_REPO", "TeslaInch/phi-3.5-mini-SCD-gguf")
 MODEL_FILENAME = os.getenv("MODEL_FILENAME", "phi-3.5-mini-Q4_K_M.gguf")
 VECTOR_DB_REPO = os.getenv("VECTOR_DB_REPO", "TeslaInch/SCD-vectorDB-v1")
-CHROMA_PATH = "/app/chroma_db"
+CHROMA_PATH = "./chroma_db"
 
 app = FastAPI(
     title="Medical LLM API",
@@ -222,4 +222,4 @@ async def predict(req: PredictRequest):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=False)
+    uvicorn.run("app:app", host="0.0.0.0", port=7860, reload=False)
