@@ -30,8 +30,13 @@ CHROMA_PATH = "./chroma_db"
 # MLflow Config (e.g. https://dagshub.com/username/repo.mlflow)
 MLFLOW_TRACKING_URI = os.getenv("MLFLOW_TRACKING_URI")
 if MLFLOW_TRACKING_URI:
-    mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
-    mlflow.set_experiment("SCD-Medical-LLM-Inference")
+    try:
+        mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
+        mlflow.set_experiment("SCD-Medical-LLM-Inference")
+        logger.info(f"Connected to MLflow: {MLFLOW_TRACKING_URI}")
+    except Exception as e:
+        logger.warning(f"Failed to connect to MLflow (Check Auth/URI): {e}")
+        MLFLOW_TRACKING_URI = None  # Disable tracking for this run
 
 app = FastAPI(
     title="Medical LLM API",
@@ -99,7 +104,7 @@ def initialize_services():
         # 2. Initialize Embedder & Reranker
         logger.info("Loading Embedder and Reranker...")
         embedder = HuggingFaceBgeEmbeddings(
-            model_name="BAAI/bge-small-en-v1.5",
+            model_name="BAAI/bge-large-en-v1.5",
             model_kwargs={'device': 'cpu'},
             encode_kwargs={'normalize_embeddings': True}
         )
