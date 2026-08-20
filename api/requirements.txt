@@ -7,3 +7,5 @@ llama-cpp-python>=0.2.20
 chromadb>=0.4.15
 sentence-transformers>=2.2.2
 huggingface_hub>=0.19.4
+langchain>=0.1.0
+langchain_community>=0.0.10
