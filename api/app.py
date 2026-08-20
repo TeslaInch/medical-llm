@@ -12,6 +12,7 @@ from llama_cpp import Llama
 from sentence_transformers import CrossEncoder
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 import chromadb
+import mlflow
 
 # Set up structured logging
 logging.basicConfig(
@@ -25,6 +26,12 @@ MODEL_REPO = os.getenv("MODEL_REPO", "TeslaInch/phi-3.5-mini-SCD-gguf")
 MODEL_FILENAME = os.getenv("MODEL_FILENAME", "phi-3.5-mini-Q4_K_M.gguf")
 VECTOR_DB_REPO = os.getenv("VECTOR_DB_REPO", "TeslaInch/SCD-vectorDB-v1")
 CHROMA_PATH = "./chroma_db"
+
+# MLflow Config (e.g. https://dagshub.com/username/repo.mlflow)
+MLFLOW_TRACKING_URI = os.getenv("MLFLOW_TRACKING_URI")
+if MLFLOW_TRACKING_URI:
+    mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
+    mlflow.set_experiment("SCD-Medical-LLM-Inference")
 
 app = FastAPI(
     title="Medical LLM API",
@@ -198,23 +205,33 @@ async def predict(req: PredictRequest):
         )
         prompt_text = f"<|system|>{system_instruction}<|end|>\n<|user|>Context:\n{context_str}\n\nQuestion:\n{full_query}<|end|>\n<|assistant|>"
         
-        # Call llama-cpp
-        output = llm(
-            prompt_text,
-            max_tokens=300,
-            temperature=0.0,
-            echo=False
-        )
-        
-        answer = output['choices'][0]['text'].strip()
+        # ── MLflow Tracking ──
+        with mlflow.start_run(run_name="predict"):
+            mlflow.log_param("question", req.question)
+            mlflow.log_param("case_context", req.case or "None")
+            mlflow.log_param("chunks_retrieved", len(final_chunks))
+            mlflow.log_metric("confidence_score", float(top_score))
+            
+            # Call llama-cpp
+            output = llm(
+                prompt_text,
+                max_tokens=300,
+                temperature=0.0,
+                echo=False
+            )
+            
+            answer = output['choices'][0]['text'].strip()
+            process_time_ms = (time.time() - start_time) * 1000
+            
+            mlflow.log_metric("latency_ms", process_time_ms)
+            mlflow.log_text(answer, "generated_answer.txt")
+            mlflow.log_text(context_str, "retrieved_context.txt")
         
         # Build citations
         citations = [
             Citation(source=m.get("source", "Unknown"), content=d[:200]+"...", relevance_score=float(s))
             for d, m, s in final_chunks
         ]
-        
-        process_time_ms = (time.time() - start_time) * 1000
         
         return PredictResponse(
             answer=answer,
