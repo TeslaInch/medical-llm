@@ -21,9 +21,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Config from environment variables (User must set these in HF Spaces secrets)
-MODEL_REPO = os.getenv("MODEL_REPO", "YOUR_HF_USERNAME/phi3-medical-gguf")
-MODEL_FILENAME = os.getenv("MODEL_FILENAME", "phi3-medical-q8_0.gguf")
-VECTOR_DB_REPO = os.getenv("VECTOR_DB_REPO", "YOUR_HF_USERNAME/scd-chromadb")
+MODEL_REPO = os.getenv("MODEL_REPO", "TeslaInch/phi-3.5-mini-SCD-gguf")
+MODEL_FILENAME = os.getenv("MODEL_FILENAME", "phi-3.5-mini-Q4_K_M.gguf")
+VECTOR_DB_REPO = os.getenv("VECTOR_DB_REPO", "TeslaInch/SCD-vectorDB-v1")
 CHROMA_PATH = "/app/chroma_db"
 
 app = FastAPI(
@@ -81,11 +81,11 @@ def initialize_services():
         # 2. Initialize Embedder & Reranker
         logger.info("Loading Embedder and Reranker...")
         embedder = HuggingFaceBgeEmbeddings(
-            model_name="BAAI/bge-large-en-v1.5",
+            model_name="BAAI/bge-small-en-v1.5",
             model_kwargs={'device': 'cpu'},
             encode_kwargs={'normalize_embeddings': True}
         )
-        reranker = CrossEncoder("BAAI/bge-reranker-large", max_length=512, device='cpu')
+        reranker = CrossEncoder("BAAI/bge-reranker-base", max_length=512, device='cpu')
 
         # 3. Download and load Vector DB
         logger.info(f"Downloading Vector DB from {VECTOR_DB_REPO}...")
