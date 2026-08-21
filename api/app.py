@@ -66,6 +66,7 @@ collection = None
 class PredictRequest(BaseModel):
     question: str = Field(..., description="The clinical question to ask the model.")
     case: Optional[str] = Field(None, description="Optional clinical case context.")
+    history: Optional[list] = Field(default_factory=list, description="List of previous conversation turns.")
 
 class Citation(BaseModel):
     source: str
@@ -221,8 +222,19 @@ async def predict(req: PredictRequest):
             "If the context does not contain the answer, say 'I cannot answer this based on the provided guidelines.'"
         )
         
-        # Phi-3 exact prompt format
-        prompt_text = f"<|system|>\n{system_instruction}<|end|>\n<|user|>\nContext:\n{context_str}\n\nQuestion:\n{full_query}<|end|>\n<|assistant|>\n"
+        # Phi-3 exact prompt format with history
+        prompt_text = f"<|system|>\n{system_instruction}<|end|>\n"
+        
+        # Append recent history (keep only last 4 turns to avoid CPU memory bloat)
+        recent_history = req.history[-4:] if req.history else []
+        for msg in recent_history:
+            role = msg.get("role", "user")
+            content = msg.get("content", "")
+            # Map frontend 'ai' role to 'assistant'
+            mapped_role = "assistant" if role == "ai" else "user"
+            prompt_text += f"<|{mapped_role}|>\n{content}<|end|>\n"
+            
+        prompt_text += f"<|user|>\nContext:\n{context_str}\n\nQuestion:\n{full_query}<|end|>\n<|assistant|>\n"
         
         # ── MLflow Tracking ──
         with mlflow.start_run(run_name="predict"):
