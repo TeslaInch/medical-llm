@@ -208,18 +208,21 @@ async def predict(req: PredictRequest):
             if s >= 0.05 and (top_score - s) <= (0.30 * top_score)
         ]
         
-        # Take up to top 3 of the filtered results
-        final_chunks = filtered_ranked[:3]
+        # Take the top 1 filtered result to optimize CPU inference time (reduces prompt length)
+        final_chunks = filtered_ranked[:1]
         
-        context_str = "\n\n".join([f"[{m.get('source', 'Unknown')}] {d}" for d, m, s in final_chunks])
-        
+        # Truncate text to avoid massive context causing 10+ min inference on CPU
+        context_str = "\n\n".join([f"[{m.get('source', 'Unknown')}] {d[:1200]}" for d, m, s in final_chunks])
         # 3. LLM Generation
         system_instruction = (
             "You are a medical AI assistant specialised in sickle cell disease. "
-            "Answer clinical questions accurately and concisely. "
-            "If you are uncertain, say so clearly rather than guessing."
+            "Use ONLY the provided context to answer the clinical question. "
+            "Summarize the answer concisely in your own words. DO NOT copy and paste the context directly. "
+            "If the context does not contain the answer, say 'I cannot answer this based on the provided guidelines.'"
         )
-        prompt_text = f"<|system|>{system_instruction}<|end|>\n<|user|>Context:\n{context_str}\n\nQuestion:\n{full_query}<|end|>\n<|assistant|>"
+        
+        # Phi-3 exact prompt format
+        prompt_text = f"<|system|>\n{system_instruction}<|end|>\n<|user|>\nContext:\n{context_str}\n\nQuestion:\n{full_query}<|end|>\n<|assistant|>\n"
         
         # ── MLflow Tracking ──
         with mlflow.start_run(run_name="predict"):
@@ -231,8 +234,9 @@ async def predict(req: PredictRequest):
             # Call llama-cpp
             output = llm(
                 prompt_text,
-                max_tokens=300,
-                temperature=0.0,
+                max_tokens=400,
+                temperature=0.1,
+                stop=["<|end|>", "<|user|>", "<|system|>"],
                 echo=False
             )
             
