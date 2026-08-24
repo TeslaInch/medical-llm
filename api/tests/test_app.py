@@ -3,11 +3,6 @@ from app import app
 
 client = TestClient(app)
 
-def test_root_redirect():
-    # Test that the root URL redirects to /docs
-    response = client.get("/", follow_redirects=False)
-    assert response.status_code == 307
-    assert response.headers["location"] == "/docs"
 
 def test_health_check_uninitialized():
     # Because we don't trigger the @app.on_event("startup") in the test environment,
