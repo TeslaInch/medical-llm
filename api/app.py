@@ -45,6 +45,9 @@ app = FastAPI(
 )
 
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+import os
 
 # Enable CORS for the frontend web application
 app.add_middleware(
@@ -257,24 +260,32 @@ async def predict(req: PredictRequest):
             
             mlflow.log_metric("latency_ms", process_time_ms)
             mlflow.log_text(answer, "generated_answer.txt")
-            mlflow.log_text(context_str, "retrieved_context.txt")
-        
-        # Build citations
-        citations = [
-            Citation(source=m.get("source", "Unknown"), content=d[:200]+"...", relevance_score=float(s))
-            for d, m, s in final_chunks
-        ]
-        
-        return PredictResponse(
-            answer=answer,
-            citations=citations,
-            confidence=float(top_score),  # Rough proxy for confidence
-            latency_ms=process_time_ms
-        )
+            
+            # Build citations
+            citations = [
+                Citation(source=m.get("source", "Unknown"), content=d[:200]+"...", relevance_score=float(s))
+                for d, m, s in final_chunks
+            ]
+            
+            return PredictResponse(
+                answer=answer,
+                citations=citations,
+                confidence=float(top_score),
+                latency_ms=int(time.time() - start_time) * 1000
+            )
         
     except Exception as e:
         logger.error(f"Inference error: {str(e)}")
-        raise HTTPException(status_code=500, detail="Internal inference error")
+        raise HTTPException(status_code=500, detail=str(e))
+
+# ── Serve React Frontend ────────────────────────────────────────────────────────
+# Mount the React 'dist' directory if it exists (for HF Spaces deployment)
+if os.path.exists("dist"):
+    app.mount("/assets", StaticFiles(directory="dist/assets"), name="assets")
+    
+    @app.get("/")
+    async def serve_frontend():
+        return FileResponse("dist/index.html")
 
 if __name__ == "__main__":
     import uvicorn

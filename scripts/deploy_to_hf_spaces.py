@@ -1,4 +1,6 @@
 import os
+import subprocess
+import shutil
 from dotenv import load_dotenv
 from huggingface_hub import HfApi
 
@@ -11,6 +13,26 @@ if not hf_token:
     exit(1)
 
 api = HfApi(token=hf_token)
+
+# Build React Frontend
+print("Building React Frontend...")
+try:
+    # Run npm run build in frontend directory (windows syntax handled by shell=True)
+    subprocess.run(["npm", "run", "build"], cwd="frontend", check=True, shell=True)
+    print("React build successful.")
+    
+    # Copy dist folder to api folder
+    api_dist_path = os.path.join("api", "dist")
+    frontend_dist_path = os.path.join("frontend", "dist")
+    
+    if os.path.exists(api_dist_path):
+        shutil.rmtree(api_dist_path)
+    shutil.copytree(frontend_dist_path, api_dist_path)
+    print(f"Copied frontend build to {api_dist_path}")
+    
+except Exception as e:
+    print(f"Error building frontend: {e}")
+    exit(1)
 
 # The local folder containing our FastAPI app and Dockerfile
 local_folder = "api"
