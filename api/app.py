@@ -151,10 +151,6 @@ async def log_requests(request: Request, call_next):
 
 from fastapi.responses import RedirectResponse
 
-@app.get("/", include_in_schema=False)
-async def root():
-    """Redirect the root URL to the Swagger UI docs."""
-    return RedirectResponse(url="/docs")
 
 @app.get("/health")
 async def health_check():
