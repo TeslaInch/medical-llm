@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Send, Activity, Plus, User, Settings, ExternalLink, X } from 'lucide-react';
+import { Send, Activity, Plus, User, ExternalLink, X } from 'lucide-react';
 import './index.css';
 
 const API_URL = import.meta.env.PROD ? '/predict' : 'https://teslainch-scd-medical-llm.hf.space/predict';
@@ -56,7 +56,7 @@ function App() {
   ];
 
   useEffect(() => {
-    let interval: NodeJS.Timeout;
+    let interval: ReturnType<typeof setInterval>;
     if (isLoading) {
       setLoadingStep(0);
       interval = setInterval(() => {
