@@ -18,7 +18,7 @@ api = HfApi(token=hf_token)
 print("Building React Frontend...")
 try:
     # Run npm run build in frontend directory (windows syntax handled by shell=True)
-    subprocess.run(["npm", "run", "build"], cwd="frontend", check=True, shell=True)
+    subprocess.run("npm run build", cwd="frontend", check=True, shell=True)
     print("React build successful.")
     
     # Copy dist folder to api folder
