@@ -160,7 +160,7 @@ async def health_check():
     return {"status": "healthy"}
 
 @app.post("/predict", response_model=PredictResponse, responses={500: {"model": ErrorResponse}})
-async def predict(req: PredictRequest):
+def predict(req: PredictRequest):
     """
     Takes a clinical question, retrieves context, reranks with dynamic thresholding, 
     and returns a generated answer with citations.
