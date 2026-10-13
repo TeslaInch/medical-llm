@@ -30,7 +30,6 @@ Output schema (one object per answer):
 
 import argparse
 import json
-import os
 import sys
 from pathlib import Path
 
@@ -68,9 +67,7 @@ def discover_json_files(input_dir: Path) -> dict[int, Path]:
     for layer, filename in EVAL_FILES.items():
         filepath = input_dir / filename
         if not filepath.exists():
-            raise FileNotFoundError(
-                f"Expected eval file for Layer {layer} not found: {filepath}"
-            )
+            raise FileNotFoundError(f"Expected eval file for Layer {layer} not found: {filepath}")
         resolved[layer] = filepath
     return resolved
 
@@ -108,7 +105,7 @@ def extract_answers(layer: int, filepath: Path) -> list[dict]:
     else:
         raise ValueError(
             f"Unexpected JSON structure in {filepath}: "
-            "expected a top-level array or {\"fullContent\": [...]}."
+            'expected a top-level array or {"fullContent": [...]}.'
         )
 
     extracted = []
@@ -120,12 +117,12 @@ def extract_answers(layer: int, filepath: Path) -> list[dict]:
 
         extracted.append(
             {
-                "id":       record.get("id", f"layer{layer}_{idx:03d}"),
-                "layer":    layer,
-                "source":   record.get("source", ""),
+                "id": record.get("id", f"layer{layer}_{idx:03d}"),
+                "layer": layer,
+                "source": record.get("source", ""),
                 "category": record.get("category", ""),
-                "answer":   answer_text,
-                "rubric":   rubric,
+                "answer": answer_text,
+                "rubric": rubric,
             }
         )
 
@@ -145,9 +142,7 @@ def validate_record(record: dict, filepath: Path, idx: int) -> None:
         ValueError: If the `answer` key is absent or blank.
     """
     if "answer" not in record or not record["answer"]:
-        raise ValueError(
-            f"Record at index {idx} in {filepath} is missing an 'answer' field."
-        )
+        raise ValueError(f"Record at index {idx} in {filepath} is missing an 'answer' field.")
 
 
 def build_answer_text(record: dict, layer: int) -> str:
@@ -233,8 +228,7 @@ def main() -> None:
     """
     parser = argparse.ArgumentParser(
         description=(
-            "Extract answers from all eval JSON files and save to "
-            "a single all_answers.json file."
+            "Extract answers from all eval JSON files and save to a single all_answers.json file."
         )
     )
     parser.add_argument(
@@ -259,7 +253,7 @@ def main() -> None:
 
     print(f"\nInput  : {input_dir.resolve()}")
     print(f"Output : {output_path.resolve()}")
-    print(f"Excluded: baselines/ subfolder\n")
+    print("Excluded: baselines/ subfolder\n")
 
     # ── discover files ───────────────────────────────────────────────────────
     try:

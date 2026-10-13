@@ -44,8 +44,8 @@ UK_2018 = (
 )
 MEDQA_SOURCE = (
     "MedQA — USMLE-style benchmark: Jin D, Pan E, Oufattole N, et al. "
-    "\"What Disease Does This Patient Have? A Large-Scale Open Domain "
-    "Question Answering Dataset from Medical Exams.\" "
+    '"What Disease Does This Patient Have? A Large-Scale Open Domain '
+    'Question Answering Dataset from Medical Exams." '
     "Applied Sciences. 2021;11(14):6421."
 )
 MEDQA_DOI = "https://doi.org/10.3390/app11146421"
@@ -80,22 +80,56 @@ LAYER3_PATH = Path("data/eval/layer3_combined.json")
 
 CATEGORY_CITATION_MAP: dict[str, tuple[str, str]] = {
     # (official_source, official_page)
-    "pathophysiology":      (NIH_2014, "1-4"),
-    "diagnosis_criteria":   (NIH_2014, "9-12"),
-    "screening_schedule":   (NIH_2014, "13-16"),
-    "dosing_guideline":     (NIH_2014, "25-34"),
-    "treatment_threshold":  (NIH_2014, "35-44"),
+    "pathophysiology": (NIH_2014, "1-4"),
+    "diagnosis_criteria": (NIH_2014, "9-12"),
+    "screening_schedule": (NIH_2014, "13-16"),
+    "dosing_guideline": (NIH_2014, "25-34"),
+    "treatment_threshold": (NIH_2014, "35-44"),
     "emergency_management": (NIH_2014, "45-84"),
-    "contraindication":     (NIH_2014, "25-34"),
+    "contraindication": (NIH_2014, "25-34"),
 }
 
 # ── helpers ───────────────────────────────────────────────────────────────────
 STOPWORDS = {
-    "with", "that", "this", "from", "have", "will", "which", "when", "what",
-    "their", "been", "does", "should", "must", "also", "each", "more", "only",
-    "after", "first", "both", "than", "them", "they", "were", "into", "some",
-    "where", "who", "not", "are", "for", "the", "and", "patient", "sickle",
-    "cell", "disease", "scd",
+    "with",
+    "that",
+    "this",
+    "from",
+    "have",
+    "will",
+    "which",
+    "when",
+    "what",
+    "their",
+    "been",
+    "does",
+    "should",
+    "must",
+    "also",
+    "each",
+    "more",
+    "only",
+    "after",
+    "first",
+    "both",
+    "than",
+    "them",
+    "they",
+    "were",
+    "into",
+    "some",
+    "where",
+    "who",
+    "not",
+    "are",
+    "for",
+    "the",
+    "and",
+    "patient",
+    "sickle",
+    "cell",
+    "disease",
+    "scd",
 }
 
 
@@ -155,6 +189,7 @@ def save_json(data: list[dict], path: Path) -> None:
 
 
 # ── Layer 1 enrichment ────────────────────────────────────────────────────────
+
 
 def find_layer3_match(
     entry: dict,
@@ -239,6 +274,7 @@ def enrich_layer1(layer1: list[dict], layer3: list[dict]) -> tuple[list[dict], d
 
 # ── Layer 2 enrichment ────────────────────────────────────────────────────────
 
+
 def enrich_layer2(layer2: list[dict]) -> tuple[list[dict], int]:
     """
     Update the `source` field to the formal MedQA dataset citation
@@ -259,6 +295,7 @@ def enrich_layer2(layer2: list[dict]) -> tuple[list[dict], int]:
 
 
 # ── main ─────────────────────────────────────────────────────────────────────
+
 
 def main() -> None:
     """

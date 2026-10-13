@@ -36,8 +36,9 @@ EVAL_QUERIES = [
     "What are the specific indications for chronic red blood cell transfusion therapy?",
     "How should acute chest syndrome (ACS) be managed empirically with antibiotics?",
     "What is the target hemoglobin S (HbS) percentage for patients undergoing preoperative transfusion?",
-    "What are the diagnostic criteria for avascular necrosis (AVN) of the femoral head in SCD?"
+    "What are the diagnostic criteria for avascular necrosis (AVN) of the femoral head in SCD?",
 ]
+
 
 def judge_relevance(query: str, chunk_text: str, client: Groq) -> bool:
     """Uses Llama-3 as a judge to determine if the chunk contains the answer to the query."""
@@ -53,7 +54,7 @@ def judge_relevance(query: str, chunk_text: str, client: Groq) -> bool:
     Does the document chunk contain relevant information that directly helps answer the query?
     Respond with exactly one word: "YES" if it is relevant, or "NO" if it is irrelevant or just noise.
     """
-    
+
     try:
         response = client.chat.completions.create(
             messages=[{"role": "user", "content": prompt}],
@@ -66,6 +67,7 @@ def judge_relevance(query: str, chunk_text: str, client: Groq) -> bool:
     except Exception as e:
         print(f"Error calling Groq API: {e}")
         return False
+
 
 def run_evaluation():
     if os.environ.get("GROQ_API_KEY") == "YOUR_GROQ_API_KEY":
@@ -82,35 +84,35 @@ def run_evaluation():
     print("Loading BAAI/bge-large-en-v1.5 embedding model...")
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Using device: {device}")
-    
+
     embedding_func = HuggingFaceBgeEmbeddings(
         model_name="BAAI/bge-large-en-v1.5",
-        model_kwargs={'device': device},
-        encode_kwargs={'normalize_embeddings': True}
+        model_kwargs={"device": device},
+        encode_kwargs={"normalize_embeddings": True},
     )
 
     print(f"Loading Chroma DB from {CHROMA_DB_DIR}...")
     db = Chroma(persist_directory=CHROMA_DB_DIR, embedding_function=embedding_func)
-    
+
     total_queries = len(EVAL_QUERIES)
     successful_queries = 0  # Queries where AT LEAST ONE relevant chunk was found
-    mrr_sum = 0.0           # Mean Reciprocal Rank sum
-    
+    mrr_sum = 0.0  # Mean Reciprocal Rank sum
+
     print("\nStarting LLM-as-a-Judge Retrieval Evaluation...\n")
-    print("="*60)
-    
+    print("=" * 60)
+
     for idx, query in enumerate(EVAL_QUERIES, 1):
         print(f"Query {idx}/{total_queries}: {query}")
-        
+
         # Retrieve top 5 chunks
         retrieved_docs = db.similarity_search(query, k=5)
-        
+
         relevant_found = False
         first_relevant_rank = 0
-        
+
         for rank, doc in enumerate(retrieved_docs, 1):
             is_relevant = judge_relevance(query, doc.page_content, groq_client)
-            
+
             if is_relevant:
                 print(f"  [✓] Chunk {rank} is RELEVANT.")
                 if not relevant_found:
@@ -118,34 +120,35 @@ def run_evaluation():
                 relevant_found = True
             else:
                 print(f"  [X] Chunk {rank} is irrelevant.")
-                
+
         if relevant_found:
             successful_queries += 1
-            mrr_sum += (1.0 / first_relevant_rank)
+            mrr_sum += 1.0 / first_relevant_rank
             print(f"  --> Hit at Rank {first_relevant_rank}")
         else:
             print("  --> MISS (No relevant chunks found in Top 5)")
-            
+
         print("-" * 60)
 
     # Calculate final metrics
     hit_rate = (successful_queries / total_queries) * 100
     mrr = mrr_sum / total_queries
-    
-    print("\n" + "="*60)
+
+    print("\n" + "=" * 60)
     print("FINAL RETRIEVAL METRICS")
-    print("="*60)
+    print("=" * 60)
     print(f"Total Queries Tested : {total_queries}")
     print(f"Hit Rate (Recall@5)  : {hit_rate:.2f}% (Queries where context was successfully found)")
     print(f"Mean Reciprocal Rank : {mrr:.4f} (1.0 means perfect ranking)")
     print("============================================================")
-    
+
     if hit_rate >= 80 and mrr >= 0.7:
         print("\nCONCLUSION: Your RAG pipeline has EXCELLENT retrieval quality.")
         print("You can safely evaluate the LLMs knowing the context is solid.")
     else:
         print("\nCONCLUSION: Your RAG pipeline needs improvement before evaluating LLMs.")
         print("Check if the missed queries actually exist in the source documents.")
+
 
 if __name__ == "__main__":
     run_evaluation()

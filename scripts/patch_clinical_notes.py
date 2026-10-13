@@ -39,7 +39,6 @@ PATCH_DATE = "2026-06-08"
 # it sits alongside it so the original gold answer is preserved for audit.
 
 LAYER1_PATCHES: dict[str, dict] = {
-
     "layer1_017": {
         "clinical_note": (
             "POST-2018 REGULATORY UPDATE (verified 2026-06-08):\n"
@@ -76,7 +75,6 @@ LAYER1_PATCHES: dict[str, dict] = {
             "FDA approval letters for Casgevy and Lyfgenia, 8 Dec 2023."
         ),
     },
-
     "layer1_030": {
         "clinical_note": (
             "POST-2018 UPDATE (verified 2026-06-08):\n"
@@ -96,11 +94,9 @@ LAYER1_PATCHES: dict[str, dict] = {
         ),
         "patch_date": PATCH_DATE,
         "patch_source": (
-            "Pfizer press release 25 Sep 2024; "
-            "FDA approval letters Casgevy/Lyfgenia 8 Dec 2023."
+            "Pfizer press release 25 Sep 2024; FDA approval letters Casgevy/Lyfgenia 8 Dec 2023."
         ),
     },
-
     "layer1_015": {
         "clinical_note": (
             "GUIDELINE VERSION DIFFERENCE (not an error — both are correct "
@@ -121,11 +117,9 @@ LAYER1_PATCHES: dict[str, dict] = {
             "UK Standards for Clinical Care of Adults with SCD (2018), p.31."
         ),
     },
-
 }
 
 LAYER3_PATCHES: dict[str, dict] = {
-
     "layer3_012": {
         "clinical_note": (
             "GUIDELINE VERSION DIFFERENCE (not an error — both are correct "
@@ -143,7 +137,6 @@ LAYER3_PATCHES: dict[str, dict] = {
             "NHLBI 2014 Expert Panel Report, p.15."
         ),
     },
-
     "layer3_034": {
         "clinical_note": (
             "GUIDELINE VERSION DIFFERENCE (not an error):\n"
@@ -159,11 +152,11 @@ LAYER3_PATCHES: dict[str, dict] = {
             "UK Standards for Clinical Care of Adults with SCD (2018), p.31."
         ),
     },
-
 }
 
 
 # ── helpers ───────────────────────────────────────────────────────────────────
+
 
 def load_json(path: Path) -> list[dict]:
     """
@@ -243,6 +236,7 @@ def apply_patches(
 
 
 # ── main ─────────────────────────────────────────────────────────────────────
+
 
 def main() -> None:
     """

@@ -1,7 +1,7 @@
 """
 build_v4_dataset.py
 ─────────────────────────────────────────────────────────────────────────────
-Loads the new scd_alpaca_clean2.jsonl data, splits 90/10, saves as 
+Loads the new scd_alpaca_clean2.jsonl data, splits 90/10, saves as
 scd_training_v4.json, and pushes to TeslaInch/SCD-Instruction-Tuning.
 
 Usage:
@@ -27,6 +27,7 @@ V4_FILE = TRAIN_DIR / "scd_training_v4.json"
 
 # ── loading ───────────────────────────────────────────────────────────────────
 
+
 def load_jsonl(filepath: Path) -> list[dict]:
     if not filepath.exists():
         raise FileNotFoundError(f"File not found: {filepath}")
@@ -40,11 +41,13 @@ def load_jsonl(filepath: Path) -> list[dict]:
             try:
                 records.append(json.loads(line))
             except json.JSONDecodeError as e:
-                print(f"Skipping line {i+1} due to JSON error: {e}")
-                
+                print(f"Skipping line {i + 1} due to JSON error: {e}")
+
     return records
 
+
 # ── deduplication ─────────────────────────────────────────────────────────────
+
 
 def deduplicate(records: list[dict]) -> list[dict]:
     seen: set[str] = set()
@@ -56,7 +59,9 @@ def deduplicate(records: list[dict]) -> list[dict]:
             unique.append(r)
     return unique
 
+
 # ── splitting ─────────────────────────────────────────────────────────────────
+
 
 def split_dataset(
     records: list[dict],
@@ -69,7 +74,9 @@ def split_dataset(
     val_count = max(1, int(len(shuffled) * val_ratio))
     return shuffled[val_count:], shuffled[:val_count]
 
+
 # ── huggingface push ──────────────────────────────────────────────────────────
+
 
 def push_to_huggingface(train: list[dict], val: list[dict], hf_token: str) -> None:
     from datasets import Dataset, DatasetDict
@@ -87,10 +94,12 @@ def push_to_huggingface(train: list[dict], val: list[dict], hf_token: str) -> No
             if k not in r:
                 r[k] = ""
 
-    dataset_dict = DatasetDict({
-        "train":      Dataset.from_list(train),
-        "validation": Dataset.from_list(val),
-    })
+    dataset_dict = DatasetDict(
+        {
+            "train": Dataset.from_list(train),
+            "validation": Dataset.from_list(val),
+        }
+    )
 
     repo_id = "TeslaInch/SCD-Instruction-Tuning"
     print(f"Pushing to {repo_id}...")
@@ -106,7 +115,9 @@ def push_to_huggingface(train: list[dict], val: list[dict], hf_token: str) -> No
     print(f"  Train records      : {len(train)}")
     print(f"  Validation records : {len(val)}")
 
+
 # ── main ──────────────────────────────────────────────────────────────────────
+
 
 def main() -> None:
     load_dotenv()
@@ -117,12 +128,14 @@ def main() -> None:
     except FileNotFoundError as e:
         print(f"  [ERROR] {e}", file=sys.stderr)
         sys.exit(1)
-        
+
     print(f"  Loaded {len(records)} total records.")
 
     print("\n[Step 2] Deduplicating on exact input field...")
     unique_records = deduplicate(records)
-    print(f"  After dedup: {len(unique_records)} unique records ({len(records) - len(unique_records)} removed)")
+    print(
+        f"  After dedup: {len(unique_records)} unique records ({len(records) - len(unique_records)} removed)"
+    )
 
     print("\n[Step 3] Splitting 90/10 train/validation (random_state=42)...")
     train_split, val_split = split_dataset(unique_records, val_ratio=0.1, random_state=42)
@@ -131,7 +144,7 @@ def main() -> None:
     print(f"\n[Step 4] Saving to {V4_FILE}...")
     with open(V4_FILE, "w", encoding="utf-8") as f:
         json.dump({"train": train_split, "validation": val_split}, f, indent=2, ensure_ascii=False)
-    print(f"  Saved successfully.")
+    print("  Saved successfully.")
 
     hf_token = os.environ.get("HF_TOKEN")
     if not hf_token:
@@ -144,6 +157,7 @@ def main() -> None:
     except Exception as e:
         print(f"  [ERROR] Push failed: {e}", file=sys.stderr)
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()

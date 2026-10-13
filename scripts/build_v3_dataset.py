@@ -41,6 +41,7 @@ SYNTHETIC_FILES = [
 
 # ── loading ───────────────────────────────────────────────────────────────────
 
+
 def load_v2(filepath: Path) -> tuple[list[dict], list[dict]]:
     """
     Load train and validation splits from scd_training_v2.json.
@@ -102,6 +103,7 @@ def load_synthetic(synthetic_dir: Path, filenames: list[str]) -> list[dict]:
 
 # ── deduplication ─────────────────────────────────────────────────────────────
 
+
 def deduplicate(records: list[dict]) -> list[dict]:
     """
     Remove duplicate records based on exact match of the 'input' field.
@@ -124,6 +126,7 @@ def deduplicate(records: list[dict]) -> list[dict]:
 
 
 # ── splitting ─────────────────────────────────────────────────────────────────
+
 
 def split_dataset(
     records: list[dict],
@@ -149,6 +152,7 @@ def split_dataset(
 
 
 # ── summary ───────────────────────────────────────────────────────────────────
+
 
 def print_summary(
     before_dedup: int,
@@ -186,6 +190,7 @@ def print_summary(
 
 # ── huggingface push ──────────────────────────────────────────────────────────
 
+
 def push_to_huggingface(train: list[dict], val: list[dict], hf_token: str) -> None:
     """
     Push the v3 train/validation splits to TeslaInch/SCD-Instruction-Tuning.
@@ -213,10 +218,12 @@ def push_to_huggingface(train: list[dict], val: list[dict], hf_token: str) -> No
             if k not in r:
                 r[k] = ""
 
-    dataset_dict = DatasetDict({
-        "train":      Dataset.from_list(train),
-        "validation": Dataset.from_list(val),
-    })
+    dataset_dict = DatasetDict(
+        {
+            "train": Dataset.from_list(train),
+            "validation": Dataset.from_list(val),
+        }
+    )
 
     repo_id = "TeslaInch/SCD-Instruction-Tuning"
     print(f"Pushing to {repo_id}...")
@@ -235,6 +242,7 @@ def push_to_huggingface(train: list[dict], val: list[dict], hf_token: str) -> No
 
 
 # ── main ──────────────────────────────────────────────────────────────────────
+
 
 def main() -> None:
     """
@@ -282,7 +290,7 @@ def main() -> None:
     print(f"\n[Step 6] Saving to {V3_FILE}...")
     with open(V3_FILE, "w", encoding="utf-8") as f:
         json.dump({"train": train_v3, "validation": val_v3}, f, indent=2, ensure_ascii=False)
-    print(f"  Saved successfully.")
+    print("  Saved successfully.")
 
     # ── Step 7: Summary ───────────────────────────────────────────────────────
     print_summary(before_dedup, combined, train_v3, val_v3)

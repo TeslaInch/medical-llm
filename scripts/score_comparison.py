@@ -34,7 +34,6 @@ import argparse
 import json
 import re
 import sys
-from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
@@ -46,10 +45,10 @@ EVAL_FILES = {
     4: Path("data/eval/layer4_clinical_cases.json"),
     5: Path("data/eval/layer5_ASH.json"),
 }
-BASELINES_DIR   = Path("data/eval/baselines")
-ASH_DIR         = BASELINES_DIR / "ash"
-CLAUDE_FILE     = Path("data/eval/SCD_Answer_Key_ALL.json")
-OUTPUT_DIR      = Path("data/eval/comparison")
+BASELINES_DIR = Path("data/eval/baselines")
+ASH_DIR = BASELINES_DIR / "ash"
+CLAUDE_FILE = Path("data/eval/SCD_Answer_Key_ALL.json")
+OUTPUT_DIR = Path("data/eval/comparison")
 
 # ── scoring rubrics ────────────────────────────────────────────────────────────
 RUBRICS = {
@@ -63,6 +62,7 @@ MAX_SCORES = {1: 2, 2: 1, 3: 2, 4: 3, 5: 2}
 
 
 # ── data loaders ───────────────────────────────────────────────────────────────
+
 
 def load_json_file(path: Path) -> list[dict]:
     """
@@ -111,12 +111,12 @@ def load_gold_standard() -> dict[str, dict]:
             rid = r.get("id")
             if rid:
                 gold[rid] = {
-                    "id":        rid,
-                    "layer":     layer,
-                    "category":  r.get("category", ""),
-                    "source":    r.get("source", ""),
-                    "question":  r.get("question", ""),
-                    "case":      r.get("case", ""),
+                    "id": rid,
+                    "layer": layer,
+                    "category": r.get("category", ""),
+                    "source": r.get("source", ""),
+                    "question": r.get("question", ""),
+                    "case": r.get("case", ""),
                     "rationale": r.get("rationale", ""),
                     "gold_answer": r.get("answer", ""),
                     "max_score": MAX_SCORES[layer],
@@ -173,6 +173,7 @@ def load_claude_responses() -> dict[str, str]:
 
 # ── alignment ──────────────────────────────────────────────────────────────────
 
+
 def align_data(
     gold: dict[str, dict],
     phi3: dict[str, str],
@@ -199,24 +200,26 @@ def align_data(
     for rid, g in gold.items():
         if g["layer"] not in layers:
             continue
-        aligned.append({
-            "id":           rid,
-            "layer":        g["layer"],
-            "category":     g["category"],
-            "source":       g["source"],
-            "question":     g["question"],
-            "case":         g.get("case", ""),
-            "rationale":    g.get("rationale", ""),
-            "gold_answer":  g["gold_answer"],
-            "max_score":    g["max_score"],
-            "phi3_response":   phi3.get(rid, "[NO RESPONSE]"),
-            "claude_response": claude.get(rid, "[NO RESPONSE]"),
-            # Scores filled in during evaluation
-            "phi3_score":      None,
-            "claude_score":    None,
-            "scoring_method":  None,
-            "notes":           "",
-        })
+        aligned.append(
+            {
+                "id": rid,
+                "layer": g["layer"],
+                "category": g["category"],
+                "source": g["source"],
+                "question": g["question"],
+                "case": g.get("case", ""),
+                "rationale": g.get("rationale", ""),
+                "gold_answer": g["gold_answer"],
+                "max_score": g["max_score"],
+                "phi3_response": phi3.get(rid, "[NO RESPONSE]"),
+                "claude_response": claude.get(rid, "[NO RESPONSE]"),
+                # Scores filled in during evaluation
+                "phi3_score": None,
+                "claude_score": None,
+                "scoring_method": None,
+                "notes": "",
+            }
+        )
 
     # Sort by layer then id for a consistent evaluation order
     aligned.sort(key=lambda x: (x["layer"], x["id"]))
@@ -224,6 +227,7 @@ def align_data(
 
 
 # ── Layer 2 auto-scoring ───────────────────────────────────────────────────────
+
 
 def keyword_match(gold_answer: str, model_response: str) -> int:
     """
@@ -246,7 +250,7 @@ def keyword_match(gold_answer: str, model_response: str) -> int:
         return 0
 
     # Normalise: lowercase, strip surrounding quotes/asterisks
-    gold_norm    = gold_answer.strip().lower().strip("*\"'`")
+    gold_norm = gold_answer.strip().lower().strip("*\"'`")
     response_norm = model_response.lower()
 
     # Direct substring match
@@ -277,13 +281,14 @@ def auto_score_layer2(questions: list[dict]) -> list[dict]:
     for q in questions:
         if q["layer"] != 2:
             continue
-        q["phi3_score"]   = keyword_match(q["gold_answer"], q["phi3_response"])
+        q["phi3_score"] = keyword_match(q["gold_answer"], q["phi3_response"])
         q["claude_score"] = keyword_match(q["gold_answer"], q["claude_response"])
         q["scoring_method"] = "auto_keyword"
     return questions
 
 
 # ── human side-by-side scoring ─────────────────────────────────────────────────
+
 
 def display_question(q: dict, i: int, total: int) -> None:
     """
@@ -369,6 +374,7 @@ def human_score_entry(q: dict, i: int, total: int) -> dict:
 
 # ── persistence ────────────────────────────────────────────────────────────────
 
+
 def save_results(results: list[dict], timestamp: str, suffix: str = "results") -> str:
     """
     Write the current results list to a timestamped JSON file.
@@ -404,6 +410,7 @@ def build_summary(results: list[dict]) -> dict:
     Returns:
         Summary dict with "overall", "by_layer", "by_category" keys.
     """
+
     def pct(score, max_s):
         """Calculate percentage score normalised to max_score."""
         return (score / max_s * 100) if max_s > 0 else 0
@@ -415,44 +422,42 @@ def build_summary(results: list[dict]) -> dict:
         """Return aggregate stats dict for a group of entries."""
         if not entries:
             return {"count": 0, "phi3_pct": None, "claude_pct": None, "winner": None}
-        phi3_pcts   = [pct(r["phi3_score"],   r["max_score"]) for r in entries]
+        phi3_pcts = [pct(r["phi3_score"], r["max_score"]) for r in entries]
         claude_pcts = [pct(r["claude_score"], r["max_score"]) for r in entries]
-        phi3_avg    = sum(phi3_pcts)   / len(phi3_pcts)
-        claude_avg  = sum(claude_pcts) / len(claude_pcts)
+        phi3_avg = sum(phi3_pcts) / len(phi3_pcts)
+        claude_avg = sum(claude_pcts) / len(claude_pcts)
         winner = (
-            "phi3.5:mini"      if phi3_avg > claude_avg else
-            "claude_opus_4.8" if claude_avg > phi3_avg else
-            "tie"
+            "phi3.5:mini"
+            if phi3_avg > claude_avg
+            else "claude_opus_4.8"
+            if claude_avg > phi3_avg
+            else "tie"
         )
         return {
-            "count":      len(entries),
-            "phi3_pct":   round(phi3_avg,   1),
+            "count": len(entries),
+            "phi3_pct": round(phi3_avg, 1),
             "claude_pct": round(claude_avg, 1),
-            "winner":     winner,
+            "winner": winner,
         }
 
     # By layer
     by_layer = {}
     for layer in sorted(set(r["layer"] for r in results)):
-        by_layer[f"layer{layer}"] = aggregate(
-            [r for r in scored if r["layer"] == layer]
-        )
+        by_layer[f"layer{layer}"] = aggregate([r for r in scored if r["layer"] == layer])
 
     # By category
     by_cat = {}
     for cat in sorted(set(r["category"] for r in results)):
-        by_cat[cat] = aggregate(
-            [r for r in scored if r["category"] == cat]
-        )
+        by_cat[cat] = aggregate([r for r in scored if r["category"] == cat])
 
     return {
-        "generated_at":   datetime.now().isoformat(),
+        "generated_at": datetime.now().isoformat(),
         "total_questions": len(results),
-        "scored":         len(scored),
-        "unscored":       len(results) - len(scored),
-        "overall":        aggregate(scored),
-        "by_layer":       by_layer,
-        "by_category":    by_cat,
+        "scored": len(scored),
+        "unscored": len(results) - len(scored),
+        "overall": aggregate(scored),
+        "by_layer": by_layer,
+        "by_category": by_cat,
     }
 
 
@@ -470,22 +475,29 @@ def print_summary(summary: dict) -> None:
     o = summary["overall"]
     print(f"  Scored   : {summary['scored']} / {summary['total_questions']}")
     if o["count"]:
-        print(f"  OVERALL  :  phi3 {o['phi3_pct']:.1f}%  |  Claude {o['claude_pct']:.1f}%  |  Winner: {o['winner']}")
+        print(
+            f"  OVERALL  :  phi3 {o['phi3_pct']:.1f}%  |  Claude {o['claude_pct']:.1f}%  |  Winner: {o['winner']}"
+        )
 
     print("\n  By layer:")
     for key, stats in summary["by_layer"].items():
         if stats["count"]:
-            print(f"    {key:<10}  phi3 {stats['phi3_pct']:>5.1f}%  |  Claude {stats['claude_pct']:>5.1f}%  |  {stats['winner']}")
+            print(
+                f"    {key:<10}  phi3 {stats['phi3_pct']:>5.1f}%  |  Claude {stats['claude_pct']:>5.1f}%  |  {stats['winner']}"
+            )
 
     print("\n  By category:")
     for cat, stats in summary["by_category"].items():
         if stats["count"]:
-            print(f"    {cat:<30}  phi3 {stats['phi3_pct']:>5.1f}%  |  Claude {stats['claude_pct']:>5.1f}%")
+            print(
+                f"    {cat:<30}  phi3 {stats['phi3_pct']:>5.1f}%  |  Claude {stats['claude_pct']:>5.1f}%"
+            )
 
     print(sep + "\n")
 
 
 # ── main ───────────────────────────────────────────────────────────────────────
+
 
 def main() -> None:
     """
@@ -551,7 +563,9 @@ def main() -> None:
                 if q["id"] in prev_map and prev_map[q["id"]].get("scoring_method"):
                     q.update(prev_map[q["id"]])
                     scored_ids.add(q["id"])
-            print(f"  Resumed: {len(scored_ids)} questions already scored, {len(questions) - len(scored_ids)} remaining")
+            print(
+                f"  Resumed: {len(scored_ids)} questions already scored, {len(questions) - len(scored_ids)} remaining"
+            )
         else:
             print(f"  [!] Resume file not found: {resume_path}")
 
@@ -564,7 +578,7 @@ def main() -> None:
             for q in questions:
                 if q["layer"] == 2:
                     scored_ids.add(q["id"])
-            print(f"  Done.")
+            print("  Done.")
 
     # ── save after auto-scoring ───────────────────────────────────────────────
     save_results(questions, timestamp)

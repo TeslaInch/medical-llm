@@ -12,7 +12,6 @@ Usage:
 """
 
 import json
-import re
 import sys
 from pathlib import Path
 
@@ -107,22 +106,24 @@ def _manual_repair(raw: str) -> str:
             # If current line ends with a quote+comma (broken string end)
             # and next line is just whitespace + a string continuation
             stripped_next = next_line.strip()
-            if (line.rstrip().endswith('",') and
-                    stripped_next.startswith('"') and
-                    not stripped_next.startswith('"category"') and
-                    not stripped_next.startswith('"source"') and
-                    not stripped_next.startswith('"question"') and
-                    not stripped_next.startswith('"answer"') and
-                    not stripped_next.startswith('"instruction"') and
-                    not stripped_next.startswith('"input"') and
-                    not stripped_next.startswith('"output"') and
-                    not stripped_next == '",' and
-                    "{" not in stripped_next and
-                    "}" not in stripped_next):
+            if (
+                line.rstrip().endswith('",')
+                and stripped_next.startswith('"')
+                and not stripped_next.startswith('"category"')
+                and not stripped_next.startswith('"source"')
+                and not stripped_next.startswith('"question"')
+                and not stripped_next.startswith('"answer"')
+                and not stripped_next.startswith('"instruction"')
+                and not stripped_next.startswith('"input"')
+                and not stripped_next.startswith('"output"')
+                and not stripped_next == '",'
+                and "{" not in stripped_next
+                and "}" not in stripped_next
+            ):
                 # Merge: remove the closing quote from end of current line
                 # and the opening quote from start of next line
                 current_fixed = line.rstrip()[:-2]  # remove the trailing ",
-                next_fixed = stripped_next[1:]        # remove the leading "
+                next_fixed = stripped_next[1:]  # remove the leading "
                 merged = current_fixed + ", " + next_fixed
                 result_lines.append(merged)
                 i += 2
@@ -150,7 +151,7 @@ def convert_to_alpaca(records: list, source_file: str) -> list:
 
     # Check if already Alpaca format
     if "input" in records[0] and "output" in records[0]:
-        print(f"  [=] Already in Alpaca format — validating only.")
+        print("  [=] Already in Alpaca format — validating only.")
         return _validate_alpaca(records, source_file)
 
     converted = []
@@ -168,13 +169,15 @@ def convert_to_alpaca(records: list, source_file: str) -> list:
             skipped += 1
             continue
 
-        converted.append({
-            "instruction": INSTRUCTION,
-            "input": question,
-            "output": answer,
-            "source": record.get("source", "synthetic"),
-            "category": record.get("category", ""),
-        })
+        converted.append(
+            {
+                "instruction": INSTRUCTION,
+                "input": question,
+                "output": answer,
+                "source": record.get("source", "synthetic"),
+                "category": record.get("category", ""),
+            }
+        )
 
     if skipped:
         print(f"  [!] Skipped {skipped} records with empty/short fields.")
@@ -225,13 +228,13 @@ def process_file(fpath: Path) -> bool:
         return False
 
     if not isinstance(records, list):
-        print(f"  [ERROR] Top-level is not a list — skipping.")
+        print("  [ERROR] Top-level is not a list — skipping.")
         return False
 
     converted = convert_to_alpaca(records, fpath.name)
 
     if not converted:
-        print(f"  [ERROR] No valid records after conversion — skipping save.")
+        print("  [ERROR] No valid records after conversion — skipping save.")
         return False
 
     with open(fpath, "w", encoding="utf-8") as f:

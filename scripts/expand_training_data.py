@@ -75,6 +75,7 @@ OUTPUT_FILE = TRAIN_DIR / "scd_training_v2.json"
 
 # ── helper: SCD relevance check ───────────────────────────────────────────────
 
+
 def is_scd_relevant(text: str) -> bool:
     """
     Return True if any SCD keyword appears in the given text (case-insensitive).
@@ -90,6 +91,7 @@ def is_scd_relevant(text: str) -> bool:
 
 
 # ── step 1: layer2 filter → alpaca ────────────────────────────────────────────
+
 
 def build_layer2_alpaca() -> list[dict]:
     """
@@ -132,18 +134,21 @@ def build_layer2_alpaca() -> list[dict]:
         if not is_scd_relevant(combined):
             continue
 
-        results.append({
-            "instruction": INSTRUCTION,
-            "input": question.strip(),
-            "output": answer.strip(),
-            "source": "layer2_mcq_filtered",
-            "category": "multiple_choice",
-        })
+        results.append(
+            {
+                "instruction": INSTRUCTION,
+                "input": question.strip(),
+                "output": answer.strip(),
+                "source": "layer2_mcq_filtered",
+                "category": "multiple_choice",
+            }
+        )
 
     return results
 
 
 # ── step 2: layer5 → alpaca ───────────────────────────────────────────────────
+
 
 def build_layer5_alpaca() -> list[dict]:
     """
@@ -176,18 +181,21 @@ def build_layer5_alpaca() -> list[dict]:
         if rationale:
             full_answer = f"{answer}\n\nRationale: {rationale}"
 
-        results.append({
-            "instruction": INSTRUCTION,
-            "input": question,
-            "output": full_answer,
-            "source": "layer5_ASH_guidelines",
-            "category": record.get("category", ""),
-        })
+        results.append(
+            {
+                "instruction": INSTRUCTION,
+                "input": question,
+                "output": full_answer,
+                "source": "layer5_ASH_guidelines",
+                "category": record.get("category", ""),
+            }
+        )
 
     return results
 
 
 # ── step 3: layer6 multi-turn → alpaca ───────────────────────────────────────
+
 
 def build_layer6_alpaca() -> list[dict]:
     """
@@ -237,13 +245,15 @@ def build_layer6_alpaca() -> list[dict]:
                     f"[Follow-up Question]\n{user_msg}"
                 )
 
-            results.append({
-                "instruction": INSTRUCTION,
-                "input": input_text,
-                "output": gold_resp,
-                "source": "layer6_multiturn",
-                "category": category,
-            })
+            results.append(
+                {
+                    "instruction": INSTRUCTION,
+                    "input": input_text,
+                    "output": gold_resp,
+                    "source": "layer6_multiturn",
+                    "category": category,
+                }
+            )
 
             # Carry forward for next turn
             prev_user = user_msg
@@ -253,6 +263,7 @@ def build_layer6_alpaca() -> list[dict]:
 
 
 # ── step 4: load existing training files ──────────────────────────────────────
+
 
 def load_existing_train_files() -> list[dict]:
     """
@@ -277,6 +288,7 @@ def load_existing_train_files() -> list[dict]:
 
 # ── step 4b: deduplicate ──────────────────────────────────────────────────────
 
+
 def deduplicate(records: list[dict]) -> list[dict]:
     """
     Remove duplicate records based on exact match of the `input` field.
@@ -299,7 +311,10 @@ def deduplicate(records: list[dict]) -> list[dict]:
 
 # ── step 4c: train/val split ──────────────────────────────────────────────────
 
-def split_dataset(records: list[dict], val_ratio: float = 0.1, random_state: int = 42) -> tuple[list, list]:
+
+def split_dataset(
+    records: list[dict], val_ratio: float = 0.1, random_state: int = 42
+) -> tuple[list, list]:
     """
     Split records into train and validation sets.
 
@@ -322,6 +337,7 @@ def split_dataset(records: list[dict], val_ratio: float = 0.1, random_state: int
 
 # ── step 4d: summary ──────────────────────────────────────────────────────────
 
+
 def print_summary(all_records: list[dict], train: list[dict], val: list[dict]) -> None:
     """
     Print a detailed breakdown of the merged dataset by source.
@@ -332,6 +348,7 @@ def print_summary(all_records: list[dict], train: list[dict], val: list[dict]) -
         val:         Validation split records.
     """
     from collections import Counter
+
     source_counts = Counter(r.get("source", "unknown") for r in all_records)
 
     print(f"\n{'=' * 65}")
@@ -349,6 +366,7 @@ def print_summary(all_records: list[dict], train: list[dict], val: list[dict]) -
 
 
 # ── step 5: push to HuggingFace ───────────────────────────────────────────────
+
 
 def push_to_huggingface(train: list[dict], val: list[dict], hf_token: str) -> None:
     """
@@ -377,10 +395,12 @@ def push_to_huggingface(train: list[dict], val: list[dict], hf_token: str) -> No
             if k not in r:
                 r[k] = ""
 
-    dataset_dict = DatasetDict({
-        "train":      Dataset.from_list(train),
-        "validation": Dataset.from_list(val),
-    })
+    dataset_dict = DatasetDict(
+        {
+            "train": Dataset.from_list(train),
+            "validation": Dataset.from_list(val),
+        }
+    )
 
     repo_id = "TeslaInch/SCD-Instruction-Tuning"
     print(f"Pushing to {repo_id}...")
@@ -395,6 +415,7 @@ def push_to_huggingface(train: list[dict], val: list[dict], hf_token: str) -> No
 
 
 # ── main ──────────────────────────────────────────────────────────────────────
+
 
 def main() -> None:
     """

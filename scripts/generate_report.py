@@ -1,6 +1,6 @@
 import json
 import os
-from pathlib import Path
+
 
 def generate_report(summary_path: str, output_path: str):
     if not os.path.exists(summary_path):
@@ -14,20 +14,26 @@ def generate_report(summary_path: str, output_path: str):
     categories = data.get("by_category", {})
 
     # Extract layer data
-    layer_labels = ["Layer 1 (Custom Notes)", "Layer 2 (MCQ)", "Layer 3 (Combined)", "Layer 4 (Clinical Cases)", "Layer 5 (ASH Guidelines)"]
+    layer_labels = [
+        "Layer 1 (Custom Notes)",
+        "Layer 2 (MCQ)",
+        "Layer 3 (Combined)",
+        "Layer 4 (Clinical Cases)",
+        "Layer 5 (ASH Guidelines)",
+    ]
     phi3_layer_scores = [
         layers.get("layer1", {}).get("phi3_pct", 0),
         layers.get("layer2", {}).get("phi3_pct", 0),
         layers.get("layer3", {}).get("phi3_pct", 0),
         layers.get("layer4", {}).get("phi3_pct", 0),
-        layers.get("layer5", {}).get("phi3_pct", 0)
+        layers.get("layer5", {}).get("phi3_pct", 0),
     ]
     claude_layer_scores = [
         layers.get("layer1", {}).get("claude_pct", 0),
         layers.get("layer2", {}).get("claude_pct", 0),
         layers.get("layer3", {}).get("claude_pct", 0),
         layers.get("layer4", {}).get("claude_pct", 0),
-        layers.get("layer5", {}).get("claude_pct", 0)
+        layers.get("layer5", {}).get("claude_pct", 0),
     ]
 
     html_content = f"""<!DOCTYPE html>
@@ -290,8 +296,9 @@ def generate_report(summary_path: str, output_path: str):
 
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(html_content)
-    
-    print(f"Report successfully generated at: {{os.path.abspath(output_path)}}")
+
+    print("Report successfully generated at: {os.path.abspath(output_path)}")
+
 
 if __name__ == "__main__":
     summary_file = "data/eval/comparison/judged_summary_20260610_1220.json"

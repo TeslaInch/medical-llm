@@ -115,7 +115,7 @@ def main() -> None:
         print(f"  Extracted {len(records)} records from raw text.")
 
         if not records:
-            print(f"  [ERROR] Could not extract any records — skipping.")
+            print("  [ERROR] Could not extract any records — skipping.")
             continue
 
         converted = [to_alpaca(r) for r in records if r.get("answer", "")]

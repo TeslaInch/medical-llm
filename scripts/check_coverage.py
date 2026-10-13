@@ -1,7 +1,7 @@
 """check_coverage.py — diagnostic: compare questions vs phi3.5:mini answers."""
+
 import json
 from collections import Counter
-from pathlib import Path
 
 # ── load sources ──────────────────────────────────────────────────────────────
 with open("data/eval/all_questions.json", "r", encoding="utf-8") as f:
@@ -14,12 +14,12 @@ with open("data/eval/SCD_Answer_Key_ALL.json", "r", encoding="utf-8") as f:
     answer_key = json.load(f)
 
 # ── id sets ───────────────────────────────────────────────────────────────────
-all_q_ids   = {q["id"] for q in all_questions}
+all_q_ids = {q["id"] for q in all_questions}
 answered_ids = {a["id"] for a in answers}
-ak_ids       = {r["id"] for r in answer_key}
+ak_ids = {r["id"] for r in answer_key}
 
 missing_from_questions = all_q_ids - answered_ids
-missing_from_ak        = ak_ids - answered_ids
+missing_from_ak = ak_ids - answered_ids
 
 print("=" * 60)
 print("  PHI3:MINI COVERAGE REPORT")

@@ -28,7 +28,6 @@ Output schema (one object per question):
 
 import argparse
 import json
-import os
 import sys
 from pathlib import Path
 
@@ -66,9 +65,7 @@ def discover_json_files(input_dir: Path) -> dict[int, Path]:
     for layer, filename in EVAL_FILES.items():
         filepath = input_dir / filename
         if not filepath.exists():
-            raise FileNotFoundError(
-                f"Expected eval file for Layer {layer} not found: {filepath}"
-            )
+            raise FileNotFoundError(f"Expected eval file for Layer {layer} not found: {filepath}")
         resolved[layer] = filepath
     return resolved
 
@@ -104,7 +101,7 @@ def extract_questions(layer: int, filepath: Path) -> list[dict]:
     else:
         raise ValueError(
             f"Unexpected JSON structure in {filepath}: "
-            "expected a top-level array or {{\"fullContent\": [...]}}."
+            'expected a top-level array or {{"fullContent": [...]}}.'
         )
 
     extracted = []
@@ -115,9 +112,9 @@ def extract_questions(layer: int, filepath: Path) -> list[dict]:
 
         extracted.append(
             {
-                "id":       record.get("id", f"layer{layer}_{idx:03d}"),
-                "layer":    layer,
-                "source":   record.get("source", ""),
+                "id": record.get("id", f"layer{layer}_{idx:03d}"),
+                "layer": layer,
+                "source": record.get("source", ""),
                 "category": record.get("category", ""),
                 "question": question_text,
             }
@@ -139,9 +136,7 @@ def validate_record(record: dict, filepath: Path, idx: int) -> None:
         ValueError: If the `question` key is absent or blank.
     """
     if "question" not in record or not record["question"]:
-        raise ValueError(
-            f"Record at index {idx} in {filepath} is missing a 'question' field."
-        )
+        raise ValueError(f"Record at index {idx} in {filepath} is missing a 'question' field.")
 
 
 def build_question_text(record: dict, layer: int) -> str:
@@ -253,7 +248,7 @@ def main() -> None:
 
     print(f"\nInput  : {input_dir.resolve()}")
     print(f"Output : {output_path.resolve()}")
-    print(f"Excluded: baselines/ subfolder\n")
+    print("Excluded: baselines/ subfolder\n")
 
     # ── discover files ───────────────────────────────────────────────────────
     try:

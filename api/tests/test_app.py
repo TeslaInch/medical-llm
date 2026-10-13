@@ -12,7 +12,8 @@ def test_health_check_uninitialized():
     assert response.status_code == 503
     assert "Services not fully initialized" in response.json()["detail"]
 
+
 def test_predict_validation_error():
     # Test that invalid payloads are caught by Pydantic before reaching inference
     response = client.post("/predict", json={"wrong_field": "test"})
-    assert response.status_code == 422 # Unprocessable Entity
+    assert response.status_code == 422  # Unprocessable Entity

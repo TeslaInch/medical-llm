@@ -1,15 +1,23 @@
 # Medical LLM for Sickle Cell Disease 🩸
 
-An end-to-end Machine Learning pipeline and RAG (Retrieval-Augmented Generation) system specifically engineered for clinical decision support in Sickle Cell Disease (SCD) management.
+An experimental Machine Learning pipeline and RAG (Retrieval-Augmented Generation) research prototype for clinical decision support exploration in Sickle Cell Disease (SCD) management.
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/TeslaInch/SCD-Medical-LLM)
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/)
+
+> [!CAUTION]
+> ### ⚠️ EXPERIMENTAL RESEARCH ONLY — NOT FOR UNREVIEWED CLINICAL USE
+> This project is an **experimental research prototype** and is **NOT approved or ready for direct hospital, emergency room, or standalone clinical use**.
+>
+> - **Mandatory Medical Review:** All generated outputs, treatment rationales, and triage recommendations must be thoroughly reviewed and verified by certified healthcare professionals (physicians/hematologists) prior to any clinical consideration.
+> - **No Autonomous Decision-Making:** This system must never replace professional clinical judgment or established hospital care pathways.
+> - **Regulatory Status:** This system has not been cleared, approved, or certified by any health authority or regulatory body (e.g., FDA, CE-IVD/SaMD).
 
 ---
 
 ## 🌟 System Architecture
 
-This project has evolved from a simple fine-tuning script into a full production-grade MLOps system.
+This project demonstrates an end-to-end MLOps and research architecture for domain-specific medical AI exploration.
 
 ### 1. The Model (Phi-3.5-mini + LoRA)
 We fine-tuned the **3.8B parameter Phi-3.5-mini** model using QLoRA on a highly curated, 6-layer custom medical dataset. The resulting adapter weights were merged, and the model was quantized to an ultra-efficient 8-bit `GGUF` format for rapid CPU inference.
@@ -74,3 +82,15 @@ Our custom evaluation benchmark tests the model against strict multi-turn clinic
 | 4 | Clinical Cases (Diagnosis & Treatment) | 30 | ✅ Done |
 | 5 | ASH Guidelines (Strict Protocol Adherence) | 64 | ✅ Done |
 | 6 | Multi-turn clinical conversations | 20 | ✅ Done |
+
+---
+
+## ⚠️ Clinical Disclaimer & Research Status
+
+> **CRITICAL NOTICE:** This repository is intended strictly for academic, technical, and educational research into Small Language Model (SLM) adaptation and retrieval architectures.
+
+1. **Experimental Prototype:** The models, retrieval pipelines, and APIs in this project are experimental. They have not undergone formal clinical trials, institutional review board (IRB) clinical testing, or prospective validation.
+2. **Not for Autonomous Hospital Deployment:** The system must **never** be used as an autonomous diagnostic or prescriptive system in hospital wards, intensive care units, or emergency departments.
+3. **Risk of Hallucinations and Inaccuracies:** Although domain fine-tuning and cross-encoder RAG substantially mitigate factual drift, large language models can generate hallucinations, out-of-context advice, or incomplete contraindication checks.
+4. **Human-in-the-Loop Validation Required:** Any deployment in a simulated or pilot healthcare setting requires a strict human-in-the-loop workflow where licensed hematologists or physicians inspect, validate, and sign off on all outputs against official clinical protocols.
+

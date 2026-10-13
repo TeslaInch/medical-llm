@@ -21,6 +21,7 @@ SYSTEM = (
     "Always mention which guideline informed your answer."
 )
 
+
 # ── load model ────────────────────────────────────────────────────────────────
 def load_model():
     bnb_config = BitsAndBytesConfig(
@@ -39,7 +40,7 @@ def load_model():
     )
     model = PeftModel.from_pretrained(model, ADAPTER)
     model.eval()
-    
+
     # Silence HuggingFace max_length warning
     if hasattr(model, "generation_config"):
         model.generation_config.max_length = None
@@ -50,31 +51,30 @@ def load_model():
 
     return model, tokenizer
 
+
 # ── load vector database ──────────────────────────────────────────────────────
 def load_vectordb():
     embeddings = HuggingFaceBgeEmbeddings(
         model_name="BAAI/bge-large-en-v1.5",
         model_kwargs={"device": "cpu"},
         encode_kwargs={"normalize_embeddings": True},
-        query_instruction="Represent this sentence for searching relevant passages: "
+        query_instruction="Represent this sentence for searching relevant passages: ",
     )
-    return Chroma(
-        persist_directory=VECTORDB_PATH,
-        embedding_function=embeddings
-    )
+    return Chroma(persist_directory=VECTORDB_PATH, embedding_function=embeddings)
+
 
 # ── RAG answer function ───────────────────────────────────────────────────────
 def answer_with_rag(pipe, vectordb, cross_encoder, question, case=""):
     # retrieve relevant context
     search_query = f"{case} {question}" if case else question
-    retrieved = vectordb.similarity_search(search_query, k=10) # fetch top 10
+    retrieved = vectordb.similarity_search(search_query, k=10)  # fetch top 10
 
     # rerank
     if retrieved:
         pairs = [[search_query, doc.page_content] for doc in retrieved]
         scores = cross_encoder.predict(pairs)
         best_indices = np.argsort(scores)[::-1]
-        
+
         # enforce source diversity
         seen_sources = set()
         diverse_indices = []
@@ -85,7 +85,7 @@ def answer_with_rag(pipe, vectordb, cross_encoder, question, case=""):
                 diverse_indices.append(idx)
             if len(diverse_indices) == 3:
                 break
-                
+
         # fallback if < 3 diverse sources exist
         if len(diverse_indices) < 3:
             for idx in best_indices:
@@ -93,7 +93,7 @@ def answer_with_rag(pipe, vectordb, cross_encoder, question, case=""):
                     diverse_indices.append(idx)
                 if len(diverse_indices) == 3:
                     break
-        
+
         # strategic placement: [best, third_best, second_best]
         if len(diverse_indices) >= 3:
             placed_indices = [diverse_indices[0], diverse_indices[2], diverse_indices[1]]
@@ -103,13 +103,14 @@ def answer_with_rag(pipe, vectordb, cross_encoder, question, case=""):
     else:
         final_docs = []
 
-    context = "\n\n".join([
-        f"[{doc.metadata.get('source', 'guideline')}]\n{doc.page_content}"
-        for doc in final_docs
-    ])
+    context = "\n\n".join(
+        [f"[{doc.metadata.get('source', 'guideline')}]\n{doc.page_content}" for doc in final_docs]
+    )
 
     # build augmented prompt
-    clinical_content = f"Clinical case:\n{case}\n\nQuestion: {question}" if case else f"Question: {question}"
+    clinical_content = (
+        f"Clinical case:\n{case}\n\nQuestion: {question}" if case else f"Question: {question}"
+    )
 
     user_content = f"""{SYSTEM}
 
@@ -129,27 +130,28 @@ Answer using the guidelines above. Cite the source document."""
     sources = [doc.metadata.get("source", "unknown") for doc in final_docs]
     return response, sources
 
+
 # ── test on your worst questions ──────────────────────────────────────────────
 TEST_QUESTIONS = [
     {
         "question": "What is the hydroxyurea monitoring protocol for adults with sickle cell disease?",
-        "case": ""
+        "case": "",
     },
     {
         "question": "What is the diagnosis and immediate management in priority order?",
-        "case": "A 4-year-old boy with HbSS presents with fever of 39.2°C and swollen tender hands and feet bilaterally."
+        "case": "A 4-year-old boy with HbSS presents with fever of 39.2°C and swollen tender hands and feet bilaterally.",
     },
     {
         "question": "What are the indications for exchange transfusion in sickle cell disease?",
-        "case": ""
+        "case": "",
     },
     {
         "question": "What monitoring intervals are recommended for adults stabilising on hydroxyurea?",
-        "case": ""
+        "case": "",
     },
     {
         "question": "What are the newborn screening recommendations for sickle cell disease in Nigeria?",
-        "case": ""
+        "case": "",
     },
 ]
 
@@ -176,18 +178,11 @@ if __name__ == "__main__":
     results = []
 
     for i, q in enumerate(TEST_QUESTIONS):
-        print(f"[{i+1}/{len(TEST_QUESTIONS)}] {q['question'][:60]}...")
-        response, sources = answer_with_rag(
-            pipe, vectordb, cross_encoder,
-            q["question"],
-            q["case"]
+        print(f"[{i + 1}/{len(TEST_QUESTIONS)}] {q['question'][:60]}...")
+        response, sources = answer_with_rag(pipe, vectordb, cross_encoder, q["question"], q["case"])
+        results.append(
+            {"question": q["question"], "case": q["case"], "response": response, "sources": sources}
         )
-        results.append({
-            "question": q["question"],
-            "case": q["case"],
-            "response": response,
-            "sources": sources
-        })
         print(f"Sources: {sources}")
         print(f"Response: {response}\n")
         print("---")
@@ -196,4 +191,4 @@ if __name__ == "__main__":
     with open("/kaggle/working/rag_test_results.json", "w") as f:
         json.dump(results, f, indent=2)
 
-    print("Done. Results saved.") 
+    print("Done. Results saved.")

@@ -20,16 +20,16 @@ try:
     # Run npm run build in frontend directory (windows syntax handled by shell=True)
     subprocess.run("npm run build", cwd="frontend", check=True, shell=True)
     print("React build successful.")
-    
+
     # Copy dist folder to api folder
     api_dist_path = os.path.join("api", "dist")
     frontend_dist_path = os.path.join("frontend", "dist")
-    
+
     if os.path.exists(api_dist_path):
         shutil.rmtree(api_dist_path)
     shutil.copytree(frontend_dist_path, api_dist_path)
     print(f"Copied frontend build to {api_dist_path}")
-    
+
 except Exception as e:
     print(f"Error building frontend: {e}")
     exit(1)
@@ -48,11 +48,7 @@ repo_id = f"{username}/{space_name}"
 print(f"Creating HuggingFace Docker Space: {repo_id}...")
 try:
     api.create_repo(
-        repo_id=repo_id, 
-        repo_type="space", 
-        space_sdk="docker",
-        private=False,
-        exist_ok=True
+        repo_id=repo_id, repo_type="space", space_sdk="docker", private=False, exist_ok=True
     )
 except Exception as e:
     print(f"Notice: {e}")

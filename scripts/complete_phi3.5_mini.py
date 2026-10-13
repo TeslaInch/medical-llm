@@ -32,7 +32,6 @@ Optional flags:
 
 import argparse
 import json
-import os
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -131,7 +130,7 @@ def ask_model(model: str, prompt: str) -> str:
         model=model,
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user",   "content": prompt},
+            {"role": "user", "content": prompt},
         ],
     )
     return response["message"]["content"]
@@ -156,16 +155,16 @@ def build_result(question: dict, response: str, model: str) -> dict:
     max_score = 1 if layer == 2 else (3 if layer == 4 else 2)
 
     return {
-        "id":             question["id"],
-        "layer":          layer,
-        "category":       question.get("category", ""),
-        "source":         question.get("source", ""),
-        "question":       question["question"],
+        "id": question["id"],
+        "layer": layer,
+        "category": question.get("category", ""),
+        "source": question.get("source", ""),
+        "question": question["question"],
         "model_response": response.strip(),
-        "gold_answer":    question.get("answer", ""),
-        "score":          None,
-        "max_score":      max_score,
-        "model":          model,
+        "gold_answer": question.get("answer", ""),
+        "score": None,
+        "max_score": max_score,
+        "model": model,
     }
 
 
@@ -209,8 +208,7 @@ def merge_and_reindex(existing: list[dict], new_results: list[dict]) -> list[dic
     """
     # Strip existing index fields so we can re-assign cleanly
     combined: dict[str, dict] = {
-        r["id"]: {k: v for k, v in r.items() if k != "index"}
-        for r in existing
+        r["id"]: {k: v for k, v in r.items() if k != "index"} for r in existing
     }
     # New results overwrite existing entries with the same id
     for r in new_results:
@@ -265,11 +263,11 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    answers_path     = Path(args.answers_file)
-    questions_path   = Path(args.questions_file)
-    output_path      = Path(args.output)
-    checkpoint_dir   = Path(args.checkpoint_dir)
-    model            = args.model
+    answers_path = Path(args.answers_file)
+    questions_path = Path(args.questions_file)
+    output_path = Path(args.output)
+    checkpoint_dir = Path(args.checkpoint_dir)
+    model = args.model
 
     # ── load data ─────────────────────────────────────────────────────────────
     print(f"\n  Model          : {model}")
@@ -278,12 +276,10 @@ def main() -> None:
     print(f"  Output         : {output_path.resolve()}\n")
 
     existing_answers: list[dict] = load_json(answers_path, "Answers file")
-    all_questions: list[dict]    = load_json(questions_path, "Questions file")
+    all_questions: list[dict] = load_json(questions_path, "Questions file")
 
     answered_ids: set[str] = {a["id"] for a in existing_answers}
-    missing_questions: list[dict] = [
-        q for q in all_questions if q["id"] not in answered_ids
-    ]
+    missing_questions: list[dict] = [q for q in all_questions if q["id"] not in answered_ids]
 
     print(f"  Total questions      : {len(all_questions)}")
     print(f"  Already answered     : {len(answered_ids)}")
@@ -323,7 +319,7 @@ def main() -> None:
     new_results: list[dict] = []
 
     for i, question in enumerate(missing_questions, start=1):
-        qid    = question["id"]
+        qid = question["id"]
         prompt = build_prompt(question)
 
         print(f"  [{i}/{len(missing_questions)}] {qid} — querying...", end=" ", flush=True)

@@ -17,6 +17,7 @@ SYSTEM_PROMPT = (
     "If you are uncertain, say so clearly rather than guessing."
 )
 
+
 # ── loaders ─────────────────────────────────────────────────────────────────
 def load_all_questions():
     all_questions = []
@@ -26,7 +27,7 @@ def load_all_questions():
             continue
         with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
-        
+
         # FIX 1: Handle Layer 1 nested wrapper vs normal arrays
         if isinstance(data, dict) and "fullContent" in data:
             questions = data["fullContent"]
@@ -39,7 +40,7 @@ def load_all_questions():
         # attach layer number to every entry
         for q in questions:
             q["layer"] = layer
-            
+
         all_questions.extend(questions)
         print(f"  [+] Layer {layer}: {len(questions)} questions loaded")
     return all_questions
@@ -62,8 +63,8 @@ def ask_model(model_name, prompt):
         model=model_name,
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user",   "content": prompt},
-        ]
+            {"role": "user", "content": prompt},
+        ],
     )
     return response["message"]["content"]
 
@@ -106,23 +107,24 @@ def score_entry(q, response):
     notes = input("Notes (optional, press enter to skip): ").strip()
 
     return {
-        "id":            q["id"],
-        "layer":         q["layer"],
-        "category":      q.get("category", ""),
-        "source":        q.get("source", ""),
-        "question":      q["question"],
-        "case":          q.get("case", ""),
-        "gold_answer":   q["answer"],
+        "id": q["id"],
+        "layer": q["layer"],
+        "category": q.get("category", ""),
+        "source": q.get("source", ""),
+        "question": q["question"],
+        "case": q.get("case", ""),
+        "gold_answer": q["answer"],
         "model_response": response,
-        "score":         int(score) if score.isdigit() else None,
-        "max_score":     max_score,
-        "notes":         notes,
+        "score": int(score) if score.isdigit() else None,
+        "max_score": max_score,
+        "notes": notes,
     }
 
 
 # ── main runner ──────────────────────────────────────────────────────────────
-def run_baseline(model_name, questions, output_dir="data/eval/baselines",
-                 start_from=0, auto_score=False):
+def run_baseline(
+    model_name, questions, output_dir="data/eval/baselines", start_from=0, auto_score=False
+):
     """
     Run the full baseline eval for one model.
     """
@@ -133,18 +135,18 @@ def run_baseline(model_name, questions, output_dir="data/eval/baselines",
     # Alternatively, ensure results tracking is aware of index values.
     # To keep your checkpoint arrays structurally complete, we retain slots for missed metrics if running fresh.
 
-    print(f"\n{'='*70}")
+    print(f"\n{'=' * 70}")
     print(f"Model    : {model_name}")
     print(f"Questions: {len(questions)}  (starting from index {start_from})")
     print(f"Scoring  : {'batch later' if auto_score else 'interactive (score as you go)'}")
-    print(f"{'='*70}\n")
+    print(f"{'=' * 70}\n")
 
     for i, q in enumerate(questions):
         if i < start_from:
             continue  # Fast forward to your chosen entry point without breaking internal 'i' counts
 
         prompt = build_prompt(q)
-        print(f"\n[{i+1}/{len(questions)}] {q['id']} — asking model...", end=" ", flush=True)
+        print(f"\n[{i + 1}/{len(questions)}] {q['id']} — asking model...", end=" ", flush=True)
 
         try:
             response = ask_model(model_name, prompt)
@@ -155,31 +157,31 @@ def run_baseline(model_name, questions, output_dir="data/eval/baselines",
 
         if auto_score:
             result = {
-                "id":             q["id"],
-                "layer":          q["layer"],
-                "category":       q.get("category", ""),
-                "source":         q.get("source", ""),
-                "question":       q["question"],
-                "case":           q.get("case", ""),
-                "gold_answer":    q["answer"],
+                "id": q["id"],
+                "layer": q["layer"],
+                "category": q.get("category", ""),
+                "source": q.get("source", ""),
+                "question": q["question"],
+                "case": q.get("case", ""),
+                "gold_answer": q["answer"],
                 "model_response": response,
-                "score":          None,
-                "max_score":      3 if q["layer"] == 4 else (1 if q["layer"] == 2 else 2),
-                "notes":          "",
+                "score": None,
+                "max_score": 3 if q["layer"] == 4 else (1 if q["layer"] == 2 else 2),
+                "notes": "",
             }
         else:
             result = score_entry(q, response)
-            
+
         results.append(result)
 
         # checkpoint save every 10 processed questions
         if len(results) % 10 == 0:
-            _save(results, model_name, output_dir, suffix=f"checkpoint_idx_{i+1}")
+            _save(results, model_name, output_dir, suffix=f"checkpoint_idx_{i + 1}")
             print(f"\n  [checkpoint saved — {len(results)} questions completed this session]\n")
 
     # final save
     saved_path = _save(results, model_name, output_dir, suffix="final")
-    print(f"\n{'='*70}")
+    print(f"\n{'=' * 70}")
     print(f"Done. Results saved to: {saved_path}")
     _print_summary(results)
     return results
@@ -201,8 +203,8 @@ def _print_summary(results):
         print("No scores recorded yet.")
         return
 
-    print(f"\nSUMMARY")
-    print(f"{'─'*40}")
+    print("\nSUMMARY")
+    print(f"{'─' * 40}")
     print(f"Scored     : {len(scored)} / {len(results)}")
 
     # overall percentage (normalise each score to 0-1 range)
@@ -214,7 +216,9 @@ def _print_summary(results):
     print("\nBy layer:")
     for layer in sorted(set(r["layer"] for r in scored)):
         layer_results = [r for r in scored if r["layer"] == layer]
-        layer_pct = sum(r["score"] / r["max_score"] for r in layer_results) / len(layer_results) * 100
+        layer_pct = (
+            sum(r["score"] / r["max_score"] for r in layer_results) / len(layer_results) * 100
+        )
         print(f"  Layer {layer}: {layer_pct:.1f}%  ({len(layer_results)} questions)")
 
     # by category
@@ -253,6 +257,4 @@ if __name__ == "__main__":
     resume = input("\nResume from question index? (press enter for 0): ").strip()
     start_from = int(resume) if resume.isdigit() else 0
 
-    run_baseline(model_name, questions,
-                 start_from=start_from,
-                 auto_score=auto_score)
+    run_baseline(model_name, questions, start_from=start_from, auto_score=auto_score)

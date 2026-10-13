@@ -1,4 +1,5 @@
 import os
+
 os.environ["OMP_NUM_THREADS"] = "1"
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 import json
@@ -13,7 +14,7 @@ if __name__ == "__main__":
     print(f"Loading chunks from {OUTPUT_JSON}...")
     with open(OUTPUT_JSON, "r", encoding="utf-8") as f:
         chunks_data = json.load(f)
-        
+
     chunks = [Document(page_content=c["page_content"], metadata=c["metadata"]) for c in chunks_data]
     print(f"Loaded {len(chunks)} chunks.")
 
@@ -21,24 +22,23 @@ if __name__ == "__main__":
     embeddings = HuggingFaceEmbeddings(
         model_name="BAAI/bge-large-en-v1.5",
         model_kwargs={"device": "cpu"},
-        encode_kwargs={"normalize_embeddings": True}
+        encode_kwargs={"normalize_embeddings": True},
     )
 
     print("Building vector database in batches...")
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    
-    vectordb = Chroma(
-        embedding_function=embeddings,
-        persist_directory=OUTPUT_DIR
-    )
+
+    vectordb = Chroma(embedding_function=embeddings, persist_directory=OUTPUT_DIR)
 
     batch_size = 50
     for i in range(0, len(chunks), batch_size):
-        batch = chunks[i:i + batch_size]
-        print(f"  Embedding batch {i//batch_size + 1}/{(len(chunks) + batch_size - 1)//batch_size} (chunks {i} to {min(i+batch_size, len(chunks))})...")
+        batch = chunks[i : i + batch_size]
+        print(
+            f"  Embedding batch {i // batch_size + 1}/{(len(chunks) + batch_size - 1) // batch_size} (chunks {i} to {min(i + batch_size, len(chunks))})..."
+        )
         vectordb.add_documents(batch)
 
-    print(f"\nVector database built successfully")
+    print("\nVector database built successfully")
     print(f"Total chunks indexed: {vectordb._collection.count()}")
     print(f"Saved to: {OUTPUT_DIR}")
 
@@ -46,7 +46,7 @@ if __name__ == "__main__":
     test_queries = [
         "hydroxyurea monitoring protocol adults",
         "vaso-occlusive crisis immediate management",
-        "sickle cell newborn screening Nigeria"
+        "sickle cell newborn screening Nigeria",
     ]
     for query in test_queries:
         results = vectordb.similarity_search(query, k=2)

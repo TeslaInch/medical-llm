@@ -30,7 +30,6 @@ Usage:
 
 import argparse
 import json
-import os
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -40,9 +39,9 @@ import ollama
 # ── constants ─────────────────────────────────────────────────────────────────
 
 LAYER5_PATH = Path("data/eval/layer5_ASH.json")
-OUTPUT_DIR  = Path("data/eval/baselines/ash")
-LAYER       = 5
-MAX_SCORE   = 2
+OUTPUT_DIR = Path("data/eval/baselines/ash")
+LAYER = 5
+MAX_SCORE = 2
 
 SYSTEM_PROMPT = (
     "You are a medical AI assistant specialised in sickle cell disease. "
@@ -59,6 +58,7 @@ SCORE_GUIDE = (
 
 
 # ── loader ────────────────────────────────────────────────────────────────────
+
 
 def load_layer5(path: Path = LAYER5_PATH) -> list[dict]:
     """
@@ -111,6 +111,7 @@ def load_layer5(path: Path = LAYER5_PATH) -> list[dict]:
 
 # ── prompt builder ────────────────────────────────────────────────────────────
 
+
 def build_prompt(question: dict) -> str:
     """
     Construct the prompt string sent to the model.
@@ -125,13 +126,12 @@ def build_prompt(question: dict) -> str:
     Returns:
         Formatted prompt string.
     """
-    source_context = (
-        f"[Guideline context: {question['source']}]"
-    )
+    source_context = f"[Guideline context: {question['source']}]"
     return f"{source_context}\n\n{question['question']}"
 
 
 # ── model call ────────────────────────────────────────────────────────────────
+
 
 def ask_model(model_name: str, prompt: str) -> str:
     """
@@ -151,13 +151,14 @@ def ask_model(model_name: str, prompt: str) -> str:
         model=model_name,
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user",   "content": prompt},
+            {"role": "user", "content": prompt},
         ],
     )
     return response["message"]["content"]
 
 
 # ── scorer ────────────────────────────────────────────────────────────────────
+
 
 def score_entry(question: dict, response: str) -> dict:
     """
@@ -192,17 +193,17 @@ def score_entry(question: dict, response: str) -> dict:
     notes = input("Notes (optional, press Enter to skip): ").strip()
 
     return {
-        "id":             question["id"],
-        "layer":          LAYER,
-        "category":       question["category"],
-        "source":         question["source"],
-        "question":       question["question"],
-        "gold_answer":    question["answer"],
-        "rationale":      rationale,
+        "id": question["id"],
+        "layer": LAYER,
+        "category": question["category"],
+        "source": question["source"],
+        "question": question["question"],
+        "gold_answer": question["answer"],
+        "rationale": rationale,
         "model_response": response,
-        "score":          int(score_raw) if score_raw.isdigit() else None,
-        "max_score":      MAX_SCORE,
-        "notes":          notes,
+        "score": int(score_raw) if score_raw.isdigit() else None,
+        "max_score": MAX_SCORE,
+        "notes": notes,
     }
 
 
@@ -220,21 +221,22 @@ def auto_score_entry(question: dict, response: str) -> dict:
         A result dict with score=None and max_score=2.
     """
     return {
-        "id":             question["id"],
-        "layer":          LAYER,
-        "category":       question["category"],
-        "source":         question["source"],
-        "question":       question["question"],
-        "gold_answer":    question["answer"],
-        "rationale":      question.get("rationale", ""),
+        "id": question["id"],
+        "layer": LAYER,
+        "category": question["category"],
+        "source": question["source"],
+        "question": question["question"],
+        "gold_answer": question["answer"],
+        "rationale": question.get("rationale", ""),
         "model_response": response,
-        "score":          None,
-        "max_score":      MAX_SCORE,
-        "notes":          "",
+        "score": None,
+        "max_score": MAX_SCORE,
+        "notes": "",
     }
 
 
 # ── persistence ───────────────────────────────────────────────────────────────
+
 
 def save_results(results: list[dict], model_name: str, suffix: str = "") -> str:
     """
@@ -252,10 +254,10 @@ def save_results(results: list[dict], model_name: str, suffix: str = "") -> str:
         OSError: If the file cannot be written.
     """
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    timestamp  = datetime.now().strftime("%Y%m%d_%H%M")
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M")
     safe_model = model_name.replace(":", "_").replace("/", "_")
-    filename   = f"ash_{safe_model}_{timestamp}_{suffix}.json"
-    path       = OUTPUT_DIR / filename
+    filename = f"ash_{safe_model}_{timestamp}_{suffix}.json"
+    path = OUTPUT_DIR / filename
 
     with open(path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
@@ -264,6 +266,7 @@ def save_results(results: list[dict], model_name: str, suffix: str = "") -> str:
 
 
 # ── summary ───────────────────────────────────────────────────────────────────
+
 
 def print_summary(results: list[dict]) -> None:
     """
@@ -281,10 +284,10 @@ def print_summary(results: list[dict]) -> None:
         return
 
     pct_scores = [r["score"] / r["max_score"] for r in scored]
-    overall    = sum(pct_scores) / len(pct_scores) * 100
+    overall = sum(pct_scores) / len(pct_scores) * 100
 
     print(f"\n{'=' * 70}")
-    print(f"  LAYER 5 — ASH EVAL SUMMARY")
+    print("  LAYER 5 — ASH EVAL SUMMARY")
     print(f"{'=' * 70}")
     print(f"  Model   : {results[0].get('model', 'unknown') if results else 'unknown'}")
     print(f"  Scored  : {len(scored)} / {len(results)}")
@@ -294,11 +297,7 @@ def print_summary(results: list[dict]) -> None:
     cats = sorted(set(r["category"] for r in scored))
     for cat in cats:
         cat_results = [r for r in scored if r["category"] == cat]
-        cat_pct     = (
-            sum(r["score"] / r["max_score"] for r in cat_results)
-            / len(cat_results)
-            * 100
-        )
+        cat_pct = sum(r["score"] / r["max_score"] for r in cat_results) / len(cat_results) * 100
         print(f"    {cat:<30} {cat_pct:.1f}%  ({len(cat_results)} questions)")
 
     print(f"{'=' * 70}\n")
@@ -306,11 +305,12 @@ def print_summary(results: list[dict]) -> None:
 
 # ── main runner ───────────────────────────────────────────────────────────────
 
+
 def run_ash_eval(
     model_name: str,
     questions: list[dict],
     auto_score: bool = False,
-    start_from: int  = 0,
+    start_from: int = 0,
 ) -> list[dict]:
     """
     Run the Layer 5 ASH baseline evaluation for one model.
@@ -331,12 +331,12 @@ def run_ash_eval(
     results: list[dict] = []
 
     print(f"\n{'=' * 70}")
-    print(f"  Layer 5 — ASH Guidelines Evaluation")
+    print("  Layer 5 — ASH Guidelines Evaluation")
     print(f"{'=' * 70}")
     print(f"  Model     : {model_name}")
     print(f"  Questions : {len(questions)}  (starting from index {start_from})")
     print(f"  Scoring   : {'batch (score later)' if auto_score else 'interactive'}")
-    print(f"  Source    : ASH 2019 SCD Guidelines — CPKD (reaffirmed 2025)")
+    print("  Source    : ASH 2019 SCD Guidelines — CPKD (reaffirmed 2025)")
     print(f"{'=' * 70}\n")
 
     for i, question in enumerate(questions):
@@ -381,6 +381,7 @@ def run_ash_eval(
 
 # ── entry point ───────────────────────────────────────────────────────────────
 
+
 def main() -> None:
     """
     Parse command-line arguments and launch the ASH evaluation run.
@@ -392,7 +393,7 @@ def main() -> None:
         "--model",
         default=None,
         help="Ollama model name to evaluate (e.g. phi3.5:mini). "
-             "If omitted, you will be prompted interactively.",
+        "If omitted, you will be prompted interactively.",
     )
     parser.add_argument(
         "--auto-score",
@@ -428,9 +429,7 @@ def main() -> None:
         choice = input("\nChoice (1/2/3): ").strip()
         model_map = {"1": "phi3.5:mini", "2": "mistral"}
         model_name = (
-            model_map[choice]
-            if choice in model_map
-            else input("Enter model name: ").strip()
+            model_map[choice] if choice in model_map else input("Enter model name: ").strip()
         )
 
     # ── scoring mode (only prompt if not set via flag) ────────────────────────
@@ -439,14 +438,14 @@ def main() -> None:
         print("\nScoring mode:")
         print("  1. Score interactively as you go  (recommended)")
         print("  2. Save all responses first, score later")
-        mode       = input("Choice (1/2): ").strip()
+        mode = input("Choice (1/2): ").strip()
         auto_score = mode == "2"
 
     run_ash_eval(
-        model_name  = model_name,
-        questions   = questions,
-        auto_score  = auto_score,
-        start_from  = args.resume,
+        model_name=model_name,
+        questions=questions,
+        auto_score=auto_score,
+        start_from=args.resume,
     )
 
 

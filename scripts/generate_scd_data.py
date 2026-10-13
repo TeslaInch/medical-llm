@@ -1,4 +1,6 @@
-import json, time, os, requests
+import json
+import os
+import requests
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
@@ -6,6 +8,7 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "qwen2.5:3b"
 PDF_DIR = r"C:\Users\Gracetech\Desktop\medical-llm\data\raw"
 OUTPUT_PATH = r"C:\Users\Gracetech\Desktop\medical-llm\data\train\scd_alpaca.json"
+
 
 def generate_qa(chunk_text, source):
     prompt = f"""You are building a training dataset for a sickle cell disease AI.
@@ -27,16 +30,15 @@ Return ONLY:
   {{"instruction": "question", "response": "answer"}}
 ]"""
 
-    response = requests.post(OLLAMA_URL, json={
-        "model": MODEL,
-        "prompt": prompt,
-        "stream": False,
-        "options": {"temperature": 0.3}
-    })
-    
+    response = requests.post(
+        OLLAMA_URL,
+        json={"model": MODEL, "prompt": prompt, "stream": False, "options": {"temperature": 0.3}},
+    )
+
     text = response.json()["response"].strip()
     text = text.replace("```json", "").replace("```", "").strip()
     return json.loads(text)
+
 
 # Load PDFs
 print("Loading PDFs...")
@@ -55,18 +57,16 @@ for f in os.listdir(PDF_DIR):
 
 # Chunk
 splitter = RecursiveCharacterTextSplitter(
-    chunk_size=1000,
-    chunk_overlap=200,
-    separators=["\n\n", "\n", ". ", " ", ""]
+    chunk_size=1000, chunk_overlap=200, separators=["\n\n", "\n", ". ", " ", ""]
 )
 chunks = splitter.split_documents(all_docs)
 
 rich_chunks = [
-    c for c in chunks
-    if len(c.page_content.strip()) > 400
-    and "reference" not in c.page_content.lower()[:50]
+    c
+    for c in chunks
+    if len(c.page_content.strip()) > 400 and "reference" not in c.page_content.lower()[:50]
 ]
-print(f"\n{len(rich_chunks)} chunks to process → ~{len(rich_chunks)*3} pairs expected")
+print(f"\n{len(rich_chunks)} chunks to process → ~{len(rich_chunks) * 3} pairs expected")
 
 # Resume if interrupted
 all_pairs = []
@@ -98,7 +98,7 @@ for i, chunk in enumerate(rich_chunks):
     if (i + 1) % 50 == 0:
         with open(OUTPUT_PATH, "w") as f:
             json.dump(all_pairs, f, indent=2)
-        print(f"  [{i+1}/{len(rich_chunks)}] {len(all_pairs)} pairs saved")
+        print(f"  [{i + 1}/{len(rich_chunks)}] {len(all_pairs)} pairs saved")
 
 # Final save
 with open(OUTPUT_PATH, "w") as f:
